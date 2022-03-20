@@ -1,0 +1,64 @@
+# Site settings
+title: 세명 개인 위키  
+url: "https://diasm3.github.io/"
+baseurl: ""
+description: >
+    블로그
+
+# My information
+email: diasm2@gmail.com
+author: STEVE 
+profile: 노마드 
+twitter_username:  
+github_username: diasm3
+comment-support: utterances
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-mermaid-diagrams
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 10
+paginator_path: "/blog"
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+    wiki:
+        output: true
+        permalink: /:collection/:path/
+
+# Comment Service
+disqus:
+  id: diasm3
+  shortname: diasm3
+utterances:
+  repo: diasm3/diasm3.github.io
+  issue-term: url
+  label: Comment
+  branch: master
+
+google_analytics:
+  ua:google-site-verification=uUrYHxdv5TpAx1wvxNWH-H60S7ghnwxbUPuUq99OJiY 
+
+google_adsense:
+  client: 
+
+blame: "https://github.com/diasm3/diasm3.github.io/blame/master/_wiki"
+edit: "https://github.com/diasm3/diasm3.github.io/edit/master/_wiki"
+issue: "https://github.com/diasm3/diasm3.github.io/issues/new"
+
+timezone: "Asia/Seoul"
+
+# https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
