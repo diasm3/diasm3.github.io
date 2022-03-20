@@ -152,26 +152,44 @@
     >
   </div>
   <div>
-    <a class="site-title-right" href="/wiki/index/">wiki</a>
+    <a class="site-title-right" href="/wiki/root-index/">index</a>
   </div>
 </header>
 <script>
-  ;(function () {
-    var isCtrl = false
+    <script>
+function goToRandomDocument() {
+    fetch(`/data/total-document-url-list.json`)
+        .then(response => response.json())
+        .then(function(data) {
+            const num = getRandomInt(0, data.length);
+            window.location.href = data[num];
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+}
 
-    document.onkeyup = function (e) {
-      if (e.which == 17) {
-        isCtrl = false
-      }
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min; //최댓값은 제외, 최솟값은 포함
+}
+        ;(function(){
+    var isCtrl = false;
+
+    document.onkeyup=function(e){
+        if (e.which == 17) {
+            isCtrl = false;
+        }
     }
 
-    document.onkeydown = function (e) {
-      if (e.which == 17) {
-        isCtrl = true
-      }
-      if (e.which == 82 && isCtrl == true) {
-        document.getElementById("random-button").click()
-      }
+    document.onkeydown=function(e){
+        if(e.which == 17) {
+            isCtrl = true;
+        }
+        if(e.which == 82 && isCtrl == true) {
+            goToRandomDocument();
+        }
     }
-  })()
+})();
 </script>
