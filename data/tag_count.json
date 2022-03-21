@@ -12,6 +12,14 @@
   "size": 1
  },
  {
+  "name": "cocktail",
+  "size": 1
+ },
+ {
+  "name": "csstudy",
+  "size": 2
+ },
+ {
   "name": "DFS",
   "size": 1
  },
@@ -20,7 +28,15 @@
   "size": 1
  },
  {
-  "name": "hastable",
+  "name": "flask",
+  "size": 1
+ },
+ {
+  "name": "hashtable",
+  "size": 1
+ },
+ {
+  "name": "jinja2",
   "size": 1
  },
  {
@@ -32,15 +48,19 @@
   "size": 1
  },
  {
+  "name": "Leetcode",
+  "size": 1
+ },
+ {
   "name": "linkedlist",
   "size": 1
  },
  {
-  "name": "queue",
+  "name": "python",
   "size": 1
  },
  {
-  "name": "solution",
+  "name": "queue",
   "size": 1
  },
  {
@@ -61,10 +81,6 @@
  },
  {
   "name": "너비우선탐색",
-  "size": 1
- },
- {
-  "name": "문제풀이",
   "size": 1
  },
  {

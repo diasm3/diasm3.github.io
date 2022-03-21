@@ -7,10 +7,10 @@ comment: false
 regenerate: true
 ---
 
-## [[diary]]
-* [[2022]]
+## [[diary]]{다이어리}
+* [[2022]]{2022년 일일기록}
 
-## [[algorithm]]
+## [[algorithm]]{알고리즘}
 >### 선형구조 
 >* [[array]]{배열}
 >* [[linked-list]]{연결리스트}
@@ -45,8 +45,10 @@ regenerate: true
 
 ## [[sparta]]{스파르타}
 
-* [[homework]]{과제톡}
-* [[cs-homework]]{항해톡}
+* [[miniproject]]{미니프로젝트}
+* [[homework]]{과제톡(알고리즘)}
+* [[cs-homework]]{항해톡(웹일반지식)}
+* [[cs-study]]{CS스터디(기초CS)}
 
 ## Javascript 
 * [[Syntax]]{문법}
