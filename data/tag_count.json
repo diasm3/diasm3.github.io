@@ -1,5 +1,9 @@
 [
  {
+  "name": "algorithm",
+  "size": 1
+ },
+ {
   "name": "Array",
   "size": 1
  },
@@ -36,6 +40,10 @@
   "size": 1
  },
  {
+  "name": "solution",
+  "size": 1
+ },
+ {
   "name": "Sparta",
   "size": 1
  },
@@ -53,6 +61,10 @@
  },
  {
   "name": "너비우선탐색",
+  "size": 1
+ },
+ {
+  "name": "문제풀이",
   "size": 1
  },
  {
