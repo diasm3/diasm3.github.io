@@ -3,11 +3,11 @@ layout  : wiki
 title   : 큐(queue)
 summary : 
 date    : 2022-03-20 20:54:02 +0900
-updated : 2022-03-20 22:49:42 +0900
+updated : 2022-03-21 08:27:19 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[algorithm]]
+parent  : [[Algorithm]]
 latex   : false
 ---
 * TOC

@@ -3,11 +3,11 @@ layout  : wiki
 title   : 배열 
 summary : Array 
 date    : 2022-03-20 20:30:14 +0900
-updated : 2022-03-21 01:34:08 +0900
+updated : 2022-03-21 08:27:19 +0900
 tag     : Array  
 toc     : true
 public  : true
-parent  : [[algorithm]] 
+parent  : [[Algorithm]] 
 latex   : false
 ---
 * TOC

@@ -3,11 +3,11 @@ layout  : wiki
 title   : 우선순위큐 
 summary : 
 date    : 2022-03-20 22:50:27 +0900
-updated : 2022-03-20 23:28:56 +0900
+updated : 2022-03-21 08:27:19 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[algorithm]] 
+parent  : [[Algorithm]] 
 latex   : false
 ---
 * TOC
