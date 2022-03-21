@@ -1,13 +1,13 @@
 ---
 layout  : wiki
-title   : 
+title   : 트라이
 summary : 
 date    : 2022-03-21 00:59:25 +0900
-updated : 2022-03-21 01:00:00 +0900
+updated : 2022-03-21 08:33:25 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[algorithm]]    
 latex   : false
 ---
 * TOC

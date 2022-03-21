@@ -10,7 +10,7 @@ regenerate: true
 ## [[diary]]
 * [[2022]]
 
-## [[Algorithm]]
+## [[algorithm]]
 >### 선형구조 
 >* [[array]]{배열}
 >* [[linked-list]]{연결리스트}

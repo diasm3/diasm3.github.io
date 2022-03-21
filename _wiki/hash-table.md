@@ -3,11 +3,11 @@ layout  : wiki
 title   : 해쉬테이블 
 summary : 자료구조 
 date    : 2022-03-20 20:54:17 +0900
-updated : 2022-03-20 20:55:31 +0900
+updated : 2022-03-21 08:33:24 +0900
 tag     : 해시테이블,  
 toc     : true
 public  : true
-parent  : 
+parent  : [[algorithm]]
 latex   : false
 ---
 * TOC

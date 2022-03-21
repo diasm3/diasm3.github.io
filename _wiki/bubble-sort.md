@@ -3,11 +3,11 @@ layout  : wiki
 title   : 버블정렬 
 summary : 
 date    : 2022-03-21 08:18:31 +0900
-updated : 2022-03-21 08:18:59 +0900
+updated : 2022-03-21 08:30:33 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[algorithm]] 
+parent  : [[Algorithm]] 
 latex   : false
 ---
 * TOC

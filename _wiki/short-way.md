@@ -1,13 +1,13 @@
 ---
 layout  : wiki
-title   : 
+title   : 최단경로문제
 summary : 
 date    : 2022-03-21 00:59:45 +0900
-updated : 2022-03-21 00:59:49 +0900
+updated : 2022-03-21 08:33:24 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[algorithm]] 
 latex   : false
 ---
 * TOC

@@ -3,11 +3,11 @@ layout  : wiki
 title   : 스택 
 summary : 
 date    : 2022-03-20 20:42:34 +0900
-updated : 2022-03-21 08:27:19 +0900
+updated : 2022-03-21 08:33:24 +0900
 tag     : stack 
 toc     : true
 public  : true
-parent  : [[Algorithm]] 
+parent  : [[algorithm]] 
 latex   : false
 ---
 * TOC
