@@ -3,11 +3,11 @@ layout  : wiki
 title   : JWT
 summary : what is the jwt?
 date    : 2022-03-20 14:45:40 +0900
-updated : 2022-03-20 21:10:54 +0900
+updated : 2022-03-21 10:00:22 +0900
 tag     : jwt, jwt-token
 toc     : true
 public  : true
-parent  : [[항해톡]]
+parent  : [[cs-homework]]
 latex   : false
 ---
 * TOC
