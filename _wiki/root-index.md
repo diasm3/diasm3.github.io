@@ -28,7 +28,8 @@ regenerate: true
 >* [[try]]{트라이}
 
 >### 알고리즘
->* bubble-sort 
+>* [[bubble-sort]]{버블정렬} 
+>* [[merge_sort]]{병합정렬}
 >* 병합정렬
 >* 퀵정렬
 >* 안정정렬-vs-불안정정렬
@@ -40,7 +41,7 @@ regenerate: true
 
 >* 다이나믹프로그래밍
 
-## [[leetcode]]
+## [[leetcode]]{리트코드}
 
 ## [[sparta]]{스파르타}
 
