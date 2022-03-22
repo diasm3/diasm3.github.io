@@ -3,7 +3,7 @@ layout  : wiki
 title   : chapter11  
 summary : 논리게이트 
 date    : 2022-03-21 16:31:24 +0900
-updated : 2022-03-22 17:52:42 +0900
+updated : 2022-03-22 19:49:31 +0900
 tag     : and or  
 toc     : true
 public  : true
@@ -48,7 +48,6 @@ latex   : true
 
 * OR 게이트
 
-$$ A + B = A $$
 
 > ![image](https://user-images.githubusercontent.com/56494905/159424792-cfbf6ab3-1eec-4087-af0b-a7c38c56d632.png)
 >
