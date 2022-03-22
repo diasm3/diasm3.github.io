@@ -1,5 +1,13 @@
 # Vimwiki + Jekyll + Github.io
 
+# diasm3.github.io
+>* IT 지식을 쌓고 넣고 꺼내어 보기 좋은 구조로 굉장히 편리하다
+>* 다시한번 [johngrib](https://github.com/johngrib)님께 감사의 말씀을 드리고 싶다.
+
+
+
+
+
 ## 시작하기
 
 블로그 스켈레톤을 fork 하세요.
@@ -16,4 +24,3 @@ https://github.com/johngrib/johngrib-jekyll-skeleton
 
 https://johngrib.github.io/wiki/my-wiki/
 
-# diasm3.github.io
