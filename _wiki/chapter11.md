@@ -3,7 +3,7 @@ layout  : wiki
 title   : chapter11  
 summary : 논리게이트 
 date    : 2022-03-21 16:31:24 +0900
-updated : 2022-03-22 19:49:31 +0900
+updated : 2022-03-22 22:40:43 +0900
 tag     : and or  
 toc     : true
 public  : true
@@ -35,86 +35,89 @@ latex   : true
 * AND 게이트
  기본적인 논리게이트이다.  `A X B = A`
 >$$ A \times B = A $$
->
+
 >![image](https://user-images.githubusercontent.com/56494905/159424649-0e2b9119-384a-405c-97d4-27c74bb2f025.png)
->
->| Input A | Input B |result|
->| :-: | :-: | :-:      |
->| 0 | 0 | 0      |
->| 0 | 1 | 0      |
->| 1 | 0 | 0      |
->| 1 |1 | 1      |
+
+>$$ A \ times B = A$$
+
+| Input A | Input B | result |
+| :-:     | :-:     | :-:    |
+| 0       | 0       | 0      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 1      |
 
 
 * OR 게이트
 
 
 > ![image](https://user-images.githubusercontent.com/56494905/159424792-cfbf6ab3-1eec-4087-af0b-a7c38c56d632.png)
->
->| Input A | Input B |result|
->| :-: | :-: | :-:      |
->| 0 | 0 | 0      |
->| 0 | 1 | 1      |
->| 1 | 0 | 1      |
->| 1 | 1 | 1      |
+
+| Input A | Input B | result |
+| :-:     | :-:     | :-:    |
+| 0       | 0       | 0      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 1      |
 
 * NOT 게이트 - 1일 들어가면 부조건 0 , 0이 들어오면 1
 > ![image](https://user-images.githubusercontent.com/56494905/159424844-d8cba4e4-9423-4e76-98e8-0df3f3d4b69e.png)
->
->| Input A | result|
->| :-: |  :-:      |
->| 0 |  1      |
->| 1 |  0      |
+
+| Input A | result |
+| :-:     | :-:    |
+| 0       | 1      |
+| 1       | 0      |
 
 * NAND 게이트
 >![image](https://user-images.githubusercontent.com/56494905/159453967-7d1d322d-5ebe-49b7-9865-70db0d995446.png)
->
->| Input A | Input B |result|
->| :-: | :-: | :-:      |
->| 0 | 0 | 1      |
->| 0 | 1 | 1      |
->| 1 | 0 | 1      |
->| 1 | 1 | 0      |
+
+| Input A | Input B | result |
+| :-:     | :-:     | :-:    |
+| 0       | 0       | 1      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
 
 
 * NOR 게이트
 >![image](https://user-images.githubusercontent.com/56494905/159454332-ae46a968-bf2f-47d1-84e9-454eff7a4028.png)
->
->| Input A | Input B |result|
->| :-: | :-: | :-:      |
->| 0 | 0 | 1      |
->| 0 | 1 | 0      |
->| 1 | 0 | 0      |
->| 1 | 1 | 0      |
+
+| Input A | Input B | result |
+| :-:     | :-:     | :-:    |
+| 0       | 0       | 1      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 0      |
 
 * XOR 게이트
 >![image](https://user-images.githubusercontent.com/56494905/159454370-413b39b6-ee3b-4768-bd3b-183a54fe8af2.png)
->
->| Input A | Input B |result|
->| :-: | :-: | :-:      |
->| 0 | 0 | 0      |
->| 0 | 1 | 1      |
->| 1 | 0 | 1      |
->| 1 | 1 | 0      |
+
+| Input A | Input B | result |
+| :-:     | :-:     | :-:    |
+| 0       | 0       | 0      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
 
 
 * XNOR 게이트
 >![image](https://user-images.githubusercontent.com/56494905/159454394-ec096680-3910-4e5d-b5a4-282caeebbd44.png)
->
->| Input A | Input B |result|
->| :-: | :-: | :-:      |
->| 0 | 0 | 1      |
->| 0 | 1 | 0      |
->| 1 | 0 | 0      |
->| 1 | 1 | 1      |
+
+| Input A | Input B | result |
+| :-:     | :-:     | :-:    |
+| 0       | 0       | 1      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 1      |
 
 
 
-## 기본게이트
 
 ## 릴레이 
+> 스위치과 같은 역할이다. 다만 작은 전류를 통해서 큰전류를 통제하는 스위치다
 
 ## 스위치
+> 단순한 전력을 공급 중단하는 장치이다
 
 
 

@@ -60,24 +60,15 @@ regenerate: true
 
 ## [[MVC]]
 
-
-
 ## [[Latex]]
-
 
 ## Python
 
-
 ## Hobbies 
 * Synology 
--  
-
 
 ## vim
 * [[vimwiki-vim-jekyll]]
 
 ## Mac
 - program
-
-## blog posts
-
