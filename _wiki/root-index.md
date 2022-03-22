@@ -63,6 +63,9 @@ regenerate: true
 -  
 
 
+## vim
+* [[vimwiki-vim-jekyll]]
+
 ## Mac
 - program
 

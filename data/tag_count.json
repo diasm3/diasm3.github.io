@@ -4,6 +4,10 @@
   "size": 1
  },
  {
+  "name": "and",
+  "size": 1
+ },
+ {
   "name": "Array",
   "size": 1
  },
@@ -101,6 +105,10 @@
  },
  {
   "name": "middleware",
+  "size": 1
+ },
+ {
+  "name": "or",
   "size": 1
  },
  {
