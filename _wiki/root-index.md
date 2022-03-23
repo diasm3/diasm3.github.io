@@ -15,7 +15,7 @@ regenerate: true
 
 ## [[algorithm]]{알고리즘}
 ### 선형구조 
-* [[array]]{배열}
+* [[array]]{문자열조작/배열}
 * [[linked-list]]{연결리스트}
 * [[stack]]{스택}
 * [[queue]]{큐}
@@ -41,7 +41,6 @@ regenerate: true
 * 슬라이딩윈도우
 * 그리디알고리즘
 * 분할정복
-
 * 다이나믹프로그래밍
 
 ## [[leetcode]]{리트코드}
@@ -58,17 +57,23 @@ regenerate: true
 * [[forgetton]]
 
 
+## Docker
+* [[command]]{명령어}
+
 ## [[MVC]]
 
 ## [[Latex]]
 
-## Python
+## [[Python]]
+* [[enumerate]]{enumerate}
+* [[range]]{for-loop-range}
+* [[deque]]{deque}
 
 ## Hobbies 
-* Synology 
+* [[Synology]] 
 
 ## vim
 * [[vimwiki-vim-jekyll]]
 
 ## Mac
-- program
+- [[program]]
