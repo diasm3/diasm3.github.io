@@ -3,7 +3,7 @@ layout  : category
 title   : 파이선  
 summary : python 
 date    : 2022-03-23 14:50:36 +0900
-updated : 2022-03-23 14:51:03 +0900
+updated : 2022-03-24 11:46:13 +0900
 tag     : 
 toc     : true
 public  : true
@@ -14,3 +14,5 @@ latex   : false
 {:toc}
 
 # documnets 
+
+

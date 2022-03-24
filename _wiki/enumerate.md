@@ -3,7 +3,7 @@ layout  : wiki
 title   : enumerate 
 summary : 자동으로 인덱스를 만들어준다
 date    : 2022-03-23 14:05:40 +0900
-updated : 2022-03-23 14:39:05 +0900
+updated : 2022-03-23 17:24:26 +0900
 tag     : enumerate 
 toc     : true
 public  : true
@@ -14,7 +14,7 @@ latex   : false
 {:toc}
 
 # enumerate 
-> 여러가지 자료형(list, set, tuple 등)을 인덱스를 퐇마한 enumerate  객체로 리턴한다
+> 여러가지 자료형(list, set, tuple 등)을 인덱스를 포함한 enumerate  객체로 리턴한다
 
 
 ``` python

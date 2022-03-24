@@ -20,6 +20,10 @@
   "size": 1
  },
  {
+  "name": "binary",
+  "size": 1
+ },
+ {
   "name": "browser",
   "size": 1
  },
@@ -29,6 +33,10 @@
  },
  {
   "name": "cocktail",
+  "size": 1
+ },
+ {
+  "name": "command",
   "size": 1
  },
  {
@@ -56,7 +64,15 @@
   "size": 1
  },
  {
+  "name": "docker",
+  "size": 1
+ },
+ {
   "name": "dom",
+  "size": 1
+ },
+ {
+  "name": "enumerate",
   "size": 1
  },
  {
@@ -105,6 +121,10 @@
  },
  {
   "name": "linkedlist",
+  "size": 1
+ },
+ {
+  "name": "mac",
   "size": 1
  },
  {
@@ -157,6 +177,10 @@
  },
  {
   "name": "thread",
+  "size": 1
+ },
+ {
+  "name": "tree",
   "size": 1
  },
  {

@@ -72,8 +72,9 @@ regenerate: true
 ## Hobbies 
 * [[Synology]] 
 
-## vim
+## [[vim]]
 * [[vimwiki-vim-jekyll]]
+* [[vimspector]]
 
 ## Mac
 - [[program]]
