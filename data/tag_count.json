@@ -32,6 +32,10 @@
   "size": 1
  },
  {
+  "name": "certificate",
+  "size": 1
+ },
+ {
   "name": "cocktail",
   "size": 1
  },
@@ -56,6 +60,10 @@
   "size": 1
  },
  {
+  "name": "debug",
+  "size": 1
+ },
+ {
   "name": "DFS",
   "size": 1
  },
@@ -69,6 +77,10 @@
  },
  {
   "name": "dom",
+  "size": 1
+ },
+ {
+  "name": "DOM",
   "size": 1
  },
  {
@@ -89,7 +101,7 @@
  },
  {
   "name": "https",
-  "size": 2
+  "size": 3
  },
  {
   "name": "jinja2",
@@ -112,6 +124,10 @@
   "size": 1
  },
  {
+  "name": "key",
+  "size": 1
+ },
+ {
   "name": "latex",
   "size": 1
  },
@@ -128,6 +144,10 @@
   "size": 1
  },
  {
+  "name": "mapping",
+  "size": 1
+ },
+ {
   "name": "middleware",
   "size": 1
  },
@@ -137,6 +157,10 @@
  },
  {
   "name": "osi7layers",
+  "size": 1
+ },
+ {
+  "name": "plugin",
   "size": 1
  },
  {
@@ -153,7 +177,7 @@
  },
  {
   "name": "restAPI",
-  "size": 1
+  "size": 2
  },
  {
   "name": "session",
@@ -165,7 +189,7 @@
  },
  {
   "name": "ssl",
-  "size": 1
+  "size": 2
  },
  {
   "name": "stack",
@@ -176,11 +200,23 @@
   "size": 1
  },
  {
+  "name": "synology",
+  "size": 1
+ },
+ {
   "name": "thread",
   "size": 1
  },
  {
   "name": "tree",
+  "size": 1
+ },
+ {
+  "name": "vim",
+  "size": 2
+ },
+ {
+  "name": "vimspector",
   "size": 1
  },
  {

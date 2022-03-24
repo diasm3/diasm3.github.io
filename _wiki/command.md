@@ -1,13 +1,13 @@
 ---
-layout  : category 
+layout  : wiki 
 title   : Docker command
-summary : docker command  
+summary : docker command
 date    : 2022-03-23 15:54:06 +0900
-updated : 2022-03-23 15:55:29 +0900
-tag     : docker command  
+updated : 2022-03-25 06:42:54 +0900
+tag     : docker command
 toc     : true
 public  : true
-parent  : [[index]] 
+parent  : [[docker]]
 latex   : false
 ---
 * TOC
@@ -17,4 +17,3 @@ latex   : false
 - docker exec -it imagie-Name /bin/bahs
 
 
-# Documents

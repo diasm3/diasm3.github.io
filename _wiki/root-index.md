@@ -10,10 +10,7 @@ regenerate: true
 ## [[diary]]{다이어리}
 * [[2022]]{2022년 일일기록}
 
-## [[do-research]]{모르는것들}
-* 모르는것은 저장
-
-## [[algorithm]]{알고리즘}
+## [[algorithm]]{알고리즘(Algorithm)}
 ### 선형구조 
 * [[array]]{문자열조작/배열}
 * [[linked-list]]{연결리스트}
@@ -31,7 +28,7 @@ regenerate: true
 * [[try]]{트라이}
 
 ### 알고리즘
-* [[bubble-sort]]{버블정렬} 
+* [[bubble-sort]]{버블정렬}
 * [[merge_sort]]{병합정렬}
 * 병합정렬
 * 퀵정렬
@@ -43,7 +40,11 @@ regenerate: true
 * 분할정복
 * 다이나믹프로그래밍
 
-## [[leetcode]]{리트코드}
+### [[leetcode]]{리트코드}
+* [[palindrome-linked-list]]{팰린드롬-링크드리스트}
+
+### [[programmers]]{프로그래머스}
+* [[visitedlength]]{방문길이}
 
 ## [[sparta]]{스파르타}
 
@@ -52,29 +53,32 @@ regenerate: true
 * [[cs-homework]]{항해톡(웹일반지식)}
 * [[cs-study]]{CS스터디(기초CS)}
 
-## Javascript 
+## [[Javascript]]
 * [[Syntax]]{문법}
-* [[forgetton]]
-
-
-## Docker
-* [[command]]{명령어}
-
-## [[MVC]]
-
-## [[Latex]]
 
 ## [[Python]]
 * [[enumerate]]{enumerate}
 * [[range]]{for-loop-range}
 * [[deque]]{deque}
 
-## Hobbies 
+
+## How to Use
+### [[Docker]]
+* [[command]]{명령어}
+
+### [[MVC]]
+
+### [[Latex]]{Latex}
+
+### [[Synology]] 
 * [[Synology]] 
 
-## [[vim]]
+### [[vim]]
 * [[vimwiki-vim-jekyll]]
 * [[vimspector]]
-
-## Mac
+### Mac
 - [[program]]
+
+## [[do-research]]{모르는것들}
+* 모르는것은 저장
+
