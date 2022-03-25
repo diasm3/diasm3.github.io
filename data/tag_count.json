@@ -1,7 +1,7 @@
 [
  {
   "name": "algorithm",
-  "size": 1
+  "size": 3
  },
  {
   "name": "and",
@@ -17,7 +17,7 @@
  },
  {
   "name": "BFS",
-  "size": 1
+  "size": 2
  },
  {
   "name": "binary",
@@ -65,7 +65,7 @@
  },
  {
   "name": "DFS",
-  "size": 1
+  "size": 2
  },
  {
   "name": "dns",
@@ -73,7 +73,7 @@
  },
  {
   "name": "docker",
-  "size": 1
+  "size": 2
  },
  {
   "name": "dom",
@@ -137,7 +137,7 @@
  },
  {
   "name": "linkedlist",
-  "size": 1
+  "size": 2
  },
  {
   "name": "mac",
@@ -165,6 +165,10 @@
  },
  {
   "name": "process",
+  "size": 1
+ },
+ {
+  "name": "programmers",
   "size": 1
  },
  {

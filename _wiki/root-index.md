@@ -45,6 +45,7 @@ regenerate: true
 
 ### [[programmers]]{프로그래머스}
 * [[visitedlength]]{방문길이}
+* [[targetNumber]]{타겟넘버}
 
 ## [[sparta]]{스파르타}
 
@@ -55,18 +56,18 @@ regenerate: true
 
 ## [[Javascript]]
 * [[Syntax]]{문법}
+* [[MVC]]
 
 ## [[Python]]
 * [[enumerate]]{enumerate}
 * [[range]]{for-loop-range}
 * [[deque]]{deque}
-
+* [[magic-mothod]]{magic-mehtod __ __}
 
 ## How to Use
 ### [[Docker]]
 * [[command]]{명령어}
 
-### [[MVC]]
 
 ### [[Latex]]{Latex}
 
@@ -76,8 +77,12 @@ regenerate: true
 ### [[vim]]
 * [[vimwiki-vim-jekyll]]
 * [[vimspector]]
-### Mac
+
+### Mac 
 - [[program]]
+
+## 취직시 유용한
+### [[링크모음]]
 
 ## [[do-research]]{모르는것들}
 * 모르는것은 저장
