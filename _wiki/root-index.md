@@ -40,9 +40,12 @@ regenerate: true
 * 분할정복
 * 다이나믹프로그래밍
 
+/*
+
 ### [[leetcode]]{리트코드}
 * [[palindrome-linked-list]]{팰린드롬-링크드리스트}
 
+*/
 ### [[programmers]]{프로그래머스}
 * [[visitedlength]]{방문길이}
 * [[targetNumber]]{타겟넘버}
@@ -69,6 +72,7 @@ regenerate: true
 * [[deque]]{deque}
 * [[magic-mothod]]{magic-mehtod __ __}
 * [[python-heapq]]{heapq}
+* [[inheritance-python]]{파인썬 상속}
 
 ## How to Use
 ### [[Docker]]

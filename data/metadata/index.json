@@ -1,1 +1,23 @@
-{"type":"wiki","title":"ROOT","url":"/wiki/index","updated":"2022-03-25 06:55:02 +0900","children":[]}
+{
+ "type": "wiki",
+ "title": "ROOT",
+ "url": "/wiki/index",
+ "updated": "2022-03-25 06:55:02 +0900",
+ "children": [
+  "algorithm",
+  "diary",
+  "do-research",
+  "Docker",
+  "Javascript",
+  "Latex",
+  "leetcode",
+  "program",
+  "programmers",
+  "python",
+  "sparta",
+  "Synology",
+  "tmux",
+  "vim",
+  "링크모음"
+ ]
+}

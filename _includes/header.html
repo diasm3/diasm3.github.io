@@ -144,20 +144,13 @@
     <a class="site-title-right" href="/about/">me</a>
   </div>
   <div>
-    <a
-      id="random-button"
-      class="site-title-right"
-      href="/wiki/index/#random"
-      onClick="if(typeof random === 'function')random()"
-      >random</a
-    >
+    <a id="random-button" class="site-title-right" onClick="goToRandomDocument()">random</a>
   </div>
   <div>
     <a class="site-title-right" href="/wiki/root-index/">index</a>
   </div>
 </header>
 <script>
-    <script>
 function goToRandomDocument() {
     fetch(`/data/total-document-url-list.json`)
         .then(response => response.json())
@@ -175,7 +168,8 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min; //최댓값은 제외, 최솟값은 포함
 }
-        ;(function(){
+
+;(function(){
     var isCtrl = false;
 
     document.onkeyup=function(e){

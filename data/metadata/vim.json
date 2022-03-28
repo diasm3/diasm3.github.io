@@ -1,1 +1,12 @@
-{"type":"wiki","title":"VIM","summary":"about VIM","parent":"index","url":"/wiki/vim","updated":"2022-03-24 11:02:56 +0900","children":["vim-script","vimspector"]}
+{
+ "type": "wiki",
+ "title": "VIM",
+ "summary": "about VIM",
+ "parent": "index",
+ "url": "/wiki/vim",
+ "updated": "2022-03-24 11:02:56 +0900",
+ "children": [
+  "vim-script",
+  "vimspector"
+ ]
+}

@@ -112,6 +112,10 @@
   "size": 3
  },
  {
+  "name": "inheritance",
+  "size": 1
+ },
+ {
   "name": "jinja2",
   "size": 1
  },
@@ -185,7 +189,7 @@
  },
  {
   "name": "python",
-  "size": 2
+  "size": 3
  },
  {
   "name": "queue",

@@ -1,1 +1,9 @@
-{"type":"wiki","title":"REST-API","summary":"what is the RESTAPI지","parent":"cs-study","url":"/wiki/REST-API","updated":"2022-03-24 06:16:12 +0900","children":[]}
+{
+ "type": "wiki",
+ "title": "REST-API",
+ "summary": "what is the RESTAPI지",
+ "parent": "cs-study",
+ "url": "/wiki/REST-API",
+ "updated": "2022-03-24 06:16:12 +0900",
+ "children": []
+}

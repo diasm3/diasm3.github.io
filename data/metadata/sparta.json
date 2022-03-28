@@ -1,1 +1,14 @@
-{"type":"wiki","title":"스파르타","summary":"BootCamp","parent":"index","url":"/wiki/sparta","updated":"2022-03-21 14:09:51 +0900","children":["cs-homework","cs-study","homework","miniproject"]}
+{
+ "type": "wiki",
+ "title": "스파르타",
+ "summary": "BootCamp",
+ "parent": "index",
+ "url": "/wiki/sparta",
+ "updated": "2022-03-21 14:09:51 +0900",
+ "children": [
+  "cs-homework",
+  "cs-study",
+  "homework",
+  "miniproject"
+ ]
+}

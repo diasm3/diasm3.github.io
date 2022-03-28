@@ -1,1 +1,15 @@
-{"type":"wiki","title":"파이썬(python)","summary":"python","parent":"index","url":"/wiki/python","updated":"2022-03-25 11:12:43 +0900","children":["enumerate","magic-mothod","python-heapq","range"]}
+{
+ "type": "wiki",
+ "title": "파이썬(python)",
+ "summary": "python",
+ "parent": "index",
+ "url": "/wiki/python",
+ "updated": "2022-03-25 11:12:43 +0900",
+ "children": [
+  "enumerate",
+  "inheritance-python",
+  "magic-mothod",
+  "python-heapq",
+  "range"
+ ]
+}

@@ -1,1 +1,12 @@
-{"type":"wiki","title":"프로그래머스","summary":"","parent":"index","url":"/wiki/programmers","updated":"2022-03-25 06:37:49 +0900","children":["targetNumber","visitedlength"]}
+{
+ "type": "wiki",
+ "title": "프로그래머스",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/programmers",
+ "updated": "2022-03-25 06:37:49 +0900",
+ "children": [
+  "targetNumber",
+  "visitedlength"
+ ]
+}

@@ -1,1 +1,9 @@
-{"type":"wiki","title":"enumerate","summary":"자동으로 인덱스를 만들어준다","parent":"python","url":"/wiki/enumerate","updated":"2022-03-23 17:24:26 +0900","children":[]}
+{
+ "type": "wiki",
+ "title": "enumerate",
+ "summary": "자동으로 인덱스를 만들어준다",
+ "parent": "python",
+ "url": "/wiki/enumerate",
+ "updated": "2022-03-23 17:24:26 +0900",
+ "children": []
+}

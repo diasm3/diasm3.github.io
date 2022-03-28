@@ -1,1 +1,9 @@
-{"type":"wiki","title":"JWT","summary":"what is the jwt?","parent":"cs-homework","url":"/wiki/JWT","updated":"2022-03-21 10:00:22 +0900","children":[]}
+{
+ "type": "wiki",
+ "title": "JWT",
+ "summary": "what is the jwt?",
+ "parent": "cs-homework",
+ "url": "/wiki/JWT",
+ "updated": "2022-03-21 10:00:22 +0900",
+ "children": []
+}
