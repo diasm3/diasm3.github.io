@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "jekyll blog",
+ "summary": "static homepage with markdown",
+ "parent": "vim",
+ "url": "/wiki/vimwiki-vim-jekyll",
+ "updated": "2022-03-28 12:15:59 +0900",
+ "children": []
+}

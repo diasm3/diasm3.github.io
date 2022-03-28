@@ -25,6 +25,7 @@
  "/wiki/index",
  "/wiki/inheritance-python",
  "/wiki/Javascript",
+ "/wiki/job-opportuinity",
  "/wiki/JWT",
  "/wiki/Latex",
  "/wiki/leetcode",
@@ -60,6 +61,6 @@
  "/wiki/vim",
  "/wiki/vim-script",
  "/wiki/vimspector",
- "/wiki/visitedlength",
- "/wiki/링크모음"
+ "/wiki/vimwiki-vim-jekyll",
+ "/wiki/visitedlength"
 ]
