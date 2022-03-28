@@ -40,12 +40,9 @@ regenerate: true
 * 분할정복
 * 다이나믹프로그래밍
 
-/*
-
 ### [[leetcode]]{리트코드}
 * [[palindrome-linked-list]]{팰린드롬-링크드리스트}
 
-*/
 ### [[programmers]]{프로그래머스}
 * [[visitedlength]]{방문길이}
 * [[targetNumber]]{타겟넘버}
@@ -70,9 +67,9 @@ regenerate: true
 * [[enumerate]]{enumerate}
 * [[range]]{for-loop-range}
 * [[deque]]{deque}
-* [[magic-mothod]]{magic-mehtod __ __}
+* [[magic-mothod]]{magic-mehtod}
 * [[python-heapq]]{heapq}
-* [[inheritance-python]]{파인썬 상속}
+* [[inheritance-python]]{파인썬 상속(inheritance)}
 
 ## How to Use
 ### [[Docker]]
@@ -88,14 +85,13 @@ regenerate: true
 * [[vimwiki-vim-jekyll]]
 * [[vimspector]]
 
-
 ### [[tmux]]
 
 ### Mac 
 - [[program]]
 
 ## 취직시 유용한
-### [[링크모음]]
+### [[job-opportuinity]]{사이트모음}
 
 ## [[do-research]]{모르는것들}
 * 모르는것은 저장
