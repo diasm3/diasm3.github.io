@@ -90,6 +90,10 @@ regenerate: true
 ### Mac 
 - [[program]]
 
+
+### Design
+- [color_name](https://www.color-name.com/)
+
 ## 취직시 유용한
 ### [[job-opportuinity]]{사이트모음}
 
