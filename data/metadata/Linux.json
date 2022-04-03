@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "linux",
+ "summary": "linux shell command",
+ "parent": "index",
+ "url": "/wiki/Linux",
+ "updated": "2022-03-31 08:42:02 +0900",
+ "children": [
+  "locale-problem"
+ ]
+}

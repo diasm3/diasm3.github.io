@@ -45,7 +45,7 @@
  },
  {
   "name": "command",
-  "size": 1
+  "size": 2
  },
  {
   "name": "cookie",
@@ -153,7 +153,7 @@
  },
  {
   "name": "key",
-  "size": 1
+  "size": 2
  },
  {
   "name": "latex",
@@ -166,6 +166,14 @@
  {
   "name": "linkedlist",
   "size": 3
+ },
+ {
+  "name": "linux",
+  "size": 2
+ },
+ {
+  "name": "locale",
+  "size": 1
  },
  {
   "name": "mac",
@@ -216,8 +224,16 @@
   "size": 1
  },
  {
+  "name": "shell",
+  "size": 1
+ },
+ {
   "name": "Sparta",
   "size": 1
+ },
+ {
+  "name": "ssh",
+  "size": 2
  },
  {
   "name": "ssl",

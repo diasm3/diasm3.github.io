@@ -3,7 +3,7 @@ layout  : wiki
 title   : 연결리스트 
 summary : linked list 
 date    : 2022-03-20 20:31:47 +0900
-updated : 2022-03-28 09:51:52 +0900
+updated : 2022-03-28 17:30:20 +0900
 tag     : linkedlist 
 toc     : true
 public  : true
@@ -49,6 +49,128 @@ head는 시작점을 알려주는 첫번째 단계이고 순차적 반복되며 
 > 큐와 스택은 입력 방법은 동일하지만 삭제 방법은 다르다
 > 큐는 시작과 끝을 지정해 주고 끝을 항상 삭제 후 돌아온다
 
+* collecitons 라는 라이브러리에 deque 함수를 쓰면 쉽게 큐를 구현할 수 있다
+
+
+```python
+from collecitons import deque
+
+queue = deque()
+queue
+
+
+queue.append("1")
+queue.append("2")
+queue.append("3")
+print(queue)
+
+```
+
+위 코드를 보면 제일 먼저 들어온 1이 제일 처음으로 나가야한다
+
+
+
+```python
+
+>>> queue.popleft()
+'1'
+
+>>> queue
+deque(['2','3'])
+
+>>> queue.popleft()
+'2'
+
+>>> queue
+deque(['3'])
+
+```
+popleft() 함수를 사용하면 항상 head elemets의 값이 pop된다
+
+
+
+
+
+* 스텍(stack)
+
+
+
+### 구현해보기
+
+
+* class 를 만들어 링크드 리스트 메소드를 만들어 
+head 변수를 None으로 초기화한다 
+
+
+* head 에 저장될 노드 class를 만들고 노드 안에는 data 와 다음 링크드 리스트를 가르킬 변수를 만든다
+
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+    def __repr__(self):
+        return self.data
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+    def __repr__(self):
+        node = self.head
+        nodes = []
+        while node is not None:
+            nodes.append(node.data)
+            node = node.next
+        nodes.append("None")
+        return "->".join(nodes)
+```
+
+
+
+* Search 
+
+
+```python
+# node 가 None 일때까지 계속 반복해서 검색
+# 그리고 다음 node도 그 다음의 node.next를 넣어서 계속 반복
+
+def __iter__(self):
+    node = self.head
+    while node is not None:
+        yield node
+        node = node.next
+```
+
+
+* Insert 
+
+```python
+# 그냥 head에 넣으면 된다
+
+def add_first(self, node):
+    node.next = self.head
+    self.head = node
+```
+
+* Inserting at the end
+
+```python
+# 첫번째 head 부분을 체크 한 후
+# for 문으로  
+def add_last(self, node):
+    if self.head is None:
+        self.head = node
+        return
+    for current_node in self:
+        pass
+    current_node.next = node
+```
+
+
+
+
 ```python
 
 class Node:
@@ -79,19 +201,7 @@ class Queue:
             
         node = self.front 
         
-        
         while node is Not None:
-            
-            
-            
-            
-            
-    
-
-
-
-
-
 ```
 
 
@@ -115,11 +225,6 @@ class Queue:
 ## 연습 
 
 
-## 연결 리스트 이해하기 
-## 문제풀이  
-### 교재 내용
-### leetcode solution
-## 풀면서 잘 몰랐던 부분 
 ## 파이썬문법 모르는 부분 
 
 ## Ref

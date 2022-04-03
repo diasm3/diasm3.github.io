@@ -31,17 +31,19 @@ regenerate: true
 * [[bubble-sort]]{버블정렬}
 * [[merge_sort]]{병합정렬}
 * 병합정렬
-* 퀵정렬
+* [[quicksort]]{퀵정렬}
 * 안정정렬-vs- 불안정정렬
-* 이진검색
+* [[binary-search]]{이진검색}
 * 비트조작
 * 슬라이딩윈도우
 * 그리디알고리즘
 * 분할정복
 * 다이나믹프로그래밍
 
+
 ### [[leetcode]]{리트코드}
 * [[palindrome-linked-list]]{팰린드롬-링크드리스트}
+
 
 ### [[programmers]]{프로그래머스}
 * [[visitedlength]]{방문길이}
@@ -55,6 +57,8 @@ regenerate: true
 
 ## [[Javascript]]
 * [[Syntax]]{문법}
+* [[origin]]{기원}
+* [[async-defer]]{sync와 defer 차이점}
 
 ### FrontEnd
 * [[react]]
@@ -67,13 +71,19 @@ regenerate: true
 * [[enumerate]]{enumerate}
 * [[range]]{for-loop-range}
 * [[deque]]{deque}
-* [[magic-mothod]]{magic-mehtod}
+* [[magic-mothod]]{magic-mehtod __ __}
 * [[python-heapq]]{heapq}
-* [[inheritance-python]]{파인썬 상속(inheritance)}
+* [[inheritance-python]]{파인썬 상속}
+* [[deque-mothod]]{deque}
 
 ## How to Use
 ### [[Docker]]
 * [[command]]{명령어}
+
+### [[jenkins]]{Jenkins}
+* [[install-jenkins]]{install} 
+   
+
 
 
 ### [[Latex]]{Latex}
@@ -85,17 +95,14 @@ regenerate: true
 * [[vimwiki-vim-jekyll]]
 * [[vimspector]]
 
+
 ### [[tmux]]
 
 ### Mac 
 - [[program]]
 
-
-### Design
-- [color_name](https://www.color-name.com/)
-
 ## 취직시 유용한
-### [[job-opportuinity]]{사이트모음}
+### [[링크모음]]
 
 ## [[do-research]]{모르는것들}
 * 모르는것은 저장
