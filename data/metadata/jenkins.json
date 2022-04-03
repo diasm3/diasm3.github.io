@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "Jenkins",
+ "summary": "How to use Jenkins",
+ "parent": "index",
+ "url": "/wiki/jenkins",
+ "updated": "2022-04-01 14:06:50 +0900",
+ "children": [
+  "install-jenkins"
+ ]
+}

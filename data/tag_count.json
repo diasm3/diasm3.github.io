@@ -13,7 +13,7 @@
  },
  {
   "name": "async",
-  "size": 1
+  "size": 2
  },
  {
   "name": "backend",
@@ -48,6 +48,10 @@
   "size": 2
  },
  {
+  "name": "compose",
+  "size": 1
+ },
+ {
   "name": "cookie",
   "size": 1
  },
@@ -68,6 +72,14 @@
   "size": 1
  },
  {
+  "name": "defer",
+  "size": 1
+ },
+ {
+  "name": "deque",
+  "size": 1
+ },
+ {
   "name": "DFS",
   "size": 2
  },
@@ -77,7 +89,11 @@
  },
  {
   "name": "docker",
-  "size": 2
+  "size": 4
+ },
+ {
+  "name": "dockerfile",
+  "size": 1
  },
  {
   "name": "dom",
@@ -126,6 +142,10 @@
  {
   "name": "jekyll",
   "size": 1
+ },
+ {
+  "name": "jenkins",
+  "size": 2
  },
  {
   "name": "jinja2",
@@ -208,12 +228,20 @@
   "size": 1
  },
  {
+  "name": "pull",
+  "size": 1
+ },
+ {
+  "name": "push",
+  "size": 1
+ },
+ {
   "name": "python",
   "size": 3
  },
  {
   "name": "queue",
-  "size": 2
+  "size": 3
  },
  {
   "name": "restAPI",
@@ -241,7 +269,7 @@
  },
  {
   "name": "stack",
-  "size": 2
+  "size": 3
  },
  {
   "name": "sync",

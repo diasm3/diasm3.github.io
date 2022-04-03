@@ -1,4 +1,6 @@
 [
  "command",
- "Docker"
+ "Docker",
+ "docker-basic",
+ "install-jenkins"
 ]
