@@ -10,100 +10,54 @@ regenerate: true
 ## [[diary]]{다이어리}
 * [[2022]]{2022년 일일기록}
 
-## [[algorithm]]{알고리즘(Algorithm)}
-### 선형구조 
-* [[array]]{문자열조작/배열}
-* [[linked-list]]{연결리스트}
-* [[stack]]{스택}
-* [[queue]]{큐}
-* [[deque]]{데크}
-* [[priority-queue]]{우선순위큐}
-* [[hash-table]]{헤시테이블}
-
-### 비선형 구조 
-* [[graph]]{그래프}
-* [[short-way]]{최단경로문제}
-* [[tree]]{트리}
-* [[heap]]{힙}
-* [[try]]{트라이}
-
-### 알고리즘
-* [[bubble-sort]]{버블정렬}
-* [[merge_sort]]{병합정렬}
-* 병합정렬
-* [[quicksort]]{퀵정렬}
-* 안정정렬-vs- 불안정정렬
-* [[binary-search]]{이진검색}
-* 비트조작
-* 슬라이딩윈도우
-* 그리디알고리즘
-* 분할정복
-* 다이나믹프로그래밍
-
-
-### [[leetcode]]{리트코드}
-* [[palindrome-linked-list]]{팰린드롬-링크드리스트}
-
-
-### [[programmers]]{프로그래머스}
-* [[visitedlength]]{방문길이}
-* [[targetNumber]]{타겟넘버}
-
-## [[sparta]]{스파르타}
+## [[sparta]]{스파르타(Bootcamp)}
 * [[miniproject]]{미니프로젝트}
 * [[homework]]{과제톡(알고리즘)}
 * [[cs-homework]]{항해톡(웹일반지식)}
 * [[cs-study]]{CS스터디(기초CS)}
 
-## [[Javascript]]
-* [[Syntax]]{문법}
-* [[origin]]{기원}
-* [[async-defer]]{sync와 defer 차이점}
+## [[algorithm]]{알고리즘(Algorithm)}
 
-### FrontEnd
-* [[react]]
 
-### [[backend]]
-* [[express]]
-* [[MVC]]
+## [[Javascript]]{자바스크립트(Javascript)}
+- 엘리유튭 정리
+    * [[origin]]{1장. 기원}
+    * [[async-defer]]{2장. sync와 defer 차이점}
+    * [[letVsVar]]{3장. let vs var}
+    
+- 모르는 문법 정리
+    * [[spread-syntax]]{Spread-syntax[...array]}
+
+
 
 ## [[Python]]
-* [[enumerate]]{enumerate}
+- [[enumerate]]{배열에 키값넣기 (enumerate)}
 * [[range]]{for-loop-range}
 * [[deque]]{deque}
-* [[magic-mothod]]{magic-mehtod __ __}
-* [[python-heapq]]{heapq}
-* [[inheritance-python]]{파인썬 상속}
+* [[magic-mothod]]{magic-mehtod}
+* [[python-heapq]]{힙큐(heapq)}
+* [[inheritance-python]]{파인썬 상속(inheritance)}
 * [[deque-mothod]]{deque}
+* [[random-python]]{random 난수 발생 library}
+    
 
-## How to Use
-### [[Docker]]
-* [[command]]{명령어}
+## Web Programming
+* [[react]]{React}
+* [[nodejs]]{Nodejs}
+* [[flask]]{Flask}
+    
+## Linux 
+* [[Docker]]
+* [[jenkins]]{Jenkins}
+* [[vim]]
+* [[tmux]]
+* [[linux-locale]]{Ubuntu locale(언어설정)}
+* [[fish-shell]]{fish shell} 
+* [[ssh]]{ssh}
 
-### [[jenkins]]{Jenkins}
-* [[install-jenkins]]{install} 
-   
-
-
-
-### [[Latex]]{Latex}
-
-### [[Synology]] 
-* [[Synology]] 
-
-### [[vim]]
-* [[vimwiki-vim-jekyll]]
-* [[vimspector]]
-
-
-### [[tmux]]
-
-### Mac 
-- [[program]]
-
-## 취직시 유용한
-### [[링크모음]]
-
-## [[do-research]]{모르는것들}
-* 모르는것은 저장
+## 기타
+* [[Synology]]{시놀로지} 
+* [[Latex]]{Latex 사용법}
+* [[program]]{유요한 프로그램 추천}
+* [[link-list]]{유용한 사이트 링크모음}
 

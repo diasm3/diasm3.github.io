@@ -1,9 +1,9 @@
 {
  "type": "wiki",
- "title": "async 와 defer의 차이점",
- "summary": "",
+ "title": "let Vs var",
+ "summary": "let 과 var의 차이점",
  "parent": "javascript",
- "url": "/wiki/async-defer",
+ "url": "/wiki/letVsVar",
  "updated": "2022-04-04 05:41:02 +0900",
  "children": []
 }
