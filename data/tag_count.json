@@ -109,10 +109,10 @@
  },
  {
   "name": "flask",
-  "size": 1
+  "size": 2
  },
  {
-  "name": "frameworks",
+  "name": "frontend",
   "size": 1
  },
  {
@@ -157,7 +157,7 @@
  },
  {
   "name": "jinja2",
-  "size": 1
+  "size": 2
  },
  {
   "name": "jobs",
@@ -212,11 +212,19 @@
   "size": 1
  },
  {
+  "name": "Magic-method",
+  "size": 1
+ },
+ {
   "name": "mapping",
   "size": 1
  },
  {
   "name": "middleware",
+  "size": 1
+ },
+ {
+  "name": "node",
   "size": 1
  },
  {
@@ -249,14 +257,14 @@
  },
  {
   "name": "python",
-  "size": 3
+  "size": 4
  },
  {
   "name": "queue",
   "size": 3
  },
  {
-  "name": "react",
+  "name": "random",
   "size": 1
  },
  {
@@ -273,6 +281,10 @@
  },
  {
   "name": "Sparta",
+  "size": 1
+ },
+ {
+  "name": "spread",
   "size": 1
  },
  {
@@ -297,6 +309,10 @@
  },
  {
   "name": "synology",
+  "size": 1
+ },
+ {
+  "name": "syntax",
   "size": 1
  },
  {

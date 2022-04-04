@@ -4,7 +4,7 @@
  "summary": "about VIM",
  "parent": "index",
  "url": "/wiki/vim",
- "updated": "2022-03-24 11:02:56 +0900",
+ "updated": "2022-04-04 08:05:20 +0900",
  "children": [
   "vim-script",
   "vimspector",

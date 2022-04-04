@@ -2,8 +2,8 @@
  "type": "wiki",
  "title": "express",
  "summary": "",
- "parent": "backend",
+ "parent": "nodejs",
  "url": "/wiki/express",
- "updated": "2022-03-25 10:04:22 +0900",
+ "updated": "2022-04-04 08:08:08 +0900",
  "children": []
 }

@@ -3,7 +3,7 @@ layout  : category
 title   : 알고리즘 
 summary : 알고리즘 
 date    : 2022-03-20 19:48:04 +0900
-updated : 2022-04-04 06:47:33 +0900
+updated : 2022-04-04 17:03:35 +0900
 tag     : algorithm stack queue linkedlist hashtable 
 toc     : true
 public  : true
@@ -20,9 +20,6 @@ latex   : false
 * insert - 데이터 구조 에서 아이템을 추가 하는 알고리즘이다
 * Update - 데이터 구조에서 존제하는 아이템을 수정하는 알고리즘이다
 * Delete - 데이터 구조에서 존자하는 아이템을 삭제하는 알고리즘이다
-
-## Characteristics of an Algorithm (문자열 알고리즘)
-* 
 
 ## 선형구조 
 * [[array]]{문자열조작/배열}
