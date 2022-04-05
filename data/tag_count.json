@@ -205,7 +205,7 @@
  },
  {
   "name": "locale",
-  "size": 1
+  "size": 2
  },
  {
   "name": "mac",
@@ -272,6 +272,10 @@
   "size": 2
  },
  {
+  "name": "server",
+  "size": 1
+ },
+ {
   "name": "session",
   "size": 1
  },
@@ -322,6 +326,10 @@
  {
   "name": "tree",
   "size": 1
+ },
+ {
+  "name": "ubuntu",
+  "size": 2
  },
  {
   "name": "var",

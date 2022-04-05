@@ -3,7 +3,7 @@ layout  : wiki
 title   : 스택 
 summary : Stack 
 date    : 2022-03-20 20:42:34 +0900
-updated : 2022-03-27 17:57:52 +0900
+updated : 2022-04-05 05:49:54 +0900
 tag     : stack 
 toc     : true
 public  : true
@@ -49,11 +49,4 @@ class Stack:
         self.head = self.head.next
         
 ```
-
-
-## 문제풀이  
-### 교재 내용
-### leetcode solution
-## 풀면서 잘 몰랐던 부분 
-## 파이썬문법 모르는 부분 
 

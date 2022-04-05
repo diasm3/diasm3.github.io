@@ -3,7 +3,7 @@ layout  : category
 title   : 알고리즘 
 summary : 알고리즘 
 date    : 2022-03-20 19:48:04 +0900
-updated : 2022-04-04 17:03:35 +0900
+updated : 2022-04-05 05:51:42 +0900
 tag     : algorithm stack queue linkedlist hashtable 
 toc     : true
 public  : true
@@ -22,13 +22,13 @@ latex   : false
 * Delete - 데이터 구조에서 존자하는 아이템을 삭제하는 알고리즘이다
 
 ## 선형구조 
-* [[array]]{문자열조작/배열}
+* [[array]]{문자열조작/배열(0%)}
 * [[linked-list]]{연결리스트}
-* [[stack]]{스택}
-* [[queue]]{큐}
-* [[deque]]{데크}
-* [[priority-queue]]{우선순위큐}
-* [[hash-table]]{헤시테이블}
+* [[stack]]{스택(0%)}
+* [[queue]]{큐(0%)}
+* [[deque]]{데크(0%)}
+* [[priority-queue]]{우선순위큐(0%)}
+* [[hash-table]]{해시테이블}
 
 ## 비선형 구조 
 * [[graph]]{그래프}
@@ -40,7 +40,6 @@ latex   : false
 ## 알고리즘
 * [[bubble-sort]]{버블정렬}
 * [[merge_sort]]{병합정렬}
-* 병합정렬
 * [[quicksort]]{퀵정렬}
 * 안정정렬-vs- 불안정정렬
 * [[binary-search]]{이진검색}

@@ -17,20 +17,24 @@ regenerate: true
 * [[cs-study]]{CS스터디(기초CS)}
 
 ## [[algorithm]]{알고리즘(Algorithm)}
-* 작성중
+- 선형구조
+    * [[linked-list]]{연결리스트(linked-list)}
+    * [[hash-table]]{해시테이블(hash-table)}
 
 
 ## [[Javascript]]{자바스크립트(Javascript)}
-- 엘리유튭 정리
+- 엘리유튭 정리(Javascript ES6)
     * [[origin]]{1장. 기원}
     * [[async-defer]]{2장. sync와 defer 차이점}
     * [[letVsVar]]{3장. let vs var}
+    * [[operator-if-for-loop]]{4장. operator, if, for loop}
+    * [[arrow-function]]{5장. arrow fuction?}
+    * [[class-vs-object]]{6장. class vs object}
     
 - syntax 
     * [[spread-syntax]]{Spread-syntax[...array]}
     
 - Method & Library
-
 
 
 ## [[Python]]{파이썬(Python)}
@@ -51,6 +55,7 @@ regenerate: true
 - FrontEnd
     * [[react]]{React}
     * [[flask]]{Flask}
+    * [[css]]{css}
 
 - BackEnd
     * [[nodejs]]{Nodejs}
@@ -76,6 +81,8 @@ regenerate: true
 
 
 ## Etc 
+* [[regex]]{정규표현식}
+* [[naming]]{기호 영어이름}
 * [[Latex]]{Latex 사용법}
 * [[program]]{프로그램 추천}
 * [[link-list]]{사이트 링크모음}

@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 해쉬테이블 
+title   : 해시테이블 
 summary : 자료구조 
 date    : 2022-03-20 20:54:17 +0900
-updated : 2022-04-04 16:59:13 +0900
+updated : 2022-04-05 05:48:37 +0900
 tag     : 해시테이블,  
 toc     : true
 public  : true
@@ -16,16 +16,11 @@ latex   : true
 # 해시테이블 (hash table) 
 
 ## 기본개념 
-해시는 어떤 키값을 지정해서 그 키값을 가지고 찾아 linkedlist 또는 배열로 넣는 방식이다
-
-
-indexing -> 해시 함수를 이용하는 것을 hasing 이라고 한다
-
-hasing : 검색을 빠르게 저장하고 검색하기 위해 사용
-
-
-hasing 은 최적의 검색이 필요한 분야에 사용됨
-암호화 알고리즘에 사용 한다
+- 해시는 어떤 키값을 지정해서 그 키값을 가지고 찾아 linkedlist 또는 배열로 넣는 방식이다
+- indexing -> 해시 함수를 이용하는 것을 hasing 이라고 한다
+- hasing : 검색을 빠르게 저장하고 검색하기 위해 사용
+    * hasing 은 최적의 검색이 필요한 분야에 사용됨
+    * 암호화 알고리즘에 사용 한다
 
 
 - 해시 함수 사용시 주의해야 할점 
@@ -34,7 +29,6 @@ hasing 은 최적의 검색이 필요한 분야에 사용됨
     * 해시 테이블 전체에 해시 값이 균일하게 분포
     * 사용할 키의 모든 정보를 이용하여 해싱 
     * 해시 테이블 사용 효율이 높을 것
-    
 
 ## 생일 문제 
 
@@ -114,42 +108,74 @@ hasing 은 최적의 검색이 필요한 분야에 사용됨
     
     
 ```python
-class listNode:
-    def __init__(self, key=None, value=None):
-        self.key =key
+import collections
+
+class ListNode:
+    def __init__(self, key=None, value=None) -> None:
+        self.key = key
         self.value = value
         self.next = None
 
 class MyhashMap:
+    # 초기화 
     def __init__(self):
-        ## 해시맵의 크기 
-        self.size = 1000
+        self.size =1000
         self.table = collections.defaultdict(ListNode)
-        
-        
-    def put(self, key: int, value: int) -> None:
-        
-        pass
-        
-    def get(self, key: int) -> int:
-        pass
+
     
+    #삽입 
+    def put(self, key: int, value: int) -> None:
+        index = key % self.size
+        # 인덱스에 노드가 없다면 삽입 후 종료
+        if self.table[index].value is None:
+            self.table[index] = ListNode(key, value)
+            return
+
+        # 인덱스에 노드가 존재하는 경우 연결 리스트 처리
+        p = self.table[index]
+        while p:
+            if p.key == key:
+                p.value = value
+                return
+            if p.next is None:
+                break
+            p = p.next
+        p.next = ListNode(key, value)
+
+    # 조회
+    def get(self, key: int) -> int:
+        index = key % self.size
+        if self.table[index].value is None:
+            return -1
+
+        # 노드가 존재할 때 일치하는 키 탐색
+        p = self.table[index]
+        while p:
+            if p.key ==key:
+                return p.value
+            p = p.next
+        return -1
+
+    # 삭제
     def remove(self, key: int) -> None:
-        pass
+        index = key % self.size
+        if self.table[index].value is None:
+            return
+        
+        #인덱스의 첫 번쨰 노드일 때 삭제 처리
+        p = self.table[index]
+        if p.key == key:
+            self.table[index] = ListNode() if p.next is None else p.next
+            return
+        
+        #연결 리스트 노드 삭제
+        prev = p
+        while p:
+            if p.key == key:
+                prev.next = p.next
+                return
+            prev, p = p, p.next
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ref
 이것이 코딩테스트다
