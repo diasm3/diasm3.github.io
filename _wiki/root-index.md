@@ -30,6 +30,16 @@ regenerate: true
     * [[operator-if-for-loop]]{4장. operator, if, for loop}
     * [[arrow-function]]{5장. arrow fuction?}
     * [[class-vs-object]]{6장. class vs object}
+    * [[what-is-object]]{7장. object가 무엇인가}
+    * [[json-js]]{8장.JSON 개념} 
+    * [[callback-function]]{11장.callback promise async await}
+    
+    
+   - 수요일에 할거 
+    * [[promise-js]]{12장. 프로미스 개념부터 활용까지 }
+    * [[async-await]]{13장. async 와 await }
+    
+    
     
 - syntax 
     * [[spread-syntax]]{Spread-syntax[...array]}

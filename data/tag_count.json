@@ -12,6 +12,10 @@
   "size": 1
  },
  {
+  "name": "Arrow",
+  "size": 1
+ },
+ {
   "name": "async",
   "size": 2
  },
@@ -108,11 +112,23 @@
   "size": 1
  },
  {
+  "name": "ES6",
+  "size": 1
+ },
+ {
   "name": "flask",
   "size": 2
  },
  {
+  "name": "for-loop",
+  "size": 1
+ },
+ {
   "name": "frontend",
+  "size": 1
+ },
+ {
+  "name": "fuction",
   "size": 1
  },
  {
@@ -136,6 +152,10 @@
   "size": 3
  },
  {
+  "name": "if",
+  "size": 1
+ },
+ {
   "name": "inheritance",
   "size": 1
  },
@@ -145,6 +165,10 @@
  },
  {
   "name": "javascript",
+  "size": 1
+ },
+ {
+  "name": "Javascript",
   "size": 1
  },
  {
@@ -228,6 +252,10 @@
   "size": 1
  },
  {
+  "name": "operator",
+  "size": 1
+ },
+ {
   "name": "or",
   "size": 1
  },
@@ -265,6 +293,10 @@
  },
  {
   "name": "random",
+  "size": 1
+ },
+ {
+  "name": "regex",
   "size": 1
  },
  {

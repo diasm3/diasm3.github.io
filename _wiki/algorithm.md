@@ -3,7 +3,7 @@ layout  : category
 title   : 알고리즘 
 summary : 알고리즘 
 date    : 2022-03-20 19:48:04 +0900
-updated : 2022-04-05 05:51:42 +0900
+updated : 2022-04-05 15:22:15 +0900
 tag     : algorithm stack queue linkedlist hashtable 
 toc     : true
 public  : true
@@ -33,6 +33,7 @@ latex   : false
 ## 비선형 구조 
 * [[graph]]{그래프}
 * [[short-way]]{최단경로문제}
+* [[dfs]]{DFS(깊이 우선 탐색)}
 * [[tree]]{트리}
 * [[heap]]{힙}
 * [[try]]{트라이}
