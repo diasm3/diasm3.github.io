@@ -3,7 +3,7 @@ layout  : wiki
 title   : HTTPS/SSL
 summary : HTTPS와SSL 
 date    : 2022-03-23 21:59:10 +0900
-updated : 2022-04-07 13:45:46 +0900
+updated : 2022-04-07 14:12:55 +0900
 tag     : https ssl certificate 
 toc     : true
 public  : true
@@ -34,7 +34,7 @@ latex   : false
     ![image](https://user-images.githubusercontent.com/56494905/159731726-9ef04fce-62c0-4a72-bee9-fef8e382f7cb.png){:width="80%", align="center"}
 
 ## `https`(HyperText Transfer Protocol over Secure Socket Layer )
-* https 기반에 `SSL`을 추가 보완한 프로토콜
+* http 기반에 `SSL`을 추가 보완한 프로토콜
 
     ![image](https://user-images.githubusercontent.com/56494905/161882125-1095a3bf-632c-4d3f-80e4-f01ff34102b8.png)
 
@@ -120,7 +120,7 @@ latex   : false
         ![image](https://user-images.githubusercontent.com/56494905/161885376-8022a886-fc79-46c9-a073-6839952e2fbe.png){:width="50%"}
         
         ![image](https://user-images.githubusercontent.com/56494905/161917519-916e0d93-6011-46fb-8bf2-16c6d19fdc3f.png){:width="50%"}
-    > 각자브라우져에 자물쇠 부분을 클릭해서 Certificate 부분을 부면 도메인의 소유자의 대한 내용이 상세히 나온다 즉 SSL이 적용된 사례라고 볼 수 있다
+    > 각자브라우져에 자물쇠 부분을 클릭해서 Certificate 부분을 보면 도메인의 소유자의 대한 내용이 상세히 나온다 즉 SSL이 적용된 사례라고 볼 수 있다
 
 
 ## 인증서 구매 및 셋팅
