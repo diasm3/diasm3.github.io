@@ -3,7 +3,7 @@ layout  : wiki
 title   : HTTPS/SSL
 summary : HTTPS와SSL 
 date    : 2022-03-23 21:59:10 +0900
-updated : 2022-04-06 16:24:40 +0900
+updated : 2022-04-07 13:45:46 +0900
 tag     : https ssl certificate 
 toc     : true
 public  : true
@@ -15,8 +15,6 @@ latex   : false
 
 # Data Privacy?
 > Privacy란 개인의 사생활이나 집안의 사사로운 일 또는, 그것이 남에게나 사회에 알려지지 않으며 간섭받지 않는 권리.
-
-* personal information[^personal-informatio]
 
 ## 왜 데이터의 privacy가 중요한가?
 
@@ -33,8 +31,7 @@ latex   : false
 * 모든 데이터 교환의 기초
 * 클라이언트-서버 프로토콜(통신규약)
 * 텍스트 기반의 통신 규약으로 `인터넷에서 데이터를 주고받을` 수 있는 프로토콜이다.
-
-![image](https://user-images.githubusercontent.com/56494905/159731726-9ef04fce-62c0-4a72-bee9-fef8e382f7cb.png){:width="80%", align="center"}
+    ![image](https://user-images.githubusercontent.com/56494905/159731726-9ef04fce-62c0-4a72-bee9-fef8e382f7cb.png){:width="80%", align="center"}
 
 ## `https`(HyperText Transfer Protocol over Secure Socket Layer )
 * https 기반에 `SSL`을 추가 보완한 프로토콜
@@ -60,12 +57,10 @@ latex   : false
     * TLS는 웹뿐만아니라 이메일, 메세지,  VoIP 등 에 쓰인다
     * 최신버전인 TLS 1.3  2018년에 나왔다
     * 기존 버전의 암호화 프로토콜인 `SSL`을 포함하고 있다
-    * 지원 가능한 알고리즘 서로 교환
-    * 키 교환, 인증
-    * `대칭키 암호`[^symmetric-key-algorithm]
+    * `대칭키 암호`[^symmetric-key-algorithm]을 사용하여 암호화한다
 
 
-## SSL(Secure Socket Layer)? 
+## SSL(Secure Socket Layer) 
 > SSL or Secure Sockets Layer 암호화 기반의 인터넷 보안 프로토콜이다.
 
 - SSL 특징
@@ -88,18 +83,13 @@ latex   : false
     * 해시 테이블 처럼 키가 있어야 암호화를 할 수 있다 
     * 암호화 할때 1234이라는 암호로 키를 사용했다면 1234이 있어야 복호화 할 수 있다
     * 대칭키를 공유할때 위험이 노출되기 때문에 매우 위험하다
-- 공개키 방식
-    * 두개의 키를 갖는데 A키로 암호화를 하면 B키로 복호화 할 수 있고, B키로 암호화하면 A키로 복호화 할 수 있는 방식이다 
-    * 두개의 키중 하나는 비공개키(private key) 하나는 공개키(public key)라고 한다 
-    
->이때 어차피 두개의 키가 노출이 된다고 하더라도 인증서의 최종 목적은 `신원을 보장한다` 이다
-    
-    
-    
+- 비대칭 키 방식
+    * 공개키(public key)와 개인키(private key)를 가진다 
+    * 공개키로 암호화 하는 경우와 개인키로 암호화 하는것으로 구분
+    * 암호화할때의 키와 복호화할 때의 키 값이 다르면 비대칭 키라고 한다
     
 > CA에서 발급받은 인증서는 제 3자가 소유하고있는 사이트를 보장해준다는 의미
 > 즉 데이터가 안전하게 암호화 되어 전송되고 있다는 뜻이다
-
 
 > 구글에서는 공식적으로 Search eninge ranking 이라는 항목으로 `https 암호화`를 적용시 `상위 검색순위`에 들어가게 됨으로 꼭 https를 적용시키자 
 [SEO 체크리스트 공식문서](https://g.co/WebmasterChecklist)
@@ -125,30 +115,28 @@ latex   : false
         * GeoTrust 
         * DigiCert  
 
-    * 실제로 적용된 살례
+    * 실제로 적용된 사례
+    
+        ![image](https://user-images.githubusercontent.com/56494905/161885376-8022a886-fc79-46c9-a073-6839952e2fbe.png){:width="50%"}
         
         ![image](https://user-images.githubusercontent.com/56494905/161917519-916e0d93-6011-46fb-8bf2-16c6d19fdc3f.png){:width="50%"}
     > 각자브라우져에 자물쇠 부분을 클릭해서 Certificate 부분을 부면 도메인의 소유자의 대한 내용이 상세히 나온다 즉 SSL이 적용된 사례라고 볼 수 있다
 
 
+## 인증서 구매 및 셋팅
 
-    * CA 사이트에서 구매 후 
+- CA 사이트에서 구매 후 
 
-        ![image](https://user-images.githubusercontent.com/56494905/161897304-cb440634-2169-43b8-8228-accd707c9341.png){:width="50%"}
+    ![image](https://user-images.githubusercontent.com/56494905/161897304-cb440634-2169-43b8-8228-accd707c9341.png){:width="50%"}
 
-    * 실제 도메인 내용 입력장면
+- 도메인 내용 입력장면
 
-        ![image](https://user-images.githubusercontent.com/56494905/161897397-47589b99-6113-468a-85dc-944d5b5a3828.png){:width="50%"}
+    ![image](https://user-images.githubusercontent.com/56494905/161897397-47589b99-6113-468a-85dc-944d5b5a3828.png){:width="50%"}
 
-    * 실제로 생성된 private key
+- 생성된 private key
 
-        ![image](https://user-images.githubusercontent.com/56494905/161899159-9c07101d-e829-4562-a127-9c465263dd74.png){:width="50%"}
-    * 실제 cludeflare.com의 certificate의 정보
-        
-        ![image](https://user-images.githubusercontent.com/56494905/161919187-83ea6c6e-8a84-4839-88a5-a213005fe8ec.png){:width="50%"}
-    
-    
-- SSL certificate 포함된 내용
+    ![image](https://user-images.githubusercontent.com/56494905/161899159-9c07101d-e829-4562-a127-9c465263dd74.png){:width="50%"}
+- cludeflare.com의 certificate의 정보
     * 도메인 네임이 인증되어있고 어떤 내용으로 발생되었는지
     * 어떤 사람, 기관, 기종에서 발생되었는지
     * 발급한 인증기관
@@ -157,40 +145,119 @@ latex   : false
     * 인증날짜
     * 만료날짜
     * Public 키 
+        
+    ![image](https://user-images.githubusercontent.com/56494905/161919187-83ea6c6e-8a84-4839-88a5-a213005fe8ec.png){:width="50%"}
+ 
+
+- 인증기관의 등록 절차가 모두 완료 후 아래와 같은 4가지 키 와 인증서를 받게 된다
+    * ssl.key : 서버쪽 비공개키
+    * ssl.crt : 디지털 인증서
+    * ca.pem : ROOT CA 인증서
+    * sub.class1.server.ca.pem : 중계자 인증서
+
+- Apache 또는 Nginx 또는 Node.js 에 설치
+    ... 생략[나중에...]
+        
+
+
+
+## SSL 작동원리
+* 작동원리 
+    1. 핸드쉐이크를 통한 서버 인증 확인 절차
+    2. 절차 완료 후 클라이언트와 서버 둘다 세션 획득 성공 
+    3. 대칭 암호화 데이터 전송(세션 키를 이용해서) 
+
+* 알아야할 개념 
+    1. 대칭 키 알고리즘(Symmetric-key algorithm)
+    2. 비 대칭 키 암호
+    3. 인증서(certificate) 
+    4. CA (Certificate authority)
+    5. 핸드쉐이크(3way Handshake)
+    6. 암호화 알고리즘 (RSA 기타 등등...)
+
+
+<!--
+- 대칭 키 암호(Symmetric-key algorithm)
+    * 암호화 할때 같은 암호키를 쓰는 것
+
+- 공개 키(public key)
+    * 모든 사람이 언제든지 키를 공유함
     
-- SSL 작동 원리
-    *  
-    * 인증된 사이트에서 c 아래와 같이 
+- 비공개 키(private key)
+    * 어떠한 방식으로 키를 조심스럽게 다름사람한테 보내야 한다
 
-        ![image](https://user-images.githubusercontent.com/56494905/161885376-8022a886-fc79-46c9-a073-6839952e2fbe.png){:width="50%"}
+- 공개키와 비공개키(대칭키) 
+    * 실제 데이터 -> `대칭 키(비공개키)`
+    * 대칭 키(비공개 키) -> `공개키`
+    
+> 실제 데이터를 대칭키로 암호화 한 후, 다시 그 키를 공개키로 암호화 한다
+-->
+
+### SSL Handshake를 통한 서버 인증 확인 절차
+
+- SSL Handshake의 전체적인 흐름도
+
+    ![image](https://user-images.githubusercontent.com/56494905/161886749-b3359817-3331-41c7-8505-ec0222642733.png){:width="100%"}
+
+- SSL Handshake RSA key 교환방식 알고리즘을 사용한 순서도표
+
+    ![image](https://user-images.githubusercontent.com/56494905/162109026-5095b356-4443-46a3-bde1-9802f498321e.png)
+
+<!--
+| 순서 | 포함된 데이터                                                | 클라이언트                           | 방향성  | 서버                                           | 일어나는 일                                                                                                             |
+| :-:  | :-:                                                          | :-:                                  | :-:     | :-:                                            | :-:                                                                                                                     |
+| 1    | TLS version, the ciper suites, client random                 | "hello" 메세지를 서버에 보낸다       | --|                                                | 클라이언트가 서버에 접속한다. 사용할 수 있는 알고리즘을 서버로 보낸다, 이미 세션 아이디가 있다면 기존 세션키를 확인한다 |
+| 2    | SSL certificate, server's chosen cipher suite, server random |                                      | <-----  | "hello"에 다시 인증서를 넣고 클라이언트로 보냄 |                                                                                                                         |
+| 3    | premaster secret                                             | 공개키로 암호화한 키를 서버로 보낸다 | --|                                                | 공개키는 인증서에 포함되어 있음, 인증서를 브라우져 안에 있는 CA list와 대조하여 확인                                    |
+| 4    |                                                              |                                      |         | 비공개키로 premaster secret 을 다시 복호화     | pre master key -> master key 로 복호화                                                                                  |
+| 5    | session key                                                  | 세선키를 생성                        |         | 세션키를 생성                                  | 각자 서로 공유한 client random, server random을 가지고 session key를 생성                                               |
+| 6    | finished                                                     | finished를 서버에 보냄               | <-| finished를 클라이언트에 보냄                   | 서로 finished가 보내서 확인함 (세션키를 이용하여 최종 연결완료)                                                         |
+
+-->
+
+### 세션(데이터 전송 준비완료)
+* 마지막으로 대칭 키가 준비가 완료
+* 세션키를 가지고 암호화 한다음 데이터를 전송
 
 
 
+# 7 가지 Man-in-the-middle attack 
+* IP spoofing
+    * 공격자가 IP 주소를 변형시켜 일반적인 클라이언트인척 속인 후 서버에 접속해서 추적을 피하는 해킹 기법이다 
+* DNS spoofing
+    * 공격자는 금융기관등의 사이트와 동일한 사이트를 만들어 강제로 가짜 사이트로 이동하게 하는 방식이다
+* HTTPS spoofing
+    * 링크주소는 https로 되어 있지만 사실 링크된 사이트는 http로 된 사이트로 연결되어 클라이언트의 정보를 뺴는 방식
+* SSL hijacking
+    * http로 된 URL에 접속할때 공격자가 설정해 놓은 SSL 서버에 접속을 유도하여 클라이언트와 서버 중간에서 데이터를 가로채는 공격방식
+* Email hijacking
+    * 금융기관을 사칭한 사이트로 접속을 유도하여 사용자 정보를 빼는 방식
+* Wi-fi eavesdropping
+    * 공공 wifi를 사용하면 공격자가 router에 연결된 디바이스의 패킷 정보를 모니터 할 수 있다.
+* Stealing browser cookies
+    * 쿠키 탈취는 클라이언트 내부에 저장된 개인정보가 탈취되는 것을 말한다
+    
+> https 로 미리 암호화된 상태로 연결되었다면 데이터가 `중간에 탈취`되더라도 `세션키로 암호화` 되어 있어서 좀더 안전할 수가 있다. 
+>> 단 좀비 컴퓨터를 이용해 여러대의 컴퓨터가 한곳을 집중적으로 공격하는 DDOS 공격에는 https는 도움이 안된다.
 
 
 
+# 결론
+
+> 랜선을 타고 다니는 모든 데이터는 안전하지 않다
+>> 다만 이중 삼중으로 암호화시 좀더 보안성이 향상 된다
+>> 따라서 `https`는 선택이 아닌 `필수`다
 
 
-## SSL Handshake[^handshake]란?
-
-TLS 
-
-![image](https://user-images.githubusercontent.com/56494905/161886749-b3359817-3331-41c7-8505-ec0222642733.png){:width="50%"}
-
-TLS 암호화 부터 시작 
-
-
-## 어떻게 불법적인 하이제킹을 막아야하는가?
-
-
-## 참고사이트
+# 참고사이트
 * [모질라 공식사이트](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
 * [http 상태코드](http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml)
 * [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 * [링크](https://wayhome25.github.io/cs/2018/03/11/ssl-https/)
 * [Mozila - ChiperSuite](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite)
+* [Norton](https://us.norton.com/internetsecurity-wifi-what-is-a-man-in-the-middle-attack.html)
 
-## 주석
+# 주석
 [^protocol]:  프로토콜은 컴퓨터 내부에서, 또는 컴퓨터 사이에서 데이터의 교환 방식을 정의하는 규칙 체계이다. 기기 간 통신은 교환되는 데이터의 형식에 대해 상호 합의를 요구한다. 이런 형식을 정의하는 규칙의 집합을 프로토콜이라고 한다. 
 [^statuscode]: http 반환코드: 클라이언트의 데이터 요청에 따른 서버 반환 코드
 [^handshake]: 프로토콜(protocol): 서버와 클라이언트의 소통 과정을 나타낸다. 

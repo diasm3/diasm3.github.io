@@ -3,11 +3,11 @@ layout  : wiki
 title   : array 관해서 알아보자 
 summary : javascript array 
 date    : 2022-04-05 20:20:55 +0900
-updated : 2022-04-05 20:42:34 +0900
+updated : 2022-04-06 16:50:33 +0900
 tag     : array javascript 
 toc     : true
 public  : true
-parent  : javascript 
+parent  : [[javascript]] 
 latex   : false
 ---
 * TOC

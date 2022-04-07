@@ -4,10 +4,12 @@
  "summary": "알고리즘",
  "parent": "index",
  "url": "/wiki/algorithm",
- "updated": "2022-04-05 05:51:42 +0900",
+ "updated": "2022-04-05 15:22:15 +0900",
  "children": [
   "array",
+  "bfs",
   "deque",
+  "dfs",
   "graph",
   "hash-table",
   "heap",
