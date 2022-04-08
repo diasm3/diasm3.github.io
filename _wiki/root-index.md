@@ -35,7 +35,7 @@ regenerate: true
     * [[json-js]]{10장.JSON 개념} 
     * [[callback-function]]{11장.callback promise async await}
     
-   - 수요일에 할거 
+    * 작성중
     * [[promise-js]]{12장. 프로미스 개념부터 활용까지 }
     * [[async-await]]{13장. async 와 await }
     
@@ -67,6 +67,7 @@ regenerate: true
 
 - BackEnd
     * [[nodejs]]{Nodejs}
+    * [[todo-memo]]{mongodb & router}
     
 - CI/CD
     * [[jenkins]]{Jenkins}
