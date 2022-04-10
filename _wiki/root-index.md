@@ -41,8 +41,10 @@ regenerate: true
     
 - syntax 
     * [[spread-syntax]]{Spread-syntax[...array]}
+    * [[forinforof]]{forin과 forof}
     
 - Method & Library
+    
 
 
 ## [[Python]]{파이썬(Python)}
