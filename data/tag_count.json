@@ -200,6 +200,10 @@
   "size": 1
  },
  {
+  "name": "iterable",
+  "size": 1
+ },
+ {
   "name": "javascript",
   "size": 6
  },
@@ -312,6 +316,10 @@
   "size": 1
  },
  {
+  "name": "patch",
+  "size": 1
+ },
+ {
   "name": "plugin",
   "size": 1
  },
@@ -333,6 +341,10 @@
  },
  {
   "name": "push",
+  "size": 1
+ },
+ {
+  "name": "put",
   "size": 1
  },
  {
@@ -389,6 +401,10 @@
  },
  {
   "name": "string",
+  "size": 1
+ },
+ {
+  "name": "symbol",
   "size": 1
  },
  {

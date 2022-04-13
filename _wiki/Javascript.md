@@ -3,7 +3,7 @@ layout  : category
 title   : Javascript 
 summary : 
 date    : 2022-03-25 06:24:54 +0900
-updated : 2022-04-09 05:49:08 +0900
+updated : 2022-04-11 01:31:52 +0900
 tag     : 
 toc     : true
 public  : true
@@ -30,8 +30,4 @@ latex   : false
    - 수요일에 할거 
     * [[promise-js]]{12장. 프로미스 개념부터 활용까지 }
     * [[async-await]]{13장. async 와 await }
-
-## React.js
-## [[Node_js]]
-## [[MVC]]{nodejs mvc pattern} 
 

@@ -3,11 +3,11 @@ layout: wiki
 title: PUT과 PATCH
 summary: put과 PATCH의 차이점을 알자
 date: 2022-04-09 07:13:03 +0900
-updated: 2022-04-09 08:51:05 +0900
+updated: 2022-04-12 07:11:32 +0900
 tag: put patch 
 toc: true
 public: true
-parent: [[index]]
+parent: [[express]]
 latex: false
 ---
 
