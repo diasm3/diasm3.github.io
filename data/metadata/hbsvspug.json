@@ -1,9 +1,9 @@
 {
  "type": "wiki",
- "title": "PUT과 PATCH",
- "summary": "put과 PATCH의 차이점을 알자",
+ "title": "hbs 와 pug",
+ "summary": "express 템플릿 엔진",
  "parent": "express",
- "url": "/wiki/PUT",
+ "url": "/wiki/hbsvspug",
  "updated": "2022-04-12 07:11:32 +0900",
  "children": []
 }

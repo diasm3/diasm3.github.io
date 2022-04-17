@@ -61,6 +61,7 @@ regenerate: true
     * [[deque-mothod]]{deque}
     * [[python-heapq]]{힙큐(heapq)}
     
+    
 ## Web Programming
 - FrontEnd
     * [[react]]{React}
@@ -76,6 +77,9 @@ regenerate: true
     * [[git-actions]]{Git-action auto Deploy}
 
 - GIT
+
+- Mysql
+    * [[mysql_sequelize]]{mysql&sequelize}
 
     
 ## Linux & Server

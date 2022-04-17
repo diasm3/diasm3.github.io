@@ -5,6 +5,7 @@
  "updated": "2022-03-25 06:55:02 +0900",
  "children": [
   "algorithm",
+  "backend",
   "ci-cd",
   "diary",
   "Docker",
@@ -17,10 +18,8 @@
   "link-list",
   "Linux",
   "naming",
-  "nodejs",
   "program",
   "programmers",
-  "PUT",
   "python",
   "react",
   "regex",
