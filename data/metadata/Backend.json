@@ -6,6 +6,7 @@
  "url": "/wiki/backend",
  "updated": "2022-04-11 01:33:32 +0900",
  "children": [
+  "mysql_sequelize",
   "Node_js",
   "nodejs"
  ]

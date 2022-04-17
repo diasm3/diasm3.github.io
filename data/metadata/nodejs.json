@@ -4,9 +4,11 @@
  "summary": "node backend",
  "parent": "backend",
  "url": "/wiki/nodejs",
- "updated": "2022-04-13 10:34:25 +0900",
+ "updated": "2022-04-13 13:28:20 +0900",
  "children": [
   "express",
+  "IIFE",
+  "literals",
   "middleware",
   "todo-memo"
  ]

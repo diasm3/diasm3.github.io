@@ -96,6 +96,10 @@
   "size": 2
  },
  {
+  "name": "db",
+  "size": 1
+ },
+ {
   "name": "dbindex",
   "size": 1
  },
@@ -172,6 +176,10 @@
   "size": 1
  },
  {
+  "name": "function",
+  "size": 2
+ },
+ {
   "name": "github",
   "size": 1
  },
@@ -213,7 +221,7 @@
  },
  {
   "name": "javascript",
-  "size": 6
+  "size": 7
  },
  {
   "name": "Javascript",
@@ -280,6 +288,10 @@
   "size": 2
  },
  {
+  "name": "literals",
+  "size": 1
+ },
+ {
   "name": "locale",
   "size": 2
  },
@@ -298,6 +310,10 @@
  {
   "name": "middleware",
   "size": 2
+ },
+ {
+  "name": "mysql",
+  "size": 1
  },
  {
   "name": "node",
