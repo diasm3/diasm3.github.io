@@ -3,7 +3,7 @@ layout  : wiki
 title   : mysql과 sequelize
 summary :  
 date    : 2022-04-16 08:04:47 +0900
-updated : 2022-04-18 17:05:42 +0900
+updated : 2022-04-18 17:50:06 +0900
 tag     : db mysql 
 toc     : true
 public  : true
@@ -49,6 +49,54 @@ $ flush privileges
 
 
 ```
+
+## EC2 서버 셋팅 방법
+- ubuntu 20 버전으로 EC2 micro2 버전을 선택한다
+- key 값을 받는다 
+```bash
+$ cd test_mysql_aws
+
+$ chmod 400 my_test_key.pem
+
+$ ssh -i “my_test_key.pem” ubuntu@ec2SSSSSS214.us-east-2.compute.amazonaws.com
+```
+- ssh로 접속한다
+- 프로그램 설치
+    - sudo apt update
+    - sudo apt install mysql-server
+    - sudo apt nodejs
+    - sudo apt npm
+- 한국 시간 맞추기
+```bash
+sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+```
+- portfowarding
+```bash
+sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+`````
+```
+- sudo mysql
+```mysql
+//암호설정
+mysql> sudo mysql
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password_here';
+
+mysql> FLUSH PRIVILEGES;
+
+mysql> exit
+
+//셋팅한 암호치고 접속
+$ sudo mysql -u root -p
+
+// 백엔드에서 셋팅한 데이터베이스 이름
+mysql> create database database_name
+```
+
+
+
+
+
 
 
 ## 참고 사이트
