@@ -3,7 +3,7 @@ layout  : wiki
 title   : mysql과 sequelize
 summary :  
 date    : 2022-04-16 08:04:47 +0900
-updated : 2022-04-18 17:50:06 +0900
+updated : 2022-04-18 17:52:51 +0900
 tag     : db mysql 
 toc     : true
 public  : true
@@ -67,15 +67,18 @@ $ ssh -i “my_test_key.pem” ubuntu@ec2SSSSSS214.us-east-2.compute.amazonaws.c
     - sudo apt nodejs
     - sudo apt npm
 - 한국 시간 맞추기
+
 ```bash
 sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 ```
+
 - portfowarding
+
 ```bash
-sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
-`````
+$ sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 ```
 - sudo mysql
+
 ```mysql
 //암호설정
 mysql> sudo mysql
