@@ -284,6 +284,10 @@
   "size": 1
  },
  {
+  "name": "lazyloading",
+  "size": 1
+ },
+ {
   "name": "Leetcode",
   "size": 1
  },

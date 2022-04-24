@@ -4,7 +4,7 @@
  "summary": "node backend",
  "parent": "backend",
  "url": "/wiki/nodejs",
- "updated": "2022-04-24 19:58:30 +0900",
+ "updated": "2022-04-24 20:51:21 +0900",
  "children": [
   "express",
   "IIFE",
