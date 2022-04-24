@@ -8,6 +8,10 @@
   "size": 1
  },
  {
+  "name": "architecture",
+  "size": 1
+ },
+ {
   "name": "Array",
   "size": 1
  },
@@ -81,6 +85,10 @@
  },
  {
   "name": "compose",
+  "size": 1
+ },
+ {
+  "name": "controller",
   "size": 1
  },
  {
@@ -272,6 +280,10 @@
   "size": 1
  },
  {
+  "name": "layered",
+  "size": 1
+ },
+ {
   "name": "Leetcode",
   "size": 1
  },
@@ -310,6 +322,14 @@
  {
   "name": "middleware",
   "size": 2
+ },
+ {
+  "name": "model",
+  "size": 1
+ },
+ {
+  "name": "MVC",
+  "size": 1
  },
  {
   "name": "mysql",
@@ -469,6 +489,10 @@
  },
  {
   "name": "var",
+  "size": 1
+ },
+ {
+  "name": "view",
   "size": 1
  },
  {
