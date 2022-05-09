@@ -36,6 +36,10 @@
   "size": 1
  },
  {
+  "name": "aws",
+  "size": 1
+ },
+ {
   "name": "backend",
   "size": 2
  },
@@ -72,7 +76,15 @@
   "size": 1
  },
  {
+  "name": "CLAs",
+  "size": 1
+ },
+ {
   "name": "class",
+  "size": 1
+ },
+ {
+  "name": "cloudfront",
   "size": 1
  },
  {
@@ -141,7 +153,11 @@
  },
  {
   "name": "docker",
-  "size": 5
+  "size": 6
+ },
+ {
+  "name": "dockercompose",
+  "size": 1
  },
  {
   "name": "dockerfile",
@@ -213,7 +229,7 @@
  },
  {
   "name": "https",
-  "size": 3
+  "size": 4
  },
  {
   "name": "if",
@@ -420,7 +436,15 @@
   "size": 2
  },
  {
+  "name": "route53",
+  "size": 1
+ },
+ {
   "name": "router",
+  "size": 1
+ },
+ {
+  "name": "s3",
   "size": 1
  },
  {
