@@ -4,6 +4,6 @@
  "summary": "docker compose를 통해 여러개의 도커를 한번에 셋팅하자",
  "parent": "docker",
  "url": "/wiki/DockerCompose",
- "updated": "2022-05-01 16:57:42 +0900",
+ "updated": "2022-05-15 13:54:49 +0900",
  "children": []
 }

@@ -5,6 +5,7 @@
  "updated": "2022-03-25 06:55:02 +0900",
  "children": [
   "algorithm",
+  "AWS",
   "backend",
   "ci-cd",
   "diary",

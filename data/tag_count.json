@@ -1,5 +1,9 @@
 [
  {
+  "name": "access",
+  "size": 1
+ },
+ {
   "name": "algorithm",
   "size": 5
  },
@@ -34,6 +38,10 @@
  {
   "name": "autodeploy",
   "size": 1
+ },
+ {
+  "name": "AWS",
+  "size": 2
  },
  {
   "name": "aws",
@@ -89,6 +97,10 @@
  },
  {
   "name": "cocktail",
+  "size": 1
+ },
+ {
+  "name": "codepipeline",
   "size": 1
  },
  {
@@ -172,6 +184,14 @@
   "size": 1
  },
  {
+  "name": "EC2",
+  "size": 1
+ },
+ {
+  "name": "Elastic",
+  "size": 1
+ },
+ {
   "name": "engine",
   "size": 1
  },
@@ -193,6 +213,10 @@
  },
  {
   "name": "for-loop",
+  "size": 1
+ },
+ {
+  "name": "freshtoken",
   "size": 1
  },
  {
@@ -281,7 +305,7 @@
  },
  {
   "name": "jwt",
-  "size": 1
+  "size": 2
  },
  {
   "name": "jwt-token",
@@ -509,6 +533,10 @@
  },
  {
   "name": "thread",
+  "size": 1
+ },
+ {
+  "name": "token",
   "size": 1
  },
  {
