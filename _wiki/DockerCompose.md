@@ -3,7 +3,7 @@ layout  : wiki
 title   : Docker compose 사용법
 summary : docker compose를 통해 여러개의 도커를 한번에 셋팅하자
 date    : 2022-05-01 16:42:28 +0900
-updated : 2022-05-01 16:57:42 +0900
+updated : 2022-05-15 13:54:49 +0900
 tag     : dockercompose docker 
 toc     : true
 public  : true
@@ -30,6 +30,21 @@ latex   : false
 - 원하는 프로젝트 이름으로 폴더를 생성
 - 그안에 docker-compose.yml 생성 후 원하는 dockerfile를 다시 자식 폴더에 넣고 필요한 셋팅파일들을 구조화 하고 넣는다
 
+```bash
+- docker-compose.yml
+- nginx
+    - Dockerfile
+    - nignx.conf
+- nestserver
+    - Dockerfile
+    - src
+- nodeserver
+    - Dockerfile
+    - index.js
+```
+> 도커 컴포즈를 구성할때는 루트 폴더에 docker-compose.yml 파일이 있고 각 하위 폴더에 각각 Dockerfile을 검색하여 하나씩 docker로 구성된다.
+
+
 ## 
 
 
@@ -52,8 +67,9 @@ web:
         - redis
 redis:
     images: redis
-
 ```
+
+
 
 ## reference
 - [참고 사이트](https://engineer-mole.tistory.com/221)

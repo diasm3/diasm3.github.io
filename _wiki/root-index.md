@@ -72,11 +72,13 @@ regenerate: true
     * [[nodejs]]{Nodejs}
     * [[todo-memo]]{mongodb & router}
     * [[pm2]]{pm2(production manage program)}
+    * [[refreshtoken]]{refresh 토큰 구현하기}
     
 - CI/CD
     * [[jenkins]]{Jenkins}
     * [[git-actions]]{Git-action auto Deploy}
     * [[gitactions3cloudfront]]{git action + s3 + cloudfront + https}
+    * [[aws]]{Elastic beanstalk}
 
 - GIT
     * [[commitconvention]]{커밋 컨벤션}
@@ -92,6 +94,13 @@ regenerate: true
 - Nginx+SSL certification with Let's Encrypt
     * [[whatisLetEncrypt]]{Let's Encrypt란?}
     * [[DockerCompose]]{DockerCompose사용법}
+
+- [[AWS]]
+    * [[ElasticBeanstalk]]{자동으로 CI/CD부터 로드 밸런싱까지}
+    
+    
+- Nginx
+    *  nginx
 
     
 ## Linux & Server
