@@ -3,7 +3,7 @@ layout  : category
 title   : 스파르타 
 summary : BootCamp 
 date    : 2022-03-20 19:48:04 +0900
-updated : 2022-03-21 14:09:51 +0900
+updated : 2022-06-10 00:25:22 +0900
 tag     : Sparta 
 toc     : true
 public  : true
@@ -24,6 +24,7 @@ latex   : false
 >* 항해톡       : 일반 웹지식으로 면접시 단골 질문
 >* CS스터디     : CODE라는 책을 읽고 매일 발표 준비
 >* 과제톡       : 알고리즘을 풀고 매일 발표자 한명씩 발표
+>* 인터뷰50문제 : 인터뷰50문제 
 
 
 ## Documents

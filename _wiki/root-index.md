@@ -15,6 +15,7 @@ regenerate: true
 * [[homework]]{과제톡(알고리즘)}
 * [[cs-homework]]{항해톡(웹일반지식)}
 * [[cs-study]]{CS스터디(기초CS)}
+* [[interview50q]]{인터뷰50Q}
 
 ## [[algorithm]]{알고리즘(Algorithm)}
 - 선형구조
