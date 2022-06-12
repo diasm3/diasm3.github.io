@@ -83,6 +83,7 @@ regenerate: true
 
 - GIT
     * [[commitconvention]]{커밋 컨벤션}
+    * [[gitreset]]{푸시 후 되돌리자}
 
 - Mysql
     * [[mysql_sequelize]]{mysql&sequelize}
@@ -95,13 +96,24 @@ regenerate: true
 - Nginx+SSL certification with Let's Encrypt
     * [[whatisLetEncrypt]]{Let's Encrypt란?}
     * [[DockerCompose]]{DockerCompose사용법}
-
+    
 - [[AWS]]
     * [[ElasticBeanstalk]]{자동으로 CI/CD부터 로드 밸런싱까지}
+    * EC2
+    * S3
+    * Codepipeline
+    * Amplify
+    * CloudFront
+    * CloudWatch
+    * RDS(Relational Database Service)
+    * Route53(DNS)
+    * Certificate(SSL)
     
     
 - Nginx
-    *  nginx
+    * nginx
+    * reverse proxy
+    * conf.d 
 
     
 ## Linux & Server
@@ -113,7 +125,7 @@ regenerate: true
 * [[ssh]]{ssh}
 
 
-## Synlogy
+## Synology
 * [[Synology]]{시놀로지} 
 
 
