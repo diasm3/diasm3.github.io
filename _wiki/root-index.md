@@ -68,7 +68,7 @@ regenerate: true
   - [[css]]{css}
 
 - [[backend]]{BackEnd}
-  - [[oauth]]{Oauth란?}
+  - [[oauth]]{Oauth란?(작성중)}
   - [[nodejs]]{Nodejs}
   - [[todo-memo]]{mongodb & router}
   - [[pm2]]{pm2(production manage program)}
@@ -117,8 +117,8 @@ regenerate: true
 
 ## Linux & Server
 
-- [[Docker]]
-- [[vim]]
+- [[Docker]]{Docker 사용법}
+- [[vim]]{Vim 사용법}
 - [[tmux]]
 - [[linux-locale]]{Ubuntu locale(언어설정)}
 - [[fish-shell]]{fish shell}
