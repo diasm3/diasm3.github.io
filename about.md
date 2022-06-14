@@ -8,8 +8,8 @@ latex: true
 * TOC
 {:toc}
 
-# 나를 소개
-## 10년째 방황하고 있는 개발자가 되고 싶은 초보 개발자
+# 나를 소개한다면...
+> 모든지 다 하고 싶은... 호기심 많은 Back Chicken Developer이다. 
 ## 취미
 - 코딩
 - 골프
@@ -19,6 +19,7 @@ latex: true
 - 여행
 ## 장비
 - 미니 데스크탑
+- 키보드... FC660c(ble커스텀)
 - 맥북 m1 에어 기본형
 - 삼성 tablet
 - 삼성 galaxy tab s6
