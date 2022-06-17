@@ -3,7 +3,7 @@ layout  : wiki
 title   : 인터뷰 예약 50문제 
 summary : 예약 질문 50제  
 date    : 2022-06-09 23:37:55 +0900
-updated : 2022-06-14 23:53:37 +0900
+updated : 2022-06-15 07:10:43 +0900
 tag     : intervew  
 toc     : true
 public  : true
