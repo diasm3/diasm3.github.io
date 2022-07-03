@@ -108,7 +108,7 @@ regenerate: true
     - CloudWatch
     - RDS(Relational Database Service)
     - Route53(DNS)
-    - Certificate(SSL)
+    - [[Certificate]](SSL)
 
   - Nginx
     - reverse proxy

@@ -3,7 +3,7 @@ layout  : wiki
 title   : socketio 란 무엇인가? 
 summary : socketio 
 date    : 2022-06-28 16:49:01 +0900
-updated : 2022-06-28 16:54:56 +0900
+updated : 2022-06-30 14:14:11 +0900
 tag     : socket io websocket 
 toc     : true
 public  : true
@@ -22,3 +22,6 @@ latex   : false
 ## reference
 - [공식사이트링크](https://websockets.spec.whatwg.org/#the-websocket-interface)
 - [모질라링크](https://developer.mozilla.org/ko/docs/Web/API/WebSocket)
+
+
+
