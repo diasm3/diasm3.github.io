@@ -75,6 +75,7 @@ regenerate: true
   - [[refreshtoken]]{refresh 토큰 구현하기}
   - [[nestjs]]{Nestjs}
   - [[nodeEventLoop]]{Node Event Loop}
+  - [[socketio]]{socket}
 
 - GIT(형상관리)
   - [[commitconvention]]{커밋 컨벤션}
@@ -104,10 +105,10 @@ regenerate: true
     - Codepipeline
     - Amplify
     - CloudFront
-    - CloudWatch
+    - [[CloudWatch]]
     - RDS(Relational Database Service)
     - Route53(DNS)
-    - Certificate(SSL)
+    - [[Certificate]](SSL)
 
   - Nginx
     - reverse proxy
