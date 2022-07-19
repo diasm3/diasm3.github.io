@@ -76,6 +76,7 @@ regenerate: true
   - [[nestjs]]{Nestjs}
   - [[nodeEventLoop]]{Node Event Loop}
   - [[socketio]]{socket}
+  - [[jest]]{test code}
 
 - GIT(형상관리)
   - [[commitconvention]]{커밋 컨벤션}
@@ -102,7 +103,7 @@ regenerate: true
     - [[ElasticBeanstalk]]{자동으로 CI/CD부터 로드 밸런싱까지}
     - EC2
     - S3
-    - Codepipeline
+    - [[Codepipeline]](Codepipeline으로 CI/CD 구축하자)
     - Amplify
     - CloudFront
     - [[CloudWatch]]
