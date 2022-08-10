@@ -77,6 +77,7 @@ regenerate: true
   - [[nodeEventLoop]]{Node Event Loop}
   - [[socketio]]{socket}
   - [[jest]]{test code}
+  - [[microservice]]{nestjs의 마이크로서비스}
 
 - GIT(형상관리)
   - [[commitconvention]]{커밋 컨벤션}
@@ -117,6 +118,9 @@ regenerate: true
 
   - SSL
     - [[whatisLetEncrypt]]{Let's Encrypt란?}
+
+  - Cheerio
+    - [[Cheerio]]{Cheerio 사용법}
 
 ## Linux & Server
 
