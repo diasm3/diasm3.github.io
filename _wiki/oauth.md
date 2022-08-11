@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-06-16 12:02:11 +0900
-updated : 2022-06-16 12:36:18 +0900
+updated : 2022-08-12 08:50:45 +0900
 tag     : 
 toc     : true
 public  : true
@@ -31,9 +31,7 @@ latex   : false
 OAuth 1.0
 * Transport-independent : 보안이 https/tls로 위임 받을 수 없다.
 
-
 1. 카카오, 트위터, 페이스북 등이 제공한다.
-2. ㅏ
 
 OAuth 2.0
 * Bearer Tokens 중심: 쉽게 사용할 수 있다. 그러나 보안으로는 좋지 않다. 
