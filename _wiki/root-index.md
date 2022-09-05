@@ -27,7 +27,7 @@ regenerate: true
 
 ## [[Javascript]]{자바스크립트(Javascript)}
 
-- 엘리유튭 정리(Javascript ES6)
+- Javascript ES6
   - [[origin]]{1장. 기원}
   - [[async-defer]]{2장. sync와 defer 차이점}
   - [[letVsVar]]{3장. let vs var}
@@ -82,6 +82,7 @@ regenerate: true
 - GIT(형상관리)
   - [[commitconvention]]{커밋 컨벤션}
   - [[gitreset]]{푸시 후 되돌리자}
+  - [[gitCommitCopyToNewRepo]]{기존 커밋내용을 새로운 레포에 복사하기}
 
 - Mysql
   - [[mysql_sequelize]]{mysql&sequelize}
@@ -99,18 +100,22 @@ regenerate: true
     - [[DockerNetwork]]
     - [[Dockerfile]]{Dockefile설정}
     - [[DockerCompose]]{DockerCompose사용법}
+    - [[dockerBuildx]]{크로스플렛폼 이용시 도커 해결 방법 m1 -> aws ec2 }
 
   - [[AWS]]
     - [[ElasticBeanstalk]]{자동으로 CI/CD부터 로드 밸런싱까지}
     - EC2
     - S3
     - [[Codepipeline]](Codepipeline으로 CI/CD 구축하자)
-    - Amplify
+    - [[Amplify]]
     - CloudFront
     - [[CloudWatch]]
     - RDS(Relational Database Service)
     - Route53(DNS)
     - [[Certificate]](SSL)
+    - [[ParameterStore]]
+    
+    
 
   - Nginx
     - reverse proxy
