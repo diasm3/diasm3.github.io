@@ -100,7 +100,7 @@ regenerate: true
     - [[DockerNetwork]]
     - [[Dockerfile]]{Dockefile설정}
     - [[DockerCompose]]{DockerCompose사용법}
-    - [[dockerBuildx]]{크로스플렛폼 이용시 도커 해결 방법 m1 -> aws ec2 }
+    - [[dockerBuildx]]{크로스플렛폼 이용시 m1 -> aws ec2 }
 
   - [[AWS]]
     - [[ElasticBeanstalk]]{자동으로 CI/CD부터 로드 밸런싱까지}
