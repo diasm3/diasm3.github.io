@@ -18,6 +18,7 @@ regenerate: true
 - [[cs-homework]]{항해톡(웹일반지식)}
 - [[cs-study]]{CS스터디(기초CS)}
 - [[interview50q]]{인터뷰50Q}
+- [[lastComment]]{마지막 후기}
 
 ## [[algorithm]]{알고리즘(Algorithm)}
 
@@ -75,11 +76,8 @@ regenerate: true
   - [[refreshtoken]]{refresh 토큰 구현하기}
   - [[nestjs]]{Nestjs}
   - [[nodeEventLoop]]{Node Event Loop}
-  
   - [[socketio]]{socket}
-  
   - [[jest]]{test code}
-  
   - [[microservice]]{nestjs의 마이크로서비스}
 
 - GIT(형상관리)
@@ -95,7 +93,6 @@ regenerate: true
     - [[jenkins]]{Jenkins}
     - [[git-actions]]{Git-action auto Deploy}
     - [[gitactions3cloudfront]]{git action + s3 + cloudfront + https}
-    - [[aws]]{Elastic beanstalk}
 
   - [[Docker]]
     - [[DockerImage]]{docker image란?}
@@ -106,16 +103,17 @@ regenerate: true
     - [[dockerBuildx]]{크로스플렛폼 이용시 m1 -> aws ec2 }
 
   - [[AWS]]
-    - [[ElasticBeanstalk]]{자동으로 CI/CD부터 로드 밸런싱까지}
+    - [[ElasticBeanstalk]]{ElasticBeanstalk 손쉬운 Backend 배포}
+    - [[cognito]]{Cognito 간단하게 사용자 인증을 개발하자}
     - EC2
-    - S3
-    - [[Codepipeline]](Codepipeline으로 CI/CD 구축하자)
-    - [[Amplify]]
-    - CloudFront
-    - [[CloudWatch]]
-    - RDS(Relational Database Service)
-    - Route53(DNS)
-    - [[Certificate]](SSL)
+    - [[S3]]
+    - [[Codepipeline]]{Codepipeline으로 CI/CD 구축하자}
+    - [[Amplify]]{손쉬운 FrontEnd 배포}
+    - [[CloudFront]]{CloudFront로 서버 캐싱(빠른 로딩)}
+    - [[CloudWatch]]{Cloud Watch로 손쉬운 로그 관리}
+    - [[RDS]]{Relational Database Service}
+    - [[Route53]]{DNS}
+    - [[Certificate]]{SSL}
     - [[ParameterStore]]
     
   - Nginx
