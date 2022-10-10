@@ -69,17 +69,11 @@ regenerate: true
 
 - [[backend]]{BackEnd}
   - [[oauth]]{Oauth란?(작성중)}
-  
   - [[nodejs]]{Nodejs}
-  
   - [[todo-memo]]{mongodb & router}
-  
   - [[pm2]]{pm2(production manage program)}
-  
   - [[refreshtoken]]{refresh 토큰 구현하기}
-  
   - [[nestjs]]{Nestjs}
-  
   - [[nodeEventLoop]]{Node Event Loop}
   
   - [[socketio]]{socket}
