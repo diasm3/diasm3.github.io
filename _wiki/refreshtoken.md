@@ -3,7 +3,7 @@ layout  : wiki
 title   : refresh token 구현하기
 summary : jwt 인증만 하지 말고 보안을 더 신경쓰자 refresh token 구현하기
 date    : 2022-05-09 22:34:00 +0900
-updated : 2022-05-15 14:02:18 +0900
+updated : 2022-10-10 18:07:36 +0900
 tag     : freshtoken jwt access token
 toc     : true
 public  : true
@@ -63,8 +63,6 @@ To @pol-dev-shinroo
  -> **다시 로그인해야함**
 
  개요  
-
-
 
 
 ## reference
