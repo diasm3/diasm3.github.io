@@ -10,6 +10,7 @@ regenerate: true
 ## [[diary]]{Diary}
 
 - [[2022]]{2022년 일일기록}
+- [[2023]]{2023년 일일기록}
 
 ## [[sparta]]{스파르타(Bootcamp)}
 
