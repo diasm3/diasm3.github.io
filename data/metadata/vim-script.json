@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "vim-script",
+ "summary": "key mapping",
+ "parent": "vim",
+ "url": "/wiki/vim-script",
+ "updated": "2022-03-24 06:47:23 +0900",
+ "children": []
+}

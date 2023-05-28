@@ -1,0 +1,13 @@
+{
+ "type": "wiki",
+ "title": "VIM",
+ "summary": "about VIM",
+ "parent": "index",
+ "url": "/wiki/vim",
+ "updated": "2022-04-04 08:05:20 +0900",
+ "children": [
+  "vim-script",
+  "vimspector",
+  "vimwiki-vim-jekyll"
+ ]
+}

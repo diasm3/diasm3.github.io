@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<title>graph</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<p>
+---
+layout  : wiki
+title   : 그래프(graph) 
+summary :  
+date    : 2022-03-20 23:12:19 +0900
+updated : 2022-03-21 13:55:12 +0900
+tag     : 오일러경로 해밀턴경로 그래프순회 DFS 깊이우선탐색 BFS 너비우선탐색 백트래킹 제약충적문제
+toc     : true
+public  : true
+parent  : <a href="algorithm.html">algorithm</a> 
+latex   : false
+---
+</p>
+<ul>
+<li>
+TOC
+
+</ul>
+<p>
+{:toc}
+</p>
+
+<ul>
+<li>
+그래프(Graph)
+
+</ul>
+<p>
+## 기본개념 
+</p>
+
+
+<p>
+### 오일러 경로
+### 해밀턴 경로
+### 그래프 순회
+</p>
+<ul>
+<li>
+DFS(깊이우선탐색)
+
+<li>
+BFS(너비우선탐색)
+
+</ul>
+<p>
+### 백트래킹 (N-Queen)
+</p>
+<blockquote>
+<p>
+ 백트래킹은 해결책에 대한 후보를 구축해 나아가다 가능성이 없다고 판단되는 즉시 후볼를 포기(백트랙)해 정답을 찾아가는 범용적인 알고리즘으로 제약 충족 문제에 특히 유용하다.
+
+</p></blockquote>
+</pre></code>
+<p>
+<a href="https://leetcode.com/problems/n-queens/">https://leetcode.com/problems/n-queens/</a>
+</p>
+
+<p>
+![image](<a href="https://user-images.githubusercontent.com/56494905/159195564-27e88352-4d69-4ea9-a660-18c68cffa969.png)">https://user-images.githubusercontent.com/56494905/159195564-27e88352-4d69-4ea9-a660-18c68cffa969.png)</a>
+</p>
+
+<p>
+``` python
+def nqueen(n):
+</p>
+<pre><code>visited = [-1] * n # 배열을 n개 만든다 
+cnt=0 # 카운터 변수 선언
+</code></pre>
+
+<ul>
+<li>
+범위를 벗어 났는지 확인
+    def is_ok_on(nth_row):
+<pre><code>#
+for row in range(nth_row):
+if visited[nth_row] == visited[row] or nth_row - row == abs(visited[nth_row] - visited[row]):
+return False
+return True
+</code></pre>
+def dfs(row):
+if row &gt;= n:
+nonlocal cnt
+cnt += 1
+grid = [['.'] * n for _ in range(n)]
+for idx, value in enumerate(visited):
+grid[idx][value] = 'Q'
+return
+</code></pre>
+for col in range(n):
+visited[row] = col
+if is_ok_on(row):
+dfs(row + 1)
+</code></pre>
+dfs(0)
+return cnt 
+</code></pre>
+
+</ul>
+</code></pre>
+<p>
+print(nqueen(int(input())))
+</p>
+
+
+<ul>
+<li>
+assert nqueen(4) == [[".Q..", "...Q", "Q...", "..Q."], ["..Q.", "Q...", "...Q", ".Q.."]]
+
+</ul>
+<p>
+```
+</p>
+
+
+
+
+<p>
+### 제약 충족 문제
+</p>
+
+
+<p>
+## 문제풀이  
+### 교재 내용
+</p>
+
+<p>
+### leetcode solution
+</p>
+
+<p>
+## 풀면서 잘 몰랐던 부분 
+</p>
+
+<p>
+## 파이썬문법 모르는 부분 
+</p>
+
+<p>
+## 주석
+</p>
+
+</body>
+</html>

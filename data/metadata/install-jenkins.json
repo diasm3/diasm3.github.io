@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "how to install jenkins",
+ "summary": "docker jenkins",
+ "parent": "jenkins",
+ "url": "/wiki/install-jenkins",
+ "updated": "2022-04-01 14:08:50 +0900",
+ "children": []
+}

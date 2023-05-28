@@ -1,0 +1,598 @@
+[
+ {
+  "name": "access",
+  "size": 1
+ },
+ {
+  "name": "algorithm",
+  "size": 5
+ },
+ {
+  "name": "and",
+  "size": 1
+ },
+ {
+  "name": "architecture",
+  "size": 1
+ },
+ {
+  "name": "Array",
+  "size": 1
+ },
+ {
+  "name": "array",
+  "size": 1
+ },
+ {
+  "name": "Arrow",
+  "size": 1
+ },
+ {
+  "name": "async",
+  "size": 2
+ },
+ {
+  "name": "asynchronous",
+  "size": 1
+ },
+ {
+  "name": "autodeploy",
+  "size": 1
+ },
+ {
+  "name": "AWS",
+  "size": 2
+ },
+ {
+  "name": "aws",
+  "size": 1
+ },
+ {
+  "name": "backend",
+  "size": 2
+ },
+ {
+  "name": "bfs",
+  "size": 1
+ },
+ {
+  "name": "BFS",
+  "size": 2
+ },
+ {
+  "name": "binary",
+  "size": 1
+ },
+ {
+  "name": "browser",
+  "size": 1
+ },
+ {
+  "name": "cache",
+  "size": 1
+ },
+ {
+  "name": "cd",
+  "size": 1
+ },
+ {
+  "name": "certificate",
+  "size": 1
+ },
+ {
+  "name": "ci",
+  "size": 1
+ },
+ {
+  "name": "CLAs",
+  "size": 1
+ },
+ {
+  "name": "class",
+  "size": 1
+ },
+ {
+  "name": "cloudfront",
+  "size": 1
+ },
+ {
+  "name": "cocktail",
+  "size": 1
+ },
+ {
+  "name": "codepipeline",
+  "size": 1
+ },
+ {
+  "name": "command",
+  "size": 2
+ },
+ {
+  "name": "compose",
+  "size": 1
+ },
+ {
+  "name": "controller",
+  "size": 1
+ },
+ {
+  "name": "cookie",
+  "size": 1
+ },
+ {
+  "name": "cors",
+  "size": 1
+ },
+ {
+  "name": "csstudy",
+  "size": 2
+ },
+ {
+  "name": "db",
+  "size": 1
+ },
+ {
+  "name": "dbindex",
+  "size": 1
+ },
+ {
+  "name": "debug",
+  "size": 1
+ },
+ {
+  "name": "defer",
+  "size": 1
+ },
+ {
+  "name": "deque",
+  "size": 1
+ },
+ {
+  "name": "dfs",
+  "size": 1
+ },
+ {
+  "name": "DFS",
+  "size": 2
+ },
+ {
+  "name": "dns",
+  "size": 1
+ },
+ {
+  "name": "dockefile",
+  "size": 1
+ },
+ {
+  "name": "docker",
+  "size": 6
+ },
+ {
+  "name": "dockercompose",
+  "size": 1
+ },
+ {
+  "name": "dockerfile",
+  "size": 1
+ },
+ {
+  "name": "dom",
+  "size": 1
+ },
+ {
+  "name": "DOM",
+  "size": 1
+ },
+ {
+  "name": "EC2",
+  "size": 1
+ },
+ {
+  "name": "Elastic",
+  "size": 1
+ },
+ {
+  "name": "engine",
+  "size": 1
+ },
+ {
+  "name": "enumerate",
+  "size": 1
+ },
+ {
+  "name": "ES6",
+  "size": 1
+ },
+ {
+  "name": "express",
+  "size": 2
+ },
+ {
+  "name": "flask",
+  "size": 2
+ },
+ {
+  "name": "for-loop",
+  "size": 1
+ },
+ {
+  "name": "freshtoken",
+  "size": 1
+ },
+ {
+  "name": "frontend",
+  "size": 1
+ },
+ {
+  "name": "fuction",
+  "size": 1
+ },
+ {
+  "name": "function",
+  "size": 2
+ },
+ {
+  "name": "github",
+  "size": 1
+ },
+ {
+  "name": "graph",
+  "size": 1
+ },
+ {
+  "name": "hashtable",
+  "size": 1
+ },
+ {
+  "name": "heap",
+  "size": 1
+ },
+ {
+  "name": "http",
+  "size": 1
+ },
+ {
+  "name": "https",
+  "size": 4
+ },
+ {
+  "name": "if",
+  "size": 1
+ },
+ {
+  "name": "inheritance",
+  "size": 1
+ },
+ {
+  "name": "io",
+  "size": 1
+ },
+ {
+  "name": "iterable",
+  "size": 1
+ },
+ {
+  "name": "javascript",
+  "size": 7
+ },
+ {
+  "name": "Javascript",
+  "size": 2
+ },
+ {
+  "name": "jekyll",
+  "size": 1
+ },
+ {
+  "name": "jenkins",
+  "size": 2
+ },
+ {
+  "name": "jinja2",
+  "size": 2
+ },
+ {
+  "name": "jobs",
+  "size": 1
+ },
+ {
+  "name": "jpa",
+  "size": 1
+ },
+ {
+  "name": "json",
+  "size": 1
+ },
+ {
+  "name": "jwt",
+  "size": 2
+ },
+ {
+  "name": "jwt-token",
+  "size": 1
+ },
+ {
+  "name": "jwt,",
+  "size": 1
+ },
+ {
+  "name": "key",
+  "size": 2
+ },
+ {
+  "name": "latex",
+  "size": 1
+ },
+ {
+  "name": "layered",
+  "size": 1
+ },
+ {
+  "name": "lazyloading",
+  "size": 1
+ },
+ {
+  "name": "Leetcode",
+  "size": 1
+ },
+ {
+  "name": "let",
+  "size": 1
+ },
+ {
+  "name": "linkedlist",
+  "size": 3
+ },
+ {
+  "name": "linux",
+  "size": 2
+ },
+ {
+  "name": "literals",
+  "size": 1
+ },
+ {
+  "name": "locale",
+  "size": 2
+ },
+ {
+  "name": "mac",
+  "size": 1
+ },
+ {
+  "name": "Magic-method",
+  "size": 1
+ },
+ {
+  "name": "mapping",
+  "size": 1
+ },
+ {
+  "name": "middleware",
+  "size": 2
+ },
+ {
+  "name": "model",
+  "size": 1
+ },
+ {
+  "name": "MVC",
+  "size": 1
+ },
+ {
+  "name": "mysql",
+  "size": 1
+ },
+ {
+  "name": "node",
+  "size": 1
+ },
+ {
+  "name": "nodejs",
+  "size": 1
+ },
+ {
+  "name": "object",
+  "size": 2
+ },
+ {
+  "name": "operator",
+  "size": 1
+ },
+ {
+  "name": "or",
+  "size": 1
+ },
+ {
+  "name": "osi7layers",
+  "size": 1
+ },
+ {
+  "name": "patch",
+  "size": 1
+ },
+ {
+  "name": "plugin",
+  "size": 1
+ },
+ {
+  "name": "process",
+  "size": 1
+ },
+ {
+  "name": "programmers",
+  "size": 1
+ },
+ {
+  "name": "promise",
+  "size": 1
+ },
+ {
+  "name": "pull",
+  "size": 1
+ },
+ {
+  "name": "push",
+  "size": 1
+ },
+ {
+  "name": "put",
+  "size": 1
+ },
+ {
+  "name": "python",
+  "size": 4
+ },
+ {
+  "name": "queue",
+  "size": 3
+ },
+ {
+  "name": "random",
+  "size": 1
+ },
+ {
+  "name": "regex",
+  "size": 1
+ },
+ {
+  "name": "restAPI",
+  "size": 2
+ },
+ {
+  "name": "route53",
+  "size": 1
+ },
+ {
+  "name": "router",
+  "size": 1
+ },
+ {
+  "name": "s3",
+  "size": 1
+ },
+ {
+  "name": "server",
+  "size": 1
+ },
+ {
+  "name": "session",
+  "size": 1
+ },
+ {
+  "name": "shell",
+  "size": 1
+ },
+ {
+  "name": "Sparta",
+  "size": 1
+ },
+ {
+  "name": "spread",
+  "size": 1
+ },
+ {
+  "name": "ssh",
+  "size": 2
+ },
+ {
+  "name": "ssl",
+  "size": 2
+ },
+ {
+  "name": "stack",
+  "size": 4
+ },
+ {
+  "name": "string",
+  "size": 1
+ },
+ {
+  "name": "symbol",
+  "size": 1
+ },
+ {
+  "name": "sync",
+  "size": 1
+ },
+ {
+  "name": "synchronous",
+  "size": 1
+ },
+ {
+  "name": "synology",
+  "size": 1
+ },
+ {
+  "name": "syntax",
+  "size": 1
+ },
+ {
+  "name": "template",
+  "size": 1
+ },
+ {
+  "name": "thread",
+  "size": 1
+ },
+ {
+  "name": "token",
+  "size": 1
+ },
+ {
+  "name": "tree",
+  "size": 1
+ },
+ {
+  "name": "ubuntu",
+  "size": 2
+ },
+ {
+  "name": "var",
+  "size": 1
+ },
+ {
+  "name": "view",
+  "size": 1
+ },
+ {
+  "name": "vim",
+  "size": 2
+ },
+ {
+  "name": "vimspector",
+  "size": 1
+ },
+ {
+  "name": "그래프순회",
+  "size": 1
+ },
+ {
+  "name": "깊이우선탐색",
+  "size": 1
+ },
+ {
+  "name": "너비우선탐색",
+  "size": 1
+ },
+ {
+  "name": "백트래킹",
+  "size": 1
+ },
+ {
+  "name": "오일러경로",
+  "size": 1
+ },
+ {
+  "name": "제약충적문제",
+  "size": 1
+ },
+ {
+  "name": "해밀턴경로",
+  "size": 1
+ },
+ {
+  "name": "해시테이블,",
+  "size": 1
+ }
+]

@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "github action + ssh + git pull",
+ "summary": "자동으로 pull 해서 서버 최신화 하기",
+ "parent": "",
+ "url": "/wiki/git-actions",
+ "updated": "2022-05-04 20:20:29 +0900",
+ "children": []
+}

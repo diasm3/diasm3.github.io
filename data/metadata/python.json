@@ -1,0 +1,17 @@
+{
+ "type": "wiki",
+ "title": "파이썬(python)",
+ "summary": "python",
+ "parent": "index",
+ "url": "/wiki/python",
+ "updated": "2022-03-25 11:12:43 +0900",
+ "children": [
+  "deque-mothod",
+  "enumerate",
+  "inheritance-python",
+  "magic-mothod",
+  "python-heapq",
+  "random-python",
+  "range"
+ ]
+}

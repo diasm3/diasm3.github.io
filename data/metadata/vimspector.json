@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "vimspector",
+ "summary": "debug plugin",
+ "parent": "vim",
+ "url": "/wiki/vimspector",
+ "updated": "2022-03-24 11:04:58 +0900",
+ "children": []
+}
