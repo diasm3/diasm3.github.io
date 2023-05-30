@@ -12,57 +12,6 @@ regenerate: true
 - [[2022]]{2022년 일일기록}
 - [[2023]]{2023년 일일기록}
 
-## [[sparta]]{스파르타(Bootcamp)}
-
-- [[miniproject]]{미니프로젝트}
-- [[homework]]{과제톡(알고리즘)}
-- [[cs-homework]]{항해톡(웹일반지식)}
-- [[cs-study]]{CS스터디(기초CS)}
-- [[interview50q]]{인터뷰50Q}
-- [[lastComment]]{마지막 후기}
-- [[plus]]{항해플러스}
-
-## [[algorithm]]{알고리즘(Algorithm)}
-
-- 선형구조
-  - [[linked-list]]{연결리스트(linked-list)}
-  - [[hash-table]]{해시테이블(hash-table)}
-
-## [[Javascript]]{자바스크립트(Javascript)}
-
-- Javascript ES6
-  - [[origin]]{1장. 기원}
-  - [[async-defer]]{2장. sync와 defer 차이점}
-  - [[letVsVar]]{3장. let vs var}
-  - [[operator-if-for-loop]]{4장. operator, if, for loop}
-  - [[arrow-function]]{5장. arrow fuction?}
-  - [[class-vs-object]]{6장. class vs object}
-  - [[what-is-object]]{7장. object가 무엇인가}
-  - [[array-APIs]]{8장. Array}
-  - [[json-js]]{10장.JSON 개념}
-  - [[callback-function]]{11장.callback promise async await}
-
-  - 작성중
-  - [[promise-js]]{12장. 프로미스 개념부터 활용까지 }
-  - [[async-await]]{13장. async 와 await }
-- syntax
-  - [[spread-syntax]]{Spread-syntax[...array]}
-  - [[forinforof]]{forin과 forof}
-- Method & Library
-
-## [[Python]]{파이썬(Python)}
-
-- Syntax
-  - [[enumerate]]{배열에 키값넣기 (enumerate)}
-  - [[range]]{for-loop-range}
-  - [[magic-mothod]]{magic-mehtod}
-  - [[inheritance-python]]{파인썬 상속(inheritance)}
-- Library
-  - [[deque]]{deque}
-  - [[random-python]]{random 난수 발생 library}
-  - [[deque-mothod]]{deque}
-  - [[python-heapq]]{힙큐(heapq)}
-
 ## Web Programming
 
 - FrontEnd
@@ -140,6 +89,58 @@ regenerate: true
 ## Synology
 
 - [[Synology]]{시놀로지}
+
+## [[sparta]]{스파르타(Bootcamp)}
+
+- [[miniproject]]{미니프로젝트}
+- [[homework]]{과제톡(알고리즘)}
+- [[cs-homework]]{항해톡(웹일반지식)}
+- [[cs-study]]{CS스터디(기초CS)}
+- [[interview50q]]{인터뷰50Q}
+- [[lastComment]]{마지막 후기}
+- [[plus]]{항해플러스}
+
+## [[algorithm]]{알고리즘(Algorithm)}
+
+- 선형구조
+  - [[linked-list]]{연결리스트(linked-list)}
+  - [[hash-table]]{해시테이블(hash-table)}
+
+## [[Javascript]]{자바스크립트(Javascript)}
+
+- Javascript ES6
+  - [[origin]]{1장. 기원}
+  - [[async-defer]]{2장. sync와 defer 차이점}
+  - [[letVsVar]]{3장. let vs var}
+  - [[operator-if-for-loop]]{4장. operator, if, for loop}
+  - [[arrow-function]]{5장. arrow fuction?}
+  - [[class-vs-object]]{6장. class vs object}
+  - [[what-is-object]]{7장. object가 무엇인가}
+  - [[array-APIs]]{8장. Array}
+  - [[json-js]]{10장.JSON 개념}
+  - [[callback-function]]{11장.callback promise async await}
+
+  - 작성중
+  - [[promise-js]]{12장. 프로미스 개념부터 활용까지 }
+  - [[async-await]]{13장. async 와 await }
+- syntax
+  - [[spread-syntax]]{Spread-syntax[...array]}
+  - [[forinforof]]{forin과 forof}
+- Method & Library
+
+## [[Python]]{파이썬(Python)}
+
+- Syntax
+  - [[enumerate]]{배열에 키값넣기 (enumerate)}
+  - [[range]]{for-loop-range}
+  - [[magic-mothod]]{magic-mehtod}
+  - [[inheritance-python]]{파인썬 상속(inheritance)}
+- Library
+  - [[deque]]{deque}
+  - [[random-python]]{random 난수 발생 library}
+  - [[deque-mothod]]{deque}
+  - [[python-heapq]]{힙큐(heapq)}
+
 
 ## Etc
 
