@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 
-<<<<<<< HEAD
 User-agent: Yeti
 Allow:/
 
