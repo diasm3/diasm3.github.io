@@ -38,7 +38,7 @@ regenerate: true
 
 - Mysql
   - [[mysql_sequelize]]{mysql&sequelize}
-  
+
 - DevOps
   - CI/CD
     - [[jenkins]]{Jenkins}
@@ -66,7 +66,7 @@ regenerate: true
     - [[Route53]]{DNS}
     - [[Certificate]]{SSL}
     - [[ParameterStore]]
-    
+
   - Nginx
     - reverse proxy
     - conf.d
