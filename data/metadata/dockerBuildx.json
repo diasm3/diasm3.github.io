@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "Docker Buildx로 다양한 플렛폼에서도 빌드하자",
+ "summary": "M1 맥북에서는 build가 되지만 AWS EC2 빌드시 에러가 발생할때",
+ "parent": "docker",
+ "url": "/wiki/dockerBuildx",
+ "updated": "2022-09-05 16:48:07 +0900",
+ "children": []
+}

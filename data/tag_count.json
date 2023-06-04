@@ -1,11 +1,19 @@
 [
  {
+  "name": "--hard",
+  "size": 1
+ },
+ {
   "name": "access",
   "size": 1
  },
  {
   "name": "algorithm",
   "size": 5
+ },
+ {
+  "name": "amplify",
+  "size": 1
  },
  {
   "name": "and",
@@ -29,10 +37,14 @@
  },
  {
   "name": "async",
-  "size": 2
+  "size": 3
  },
  {
   "name": "asynchronous",
+  "size": 1
+ },
+ {
+  "name": "auth",
   "size": 1
  },
  {
@@ -45,7 +57,7 @@
  },
  {
   "name": "aws",
-  "size": 1
+  "size": 6
  },
  {
   "name": "backend",
@@ -68,6 +80,10 @@
   "size": 1
  },
  {
+  "name": "buildx",
+  "size": 1
+ },
+ {
   "name": "cache",
   "size": 1
  },
@@ -80,7 +96,15 @@
   "size": 1
  },
  {
+  "name": "cheerio",
+  "size": 1
+ },
+ {
   "name": "ci",
+  "size": 1
+ },
+ {
+  "name": "cicd",
   "size": 1
  },
  {
@@ -100,12 +124,28 @@
   "size": 1
  },
  {
+  "name": "codecommit",
+  "size": 1
+ },
+ {
   "name": "codepipeline",
+  "size": 1
+ },
+ {
+  "name": "Codepipleine",
+  "size": 1
+ },
+ {
+  "name": "cognito",
   "size": 1
  },
  {
   "name": "command",
   "size": 2
+ },
+ {
+  "name": "commit",
+  "size": 1
  },
  {
   "name": "compose",
@@ -144,6 +184,10 @@
   "size": 1
  },
  {
+  "name": "deploy",
+  "size": 1
+ },
+ {
   "name": "deque",
   "size": 1
  },
@@ -165,7 +209,7 @@
  },
  {
   "name": "docker",
-  "size": 6
+  "size": 7
  },
  {
   "name": "dockercompose",
@@ -184,12 +228,24 @@
   "size": 1
  },
  {
+  "name": "ec2",
+  "size": 1
+ },
+ {
   "name": "EC2",
+  "size": 1
+ },
+ {
+  "name": "EKS",
   "size": 1
  },
  {
   "name": "Elastic",
   "size": 1
+ },
+ {
+  "name": "ElasticBeanstalk",
+  "size": 2
  },
  {
   "name": "engine",
@@ -204,8 +260,12 @@
   "size": 1
  },
  {
-  "name": "express",
+  "name": "eventloop",
   "size": 2
+ },
+ {
+  "name": "express",
+  "size": 3
  },
  {
   "name": "flask",
@@ -232,8 +292,12 @@
   "size": 2
  },
  {
-  "name": "github",
+  "name": "git",
   "size": 1
+ },
+ {
+  "name": "github",
+  "size": 2
  },
  {
   "name": "graph",
@@ -253,7 +317,7 @@
  },
  {
   "name": "https",
-  "size": 4
+  "size": 5
  },
  {
   "name": "if",
@@ -264,8 +328,12 @@
   "size": 1
  },
  {
-  "name": "io",
+  "name": "intervew",
   "size": 1
+ },
+ {
+  "name": "io",
+  "size": 2
  },
  {
   "name": "iterable",
@@ -286,6 +354,14 @@
  {
   "name": "jenkins",
   "size": 2
+ },
+ {
+  "name": "jest",
+  "size": 1
+ },
+ {
+  "name": "Jest",
+  "size": 1
  },
  {
   "name": "jinja2",
@@ -317,6 +393,10 @@
  },
  {
   "name": "key",
+  "size": 2
+ },
+ {
+  "name": "kubernetes",
   "size": 2
  },
  {
@@ -368,6 +448,10 @@
   "size": 1
  },
  {
+  "name": "microservice",
+  "size": 1
+ },
+ {
   "name": "middleware",
   "size": 2
  },
@@ -384,12 +468,20 @@
   "size": 1
  },
  {
+  "name": "nestjs",
+  "size": 3
+ },
+ {
+  "name": "Nestjs",
+  "size": 1
+ },
+ {
   "name": "node",
   "size": 1
  },
  {
   "name": "nodejs",
-  "size": 1
+  "size": 5
  },
  {
   "name": "object",
@@ -405,6 +497,10 @@
  },
  {
   "name": "osi7layers",
+  "size": 1
+ },
+ {
+  "name": "overcharging",
   "size": 1
  },
  {
@@ -452,7 +548,19 @@
   "size": 1
  },
  {
+  "name": "react",
+  "size": 1
+ },
+ {
   "name": "regex",
+  "size": 1
+ },
+ {
+  "name": "repo",
+  "size": 1
+ },
+ {
+  "name": "reset",
   "size": 1
  },
  {
@@ -484,6 +592,10 @@
   "size": 1
  },
  {
+  "name": "socket",
+  "size": 1
+ },
+ {
   "name": "Sparta",
   "size": 1
  },
@@ -506,6 +618,10 @@
  {
   "name": "string",
   "size": 1
+ },
+ {
+  "name": "swagger",
+  "size": 2
  },
  {
   "name": "symbol",
@@ -532,6 +648,10 @@
   "size": 1
  },
  {
+  "name": "test",
+  "size": 1
+ },
+ {
   "name": "thread",
   "size": 1
  },
@@ -548,6 +668,14 @@
   "size": 2
  },
  {
+  "name": "unit",
+  "size": 1
+ },
+ {
+  "name": "userpool",
+  "size": 1
+ },
+ {
   "name": "var",
   "size": 1
  },
@@ -561,6 +689,14 @@
  },
  {
   "name": "vimspector",
+  "size": 1
+ },
+ {
+  "name": "websocket",
+  "size": 1
+ },
+ {
+  "name": "과금",
   "size": 1
  },
  {
@@ -580,12 +716,48 @@
   "size": 1
  },
  {
+  "name": "부트캠프항해",
+  "size": 2
+ },
+ {
+  "name": "부트캠프후기",
+  "size": 1
+ },
+ {
+  "name": "스파르타",
+  "size": 1
+ },
+ {
+  "name": "실전프로젝트",
+  "size": 2
+ },
+ {
   "name": "오일러경로",
   "size": 1
  },
  {
   "name": "제약충적문제",
   "size": 1
+ },
+ {
+  "name": "조심",
+  "size": 1
+ },
+ {
+  "name": "코딩부트캠프",
+  "size": 2
+ },
+ {
+  "name": "항해99",
+  "size": 3
+ },
+ {
+  "name": "항해99솔직후기",
+  "size": 2
+ },
+ {
+  "name": "항해99추천",
+  "size": 2
  },
  {
   "name": "해밀턴경로",

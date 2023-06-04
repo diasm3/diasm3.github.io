@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "Amplify를 사용해서 간단하게 배포하자(FrontEnd)",
+ "summary": "CI/CD, https, 도메인, 빌드 부터 배포까지 한방에",
+ "parent": "aws",
+ "url": "/wiki/Amplify",
+ "updated": "2022-09-05 16:48:41 +0900",
+ "children": []
+}

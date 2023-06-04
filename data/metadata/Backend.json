@@ -6,8 +6,10 @@
  "url": "/wiki/backend",
  "updated": "2022-04-24 20:51:21 +0900",
  "children": [
+  "microservice",
   "mysql_sequelize",
   "Node_js",
-  "nodejs"
+  "nodejs",
+  "socketio"
  ]
 }
