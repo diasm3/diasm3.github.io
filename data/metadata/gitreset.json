@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "환경변수가 git에 올라갔을때",
+ "summary": "git reset을 이용하자",
+ "parent": "git",
+ "url": "/wiki/gitreset",
+ "updated": "2022-06-13 00:38:28 +0900",
+ "children": []
+}
