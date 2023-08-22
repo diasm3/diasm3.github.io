@@ -3,7 +3,7 @@ layout  : category
 title   : 항해99 
 summary : BootCamp 
 date    : 2022-03-20 19:48:04 +0900
-updated : 2022-10-10 19:24:41 +0900
+updated : 2023-08-22 20:46:41 +0900
 tag     : Sparta 항해99 부트캠프후기 항해99 부트캠프항해 코딩부트캠프 항해99추천 항해99솔직후기 실전프로젝트  
 toc     : true
 public  : true
@@ -38,3 +38,6 @@ CODE라는 책을 읽고 매일 발표 준비
 
 ## [[lastComment]]{취직후 마지막 후기} 
 취직후 마지막 결제를 하고 다시 회고 하며 적어본다.
+
+## [[lastCommentPlus]]{항해플러스후기}
+항해 플러스 후기
