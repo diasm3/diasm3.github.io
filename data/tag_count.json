@@ -281,7 +281,7 @@
  },
  {
   "name": "frontend",
-  "size": 1
+  "size": 2
  },
  {
   "name": "fuction",
@@ -448,6 +448,10 @@
   "size": 1
  },
  {
+  "name": "md,",
+  "size": 1
+ },
+ {
   "name": "microservice",
   "size": 1
  },
@@ -549,6 +553,10 @@
  },
  {
   "name": "react",
+  "size": 1
+ },
+ {
+  "name": "react,",
   "size": 1
  },
  {
@@ -664,6 +672,10 @@
   "size": 1
  },
  {
+  "name": "TypeScript",
+  "size": 1
+ },
+ {
   "name": "ubuntu",
   "size": 2
  },
@@ -693,6 +705,10 @@
  },
  {
   "name": "websocket",
+  "size": 1
+ },
+ {
+  "name": "개발자사이드프로젝트",
   "size": 1
  },
  {
@@ -744,12 +760,32 @@
   "size": 1
  },
  {
+  "name": "주니어개발자",
+  "size": 1
+ },
+ {
+  "name": "주니어개발자멘토링",
+  "size": 1
+ },
+ {
+  "name": "주니어개발자역량강화",
+  "size": 1
+ },
+ {
+  "name": "코디부트캠프",
+  "size": 1
+ },
+ {
   "name": "코딩부트캠프",
   "size": 2
  },
  {
+  "name": "코딩부트캠프후기",
+  "size": 1
+ },
+ {
   "name": "항해99",
-  "size": 3
+  "size": 4
  },
  {
   "name": "항해99솔직후기",
@@ -758,6 +794,10 @@
  {
   "name": "항해99추천",
   "size": 2
+ },
+ {
+  "name": "항해플러스",
+  "size": 1
  },
  {
   "name": "해밀턴경로",
