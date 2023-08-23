@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
-
+User-agent: Googlebot 
 User-agent: Yeti
+User-agent: Daumoa 
 Allow:/
 
 Sitemap: https://diasm3.github.io/sitemap.xml
