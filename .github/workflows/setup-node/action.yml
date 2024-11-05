@@ -1,3 +1,4 @@
+# .github/workflows/setup-node/action.yml
 name: setup-node
 description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
 runs:
@@ -20,11 +21,11 @@ runs:
         path: |
           **/node_modules
           ~/.pnpm-store
-        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/package.json') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-
 
     - name: Install dependencies 🔧
       shell: bash
-      if: steps.cache_dependencies.outputs.cache-hit != 'true'
-      run: pnpm install --frozen-lockfile
+      run: pnpm install
+      # frozen-lockfile 옵션 제거
