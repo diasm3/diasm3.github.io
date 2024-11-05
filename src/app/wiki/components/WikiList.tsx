@@ -1,6 +1,6 @@
 // src/app/wiki/components/WikiList.tsx
 "use client"
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import styled from "styled-components"
 import { useInView } from "react-intersection-observer"
@@ -83,29 +83,10 @@ export function WikiList({ wikiFiles }: WikiListProps) {
   const [page, setPage] = useState(1)
   const [ref, inView] = useInView()
   const [isLoading, setIsLoading] = useState(false)
-  const [hasMore, setHasMore] = useState(true) // 추가 데이터 존재 여부
+
+  const totalItems = useRef(wikiFiles)
 
   const ITEMS_PER_PAGE = 10
-
-  const loadMoreItems = useCallback(() => {
-    if (!hasMore || isLoading) return // 더 이상 로드할 항목이 없거나 로딩 중이면 중단
-
-    setIsLoading(true)
-    const start = (page - 1) * ITEMS_PER_PAGE
-    const end = page * ITEMS_PER_PAGE
-    const newItems = sortedWikiFiles.current.slice(start, end)
-
-    setTimeout(() => {
-      setDisplayedItems((prev) => [...prev, ...newItems])
-      setPage((prev) => prev + 1)
-      setIsLoading(false)
-
-      // 더 로드할 항목이 있는지 확인
-      if (end >= sortedWikiFiles.current.length) {
-        setHasMore(false)
-      }
-    }, 500)
-  }, [page, hasMore, isLoading])
 
   const formatDate = (dateString?: string) => {
     if (!dateString) return ""
@@ -116,16 +97,28 @@ export function WikiList({ wikiFiles }: WikiListProps) {
       day: "numeric",
     })
   }
+  // 추가 데이터 로드 함수
+  const loadMoreItems = () => {
+    const start = (page - 1) * ITEMS_PER_PAGE
+    const end = page * ITEMS_PER_PAGE
+    const newItems = totalItems.current.slice(start, end)
 
+    setDisplayedItems((prev) => [...prev, ...newItems])
+    setPage((prev) => prev + 1)
+    setIsLoading(false)
+  }
+  // Intersection Observer 콜백
   useEffect(() => {
-    loadMoreItems()
-  }, [])
-
-  useEffect(() => {
-    if (inView && hasMore && !isLoading) {
-      loadMoreItems()
+    if (inView && !isLoading) {
+      setIsLoading(true)
+      setTimeout(loadMoreItems, 500) // 로딩 시뮬레이션
     }
-  }, [inView, hasMore, isLoading, loadMoreItems])
+  }, [inView])
+
+  // 초기 데이터 로드
+  useEffect(() => {
+    setDisplayedItems(totalItems.current.slice(0, ITEMS_PER_PAGE))
+  }, [])
 
   return (
     <WikiContainer>
@@ -165,7 +158,7 @@ export function WikiList({ wikiFiles }: WikiListProps) {
       </WikiGrid>
 
       {/* 로딩 상태와 더 보여줄 항목이 있는 경우에만 스피너 표시 */}
-      {isLoading && hasMore && (
+      {isLoading && (
         <LoadingSection>
           <WikiCardSkeleton />
           <WikiCardSkeleton />
@@ -174,12 +167,12 @@ export function WikiList({ wikiFiles }: WikiListProps) {
       )}
 
       {/* 모든 항목을 로드했을 때 메시지 표시 (선택사항) */}
-      {!hasMore && displayedItems.length > 0 && (
+      {displayedItems.length > 0 && (
         <EndMessage>모든 문서를 불러왔습니다.</EndMessage>
       )}
 
       {/* 더 보여줄 항목이 있는 경우에만 observer 타겟 표시 */}
-      {hasMore && <ObserverTarget ref={ref} />}
+      {<ObserverTarget ref={ref} />}
     </WikiContainer>
   )
 }
@@ -215,30 +208,6 @@ const Tag = styled.span`
   border-radius: 15px;
   font-size: 0.8rem;
   color: ${({ theme }) => theme.colors.secondary};
-`
-
-const LoadingContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-`
-
-const LoadingSpinner = styled.div`
-  width: 40px;
-  height: 40px;
-  border: 3px solid #f3f3f3;
-  border-top: 3px solid ${({ theme }) => theme.colors.primary};
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
 `
 
 const ObserverTarget = styled.div`
