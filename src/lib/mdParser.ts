@@ -1,9 +1,5 @@
 // src/lib/mdParser.ts
-import matter from "gray-matter"
 import wikiMetadata from "@/data/wiki-metadata.json"
-import tags from "@/data/tags.json"
-import fs from "fs"
-import path from "path"
 
 export interface WikiFrontMatter {
   title?: string
@@ -18,8 +14,7 @@ export interface WikiMetadata {
   description?: string
   tags?: string[]
   date?: string
-  aiSummary?: string
-  content?: string // 콘텐츠도 JSON에 포함
+  content?: string
 }
 
 export function getAllSlugs(): string[] {

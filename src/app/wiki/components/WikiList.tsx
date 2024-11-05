@@ -1,6 +1,6 @@
 // src/app/wiki/components/WikiList.tsx
 "use client"
-import { useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import styled from "styled-components"
 import { useInView } from "react-intersection-observer"
@@ -69,8 +69,36 @@ interface WikiListProps {
   wikiFiles: WikiFile[]
 }
 
-const ITEMS_PER_PAGE = 10 // 한 번에 보여줄 아이템 수
+// export function WikiList({ wikiFiles }: WikiListProps) {
+//   const [displayedItems, setDisplayedItems] = useState<WikiFile[]>([])
+//   const [page, setPage] = useState(1)
+//   const [ref, inView] = useInView()
+//   const [isLoading, setIsLoading] = useState(false)
+//   const totalItems = useRef(wikiFiles)
 
+//   // 추가 데이터 로드 함수
+//   const loadMoreItems = () => {
+//     const start = (page - 1) * ITEMS_PER_PAGE
+//     const end = page * ITEMS_PER_PAGE
+//     const newItems = totalItems.current.slice(start, end)
+
+//     setDisplayedItems((prev) => [...prev, ...newItems])
+//     setPage((prev) => prev + 1)
+//     setIsLoading(false)
+//   }
+
+//   // Intersection Observer 콜백
+//   useEffect(() => {
+//     if (inView && !isLoading) {
+//       setIsLoading(true)
+//       setTimeout(loadMoreItems, 500) // 로딩 시뮬레이션
+//     }
+//   }, [inView])
+
+//   // 초기 데이터 로드
+//   useEffect(() => {
+//     setDisplayedItems(totalItems.current.slice(0, ITEMS_PER_PAGE))
+//   }, [])
 export function WikiList({ wikiFiles }: WikiListProps) {
   const [displayedItems, setDisplayedItems] = useState<WikiFile[]>([])
   const [page, setPage] = useState(1)
@@ -78,29 +106,24 @@ export function WikiList({ wikiFiles }: WikiListProps) {
   const [isLoading, setIsLoading] = useState(false)
   const totalItems = useRef(wikiFiles)
 
-  // 추가 데이터 로드 함수
-  const loadMoreItems = () => {
-    const start = (page - 1) * ITEMS_PER_PAGE
-    const end = page * ITEMS_PER_PAGE
+  const loadMoreItems = useCallback(() => {
+    setIsLoading(true)
+    const start = (page - 1) * 10
+    const end = page * 10
     const newItems = totalItems.current.slice(start, end)
 
-    setDisplayedItems((prev) => [...prev, ...newItems])
-    setPage((prev) => prev + 1)
-    setIsLoading(false)
-  }
+    setTimeout(() => {
+      setDisplayedItems((prev) => [...prev, ...newItems])
+      setPage((prev) => prev + 1)
+      setIsLoading(false)
+    }, 500)
+  }, [page])
 
-  // Intersection Observer 콜백
   useEffect(() => {
     if (inView && !isLoading) {
-      setIsLoading(true)
-      setTimeout(loadMoreItems, 500) // 로딩 시뮬레이션
+      loadMoreItems()
     }
-  }, [inView])
-
-  // 초기 데이터 로드
-  useEffect(() => {
-    setDisplayedItems(totalItems.current.slice(0, ITEMS_PER_PAGE))
-  }, [])
+  }, [inView, isLoading, loadMoreItems])
 
   return (
     <WikiContainer>
