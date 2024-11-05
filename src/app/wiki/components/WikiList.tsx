@@ -1,4 +1,3 @@
-// src/app/wiki/components/WikiList.tsx
 "use client"
 
 import { useCallback, useEffect, useRef, useState } from "react"
@@ -35,12 +34,12 @@ export function WikiList({ wikiFiles }: WikiListProps) {
   const [page, setPage] = useState(1)
   const [ref, inView] = useInView()
   const [isLoading, setIsLoading] = useState(false)
-  const [hasMore, setHasMore] = useState(true) // 추가 데이터 존재 여부
+  const [hasMore, setHasMore] = useState(true)
 
   const ITEMS_PER_PAGE = 10
 
   const loadMoreItems = useCallback(() => {
-    if (!hasMore || isLoading) return // 더 이상 로드할 항목이 없거나 로딩 중이면 중단
+    if (!hasMore || isLoading) return
 
     setIsLoading(true)
     const start = (page - 1) * ITEMS_PER_PAGE
@@ -48,11 +47,18 @@ export function WikiList({ wikiFiles }: WikiListProps) {
     const newItems = sortedWikiFiles.current.slice(start, end)
 
     setTimeout(() => {
-      setDisplayedItems((prev) => [...prev, ...newItems])
-      setPage((prev) => prev + 1)
+      setDisplayedItems((prev) => {
+        const updatedItems = [...prev, ...newItems]
+        sessionStorage.setItem("displayedItems", JSON.stringify(updatedItems))
+        return updatedItems
+      })
+      setPage((prev) => {
+        const newPage = prev + 1
+        sessionStorage.setItem("wikiPage", newPage.toString())
+        return newPage
+      })
       setIsLoading(false)
 
-      // 더 로드할 항목이 있는지 확인
       if (end >= sortedWikiFiles.current.length) {
         setHasMore(false)
       }
@@ -60,8 +66,31 @@ export function WikiList({ wikiFiles }: WikiListProps) {
   }, [page, hasMore, isLoading])
 
   useEffect(() => {
-    loadMoreItems()
-  }, [])
+    const savedPage = parseInt(sessionStorage.getItem("wikiPage") || "1", 10)
+    const savedItems = JSON.parse(
+      sessionStorage.getItem("displayedItems") || "[]"
+    )
+    const savedScroll = parseInt(
+      sessionStorage.getItem("scrollPosition") || "0",
+      10
+    )
+
+    if (savedItems.length > 0) {
+      setDisplayedItems(savedItems)
+      setPage(savedPage)
+      window.scrollTo(0, savedScroll)
+    } else {
+      loadMoreItems()
+    }
+
+    // 페이지 위치를 저장하는 이벤트 추가
+    const saveScrollPosition = () => {
+      sessionStorage.setItem("scrollPosition", window.scrollY.toString())
+    }
+
+    window.addEventListener("scroll", saveScrollPosition)
+    return () => window.removeEventListener("scroll", saveScrollPosition)
+  }, [loadMoreItems])
 
   useEffect(() => {
     if (inView && hasMore && !isLoading) {
@@ -87,7 +116,6 @@ export function WikiList({ wikiFiles }: WikiListProps) {
         ))}
       </Grid>
 
-      {/* 로딩 상태와 더 보여줄 항목이 있는 경우에만 스피너 표시 */}
       {isLoading && hasMore && (
         <LoadingSection>
           <WikiCardSkeleton />
@@ -96,18 +124,16 @@ export function WikiList({ wikiFiles }: WikiListProps) {
         </LoadingSection>
       )}
 
-      {/* 모든 항목을 로드했을 때 메시지 표시 (선택사항) */}
       {!hasMore && displayedItems.length > 0 && (
         <EndMessage>모든 문서를 불러왔습니다.</EndMessage>
       )}
 
-      {/* 더 보여줄 항목이 있는 경우에만 observer 타겟 표시 */}
       {hasMore && <ObserverTarget ref={ref} />}
     </WikiContainer>
   )
 }
 
-// 추가 스타일 컴포넌트
+// 스타일 컴포넌트
 const EndMessage = styled.div`
   text-align: center;
   padding: 2rem;
@@ -115,7 +141,6 @@ const EndMessage = styled.div`
   font-style: italic;
 `
 
-// Styled Components
 const WikiContainer = styled.div`
   padding: 1rem;
   max-width: 1200px;
