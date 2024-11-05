@@ -1,8 +1,8 @@
 {
-  "name": "diasm3.github.io",
-  "homepage": "https://[username].github.io/[repo-name]",
+  "name": "diasm3-blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://diasm3.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
