@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "Codepipeline으로 CI/CD 구축하기",
- "summary": "",
- "parent": "aws",
- "url": "/wiki/Codepipeline",
- "updated": "2022-07-10 16:29:22 +0900",
- "children": []
-}

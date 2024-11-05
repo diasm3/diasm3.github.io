@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "microservice에 대한 고찰",
- "summary": "nestjs의 microservices 와 kubernetes",
- "parent": "backend",
- "url": "/wiki/microservice",
- "updated": "2022-08-12 11:04:46 +0900",
- "children": []
-}

@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "CI/CD(Continuous Integrateion/Continuous Delivery)",
- "summary": "복사 붙여넣기 하지 말고 자동으로 배포하자",
- "parent": "index",
- "url": "/wiki/ci-cd",
- "updated": "2022-04-05 14:50:04 +0900",
- "children": []
-}

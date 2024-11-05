@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "AWS Elastic Beanstalk 사용방법",
- "summary": "좀더 앱 배포를 쉽게 하자",
- "parent": "AWS",
- "url": "/wiki/ElasticBeanstalk",
- "updated": "2022-06-17 21:13:20 +0900",
- "children": []
-}

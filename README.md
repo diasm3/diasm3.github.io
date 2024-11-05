@@ -1,26 +1,36 @@
-# Vimwiki + Jekyll + Github.io
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# diasm3.github.io
->* IT 지식을 쌓고 넣고 꺼내어 보기 좋은 구조로 굉장히 편리하다
->* 다시한번 [johngrib](https://github.com/johngrib)님께 감사의 말씀을 드리고 싶다.
+## Getting Started
 
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 시작하기
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-블로그 스켈레톤을 fork 하세요.
+## Learn More
 
-https://github.com/johngrib/johngrib-jekyll-skeleton
+To learn more about Next.js, take a look at the following resources:
 
-제 블로그를 fork하는 것보다 블로그 스켈레톤을 fork하는 것을 권합니다.
-블로그를 그냥 fork 하면 제 자기소개와 일기, 에세이까지 당신의 블로그의 컨텐츠가 됩니다.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-* 만약 그냥 fork 하신다면 제 자기소개와 일기를 포함한 _wiki의 모든 md 파일을 삭제하고 사용하세요.
-* skeleton에 있는 문서들은 튜토리얼로 생각하고 읽어주시면 됩니다.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-다음 글을 읽으며 블로그의 구조를 파악하시면 운영에 도움이 될 것입니다.
+## Deploy on Vercel
 
-https://johngrib.github.io/wiki/my-wiki/
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

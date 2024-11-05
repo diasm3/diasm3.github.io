@@ -1,0 +1,4226 @@
+{
+  "2022": [
+    {
+      "slug": "diary",
+      "title": "다이어리",
+      "aiSummary": "이 문서는 2022년과 2023년도에 관련된 기록을 포함하는 목차를 제시하고 있습니다."
+    }
+  ],
+  "2023": [
+    {
+      "slug": "diary",
+      "title": "다이어리",
+      "aiSummary": "이 문서는 2022년과 2023년도에 관련된 기록을 포함하는 목차를 제시하고 있습니다."
+    }
+  ],
+  "개발일기": [
+    {
+      "slug": "2022",
+      "title": "2022년 메모",
+      "aiSummary": "다양한 경험과 반성을 담은 개발자의 일기 형식의 문서로, 프로젝트를 통해 배운 점과 어려움, 기술적 문제에 대한 고민 및 해결 과정을 서술하고 있다. AWS, Kubernetes, Docker, Elastic Beanstalk 등 현대 개발 환경에서의 실수를 통해 스스로 성장하는 과정을 담고 있다."
+    }
+  ],
+  "aws": [
+    {
+      "slug": "2022",
+      "title": "2022년 메모",
+      "aiSummary": "다양한 경험과 반성을 담은 개발자의 일기 형식의 문서로, 프로젝트를 통해 배운 점과 어려움, 기술적 문제에 대한 고민 및 해결 과정을 서술하고 있다. AWS, Kubernetes, Docker, Elastic Beanstalk 등 현대 개발 환경에서의 실수를 통해 스스로 성장하는 과정을 담고 있다."
+    },
+    {
+      "slug": "Amplify",
+      "title": "Amplify를 사용해서 간단하게 배포하자(FrontEnd)",
+      "aiSummary": "Amplify는 AWS의 종합 솔루션 서비스로 S3 베이스로 프론트엔드 또는 백엔드를 쉽게 배포할 수 있는 서비스입니다."
+    },
+    {
+      "slug": "Codepipeline",
+      "title": "Codepipeline으로 CI/CD 구축하기",
+      "aiSummary": "Using CodePipeline to build"
+    },
+    {
+      "slug": "ESC",
+      "title": "ESC",
+      "aiSummary": "해결책: AmazonEC2ContainerRegistryFullAccess 권한을 추가하면 'Unable to locate credentials' 에러를 해결할 수 있습니다."
+    },
+    {
+      "slug": "ElasticBeanstalk",
+      "title": "AWS Elastic Beanstalk 사용방법",
+      "aiSummary": "AWS Elastic Beanstalk는 Docker 또는 Node 프로그램을 올려 백엔드를 관리할 수 있는 서비스입니다. AWS EB-CLI를 설치하는 방법과 주의할 점에 대해 안내하고 있습니다."
+    },
+    {
+      "slug": "aws",
+      "title": "AWS",
+      "aiSummary": "이 문서는 AWS(Amazon Web Services) 관련 서비스인 EC2, S3, Codepipeline, Amplify, CloudFront, CloudWatch, RDS, Route 53에 대한 내용을 포괄적으로 다루고 있습니다."
+    },
+    {
+      "slug": "gitCommitCopyToNewRepo",
+      "title": "새로운 레포에 기존 커밋 옮기기",
+      "aiSummary": "이 문서는 AWS로 레포를 이주하는 이유와 방법에 대해 설명하며, AWS CodeCommit의 가격 정보 및 GitHub에서 CodeCommit으로의 이주 과정에 대한 내용을 포함하고 있다."
+    },
+    {
+      "slug": "microservice",
+      "title": "microservice에 대한 고찰",
+      "aiSummary": "마이크로서비스 아키텍처는 대규모 애플리케이션을 작은 독립적인 서비스로 나누어 각 서비스의 성능 및 확장성을 높이는 방식입니다. 이 구조는 문서화, 코드 관리, 복잡성 등을 고려해야 하며, 다양한 기술 스택을 사용할 수 있는 장점이 있습니다."
+    }
+  ],
+  "kubernetes": [
+    {
+      "slug": "2022",
+      "title": "2022년 메모",
+      "aiSummary": "다양한 경험과 반성을 담은 개발자의 일기 형식의 문서로, 프로젝트를 통해 배운 점과 어려움, 기술적 문제에 대한 고민 및 해결 과정을 서술하고 있다. AWS, Kubernetes, Docker, Elastic Beanstalk 등 현대 개발 환경에서의 실수를 통해 스스로 성장하는 과정을 담고 있다."
+    },
+    {
+      "slug": "microservice",
+      "title": "microservice에 대한 고찰",
+      "aiSummary": "마이크로서비스 아키텍처는 대규모 애플리케이션을 작은 독립적인 서비스로 나누어 각 서비스의 성능 및 확장성을 높이는 방식입니다. 이 구조는 문서화, 코드 관리, 복잡성 등을 고려해야 하며, 다양한 기술 스택을 사용할 수 있는 장점이 있습니다."
+    }
+  ],
+  "elastic beanstalk": [
+    {
+      "slug": "2022",
+      "title": "2022년 메모",
+      "aiSummary": "다양한 경험과 반성을 담은 개발자의 일기 형식의 문서로, 프로젝트를 통해 배운 점과 어려움, 기술적 문제에 대한 고민 및 해결 과정을 서술하고 있다. AWS, Kubernetes, Docker, Elastic Beanstalk 등 현대 개발 환경에서의 실수를 통해 스스로 성장하는 과정을 담고 있다."
+    },
+    {
+      "slug": "CloudWatch",
+      "title": "cloudwatch로AWS 과금을 책정하자",
+      "aiSummary": "CloudWatch를 사용하여 과금 확인 및 Slack 통합으로 Elastic Beanstalk 배포 알림 수신이 가능합니다."
+    },
+    {
+      "slug": "ElasticBeanstalk",
+      "title": "AWS Elastic Beanstalk 사용방법",
+      "aiSummary": "AWS Elastic Beanstalk는 Docker 또는 Node 프로그램을 올려 백엔드를 관리할 수 있는 서비스입니다. AWS EB-CLI를 설치하는 방법과 주의할 점에 대해 안내하고 있습니다."
+    }
+  ],
+  "프로젝트 경험": [
+    {
+      "slug": "2022",
+      "title": "2022년 메모",
+      "aiSummary": "다양한 경험과 반성을 담은 개발자의 일기 형식의 문서로, 프로젝트를 통해 배운 점과 어려움, 기술적 문제에 대한 고민 및 해결 과정을 서술하고 있다. AWS, Kubernetes, Docker, Elastic Beanstalk 등 현대 개발 환경에서의 실수를 통해 스스로 성장하는 과정을 담고 있다."
+    }
+  ],
+  "diary": [
+    {
+      "slug": "2023",
+      "title": "2023년 메모",
+      "aiSummary": "A collection of diary entries related to front-end development, CI/CD implementation, personal reflections, and technical challenges like handling environment variables and boolean conversions."
+    }
+  ],
+  "front-end": [
+    {
+      "slug": "2023",
+      "title": "2023년 메모",
+      "aiSummary": "A collection of diary entries related to front-end development, CI/CD implementation, personal reflections, and technical challenges like handling environment variables and boolean conversions."
+    }
+  ],
+  "ci/cd": [
+    {
+      "slug": "2023",
+      "title": "2023년 메모",
+      "aiSummary": "A collection of diary entries related to front-end development, CI/CD implementation, personal reflections, and technical challenges like handling environment variables and boolean conversions."
+    },
+    {
+      "slug": "ci-cd",
+      "title": "CI/CD(Continuous Integrateion/Continuous Delivery)",
+      "aiSummary": "이 문서는 CI/CD(지속적 통합 및 지속적 제공)의 개념과 이점에 대해 설명하고 있습니다. 특히, 장애 없는 웹 서비스 운영의 중요성과 CI/CD를 통해 얻는 장점인 단시간 배포 및 오류 처리 가능성에 대해 다룹니다."
+    },
+    {
+      "slug": "install-jenkins",
+      "title": "how to install jenkins",
+      "aiSummary": "This document provides instructions for installing Jenkins using Docker, including running a Docker container, downloading the Jenkins WAR file, copying it to the Docker container, and restarting the container."
+    },
+    {
+      "slug": "lastCommentPlus",
+      "title": "항해99 항해 플러스 후기",
+      "aiSummary": "항해 플러스는 주니어 개발자들이 사이드 프로젝트를 통해 다양한 기술 경험을 쌓도록 지원하는 부트캠프이다. 참여자는 팀 프로젝트와 멘토링, 네트워킹을 통해 실제 가치 있는 경험을 얻으며, TDD 및 CI/CD 등의 기술을 배울 수 있다."
+    },
+    {
+      "slug": "plus",
+      "title": "항해플러스",
+      "aiSummary": "이 문서는 항해플러스 1기에 참가한 경험에 대한 후기를 다루고 있으며, TDD, 대용량 처리 및 CI/CD와 같은 개발 과정에서의 배움과 팀워크의 중요성, 그리고 자아를 찾는 여정에 대해 이야기한다."
+    }
+  ],
+  "environment variables": [
+    {
+      "slug": "2023",
+      "title": "2023년 메모",
+      "aiSummary": "A collection of diary entries related to front-end development, CI/CD implementation, personal reflections, and technical challenges like handling environment variables and boolean conversions."
+    }
+  ],
+  "boolean conversion": [
+    {
+      "slug": "2023",
+      "title": "2023년 메모",
+      "aiSummary": "A collection of diary entries related to front-end development, CI/CD implementation, personal reflections, and technical challenges like handling environment variables and boolean conversions."
+    }
+  ],
+  "개발 업무": [
+    {
+      "slug": "2024",
+      "title": "2024년 메모",
+      "aiSummary": "기술 업무 일지를 통해 최근 개발 업무 및 프로젝트 진행 상황을 요약하고, 챗봇 기능 평가 결과를 언급하였습니다."
+    }
+  ],
+  "프로젝트 진행": [
+    {
+      "slug": "2024",
+      "title": "2024년 메모",
+      "aiSummary": "기술 업무 일지를 통해 최근 개발 업무 및 프로젝트 진행 상황을 요약하고, 챗봇 기능 평가 결과를 언급하였습니다."
+    }
+  ],
+  "챗봇 기능": [
+    {
+      "slug": "2024",
+      "title": "2024년 메모",
+      "aiSummary": "기술 업무 일지를 통해 최근 개발 업무 및 프로젝트 진행 상황을 요약하고, 챗봇 기능 평가 결과를 언급하였습니다."
+    }
+  ],
+  "rag": [
+    {
+      "slug": "2024",
+      "title": "2024년 메모",
+      "aiSummary": "기술 업무 일지를 통해 최근 개발 업무 및 프로젝트 진행 상황을 요약하고, 챗봇 기능 평가 결과를 언급하였습니다."
+    }
+  ],
+  "백엔드": [
+    {
+      "slug": "2024",
+      "title": "2024년 메모",
+      "aiSummary": "기술 업무 일지를 통해 최근 개발 업무 및 프로젝트 진행 상황을 요약하고, 챗봇 기능 평가 결과를 언급하였습니다."
+    },
+    {
+      "slug": "Amplify",
+      "title": "Amplify를 사용해서 간단하게 배포하자(FrontEnd)",
+      "aiSummary": "Amplify는 AWS의 종합 솔루션 서비스로 S3 베이스로 프론트엔드 또는 백엔드를 쉽게 배포할 수 있는 서비스입니다."
+    }
+  ],
+  "amplify": [
+    {
+      "slug": "Amplify",
+      "title": "Amplify를 사용해서 간단하게 배포하자(FrontEnd)",
+      "aiSummary": "Amplify는 AWS의 종합 솔루션 서비스로 S3 베이스로 프론트엔드 또는 백엔드를 쉽게 배포할 수 있는 서비스입니다."
+    }
+  ],
+  "프론트엔드": [
+    {
+      "slug": "Amplify",
+      "title": "Amplify를 사용해서 간단하게 배포하자(FrontEnd)",
+      "aiSummary": "Amplify는 AWS의 종합 솔루션 서비스로 S3 베이스로 프론트엔드 또는 백엔드를 쉽게 배포할 수 있는 서비스입니다."
+    }
+  ],
+  "과금": [
+    {
+      "slug": "Certificate",
+      "title": "Certificate Manager (과금)",
+      "aiSummary": "30일 무료 이후 과금이 많이 나와 구제 신청이 어려운 상황에 대비하자."
+    }
+  ],
+  "구제 신청": [
+    {
+      "slug": "Certificate",
+      "title": "Certificate Manager (과금)",
+      "aiSummary": "30일 무료 이후 과금이 많이 나와 구제 신청이 어려운 상황에 대비하자."
+    }
+  ],
+  "조심": [
+    {
+      "slug": "Certificate",
+      "title": "Certificate Manager (과금)",
+      "aiSummary": "30일 무료 이후 과금이 많이 나와 구제 신청이 어려운 상황에 대비하자."
+    }
+  ],
+  "cheerio": [
+    {
+      "slug": "Cheerio",
+      "title": "Cheerio 사용법",
+      "aiSummary": "Cheerio is a fast, flexible, and lean implementation of core jQuery designed for server-side use in Node.js."
+    }
+  ],
+  "jquery": [
+    {
+      "slug": "Cheerio",
+      "title": "Cheerio 사용법",
+      "aiSummary": "Cheerio is a fast, flexible, and lean implementation of core jQuery designed for server-side use in Node.js."
+    }
+  ],
+  "node.js": [
+    {
+      "slug": "Cheerio",
+      "title": "Cheerio 사용법",
+      "aiSummary": "Cheerio is a fast, flexible, and lean implementation of core jQuery designed for server-side use in Node.js."
+    },
+    {
+      "slug": "ElasticBeanstalk",
+      "title": "AWS Elastic Beanstalk 사용방법",
+      "aiSummary": "AWS Elastic Beanstalk는 Docker 또는 Node 프로그램을 올려 백엔드를 관리할 수 있는 서비스입니다. AWS EB-CLI를 설치하는 방법과 주의할 점에 대해 안내하고 있습니다."
+    },
+    {
+      "slug": "interview50q",
+      "title": "인터뷰 예약 50문제",
+      "aiSummary": "이 문서는 소프트웨어 개발 면접을 대비하기 위한 50개의 예상 질문과 답변 내용을 포함하고 있습니다. 질문들은 JavaScript의 변수 선언, event loop, Node.js의 특징, 비동기 처리, 웹 서버의 역할, 보안 및 API 관련 주제를 다룹니다."
+    },
+    {
+      "slug": "jest",
+      "title": "Unit testing NestJS applications with Jest(의역) - 작성중",
+      "aiSummary": "이 문서는 유닛 테스트에 대한 기본 이해를 제공하며, 특히 Node.js 환경에서의 중요성과 구현 방식을 설명합니다. 유닛 테스트는 비즈니스 로직을 검증하는 한 단위의 함수 또는 메소드를 목표로 하며, 의존성이 없어야 하고 빠르게 수행되어야 한다고 강조합니다."
+    },
+    {
+      "slug": "nodeEventLoop",
+      "title": "노드에서의 이벤트 루프는 어떻게 동작하는가?",
+      "aiSummary": "이벤트 루프는 Node.js의 논블로킹 I/O 기능을 지원하며, 자바스크립트의 싱글 스레드 구조 내에서 비동기 및 동기 작업을 관리하는 시스템이다. 최신 커널은 멀티 스레드를 지원하여 완료된 작업을 콜백으로 반환하고 Poll 큐에 등록하여 균등하게 실행한다."
+    },
+    {
+      "slug": "nodejs",
+      "title": "Nodejs",
+      "aiSummary": "이 문서는 Node.js와 관련된 다양한 주제 및 개념들을 다루고 있으며, 특히 Express 프레임워크, MongoDB, Handlebars, IIFE, MVC 패턴, 레이지 로딩 및 이거 로딩 등을 포함하여 리팩토링과 테스트 코드의 중요성에 대해서도 언급합니다."
+    },
+    {
+      "slug": "pm2",
+      "title": "PM2",
+      "aiSummary": "PM2는 NODE.js의 배포 및 프로세스 관리를 용이하게 해주는 도구이다."
+    }
+  ],
+  "web scraping": [
+    {
+      "slug": "Cheerio",
+      "title": "Cheerio 사용법",
+      "aiSummary": "Cheerio is a fast, flexible, and lean implementation of core jQuery designed for server-side use in Node.js."
+    }
+  ],
+  "cloudwatch": [
+    {
+      "slug": "CloudWatch",
+      "title": "cloudwatch로AWS 과금을 책정하자",
+      "aiSummary": "CloudWatch를 사용하여 과금 확인 및 Slack 통합으로 Elastic Beanstalk 배포 알림 수신이 가능합니다."
+    }
+  ],
+  "과금 확인": [
+    {
+      "slug": "CloudWatch",
+      "title": "cloudwatch로AWS 과금을 책정하자",
+      "aiSummary": "CloudWatch를 사용하여 과금 확인 및 Slack 통합으로 Elastic Beanstalk 배포 알림 수신이 가능합니다."
+    }
+  ],
+  "slack 통합": [
+    {
+      "slug": "CloudWatch",
+      "title": "cloudwatch로AWS 과금을 책정하자",
+      "aiSummary": "CloudWatch를 사용하여 과금 확인 및 Slack 통합으로 Elastic Beanstalk 배포 알림 수신이 가능합니다."
+    }
+  ],
+  "배포 알림": [
+    {
+      "slug": "CloudWatch",
+      "title": "cloudwatch로AWS 과금을 책정하자",
+      "aiSummary": "CloudWatch를 사용하여 과금 확인 및 Slack 통합으로 Elastic Beanstalk 배포 알림 수신이 가능합니다."
+    }
+  ],
+  "codepipeline": [
+    {
+      "slug": "Codepipeline",
+      "title": "Codepipeline으로 CI/CD 구축하기",
+      "aiSummary": "Using CodePipeline to build"
+    }
+  ],
+  "continuous integration": [
+    {
+      "slug": "Codepipeline",
+      "title": "Codepipeline으로 CI/CD 구축하기",
+      "aiSummary": "Using CodePipeline to build"
+    }
+  ],
+  "continuous deployment": [
+    {
+      "slug": "Codepipeline",
+      "title": "Codepipeline으로 CI/CD 구축하기",
+      "aiSummary": "Using CodePipeline to build"
+    }
+  ],
+  "dom": [
+    {
+      "slug": "DOM",
+      "title": "DOM",
+      "aiSummary": "DOM은 웹 페이지를 스크립트나 프로그래밍 언어에서 사용할 수 있게 연결시켜주는 문서 객체 모델을 말한다. DOM의 주요 노드 유형과 역할을 알아보자."
+    }
+  ],
+  "노드": [
+    {
+      "slug": "DOM",
+      "title": "DOM",
+      "aiSummary": "DOM은 웹 페이지를 스크립트나 프로그래밍 언어에서 사용할 수 있게 연결시켜주는 문서 객체 모델을 말한다. DOM의 주요 노드 유형과 역할을 알아보자."
+    }
+  ],
+  "문서 객체 모델": [
+    {
+      "slug": "DOM",
+      "title": "DOM",
+      "aiSummary": "DOM은 웹 페이지를 스크립트나 프로그래밍 언어에서 사용할 수 있게 연결시켜주는 문서 객체 모델을 말한다. DOM의 주요 노드 유형과 역할을 알아보자."
+    }
+  ],
+  "웹 페이지": [
+    {
+      "slug": "DOM",
+      "title": "DOM",
+      "aiSummary": "DOM은 웹 페이지를 스크립트나 프로그래밍 언어에서 사용할 수 있게 연결시켜주는 문서 객체 모델을 말한다. DOM의 주요 노드 유형과 역할을 알아보자."
+    }
+  ],
+  "프로그래밍 언어": [
+    {
+      "slug": "DOM",
+      "title": "DOM",
+      "aiSummary": "DOM은 웹 페이지를 스크립트나 프로그래밍 언어에서 사용할 수 있게 연결시켜주는 문서 객체 모델을 말한다. DOM의 주요 노드 유형과 역할을 알아보자."
+    },
+    {
+      "slug": "origin",
+      "title": "Javascript 기원",
+      "aiSummary": "이 문서는 JavaScript의 발전 역사와 주요 변천 과정을 설명하고 있습니다. 초기 스크립트 언어부터 ECMAScript의 발전, 다양한 브라우저에서의 구현, JavaScript 라이브러리들, 그리고 최신 기술인 SPA(Single Page Application) 및 웹 어셈블리까지 다룹니다."
+    }
+  ],
+  "docker": [
+    {
+      "slug": "Docker",
+      "title": "Docker",
+      "aiSummary": "This document provides an overview of Docker and various Docker commands related to images, containers, compose, and networks. It also includes examples of network types in Docker and command examples like inspecting container network settings."
+    },
+    {
+      "slug": "DockerCompose",
+      "title": "Docker compose 사용법",
+      "aiSummary": "Docker compose는 여러 개의 Dockerfile을 포함하고 그것들을 컨트롤하는 Dockerfile의 부모 역할을 합니다. Docker compose를 사용하면 각 Dockerfile에 대한 세부 설정을 할 수 있고 Docker CLI로 실행하는 방식을 스크립트로 자동화할 수 있습니다."
+    },
+    {
+      "slug": "Dockerfile",
+      "title": "Dockerfile 설정방법",
+      "aiSummary": "이 문서는 Dockerfile 설정 방법에 대한 기본적인 내용과 스크립트 명령어를 소개하고 있습니다."
+    },
+    {
+      "slug": "ElasticBeanstalk",
+      "title": "AWS Elastic Beanstalk 사용방법",
+      "aiSummary": "AWS Elastic Beanstalk는 Docker 또는 Node 프로그램을 올려 백엔드를 관리할 수 있는 서비스입니다. AWS EB-CLI를 설치하는 방법과 주의할 점에 대해 안내하고 있습니다."
+    },
+    {
+      "slug": "Synology",
+      "title": "synology server",
+      "aiSummary": "이 문서는 Synology NAS에 대한 기능 소개와 데이터 저장, 타이머신 기능, Docker를 통한 앱 추가 가능성 등을 다룬다."
+    },
+    {
+      "slug": "command",
+      "title": "Docker command",
+      "aiSummary": "This document provides a command for executing a bash shell inside a Docker container."
+    },
+    {
+      "slug": "docker-basic",
+      "title": "Docker basic",
+      "aiSummary": "이 문서는 Docker를 사용하여 Ubuntu에 SSH를 설치하는 과정을 설명하며, Dockerfile과 docker-compose.yml 파일 설정에 대한 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "dockerBuildx",
+      "title": "Docker Buildx로 다양한 플렛폼에서도 빌드하자",
+      "aiSummary": "Docker buildx는 M1 맥북과 다른 플랫폼에서의 도커 빌드를 쉽게 관리할 수 있는 도구로, 각 플랫폼에 맞는 리소스를 지정할 필요 없이 간편하게 빌드를 수행할 수 있게 도와준다."
+    },
+    {
+      "slug": "install-jenkins",
+      "title": "how to install jenkins",
+      "aiSummary": "This document provides instructions for installing Jenkins using Docker, including running a Docker container, downloading the Jenkins WAR file, copying it to the Docker container, and restarting the container."
+    },
+    {
+      "slug": "jenkins",
+      "title": "Jenkins",
+      "aiSummary": "This document provides instructions for installing Docker, including a section specifically on installing Jenkins."
+    },
+    {
+      "slug": "mysql_sequelize",
+      "title": "mysql과 sequelize",
+      "aiSummary": "이 문서는 MySQL을 Docker로 설치하는 방법과 EC2 서버에서 MySQL을 설정하는 방법을 설명합니다. Docker에서 MySQL 이미지를 다운로드하고 설정하는 명령어와 EC2 인스턴스를 위한 SSH 접속 및 프로그램 설치 방법을 포함합니다."
+    }
+  ],
+  "container": [
+    {
+      "slug": "Docker",
+      "title": "Docker",
+      "aiSummary": "This document provides an overview of Docker and various Docker commands related to images, containers, compose, and networks. It also includes examples of network types in Docker and command examples like inspecting container network settings."
+    },
+    {
+      "slug": "command",
+      "title": "Docker command",
+      "aiSummary": "This document provides a command for executing a bash shell inside a Docker container."
+    }
+  ],
+  "network": [
+    {
+      "slug": "Docker",
+      "title": "Docker",
+      "aiSummary": "This document provides an overview of Docker and various Docker commands related to images, containers, compose, and networks. It also includes examples of network types in Docker and command examples like inspecting container network settings."
+    }
+  ],
+  "commands": [
+    {
+      "slug": "Docker",
+      "title": "Docker",
+      "aiSummary": "This document provides an overview of Docker and various Docker commands related to images, containers, compose, and networks. It also includes examples of network types in Docker and command examples like inspecting container network settings."
+    }
+  ],
+  "docker-compose": [
+    {
+      "slug": "Docker",
+      "title": "Docker",
+      "aiSummary": "This document provides an overview of Docker and various Docker commands related to images, containers, compose, and networks. It also includes examples of network types in Docker and command examples like inspecting container network settings."
+    }
+  ],
+  "docker compose": [
+    {
+      "slug": "DockerCompose",
+      "title": "Docker compose 사용법",
+      "aiSummary": "Docker compose는 여러 개의 Dockerfile을 포함하고 그것들을 컨트롤하는 Dockerfile의 부모 역할을 합니다. Docker compose를 사용하면 각 Dockerfile에 대한 세부 설정을 할 수 있고 Docker CLI로 실행하는 방식을 스크립트로 자동화할 수 있습니다."
+    }
+  ],
+  "설정": [
+    {
+      "slug": "DockerCompose",
+      "title": "Docker compose 사용법",
+      "aiSummary": "Docker compose는 여러 개의 Dockerfile을 포함하고 그것들을 컨트롤하는 Dockerfile의 부모 역할을 합니다. Docker compose를 사용하면 각 Dockerfile에 대한 세부 설정을 할 수 있고 Docker CLI로 실행하는 방식을 스크립트로 자동화할 수 있습니다."
+    },
+    {
+      "slug": "locale-problem",
+      "title": "locale 설정 방법",
+      "aiSummary": "이 문서는 Ubuntu의 Locale을 한국어로 설정하는 방법에 대한 가이드이다."
+    }
+  ],
+  "네트워크": [
+    {
+      "slug": "DockerCompose",
+      "title": "Docker compose 사용법",
+      "aiSummary": "Docker compose는 여러 개의 Dockerfile을 포함하고 그것들을 컨트롤하는 Dockerfile의 부모 역할을 합니다. Docker compose를 사용하면 각 Dockerfile에 대한 세부 설정을 할 수 있고 Docker CLI로 실행하는 방식을 스크립트로 자동화할 수 있습니다."
+    },
+    {
+      "slug": "socketio",
+      "title": "socketio 란 무엇인가?",
+      "aiSummary": "WebSocket 객체는 WebSocket 서버와의 연결을 생성하고 관리하며, 연결을 통해 데이터를 송수신할 수 있는 API를 제공한다. websocket() 생성자를 통해 사용할 수 있다."
+    }
+  ],
+  "링크": [
+    {
+      "slug": "DockerCompose",
+      "title": "Docker compose 사용법",
+      "aiSummary": "Docker compose는 여러 개의 Dockerfile을 포함하고 그것들을 컨트롤하는 Dockerfile의 부모 역할을 합니다. Docker compose를 사용하면 각 Dockerfile에 대한 세부 설정을 할 수 있고 Docker CLI로 실행하는 방식을 스크립트로 자동화할 수 있습니다."
+    },
+    {
+      "slug": "tmux",
+      "title": "tmux 사용법",
+      "aiSummary": "이 문서는 tmux에 대한 내용을 다루고 있으며, tmux 사용의 법칙과 규칙을 설명하는 링크가 포함되어 있습니다."
+    }
+  ],
+  "dockerfile": [
+    {
+      "slug": "Dockerfile",
+      "title": "Dockerfile 설정방법",
+      "aiSummary": "이 문서는 Dockerfile 설정 방법에 대한 기본적인 내용과 스크립트 명령어를 소개하고 있습니다."
+    },
+    {
+      "slug": "docker-basic",
+      "title": "Docker basic",
+      "aiSummary": "이 문서는 Docker를 사용하여 Ubuntu에 SSH를 설치하는 과정을 설명하며, Dockerfile과 docker-compose.yml 파일 설정에 대한 내용을 포함하고 있습니다."
+    }
+  ],
+  "스크립트": [
+    {
+      "slug": "Dockerfile",
+      "title": "Dockerfile 설정방법",
+      "aiSummary": "이 문서는 Dockerfile 설정 방법에 대한 기본적인 내용과 스크립트 명령어를 소개하고 있습니다."
+    }
+  ],
+  "이미지": [
+    {
+      "slug": "Dockerfile",
+      "title": "Dockerfile 설정방법",
+      "aiSummary": "이 문서는 Dockerfile 설정 방법에 대한 기본적인 내용과 스크립트 명령어를 소개하고 있습니다."
+    }
+  ],
+  "컨테이너": [
+    {
+      "slug": "Dockerfile",
+      "title": "Dockerfile 설정방법",
+      "aiSummary": "이 문서는 Dockerfile 설정 방법에 대한 기본적인 내용과 스크립트 명령어를 소개하고 있습니다."
+    }
+  ],
+  "트러블슈팅": [
+    {
+      "slug": "ESC",
+      "title": "ESC",
+      "aiSummary": "해결책: AmazonEC2ContainerRegistryFullAccess 권한을 추가하면 'Unable to locate credentials' 에러를 해결할 수 있습니다."
+    }
+  ],
+  "권한": [
+    {
+      "slug": "ESC",
+      "title": "ESC",
+      "aiSummary": "해결책: AmazonEC2ContainerRegistryFullAccess 권한을 추가하면 'Unable to locate credentials' 에러를 해결할 수 있습니다."
+    }
+  ],
+  "aws cli": [
+    {
+      "slug": "ESC",
+      "title": "ESC",
+      "aiSummary": "해결책: AmazonEC2ContainerRegistryFullAccess 권한을 추가하면 'Unable to locate credentials' 에러를 해결할 수 있습니다."
+    }
+  ],
+  "eb-cli": [
+    {
+      "slug": "ElasticBeanstalk",
+      "title": "AWS Elastic Beanstalk 사용방법",
+      "aiSummary": "AWS Elastic Beanstalk는 Docker 또는 Node 프로그램을 올려 백엔드를 관리할 수 있는 서비스입니다. AWS EB-CLI를 설치하는 방법과 주의할 점에 대해 안내하고 있습니다."
+    }
+  ],
+  "iife": [
+    {
+      "slug": "IIFE",
+      "title": "IIFE 즉시 실행함수란?",
+      "aiSummary": "IIFE(Immediately Invoked Function Expression)은 즉시 실행되는 함수 표현이다."
+    },
+    {
+      "slug": "arrow-function",
+      "title": "Arrow Fucntion?",
+      "aiSummary": "이 문서는 자바스크립트의 함수 선언, 매개변수, 기본 매개변수, 지역 스코프, 값 반환, 조기 리턴 등 다양한 함수 기능을 설명하며, 특히 화살표 함수(Arrow Function)와 즉시 실행 함수(IIFE)에 대한 내용을 다룬다."
+    }
+  ],
+  "javascript": [
+    {
+      "slug": "IIFE",
+      "title": "IIFE 즉시 실행함수란?",
+      "aiSummary": "IIFE(Immediately Invoked Function Expression)은 즉시 실행되는 함수 표현이다."
+    },
+    {
+      "slug": "Javascript",
+      "title": "Javascript",
+      "aiSummary": "이 문서는 Javascript ES6에 대한 다양한 개념과 주제를 정리하고 있으며, 각 주제는 해당 부분으로의 링크를 포함하고 있다."
+    },
+    {
+      "slug": "array-APIs",
+      "title": "array 관해서 알아보자",
+      "aiSummary": "이 문서는 JavaScript의 배열(Array) 개념과 관련된 API 사용법을 설명합니다. 배열의 선언, 인덱스 접근, 반복문을 통한 배열 요소 출력, 추가 및 삭제 방법, 배열 결합 및 검색 방법 등을 다루고 있습니다."
+    },
+    {
+      "slug": "arrow-function",
+      "title": "Arrow Fucntion?",
+      "aiSummary": "이 문서는 자바스크립트의 함수 선언, 매개변수, 기본 매개변수, 지역 스코프, 값 반환, 조기 리턴 등 다양한 함수 기능을 설명하며, 특히 화살표 함수(Arrow Function)와 즉시 실행 함수(IIFE)에 대한 내용을 다룬다."
+    },
+    {
+      "slug": "async-defer",
+      "title": "async 와 defer의 차이점",
+      "aiSummary": "This document discusses the usage of 'async' and 'defer' attributes in script tags for loading JavaScript, explaining their differences with examples, and highlights the importance of using 'strict mode' in JavaScript programming."
+    },
+    {
+      "slug": "callback-function",
+      "title": "비동기 처리, 콜백 이해,",
+      "aiSummary": "This document provides an overview of JavaScript's synchronous and asynchronous behavior, highlighting callback functions and demonstrating callback hell through a user authentication example using a class for user storage."
+    },
+    {
+      "slug": "class-vs-object",
+      "title": "class & object",
+      "aiSummary": "이 문서는 JavaScript의 클래스와 객체지향 프로그래밍을 설명합니다. 클래스는 객체의 템플릿을 정의하고, 객체는 그 템플릿을 기반으로 생성된 인스턴스입니다. ES6에서 도입된 클래스 문법, 생성자, getter/setter, static, 상속 및 instanceof 연산자를 포함한 여러 개념들이 포함되어 있습니다."
+    },
+    {
+      "slug": "forinforof",
+      "title": "for in 과 for of 차이점",
+      "aiSummary": "이 문서는 JavaScript에서 for...in과 for...of 문에 대한 차이점과 사용 용례에 대해 설명하고 있다. for...in은 객체의 열거 가능한 속성을 반복하는 데 사용되며, 주로 디버깅 목적으로 사용되고, for...of는 배열과 기타 반복 가능한 객체를 반복하는 데 적합하다."
+    },
+    {
+      "slug": "howtoworksasync",
+      "title": "자바스립트에서 어떻게 비동기가 작동될까?",
+      "aiSummary": "자바스크립트는 비동기 처리를 가능하게 하는 Event Loop, Web API, Task Queue에 대해 설명하며, 비동기 작업의 흐름을 이해하는 데 중요한 요소들을 다룬다."
+    },
+    {
+      "slug": "interview50q",
+      "title": "인터뷰 예약 50문제",
+      "aiSummary": "이 문서는 소프트웨어 개발 면접을 대비하기 위한 50개의 예상 질문과 답변 내용을 포함하고 있습니다. 질문들은 JavaScript의 변수 선언, event loop, Node.js의 특징, 비동기 처리, 웹 서버의 역할, 보안 및 API 관련 주제를 다룹니다."
+    },
+    {
+      "slug": "letVsVar",
+      "title": "let Vs var",
+      "aiSummary": "이 문서는 JavaScript에서 변수 선언 방법과 관련된 내용을 다룹니다. 'let', 'var', 'const'의 차이점과 변수의 스코프, 그리고 다양한 데이터 타입에 대한 설명을 포함하고 있습니다."
+    },
+    {
+      "slug": "middleware",
+      "title": "Express의 미들웨어 작동방식",
+      "aiSummary": "이 문서는 Express.js에서 미들웨어를 사용하는 방법에 대해 설명하고 있으며, 미들웨어의 사용 예시와 다양한 유형(애플리케이션 레벨, 라우터 레벨, 에러 처리)에 대한 간단한 소개를 포함하고 있다."
+    },
+    {
+      "slug": "operator-if-for-loop",
+      "title": "operator, if, for-loop",
+      "aiSummary": "이 문서는 JavaScript의 다양한 연산자와 제어 구조(if, switch 등), 반복문(for, while 등)에 대해 설명합니다. 또한, 데이터 타입의 불변성과 가변성, 연산자(산술, 할당, 비교, 논리 등)의 사용법을 다룹니다."
+    },
+    {
+      "slug": "origin",
+      "title": "Javascript 기원",
+      "aiSummary": "이 문서는 JavaScript의 발전 역사와 주요 변천 과정을 설명하고 있습니다. 초기 스크립트 언어부터 ECMAScript의 발전, 다양한 브라우저에서의 구현, JavaScript 라이브러리들, 그리고 최신 기술인 SPA(Single Page Application) 및 웹 어셈블리까지 다룹니다."
+    },
+    {
+      "slug": "promise-js",
+      "title": "Javascript Promise",
+      "aiSummary": "이 문서는 'promise'에 대한 개요와 그 사용 방법에 대해 설명합니다. Promise는 비동기 작업의 결과를 나타내는 객체로, 작업이 완료되면 성공 또는 실패 상태를 반환합니다."
+    },
+    {
+      "slug": "spread-syntax",
+      "title": "Spread syntax",
+      "aiSummary": "이 문서는 JavaScript의 Spread 구문에 대해 설명합니다. 배열이나 객체의 값을 쉽게 분배하고, 함수를 호출할 때 사용될 수 있는 방법을 보여줍니다."
+    },
+    {
+      "slug": "todo-memo",
+      "title": "mongodb & router",
+      "aiSummary": "이 문서는 JavaScript의 기본 구조에 대한 설명을 다룹니다."
+    },
+    {
+      "slug": "what-is-object",
+      "title": "오브젝트란?",
+      "aiSummary": "이 문서는 JavaScript의 객체(Object)에 대한 개념, 리터럴 및 프로퍼티, 계산된 프로퍼티, 프로퍼티 값 약식, 생성자 함수, 존재성 검사, 순환 방법, 복사 방법 등을 설명하고 있습니다."
+    }
+  ],
+  "함수": [
+    {
+      "slug": "IIFE",
+      "title": "IIFE 즉시 실행함수란?",
+      "aiSummary": "IIFE(Immediately Invoked Function Expression)은 즉시 실행되는 함수 표현이다."
+    }
+  ],
+  "json": [
+    {
+      "slug": "JSON-js",
+      "title": "JSON 사용법",
+      "aiSummary": "JSON(JavaScript Object Notation)은 ECMAScript 3rd에서 도입된 데이터 교환 포맷으로, 가벼운 텍스트 기반의 구조를 갖고 있습니다."
+    },
+    {
+      "slug": "JWT",
+      "title": "JWT",
+      "aiSummary": "이 문서는 JWT(JSON Web Token)와 그 구조, 장점, 생성 및 사용 목적에 대해 설명하고 있다. JWT는 보안 목적과 권한 인증을 위한 토큰으로 사용되며, header, payload, signature로 구성된다."
+    }
+  ],
+  "ecmascript": [
+    {
+      "slug": "JSON-js",
+      "title": "JSON 사용법",
+      "aiSummary": "JSON(JavaScript Object Notation)은 ECMAScript 3rd에서 도입된 데이터 교환 포맷으로, 가벼운 텍스트 기반의 구조를 갖고 있습니다."
+    },
+    {
+      "slug": "origin",
+      "title": "Javascript 기원",
+      "aiSummary": "이 문서는 JavaScript의 발전 역사와 주요 변천 과정을 설명하고 있습니다. 초기 스크립트 언어부터 ECMAScript의 발전, 다양한 브라우저에서의 구현, JavaScript 라이브러리들, 그리고 최신 기술인 SPA(Single Page Application) 및 웹 어셈블리까지 다룹니다."
+    }
+  ],
+  "ajax": [
+    {
+      "slug": "JSON-js",
+      "title": "JSON 사용법",
+      "aiSummary": "JSON(JavaScript Object Notation)은 ECMAScript 3rd에서 도입된 데이터 교환 포맷으로, 가벼운 텍스트 기반의 구조를 갖고 있습니다."
+    }
+  ],
+  "data interchange": [
+    {
+      "slug": "JSON-js",
+      "title": "JSON 사용법",
+      "aiSummary": "JSON(JavaScript Object Notation)은 ECMAScript 3rd에서 도입된 데이터 교환 포맷으로, 가벼운 텍스트 기반의 구조를 갖고 있습니다."
+    }
+  ],
+  "serialization": [
+    {
+      "slug": "JSON-js",
+      "title": "JSON 사용법",
+      "aiSummary": "JSON(JavaScript Object Notation)은 ECMAScript 3rd에서 도입된 데이터 교환 포맷으로, 가벼운 텍스트 기반의 구조를 갖고 있습니다."
+    }
+  ],
+  "jwt": [
+    {
+      "slug": "JWT",
+      "title": "JWT",
+      "aiSummary": "이 문서는 JWT(JSON Web Token)와 그 구조, 장점, 생성 및 사용 목적에 대해 설명하고 있다. JWT는 보안 목적과 권한 인증을 위한 토큰으로 사용되며, header, payload, signature로 구성된다."
+    },
+    {
+      "slug": "cs-homework",
+      "title": "항해톡",
+      "aiSummary": "이 문서는 JWT에 대한 작성 완료 목록과 함께 REST API, HTTPS와 HTTP, 쿠키, 세션, 캐시, OSI 7계층, 프로세스와 스레드, 동기 및 비동기, DB 인덱스, DNS, DOM, 브라우저 작동 방식, CORS, JPA, HTTPS/SSL, 미들웨어 등과 같은 기술 문서 작성을 위해 예정된 항목들을 나열하고 있다."
+    },
+    {
+      "slug": "refreshtoken",
+      "title": "refresh token 구현하기",
+      "aiSummary": "현재 JWT 토큰을 사용하여 3600초 동안 인증하는 테스트를 완료했으며, 실제 서비스에서는 Access Token과 Refresh Token을 이용한 3 Handshake 방식으로 인증을 개선할 계획이다."
+    }
+  ],
+  "보안": [
+    {
+      "slug": "JWT",
+      "title": "JWT",
+      "aiSummary": "이 문서는 JWT(JSON Web Token)와 그 구조, 장점, 생성 및 사용 목적에 대해 설명하고 있다. JWT는 보안 목적과 권한 인증을 위한 토큰으로 사용되며, header, payload, signature로 구성된다."
+    },
+    {
+      "slug": "oauth",
+      "title": "oauth",
+      "aiSummary": "이 문서는 OAuth의 개요와 OAuth 1.0과 2.0의 주요 차이점을 설명합니다. 특히, OAuth 2.0은 인증 과정을 간소화하고 범용성이 높아 다양하게 활용될 수 있음을 강조합니다."
+    }
+  ],
+  "authorization": [
+    {
+      "slug": "JWT",
+      "title": "JWT",
+      "aiSummary": "이 문서는 JWT(JSON Web Token)와 그 구조, 장점, 생성 및 사용 목적에 대해 설명하고 있다. JWT는 보안 목적과 권한 인증을 위한 토큰으로 사용되며, header, payload, signature로 구성된다."
+    }
+  ],
+  "token": [
+    {
+      "slug": "JWT",
+      "title": "JWT",
+      "aiSummary": "이 문서는 JWT(JSON Web Token)와 그 구조, 장점, 생성 및 사용 목적에 대해 설명하고 있다. JWT는 보안 목적과 권한 인증을 위한 토큰으로 사용되며, header, payload, signature로 구성된다."
+    }
+  ],
+  "es6": [
+    {
+      "slug": "Javascript",
+      "title": "Javascript",
+      "aiSummary": "이 문서는 Javascript ES6에 대한 다양한 개념과 주제를 정리하고 있으며, 각 주제는 해당 부분으로의 링크를 포함하고 있다."
+    },
+    {
+      "slug": "class-vs-object",
+      "title": "class & object",
+      "aiSummary": "이 문서는 JavaScript의 클래스와 객체지향 프로그래밍을 설명합니다. 클래스는 객체의 템플릿을 정의하고, 객체는 그 템플릿을 기반으로 생성된 인스턴스입니다. ES6에서 도입된 클래스 문법, 생성자, getter/setter, static, 상속 및 instanceof 연산자를 포함한 여러 개념들이 포함되어 있습니다."
+    }
+  ],
+  "web development": [
+    {
+      "slug": "Javascript",
+      "title": "Javascript",
+      "aiSummary": "이 문서는 Javascript ES6에 대한 다양한 개념과 주제를 정리하고 있으며, 각 주제는 해당 부분으로의 링크를 포함하고 있다."
+    },
+    {
+      "slug": "array-APIs",
+      "title": "array 관해서 알아보자",
+      "aiSummary": "이 문서는 JavaScript의 배열(Array) 개념과 관련된 API 사용법을 설명합니다. 배열의 선언, 인덱스 접근, 반복문을 통한 배열 요소 출력, 추가 및 삭제 방법, 배열 결합 및 검색 방법 등을 다루고 있습니다."
+    },
+    {
+      "slug": "async-defer",
+      "title": "async 와 defer의 차이점",
+      "aiSummary": "This document discusses the usage of 'async' and 'defer' attributes in script tags for loading JavaScript, explaining their differences with examples, and highlights the importance of using 'strict mode' in JavaScript programming."
+    },
+    {
+      "slug": "root-index",
+      "title": "wiki",
+      "aiSummary": "이 문서는 다양한 기술 주제에 대한 분류체계를 포함하고 있으며, Web Programming, Linux & Server, Synology, 알고리즘, JavaScript, Python 등의 세부 항목으로 구성되어 있습니다."
+    }
+  ],
+  "coding": [
+    {
+      "slug": "Javascript",
+      "title": "Javascript",
+      "aiSummary": "이 문서는 Javascript ES6에 대한 다양한 개념과 주제를 정리하고 있으며, 각 주제는 해당 부분으로의 링크를 포함하고 있다."
+    }
+  ],
+  "programming": [
+    {
+      "slug": "Javascript",
+      "title": "Javascript",
+      "aiSummary": "이 문서는 Javascript ES6에 대한 다양한 개념과 주제를 정리하고 있으며, 각 주제는 해당 부분으로의 링크를 포함하고 있다."
+    },
+    {
+      "slug": "array-APIs",
+      "title": "array 관해서 알아보자",
+      "aiSummary": "이 문서는 JavaScript의 배열(Array) 개념과 관련된 API 사용법을 설명합니다. 배열의 선언, 인덱스 접근, 반복문을 통한 배열 요소 출력, 추가 및 삭제 방법, 배열 결합 및 검색 방법 등을 다루고 있습니다."
+    },
+    {
+      "slug": "arrow-function",
+      "title": "Arrow Fucntion?",
+      "aiSummary": "이 문서는 자바스크립트의 함수 선언, 매개변수, 기본 매개변수, 지역 스코프, 값 반환, 조기 리턴 등 다양한 함수 기능을 설명하며, 특히 화살표 함수(Arrow Function)와 즉시 실행 함수(IIFE)에 대한 내용을 다룬다."
+    },
+    {
+      "slug": "callback-function",
+      "title": "비동기 처리, 콜백 이해,",
+      "aiSummary": "This document provides an overview of JavaScript's synchronous and asynchronous behavior, highlighting callback functions and demonstrating callback hell through a user authentication example using a class for user storage."
+    },
+    {
+      "slug": "random-python",
+      "title": "Random()",
+      "aiSummary": "이 문서는 Python의 Random 모듈에 대한 내용을 포함하고 있으며, random() 함수와 seed(int) 함수의 사용법을 다루고 있다."
+    },
+    {
+      "slug": "range",
+      "title": "range 관련해서..",
+      "aiSummary": "This document contains a table of contents (TOC) section and a placeholder for 'range k', indicating a section that may explain a certain range in a mathematical or programming context."
+    },
+    {
+      "slug": "root-index",
+      "title": "wiki",
+      "aiSummary": "이 문서는 다양한 기술 주제에 대한 분류체계를 포함하고 있으며, Web Programming, Linux & Server, Synology, 알고리즘, JavaScript, Python 등의 세부 항목으로 구성되어 있습니다."
+    }
+  ],
+  "latex": [
+    {
+      "slug": "Latex",
+      "title": "Latex syntax",
+      "aiSummary": "이 문서는 기본적인 LaTeX 수학 문법과 사용 방법을 소개합니다. 사용자에게 수학 표현식 작성 방법과 심볼 사용법을 제공하며, 참고 자료로 사이트 및 PDF 링크를 제시합니다."
+    }
+  ],
+  "수학 문법": [
+    {
+      "slug": "Latex",
+      "title": "Latex syntax",
+      "aiSummary": "이 문서는 기본적인 LaTeX 수학 문법과 사용 방법을 소개합니다. 사용자에게 수학 표현식 작성 방법과 심볼 사용법을 제공하며, 참고 자료로 사이트 및 PDF 링크를 제시합니다."
+    }
+  ],
+  "문서 작성": [
+    {
+      "slug": "Latex",
+      "title": "Latex syntax",
+      "aiSummary": "이 문서는 기본적인 LaTeX 수학 문법과 사용 방법을 소개합니다. 사용자에게 수학 표현식 작성 방법과 심볼 사용법을 제공하며, 참고 자료로 사이트 및 PDF 링크를 제시합니다."
+    }
+  ],
+  "참고 자료": [
+    {
+      "slug": "Latex",
+      "title": "Latex syntax",
+      "aiSummary": "이 문서는 기본적인 LaTeX 수학 문법과 사용 방법을 소개합니다. 사용자에게 수학 표현식 작성 방법과 심볼 사용법을 제공하며, 참고 자료로 사이트 및 PDF 링크를 제시합니다."
+    }
+  ],
+  "텍스트 프로세싱": [
+    {
+      "slug": "Latex",
+      "title": "Latex syntax",
+      "aiSummary": "이 문서는 기본적인 LaTeX 수학 문법과 사용 방법을 소개합니다. 사용자에게 수학 표현식 작성 방법과 심볼 사용법을 제공하며, 참고 자료로 사이트 및 PDF 링크를 제시합니다."
+    }
+  ],
+  "목차": [
+    {
+      "slug": "LazyloadingEagerLoading",
+      "title": "레이지 로딩과 이거 로딩",
+      "aiSummary": "문서의 목차가 제공되며, 현재 내용은 'ㅇ'로 시작하는 항목에 대한 설명으로 보입니다."
+    },
+    {
+      "slug": "diary",
+      "title": "다이어리",
+      "aiSummary": "이 문서는 2022년과 2023년도에 관련된 기록을 포함하는 목차를 제시하고 있습니다."
+    },
+    {
+      "slug": "homework",
+      "title": "과제톡",
+      "aiSummary": "이 문서는 목차(TOC) 기능을 설명하는 내용을 담고 있습니다."
+    }
+  ],
+  "문서": [
+    {
+      "slug": "LazyloadingEagerLoading",
+      "title": "레이지 로딩과 이거 로딩",
+      "aiSummary": "문서의 목차가 제공되며, 현재 내용은 'ㅇ'로 시작하는 항목에 대한 설명으로 보입니다."
+    },
+    {
+      "slug": "diary",
+      "title": "다이어리",
+      "aiSummary": "이 문서는 2022년과 2023년도에 관련된 기록을 포함하는 목차를 제시하고 있습니다."
+    },
+    {
+      "slug": "flask",
+      "title": "flask",
+      "aiSummary": "이 문서는 Flask에 대한 내용을 포함할 예정이며, 현재 준비 중입니다."
+    },
+    {
+      "slug": "tmux",
+      "title": "tmux 사용법",
+      "aiSummary": "이 문서는 tmux에 대한 내용을 다루고 있으며, tmux 사용의 법칙과 규칙을 설명하는 링크가 포함되어 있습니다."
+    }
+  ],
+  "구성": [
+    {
+      "slug": "LazyloadingEagerLoading",
+      "title": "레이지 로딩과 이거 로딩",
+      "aiSummary": "문서의 목차가 제공되며, 현재 내용은 'ㅇ'로 시작하는 항목에 대한 설명으로 보입니다."
+    }
+  ],
+  "설명": [
+    {
+      "slug": "LazyloadingEagerLoading",
+      "title": "레이지 로딩과 이거 로딩",
+      "aiSummary": "문서의 목차가 제공되며, 현재 내용은 'ㅇ'로 시작하는 항목에 대한 설명으로 보입니다."
+    }
+  ],
+  "정보": [
+    {
+      "slug": "LazyloadingEagerLoading",
+      "title": "레이지 로딩과 이거 로딩",
+      "aiSummary": "문서의 목차가 제공되며, 현재 내용은 'ㅇ'로 시작하는 항목에 대한 설명으로 보입니다."
+    },
+    {
+      "slug": "react",
+      "title": "React",
+      "aiSummary": "이 문서는 MD 파일을 읽는 방법과 관련된 내용을 담고 있습니다."
+    }
+  ],
+  "table of contents": [
+    {
+      "slug": "Linux",
+      "title": "linux",
+      "aiSummary": "This document appears to be an outline or table of contents (TOC) for a larger set of documents, indicating a structured organization of topics or sections."
+    },
+    {
+      "slug": "backend",
+      "title": "BackEnd",
+      "aiSummary": "The document appears to be a table of contents but lacks specific details or sections to summarize further."
+    }
+  ],
+  "document structure": [
+    {
+      "slug": "Linux",
+      "title": "linux",
+      "aiSummary": "This document appears to be an outline or table of contents (TOC) for a larger set of documents, indicating a structured organization of topics or sections."
+    }
+  ],
+  "outline": [
+    {
+      "slug": "Linux",
+      "title": "linux",
+      "aiSummary": "This document appears to be an outline or table of contents (TOC) for a larger set of documents, indicating a structured organization of topics or sections."
+    },
+    {
+      "slug": "python",
+      "title": "파이썬(python)",
+      "aiSummary": "The document appears to be a placeholder or outline without specific content, potentially indicating the structure or framework for a larger document."
+    }
+  ],
+  "organization": [
+    {
+      "slug": "Linux",
+      "title": "linux",
+      "aiSummary": "This document appears to be an outline or table of contents (TOC) for a larger set of documents, indicating a structured organization of topics or sections."
+    },
+    {
+      "slug": "backend",
+      "title": "BackEnd",
+      "aiSummary": "The document appears to be a table of contents but lacks specific details or sections to summarize further."
+    }
+  ],
+  "navigation": [
+    {
+      "slug": "Linux",
+      "title": "linux",
+      "aiSummary": "This document appears to be an outline or table of contents (TOC) for a larger set of documents, indicating a structured organization of topics or sections."
+    }
+  ],
+  "mvc": [
+    {
+      "slug": "MVC",
+      "title": "javascript MVC 대해서",
+      "aiSummary": "이 문서는 MVC 구조에 대한 설명과 관련된 파일 구조를 제시하고 있으며, 참고 링크를 포함하고 있습니다."
+    },
+    {
+      "slug": "mvc-parttern",
+      "title": "Layered Architecture(Model, View, Controller)",
+      "aiSummary": "이 문서는 백엔드에서 사용되는 레이어드 아키텍처와 MVC 패턴에 대해 설명하고 있다. 레이어드 아키텍처는 엔드포인트, 비즈니스 로직, 데이터베이스 연결의 3개의 레이어를 나누어 가독성과 확장성을 높이며, MVC 패턴은 데이터 모델을 정의하여 데이터 처리의 효율성을 증대시킨다."
+    }
+  ],
+  "파일 구조": [
+    {
+      "slug": "MVC",
+      "title": "javascript MVC 대해서",
+      "aiSummary": "이 문서는 MVC 구조에 대한 설명과 관련된 파일 구조를 제시하고 있으며, 참고 링크를 포함하고 있습니다."
+    }
+  ],
+  "자바스크립트": [
+    {
+      "slug": "MVC",
+      "title": "javascript MVC 대해서",
+      "aiSummary": "이 문서는 MVC 구조에 대한 설명과 관련된 파일 구조를 제시하고 있으며, 참고 링크를 포함하고 있습니다."
+    },
+    {
+      "slug": "literals",
+      "title": "함수 리터럴이란 무엇인가?",
+      "aiSummary": "함수 리터럴은 자바스크립트에서 함수명을 사용하지 않고 함수의 상태를 나타내는 방식으로, 변수를 통해 함수를 담을 수 있는 개념이다. 이 글에서는 리터럴의 정의와 자바스크립트에서의 활용에 대해 설명한다."
+    },
+    {
+      "slug": "most-common-word",
+      "title": "819. 가장흔한단어",
+      "aiSummary": "이 문서는 LeetCode 문제 중 하나인 '가장 흔한 단어'에 대한 내용입니다."
+    }
+  ],
+  "express.js": [
+    {
+      "slug": "MVC",
+      "title": "javascript MVC 대해서",
+      "aiSummary": "이 문서는 MVC 구조에 대한 설명과 관련된 파일 구조를 제시하고 있으며, 참고 링크를 포함하고 있습니다."
+    },
+    {
+      "slug": "express",
+      "title": "express",
+      "aiSummary": "이 문서는 Express.js의 구조에 대한 기본 정보를 제공하며, app()와 Router() 메서드, 다양한 HTTP 요청 메서드(GET, POST, PUT, PATCH, DELETE)의 사용 방법을 설명한다. 특히 PUT과 PATCH의 차이점에 대해 언급하고 있다."
+    },
+    {
+      "slug": "middleware",
+      "title": "Express의 미들웨어 작동방식",
+      "aiSummary": "이 문서는 Express.js에서 미들웨어를 사용하는 방법에 대해 설명하고 있으며, 미들웨어의 사용 예시와 다양한 유형(애플리케이션 레벨, 라우터 레벨, 에러 처리)에 대한 간단한 소개를 포함하고 있다."
+    }
+  ],
+  "웹 개발": [
+    {
+      "slug": "MVC",
+      "title": "javascript MVC 대해서",
+      "aiSummary": "이 문서는 MVC 구조에 대한 설명과 관련된 파일 구조를 제시하고 있으며, 참고 링크를 포함하고 있습니다."
+    },
+    {
+      "slug": "hbsvspug",
+      "title": "hbs 와 pug",
+      "aiSummary": "이 문서는 Handlebars와 Pug 템플릿 엔진의 장점을 요약하고, 각 엔진에 대한 간단한 링크를 포함하고 있다."
+    },
+    {
+      "slug": "job-opportuinity",
+      "title": "취업시 유용한 사이트",
+      "aiSummary": "이 문서는 취업을 준비하는 이들을 위한 유용한 웹사이트와 자료를 모아둔 목록이다. 특히 웹 개발자를 위한 포트폴리오 작성에 대한 유용한 팁을 포함하고 있다."
+    },
+    {
+      "slug": "middleware",
+      "title": "Express의 미들웨어 작동방식",
+      "aiSummary": "이 문서는 Express.js에서 미들웨어를 사용하는 방법에 대해 설명하고 있으며, 미들웨어의 사용 예시와 다양한 유형(애플리케이션 레벨, 라우터 레벨, 에러 처리)에 대한 간단한 소개를 포함하고 있다."
+    },
+    {
+      "slug": "origin",
+      "title": "Javascript 기원",
+      "aiSummary": "이 문서는 JavaScript의 발전 역사와 주요 변천 과정을 설명하고 있습니다. 초기 스크립트 언어부터 ECMAScript의 발전, 다양한 브라우저에서의 구현, JavaScript 라이브러리들, 그리고 최신 기술인 SPA(Single Page Application) 및 웹 어셈블리까지 다룹니다."
+    },
+    {
+      "slug": "promise-js",
+      "title": "Javascript Promise",
+      "aiSummary": "이 문서는 'promise'에 대한 개요와 그 사용 방법에 대해 설명합니다. Promise는 비동기 작업의 결과를 나타내는 객체로, 작업이 완료되면 성공 또는 실패 상태를 반환합니다."
+    },
+    {
+      "slug": "readMDFile",
+      "title": "react에서 md파일 읽기",
+      "aiSummary": "이 문서는 React에서 Markdown 파일을 읽는 방법에 대한 설명입니다. 글로벌 타입 선언과 함께, Markdown 파일을 fetch하고 이를 React 컴포넌트로 렌더링하는 간단한 예제 코드를 포함하고 있습니다."
+    },
+    {
+      "slug": "todo-memo",
+      "title": "mongodb & router",
+      "aiSummary": "이 문서는 JavaScript의 기본 구조에 대한 설명을 다룹니다."
+    }
+  ],
+  "os": [
+    {
+      "slug": "OSI-7-layers",
+      "title": "OSI 7 layers",
+      "aiSummary": "이 문서는 OS의 7개 계층에 대한 구조와 기능을 설명합니다."
+    }
+  ],
+  "7 layers": [
+    {
+      "slug": "OSI-7-layers",
+      "title": "OSI 7 layers",
+      "aiSummary": "이 문서는 OS의 7개 계층에 대한 구조와 기능을 설명합니다."
+    }
+  ],
+  "operating system": [
+    {
+      "slug": "OSI-7-layers",
+      "title": "OSI 7 layers",
+      "aiSummary": "이 문서는 OS의 7개 계층에 대한 구조와 기능을 설명합니다."
+    }
+  ],
+  "architecture": [
+    {
+      "slug": "OSI-7-layers",
+      "title": "OSI 7 layers",
+      "aiSummary": "이 문서는 OS의 7개 계층에 대한 구조와 기능을 설명합니다."
+    }
+  ],
+  "computer science": [
+    {
+      "slug": "OSI-7-layers",
+      "title": "OSI 7 layers",
+      "aiSummary": "이 문서는 OS의 7개 계층에 대한 구조와 기능을 설명합니다."
+    }
+  ],
+  "http": [
+    {
+      "slug": "PUT",
+      "title": "PUT과 PATCH",
+      "aiSummary": "이 문서는 PUT과 PATCH HTTP 메소드의 차이점과 멱등성 개념을 설명합니다. PUT은 자원의 전체 교체를 위한 메소드이고, PATCH는 자원의 일부 교체를 위한 메소드입니다. 멱등성 및 HTTP 메소드의 성격도 함께 다룬다."
+    },
+    {
+      "slug": "https-ssl",
+      "title": "HTTPS/SSL",
+      "aiSummary": "이 문서는 데이터 프라이버시의 중요성, HTTP와 HTTPS의 차이점, TLS/SSL의 작동 원리 및 인증서 구매와 설정 방법에 대해 설명합니다. 또한, SSL Handshake와 중간자 공격 방법에 대해 다룹니다."
+    }
+  ],
+  "put": [
+    {
+      "slug": "PUT",
+      "title": "PUT과 PATCH",
+      "aiSummary": "이 문서는 PUT과 PATCH HTTP 메소드의 차이점과 멱등성 개념을 설명합니다. PUT은 자원의 전체 교체를 위한 메소드이고, PATCH는 자원의 일부 교체를 위한 메소드입니다. 멱등성 및 HTTP 메소드의 성격도 함께 다룬다."
+    },
+    {
+      "slug": "express",
+      "title": "express",
+      "aiSummary": "이 문서는 Express.js의 구조에 대한 기본 정보를 제공하며, app()와 Router() 메서드, 다양한 HTTP 요청 메서드(GET, POST, PUT, PATCH, DELETE)의 사용 방법을 설명한다. 특히 PUT과 PATCH의 차이점에 대해 언급하고 있다."
+    }
+  ],
+  "patch": [
+    {
+      "slug": "PUT",
+      "title": "PUT과 PATCH",
+      "aiSummary": "이 문서는 PUT과 PATCH HTTP 메소드의 차이점과 멱등성 개념을 설명합니다. PUT은 자원의 전체 교체를 위한 메소드이고, PATCH는 자원의 일부 교체를 위한 메소드입니다. 멱등성 및 HTTP 메소드의 성격도 함께 다룬다."
+    },
+    {
+      "slug": "express",
+      "title": "express",
+      "aiSummary": "이 문서는 Express.js의 구조에 대한 기본 정보를 제공하며, app()와 Router() 메서드, 다양한 HTTP 요청 메서드(GET, POST, PUT, PATCH, DELETE)의 사용 방법을 설명한다. 특히 PUT과 PATCH의 차이점에 대해 언급하고 있다."
+    }
+  ],
+  "idempotency": [
+    {
+      "slug": "PUT",
+      "title": "PUT과 PATCH",
+      "aiSummary": "이 문서는 PUT과 PATCH HTTP 메소드의 차이점과 멱등성 개념을 설명합니다. PUT은 자원의 전체 교체를 위한 메소드이고, PATCH는 자원의 일부 교체를 위한 메소드입니다. 멱등성 및 HTTP 메소드의 성격도 함께 다룬다."
+    }
+  ],
+  "ietf": [
+    {
+      "slug": "PUT",
+      "title": "PUT과 PATCH",
+      "aiSummary": "이 문서는 PUT과 PATCH HTTP 메소드의 차이점과 멱등성 개념을 설명합니다. PUT은 자원의 전체 교체를 위한 메소드이고, PATCH는 자원의 일부 교체를 위한 메소드입니다. 멱등성 및 HTTP 메소드의 성격도 함께 다룬다."
+    }
+  ],
+  "rest api": [
+    {
+      "slug": "REST-API",
+      "title": "REST-API",
+      "aiSummary": "REST API는 컴퓨터 간의 통신을 위한 아키텍처 스타일로, 운영체제와 무관하게 데이터를 주고받을 수 있는 방법을 제공하는 API의 한 유형이다."
+    },
+    {
+      "slug": "cs-homework",
+      "title": "항해톡",
+      "aiSummary": "이 문서는 JWT에 대한 작성 완료 목록과 함께 REST API, HTTPS와 HTTP, 쿠키, 세션, 캐시, OSI 7계층, 프로세스와 스레드, 동기 및 비동기, DB 인덱스, DNS, DOM, 브라우저 작동 방식, CORS, JPA, HTTPS/SSL, 미들웨어 등과 같은 기술 문서 작성을 위해 예정된 항목들을 나열하고 있다."
+    }
+  ],
+  "인터넷 통신": [
+    {
+      "slug": "REST-API",
+      "title": "REST-API",
+      "aiSummary": "REST API는 컴퓨터 간의 통신을 위한 아키텍처 스타일로, 운영체제와 무관하게 데이터를 주고받을 수 있는 방법을 제공하는 API의 한 유형이다."
+    }
+  ],
+  "api 유형": [
+    {
+      "slug": "REST-API",
+      "title": "REST-API",
+      "aiSummary": "REST API는 컴퓨터 간의 통신을 위한 아키텍처 스타일로, 운영체제와 무관하게 데이터를 주고받을 수 있는 방법을 제공하는 API의 한 유형이다."
+    }
+  ],
+  "데이터 전송": [
+    {
+      "slug": "REST-API",
+      "title": "REST-API",
+      "aiSummary": "REST API는 컴퓨터 간의 통신을 위한 아키텍처 스타일로, 운영체제와 무관하게 데이터를 주고받을 수 있는 방법을 제공하는 API의 한 유형이다."
+    }
+  ],
+  "소프트웨어 아키텍처": [
+    {
+      "slug": "REST-API",
+      "title": "REST-API",
+      "aiSummary": "REST API는 컴퓨터 간의 통신을 위한 아키텍처 스타일로, 운영체제와 무관하게 데이터를 주고받을 수 있는 방법을 제공하는 API의 한 유형이다."
+    },
+    {
+      "slug": "microservice",
+      "title": "microservice에 대한 고찰",
+      "aiSummary": "마이크로서비스 아키텍처는 대규모 애플리케이션을 작은 독립적인 서비스로 나누어 각 서비스의 성능 및 확장성을 높이는 방식입니다. 이 구조는 문서화, 코드 관리, 복잡성 등을 고려해야 하며, 다양한 기술 스택을 사용할 수 있는 장점이 있습니다."
+    }
+  ],
+  "문서작성": [
+    {
+      "slug": "SSH",
+      "title": "ssh",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    },
+    {
+      "slug": "naming",
+      "title": "기호 영어이름",
+      "aiSummary": "이 문서는 다양한 기호의 영어 명칭과 그에 대한 한국어 설명을 정리한 표를 제공합니다."
+    },
+    {
+      "slug": "ubuntu",
+      "title": "Ubuntu",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    }
+  ],
+  "가이드라인": [
+    {
+      "slug": "SSH",
+      "title": "ssh",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    },
+    {
+      "slug": "ubuntu",
+      "title": "Ubuntu",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    }
+  ],
+  "내용구조": [
+    {
+      "slug": "SSH",
+      "title": "ssh",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    },
+    {
+      "slug": "ubuntu",
+      "title": "Ubuntu",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    }
+  ],
+  "참고사항": [
+    {
+      "slug": "SSH",
+      "title": "ssh",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    },
+    {
+      "slug": "ubuntu",
+      "title": "Ubuntu",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    }
+  ],
+  "toc": [
+    {
+      "slug": "SSH",
+      "title": "ssh",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    },
+    {
+      "slug": "homework",
+      "title": "과제톡",
+      "aiSummary": "이 문서는 목차(TOC) 기능을 설명하는 내용을 담고 있습니다."
+    },
+    {
+      "slug": "range",
+      "title": "range 관련해서..",
+      "aiSummary": "This document contains a table of contents (TOC) section and a placeholder for 'range k', indicating a section that may explain a certain range in a mathematical or programming context."
+    },
+    {
+      "slug": "ubuntu",
+      "title": "Ubuntu",
+      "aiSummary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다."
+    }
+  ],
+  "swagger": [
+    {
+      "slug": "Swagger",
+      "title": "Nestjs 내장 swagger",
+      "aiSummary": "Swagger 툴은 API의 명세서를 작성하고, 데이터를 쉽게 주입하여 테스트할 수 있는 기능을 제공한다."
+    },
+    {
+      "slug": "nestjs",
+      "title": "Nestjs",
+      "aiSummary": "Nestjs는 NodeJs와 TypeScript를 사용하는 백엔드 프레임워크로, Decorator를 통한 의존성 주입, 기본 MVC 패턴, DTO를 통한 데이터 검증을 특징으로 한다. 이 문서는 Swagger 사용법, AWS Cognito 연동, 텔레그램을 이용한 서버 로그 관리 방법을 설명한다."
+    }
+  ],
+  "api": [
+    {
+      "slug": "Swagger",
+      "title": "Nestjs 내장 swagger",
+      "aiSummary": "Swagger 툴은 API의 명세서를 작성하고, 데이터를 쉽게 주입하여 테스트할 수 있는 기능을 제공한다."
+    },
+    {
+      "slug": "interview50q",
+      "title": "인터뷰 예약 50문제",
+      "aiSummary": "이 문서는 소프트웨어 개발 면접을 대비하기 위한 50개의 예상 질문과 답변 내용을 포함하고 있습니다. 질문들은 JavaScript의 변수 선언, event loop, Node.js의 특징, 비동기 처리, 웹 서버의 역할, 보안 및 API 관련 주제를 다룹니다."
+    },
+    {
+      "slug": "miniproject",
+      "title": "미니프로젝트",
+      "aiSummary": "미니프로젝트에서의 경험을 회고하며, Python과 Flask를 사용하여 API를 구현했지만 협업과 기술 부족으로 인해 완성도가 낮았음을 느꼈다. 프로젝트 종료 후 얻은 기술적 유익은 있었으나, 실패를 경험한 것으로 생각하고 있다."
+    },
+    {
+      "slug": "oauth",
+      "title": "oauth",
+      "aiSummary": "이 문서는 OAuth의 개요와 OAuth 1.0과 2.0의 주요 차이점을 설명합니다. 특히, OAuth 2.0은 인증 과정을 간소화하고 범용성이 높아 다양하게 활용될 수 있음을 강조합니다."
+    },
+    {
+      "slug": "socketio",
+      "title": "socketio 란 무엇인가?",
+      "aiSummary": "WebSocket 객체는 WebSocket 서버와의 연결을 생성하고 관리하며, 연결을 통해 데이터를 송수신할 수 있는 API를 제공한다. websocket() 생성자를 통해 사용할 수 있다."
+    }
+  ],
+  "테스트": [
+    {
+      "slug": "Swagger",
+      "title": "Nestjs 내장 swagger",
+      "aiSummary": "Swagger 툴은 API의 명세서를 작성하고, 데이터를 쉽게 주입하여 테스트할 수 있는 기능을 제공한다."
+    }
+  ],
+  "명세서": [
+    {
+      "slug": "Swagger",
+      "title": "Nestjs 내장 swagger",
+      "aiSummary": "Swagger 툴은 API의 명세서를 작성하고, 데이터를 쉽게 주입하여 테스트할 수 있는 기능을 제공한다."
+    }
+  ],
+  "툴": [
+    {
+      "slug": "Swagger",
+      "title": "Nestjs 내장 swagger",
+      "aiSummary": "Swagger 툴은 API의 명세서를 작성하고, 데이터를 쉽게 주입하여 테스트할 수 있는 기능을 제공한다."
+    }
+  ],
+  "synology": [
+    {
+      "slug": "Synology",
+      "title": "synology server",
+      "aiSummary": "이 문서는 Synology NAS에 대한 기능 소개와 데이터 저장, 타이머신 기능, Docker를 통한 앱 추가 가능성 등을 다룬다."
+    }
+  ],
+  "nas": [
+    {
+      "slug": "Synology",
+      "title": "synology server",
+      "aiSummary": "이 문서는 Synology NAS에 대한 기능 소개와 데이터 저장, 타이머신 기능, Docker를 통한 앱 추가 가능성 등을 다룬다."
+    }
+  ],
+  "백업 솔루션": [
+    {
+      "slug": "Synology",
+      "title": "synology server",
+      "aiSummary": "이 문서는 Synology NAS에 대한 기능 소개와 데이터 저장, 타이머신 기능, Docker를 통한 앱 추가 가능성 등을 다룬다."
+    }
+  ],
+  "데이터 저장": [
+    {
+      "slug": "Synology",
+      "title": "synology server",
+      "aiSummary": "이 문서는 Synology NAS에 대한 기능 소개와 데이터 저장, 타이머신 기능, Docker를 통한 앱 추가 가능성 등을 다룬다."
+    }
+  ],
+  "데이터 구조": [
+    {
+      "slug": "algorithm",
+      "title": "알고리즘",
+      "aiSummary": "이 문서는 데이터 구조와 알고리즘의 다양한 방법론을 설명한다. 문제 해결을 위한 5가지 단계와 선형 및 비선형 데이터 구조, 주요 정렬 알고리즘, 그리고 몇 가지 유명한 프로그래밍 플랫폼인 LeetCode와 Programmers의 문제를 다룬다."
+    }
+  ],
+  "알고리즘": [
+    {
+      "slug": "algorithm",
+      "title": "알고리즘",
+      "aiSummary": "이 문서는 데이터 구조와 알고리즘의 다양한 방법론을 설명한다. 문제 해결을 위한 5가지 단계와 선형 및 비선형 데이터 구조, 주요 정렬 알고리즘, 그리고 몇 가지 유명한 프로그래밍 플랫폼인 LeetCode와 Programmers의 문제를 다룬다."
+    },
+    {
+      "slug": "array",
+      "title": "문자열조작 및 배열",
+      "aiSummary": "이 문서는 배열(Array)의 기본 개념과 관련된 문제풀이를 다루고 있으며, leetcode 해결 방법과 파이썬 문법, 잘 모르는 용어들에 대한 정보도 포함되어 있다."
+    },
+    {
+      "slug": "deque",
+      "title": "데크(deque)",
+      "aiSummary": "이 문서는 데크(deque)의 기본 개념과 문제 해결 방법에 대한 내용을 다루며, 관련된 교재 내용 및 leetcode 솔루션을 포함하고 있습니다. 또한, 풀면서 잘 몰랐던 부분과 파이썬 문법에 대한 이슈도 정리되어 있습니다."
+    },
+    {
+      "slug": "graph",
+      "title": "그래프(graph)",
+      "aiSummary": "이 문서는 그래프의 기본 개념과 그래프 순회 방법, 백트래킹 알고리즘을 설명하며, N-Queen 문제와 관련된 파이썬 코드 예제를 포함하고 있습니다."
+    },
+    {
+      "slug": "leetcode",
+      "title": "리트코드(Leetcode)",
+      "aiSummary": "이 문서는 여러 알고리즘 문제들을 다루고 있으며, 특히 문자열, 팰린드롬, 로그파일 재정렬, 단어 빈도, 애너그램 그룹화와 같은 주제를 포함하고 있습니다."
+    },
+    {
+      "slug": "most-common-word",
+      "title": "819. 가장흔한단어",
+      "aiSummary": "이 문서는 LeetCode 문제 중 하나인 '가장 흔한 단어'에 대한 내용입니다."
+    },
+    {
+      "slug": "priority-queue",
+      "title": "우선순위큐",
+      "aiSummary": "이 문서는 우선순위큐의 기본 개념과 관련 문제 해결 방법에 대한 내용을 다루고 있으며, 특정 교재와 LeetCode 솔루션을 통해 문제를 푸는 과정 중 발생한 의문점들과 파이썬 문법에 대한 설명도 포함되어 있습니다."
+    },
+    {
+      "slug": "programmers",
+      "title": "프로그래머스",
+      "aiSummary": "이 문서는 문제풀이와 관련된 두 가지 주제인 방문길이와 타겟넘버에 대한 내용을 다루고 있다."
+    },
+    {
+      "slug": "queue",
+      "title": "큐(queue)",
+      "aiSummary": "이 문서는 큐(queue)에 대한 기본 개념과 문제 해결 방법을 다루며, 교재 내용 및 LeetCode 솔루션을 포함하고 있습니다. 또한, 문제를 풀이하면서 어려웠던 부분과 파이썬 문법에 대한 질문도 기록되어 있습니다."
+    },
+    {
+      "slug": "sparta",
+      "title": "항해99",
+      "aiSummary": "스파르타 부트캠프는 99일 동안 협업하여 실전 프로젝트와 알고리즘 스터디를 진행하는 프로그램으로, 일반반과 심화반으로 나뉘며 마지막 주에는 면접 준비와 이력서 리뷰를 제공합니다."
+    },
+    {
+      "slug": "targetNumber",
+      "title": "타겟넘버",
+      "aiSummary": "타겟넘버(43165 문제)에 대한 노트가 있으며, 구현은 완료되었지만 시간 내에 직접 구현하는 데 실패했다."
+    },
+    {
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "aiSummary": "이 문서는 주어진 문자열이 팰린드롬인지 확인하는 방법을 설명하며, 대소문자를 구분하지 않고 영문자와 숫자만 고려합니다."
+    },
+    {
+      "slug": "visitedlength",
+      "title": "방문 길이 49994번",
+      "aiSummary": "이 문서는 특정 문제를 풀기 위한 접근 방법을 설명하고 있으며, 2차원 배열과 SET을 사용하여 중복 이동을 처리하는 방법을 다루고 있다. 주요 포인트는 양방향 이동을 고려하는 것과 이동 경로의 카운터 기능의 중요성이다."
+    }
+  ],
+  "문제 해결": [
+    {
+      "slug": "algorithm",
+      "title": "알고리즘",
+      "aiSummary": "이 문서는 데이터 구조와 알고리즘의 다양한 방법론을 설명한다. 문제 해결을 위한 5가지 단계와 선형 및 비선형 데이터 구조, 주요 정렬 알고리즘, 그리고 몇 가지 유명한 프로그래밍 플랫폼인 LeetCode와 Programmers의 문제를 다룬다."
+    },
+    {
+      "slug": "cognitoWithNestjs",
+      "title": "Cognito UserPool을 이용한 인증(feat. nestjs)",
+      "aiSummary": "이 문서는 AWS Cognito를 실전 프로젝트에 적용하기 위한 학습 내용을 정리하며, 발생했던 문제와 그 해결 방법, 장단점을 논의한다."
+    }
+  ],
+  "정렬": [
+    {
+      "slug": "algorithm",
+      "title": "알고리즘",
+      "aiSummary": "이 문서는 데이터 구조와 알고리즘의 다양한 방법론을 설명한다. 문제 해결을 위한 5가지 단계와 선형 및 비선형 데이터 구조, 주요 정렬 알고리즘, 그리고 몇 가지 유명한 프로그래밍 플랫폼인 LeetCode와 Programmers의 문제를 다룬다."
+    }
+  ],
+  "프로그래밍 문제": [
+    {
+      "slug": "algorithm",
+      "title": "알고리즘",
+      "aiSummary": "이 문서는 데이터 구조와 알고리즘의 다양한 방법론을 설명한다. 문제 해결을 위한 5가지 단계와 선형 및 비선형 데이터 구조, 주요 정렬 알고리즘, 그리고 몇 가지 유명한 프로그래밍 플랫폼인 LeetCode와 Programmers의 문제를 다룬다."
+    },
+    {
+      "slug": "most-common-word",
+      "title": "819. 가장흔한단어",
+      "aiSummary": "이 문서는 LeetCode 문제 중 하나인 '가장 흔한 단어'에 대한 내용입니다."
+    }
+  ],
+  "array": [
+    {
+      "slug": "array-APIs",
+      "title": "array 관해서 알아보자",
+      "aiSummary": "이 문서는 JavaScript의 배열(Array) 개념과 관련된 API 사용법을 설명합니다. 배열의 선언, 인덱스 접근, 반복문을 통한 배열 요소 출력, 추가 및 삭제 방법, 배열 결합 및 검색 방법 등을 다루고 있습니다."
+    },
+    {
+      "slug": "spread-syntax",
+      "title": "Spread syntax",
+      "aiSummary": "이 문서는 JavaScript의 Spread 구문에 대해 설명합니다. 배열이나 객체의 값을 쉽게 분배하고, 함수를 호출할 때 사용될 수 있는 방법을 보여줍니다."
+    }
+  ],
+  "apis": [
+    {
+      "slug": "array-APIs",
+      "title": "array 관해서 알아보자",
+      "aiSummary": "이 문서는 JavaScript의 배열(Array) 개념과 관련된 API 사용법을 설명합니다. 배열의 선언, 인덱스 접근, 반복문을 통한 배열 요소 출력, 추가 및 삭제 방법, 배열 결합 및 검색 방법 등을 다루고 있습니다."
+    }
+  ],
+  "배열": [
+    {
+      "slug": "array",
+      "title": "문자열조작 및 배열",
+      "aiSummary": "이 문서는 배열(Array)의 기본 개념과 관련된 문제풀이를 다루고 있으며, leetcode 해결 방법과 파이썬 문법, 잘 모르는 용어들에 대한 정보도 포함되어 있다."
+    }
+  ],
+  "문제풀이": [
+    {
+      "slug": "array",
+      "title": "문자열조작 및 배열",
+      "aiSummary": "이 문서는 배열(Array)의 기본 개념과 관련된 문제풀이를 다루고 있으며, leetcode 해결 방법과 파이썬 문법, 잘 모르는 용어들에 대한 정보도 포함되어 있다."
+    },
+    {
+      "slug": "bubble-sort",
+      "title": "버블정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "deque",
+      "title": "데크(deque)",
+      "aiSummary": "이 문서는 데크(deque)의 기본 개념과 문제 해결 방법에 대한 내용을 다루며, 관련된 교재 내용 및 leetcode 솔루션을 포함하고 있습니다. 또한, 풀면서 잘 몰랐던 부분과 파이썬 문법에 대한 이슈도 정리되어 있습니다."
+    },
+    {
+      "slug": "merge_sort",
+      "title": "병합정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "priority-queue",
+      "title": "우선순위큐",
+      "aiSummary": "이 문서는 우선순위큐의 기본 개념과 관련 문제 해결 방법에 대한 내용을 다루고 있으며, 특정 교재와 LeetCode 솔루션을 통해 문제를 푸는 과정 중 발생한 의문점들과 파이썬 문법에 대한 설명도 포함되어 있습니다."
+    },
+    {
+      "slug": "programmers",
+      "title": "프로그래머스",
+      "aiSummary": "이 문서는 문제풀이와 관련된 두 가지 주제인 방문길이와 타겟넘버에 대한 내용을 다루고 있다."
+    },
+    {
+      "slug": "queue",
+      "title": "큐(queue)",
+      "aiSummary": "이 문서는 큐(queue)에 대한 기본 개념과 문제 해결 방법을 다루며, 교재 내용 및 LeetCode 솔루션을 포함하고 있습니다. 또한, 문제를 풀이하면서 어려웠던 부분과 파이썬 문법에 대한 질문도 기록되어 있습니다."
+    },
+    {
+      "slug": "short-way",
+      "title": "최단경로문제",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "targetNumber",
+      "title": "타겟넘버",
+      "aiSummary": "타겟넘버(43165 문제)에 대한 노트가 있으며, 구현은 완료되었지만 시간 내에 직접 구현하는 데 실패했다."
+    },
+    {
+      "slug": "tree",
+      "title": "트리",
+      "aiSummary": "이 문서는 트리 구조의 기본 개념에 대한 요약, 다양한 유형의 이진 트리 설명, 그리고 관련 문제 풀이를 포함하고 있다. 주요 용어와 개념에 대한 정의도 제공된다."
+    },
+    {
+      "slug": "try",
+      "title": "트라이",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "visitedlength",
+      "title": "방문 길이 49994번",
+      "aiSummary": "이 문서는 특정 문제를 풀기 위한 접근 방법을 설명하고 있으며, 2차원 배열과 SET을 사용하여 중복 이동을 처리하는 방법을 다루고 있다. 주요 포인트는 양방향 이동을 고려하는 것과 이동 경로의 카운터 기능의 중요성이다."
+    }
+  ],
+  "파이썬": [
+    {
+      "slug": "array",
+      "title": "문자열조작 및 배열",
+      "aiSummary": "이 문서는 배열(Array)의 기본 개념과 관련된 문제풀이를 다루고 있으며, leetcode 해결 방법과 파이썬 문법, 잘 모르는 용어들에 대한 정보도 포함되어 있다."
+    },
+    {
+      "slug": "bubble-sort",
+      "title": "버블정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "deque",
+      "title": "데크(deque)",
+      "aiSummary": "이 문서는 데크(deque)의 기본 개념과 문제 해결 방법에 대한 내용을 다루며, 관련된 교재 내용 및 leetcode 솔루션을 포함하고 있습니다. 또한, 풀면서 잘 몰랐던 부분과 파이썬 문법에 대한 이슈도 정리되어 있습니다."
+    },
+    {
+      "slug": "hash-table",
+      "title": "해시테이블",
+      "aiSummary": "해시 테이블은 키 값으로 데이터를 저장하고 조회하는 구조로, 해시 함수와 로드 팩터 개념을 바탕으로 성능 최적화를 도모한다. 충돌 해결 방식으로는 개별 체이닝과 오픈 어드레싱이 있으며, 파이썬의 딕셔너리 구현을 예로 들어 설명한다."
+    },
+    {
+      "slug": "heap",
+      "title": "힙",
+      "aiSummary": "이 문서는 완전 이진 트리(Heap)의 기본 개념과 특징, 파이썬에서의 구현 방법을 소개하며, 최대값과 최소값을 신속하게 찾는 데 유용한 자료구조에 대한 설명이 포함되어 있다."
+    },
+    {
+      "slug": "inheritance-python",
+      "title": "상속 inheritance",
+      "aiSummary": "이 문서는 팀원들과의 협업 코딩 중에 발생한 상속 문제와 변수 공유 문제에 대한 내용을 다루고 있습니다. 헬퍼 메서드들을 서로 공유하기 위해 클래스를 상속하려 했지만, 변수 공유의 문제로 인해 작동하지 않는 상황에 대해 설명하고 있습니다."
+    },
+    {
+      "slug": "linked-list",
+      "title": "연결리스트",
+      "aiSummary": "이 문서는 연결리스트(linked list)의 기본 개념, 구현 예시, 스택과 큐의 차이점에 대해 설명하고 있으며, 파이썬에서 연결리스트와 큐의 기본 클래스 구현 방법을 제시한다."
+    },
+    {
+      "slug": "merge_sort",
+      "title": "병합정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "priority-queue",
+      "title": "우선순위큐",
+      "aiSummary": "이 문서는 우선순위큐의 기본 개념과 관련 문제 해결 방법에 대한 내용을 다루고 있으며, 특정 교재와 LeetCode 솔루션을 통해 문제를 푸는 과정 중 발생한 의문점들과 파이썬 문법에 대한 설명도 포함되어 있습니다."
+    },
+    {
+      "slug": "queue",
+      "title": "큐(queue)",
+      "aiSummary": "이 문서는 큐(queue)에 대한 기본 개념과 문제 해결 방법을 다루며, 교재 내용 및 LeetCode 솔루션을 포함하고 있습니다. 또한, 문제를 풀이하면서 어려웠던 부분과 파이썬 문법에 대한 질문도 기록되어 있습니다."
+    },
+    {
+      "slug": "short-way",
+      "title": "최단경로문제",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "stack",
+      "title": "스택",
+      "aiSummary": "이 문서는 스택의 기본 개념과 구현 방법을 설명하며, 스택을 연결리스트 및 큐로 구현하는 방법을 예시 코드와 함께 제공한다."
+    },
+    {
+      "slug": "try",
+      "title": "트라이",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "aiSummary": "이 문서는 주어진 문자열이 팰린드롬인지 확인하는 방법을 설명하며, 대소문자를 구분하지 않고 영문자와 숫자만 고려합니다."
+    }
+  ],
+  "추상 자료형": [
+    {
+      "slug": "array",
+      "title": "문자열조작 및 배열",
+      "aiSummary": "이 문서는 배열(Array)의 기본 개념과 관련된 문제풀이를 다루고 있으며, leetcode 해결 방법과 파이썬 문법, 잘 모르는 용어들에 대한 정보도 포함되어 있다."
+    }
+  ],
+  "functions": [
+    {
+      "slug": "arrow-function",
+      "title": "Arrow Fucntion?",
+      "aiSummary": "이 문서는 자바스크립트의 함수 선언, 매개변수, 기본 매개변수, 지역 스코프, 값 반환, 조기 리턴 등 다양한 함수 기능을 설명하며, 특히 화살표 함수(Arrow Function)와 즉시 실행 함수(IIFE)에 대한 내용을 다룬다."
+    }
+  ],
+  "arrow function": [
+    {
+      "slug": "arrow-function",
+      "title": "Arrow Fucntion?",
+      "aiSummary": "이 문서는 자바스크립트의 함수 선언, 매개변수, 기본 매개변수, 지역 스코프, 값 반환, 조기 리턴 등 다양한 함수 기능을 설명하며, 특히 화살표 함수(Arrow Function)와 즉시 실행 함수(IIFE)에 대한 내용을 다룬다."
+    }
+  ],
+  "async": [
+    {
+      "slug": "async-defer",
+      "title": "async 와 defer의 차이점",
+      "aiSummary": "This document discusses the usage of 'async' and 'defer' attributes in script tags for loading JavaScript, explaining their differences with examples, and highlights the importance of using 'strict mode' in JavaScript programming."
+    }
+  ],
+  "defer": [
+    {
+      "slug": "async-defer",
+      "title": "async 와 defer의 차이점",
+      "aiSummary": "This document discusses the usage of 'async' and 'defer' attributes in script tags for loading JavaScript, explaining their differences with examples, and highlights the importance of using 'strict mode' in JavaScript programming."
+    }
+  ],
+  "strict mode": [
+    {
+      "slug": "async-defer",
+      "title": "async 와 defer의 차이점",
+      "aiSummary": "This document discusses the usage of 'async' and 'defer' attributes in script tags for loading JavaScript, explaining their differences with examples, and highlights the importance of using 'strict mode' in JavaScript programming."
+    }
+  ],
+  "cloud services": [
+    {
+      "slug": "aws",
+      "title": "AWS",
+      "aiSummary": "이 문서는 AWS(Amazon Web Services) 관련 서비스인 EC2, S3, Codepipeline, Amplify, CloudFront, CloudWatch, RDS, Route 53에 대한 내용을 포괄적으로 다루고 있습니다."
+    }
+  ],
+  "ec2": [
+    {
+      "slug": "aws",
+      "title": "AWS",
+      "aiSummary": "이 문서는 AWS(Amazon Web Services) 관련 서비스인 EC2, S3, Codepipeline, Amplify, CloudFront, CloudWatch, RDS, Route 53에 대한 내용을 포괄적으로 다루고 있습니다."
+    },
+    {
+      "slug": "mysql_sequelize",
+      "title": "mysql과 sequelize",
+      "aiSummary": "이 문서는 MySQL을 Docker로 설치하는 방법과 EC2 서버에서 MySQL을 설정하는 방법을 설명합니다. Docker에서 MySQL 이미지를 다운로드하고 설정하는 명령어와 EC2 인스턴스를 위한 SSH 접속 및 프로그램 설치 방법을 포함합니다."
+    }
+  ],
+  "s3": [
+    {
+      "slug": "aws",
+      "title": "AWS",
+      "aiSummary": "이 문서는 AWS(Amazon Web Services) 관련 서비스인 EC2, S3, Codepipeline, Amplify, CloudFront, CloudWatch, RDS, Route 53에 대한 내용을 포괄적으로 다루고 있습니다."
+    },
+    {
+      "slug": "gitactions3cloudfront",
+      "title": "github action으로 업로드 자동화",
+      "aiSummary": "S3와 CloudFront를 활용한 스토리지 및 캐싱 개념을 소개하며, 이와 관련된 추가적인 클라우드 서비스 용어들을 설명하는 문서이다."
+    }
+  ],
+  "database": [
+    {
+      "slug": "aws",
+      "title": "AWS",
+      "aiSummary": "이 문서는 AWS(Amazon Web Services) 관련 서비스인 EC2, S3, Codepipeline, Amplify, CloudFront, CloudWatch, RDS, Route 53에 대한 내용을 포괄적으로 다루고 있습니다."
+    }
+  ],
+  "documents": [
+    {
+      "slug": "backend",
+      "title": "BackEnd",
+      "aiSummary": "The document appears to be a table of contents but lacks specific details or sections to summarize further."
+    }
+  ],
+  "metadata": [
+    {
+      "slug": "backend",
+      "title": "BackEnd",
+      "aiSummary": "The document appears to be a table of contents but lacks specific details or sections to summarize further."
+    }
+  ],
+  "structure": [
+    {
+      "slug": "backend",
+      "title": "BackEnd",
+      "aiSummary": "The document appears to be a table of contents but lacks specific details or sections to summarize further."
+    },
+    {
+      "slug": "python",
+      "title": "파이썬(python)",
+      "aiSummary": "The document appears to be a placeholder or outline without specific content, potentially indicating the structure or framework for a larger document."
+    }
+  ],
+  "bfs": [
+    {
+      "slug": "bfs",
+      "title": "BFS(Breadth-First Search)",
+      "aiSummary": "이 문서는 너비 우선 탐색(Breadth-First Search, BFS)에 대한 내용을 다루고 있으며, BFS가 주로 큐를 이용해 구현된다는 것을 설명합니다. 예제 그래프도 제공됩니다."
+    },
+    {
+      "slug": "graph",
+      "title": "그래프(graph)",
+      "aiSummary": "이 문서는 그래프의 기본 개념과 그래프 순회 방법, 백트래킹 알고리즘을 설명하며, N-Queen 문제와 관련된 파이썬 코드 예제를 포함하고 있습니다."
+    }
+  ],
+  "algorithm": [
+    {
+      "slug": "bfs",
+      "title": "BFS(Breadth-First Search)",
+      "aiSummary": "이 문서는 너비 우선 탐색(Breadth-First Search, BFS)에 대한 내용을 다루고 있으며, BFS가 주로 큐를 이용해 구현된다는 것을 설명합니다. 예제 그래프도 제공됩니다."
+    },
+    {
+      "slug": "dfs",
+      "title": "DFS(깊이 우선 탐색)",
+      "aiSummary": "이 문서는 깊이 우선 탐색(DFS) 알고리즘에 대한 설명과 구현 방법을 다루고 있다. DFS는 그래프를 순회하는 방법 중 하나로 주로 스택이나 재귀를 통해 구현되며, 그래프를 표현하는 방법으로 인접 행렬과 인접 리스트를 소개한다."
+    },
+    {
+      "slug": "reorder-log-files",
+      "title": "reorder log files",
+      "aiSummary": "This document contains a link to a LeetCode problem related to reordering data in log files."
+    }
+  ],
+  "graph": [
+    {
+      "slug": "bfs",
+      "title": "BFS(Breadth-First Search)",
+      "aiSummary": "이 문서는 너비 우선 탐색(Breadth-First Search, BFS)에 대한 내용을 다루고 있으며, BFS가 주로 큐를 이용해 구현된다는 것을 설명합니다. 예제 그래프도 제공됩니다."
+    }
+  ],
+  "search": [
+    {
+      "slug": "bfs",
+      "title": "BFS(Breadth-First Search)",
+      "aiSummary": "이 문서는 너비 우선 탐색(Breadth-First Search, BFS)에 대한 내용을 다루고 있으며, BFS가 주로 큐를 이용해 구현된다는 것을 설명합니다. 예제 그래프도 제공됩니다."
+    }
+  ],
+  "data structure": [
+    {
+      "slug": "bfs",
+      "title": "BFS(Breadth-First Search)",
+      "aiSummary": "이 문서는 너비 우선 탐색(Breadth-First Search, BFS)에 대한 내용을 다루고 있으며, BFS가 주로 큐를 이용해 구현된다는 것을 설명합니다. 예제 그래프도 제공됩니다."
+    },
+    {
+      "slug": "dfs",
+      "title": "DFS(깊이 우선 탐색)",
+      "aiSummary": "이 문서는 깊이 우선 탐색(DFS) 알고리즘에 대한 설명과 구현 방법을 다루고 있다. DFS는 그래프를 순회하는 방법 중 하나로 주로 스택이나 재귀를 통해 구현되며, 그래프를 표현하는 방법으로 인접 행렬과 인접 리스트를 소개한다."
+    },
+    {
+      "slug": "palindrome-linked-list",
+      "title": "palindrome-linked-list",
+      "aiSummary": "This document discusses the basic concepts surrounding linked lists, a fundamental data structure, and provides a link to a specific problem related to palindrome linked lists on LeetCode."
+    }
+  ],
+  "leetcode": [
+    {
+      "slug": "bubble-sort",
+      "title": "버블정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "deque",
+      "title": "데크(deque)",
+      "aiSummary": "이 문서는 데크(deque)의 기본 개념과 문제 해결 방법에 대한 내용을 다루며, 관련된 교재 내용 및 leetcode 솔루션을 포함하고 있습니다. 또한, 풀면서 잘 몰랐던 부분과 파이썬 문법에 대한 이슈도 정리되어 있습니다."
+    },
+    {
+      "slug": "merge_sort",
+      "title": "병합정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "most-common-word",
+      "title": "819. 가장흔한단어",
+      "aiSummary": "이 문서는 LeetCode 문제 중 하나인 '가장 흔한 단어'에 대한 내용입니다."
+    },
+    {
+      "slug": "palindrome-linked-list",
+      "title": "palindrome-linked-list",
+      "aiSummary": "This document discusses the basic concepts surrounding linked lists, a fundamental data structure, and provides a link to a specific problem related to palindrome linked lists on LeetCode."
+    },
+    {
+      "slug": "priority-queue",
+      "title": "우선순위큐",
+      "aiSummary": "이 문서는 우선순위큐의 기본 개념과 관련 문제 해결 방법에 대한 내용을 다루고 있으며, 특정 교재와 LeetCode 솔루션을 통해 문제를 푸는 과정 중 발생한 의문점들과 파이썬 문법에 대한 설명도 포함되어 있습니다."
+    },
+    {
+      "slug": "reorder-log-files",
+      "title": "reorder log files",
+      "aiSummary": "This document contains a link to a LeetCode problem related to reordering data in log files."
+    },
+    {
+      "slug": "short-way",
+      "title": "최단경로문제",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "try",
+      "title": "트라이",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    }
+  ],
+  "개념정리": [
+    {
+      "slug": "bubble-sort",
+      "title": "버블정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "merge_sort",
+      "title": "병합정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "short-way",
+      "title": "최단경로문제",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "try",
+      "title": "트라이",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    }
+  ],
+  "코딩": [
+    {
+      "slug": "bubble-sort",
+      "title": "버블정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "merge_sort",
+      "title": "병합정렬",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "short-way",
+      "title": "최단경로문제",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "try",
+      "title": "트라이",
+      "aiSummary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다."
+    }
+  ],
+  "asynchronous": [
+    {
+      "slug": "callback-function",
+      "title": "비동기 처리, 콜백 이해,",
+      "aiSummary": "This document provides an overview of JavaScript's synchronous and asynchronous behavior, highlighting callback functions and demonstrating callback hell through a user authentication example using a class for user storage."
+    },
+    {
+      "slug": "howtoworksasync",
+      "title": "자바스립트에서 어떻게 비동기가 작동될까?",
+      "aiSummary": "자바스크립트는 비동기 처리를 가능하게 하는 Event Loop, Web API, Task Queue에 대해 설명하며, 비동기 작업의 흐름을 이해하는 데 중요한 요소들을 다룬다."
+    }
+  ],
+  "callbacks": [
+    {
+      "slug": "callback-function",
+      "title": "비동기 처리, 콜백 이해,",
+      "aiSummary": "This document provides an overview of JavaScript's synchronous and asynchronous behavior, highlighting callback functions and demonstrating callback hell through a user authentication example using a class for user storage."
+    }
+  ],
+  "synchronous": [
+    {
+      "slug": "callback-function",
+      "title": "비동기 처리, 콜백 이해,",
+      "aiSummary": "This document provides an overview of JavaScript's synchronous and asynchronous behavior, highlighting callback functions and demonstrating callback hell through a user authentication example using a class for user storage."
+    }
+  ],
+  "논리게이트": [
+    {
+      "slug": "chapter11",
+      "title": "chapter11",
+      "aiSummary": "이 문서에서는 논리게이트의 정의와 종류(AND, OR, NOT 등), 스위치와 릴레이의 차이점, 논리회로의 개념, 드모르간의 법칙에 대해 설명하고 있다."
+    }
+  ],
+  "논리회로": [
+    {
+      "slug": "chapter11",
+      "title": "chapter11",
+      "aiSummary": "이 문서에서는 논리게이트의 정의와 종류(AND, OR, NOT 등), 스위치와 릴레이의 차이점, 논리회로의 개념, 드모르간의 법칙에 대해 설명하고 있다."
+    }
+  ],
+  "스위치": [
+    {
+      "slug": "chapter11",
+      "title": "chapter11",
+      "aiSummary": "이 문서에서는 논리게이트의 정의와 종류(AND, OR, NOT 등), 스위치와 릴레이의 차이점, 논리회로의 개념, 드모르간의 법칙에 대해 설명하고 있다."
+    }
+  ],
+  "릴레이": [
+    {
+      "slug": "chapter11",
+      "title": "chapter11",
+      "aiSummary": "이 문서에서는 논리게이트의 정의와 종류(AND, OR, NOT 등), 스위치와 릴레이의 차이점, 논리회로의 개념, 드모르간의 법칙에 대해 설명하고 있다."
+    }
+  ],
+  "드모르간의 법칙": [
+    {
+      "slug": "chapter11",
+      "title": "chapter11",
+      "aiSummary": "이 문서에서는 논리게이트의 정의와 종류(AND, OR, NOT 등), 스위치와 릴레이의 차이점, 논리회로의 개념, 드모르간의 법칙에 대해 설명하고 있다."
+    }
+  ],
+  "전기신호": [
+    {
+      "slug": "chapter4",
+      "title": "Chapter 4. 전등을 분해해 봅시다.",
+      "aiSummary": "챕터 4에서는 전기신호를 통해 CPU와 상호작용하는 방법을 설명하며, 전압, 전류, 저항의 개념을 다룬다. 1(불을 킴)과 0(불을 끔)의 개념을 명확히 하여 CPU가 이해할 수 있도록 한다."
+    }
+  ],
+  "cpu": [
+    {
+      "slug": "chapter4",
+      "title": "Chapter 4. 전등을 분해해 봅시다.",
+      "aiSummary": "챕터 4에서는 전기신호를 통해 CPU와 상호작용하는 방법을 설명하며, 전압, 전류, 저항의 개념을 다룬다. 1(불을 킴)과 0(불을 끔)의 개념을 명확히 하여 CPU가 이해할 수 있도록 한다."
+    }
+  ],
+  "전압": [
+    {
+      "slug": "chapter4",
+      "title": "Chapter 4. 전등을 분해해 봅시다.",
+      "aiSummary": "챕터 4에서는 전기신호를 통해 CPU와 상호작용하는 방법을 설명하며, 전압, 전류, 저항의 개념을 다룬다. 1(불을 킴)과 0(불을 끔)의 개념을 명확히 하여 CPU가 이해할 수 있도록 한다."
+    }
+  ],
+  "전류": [
+    {
+      "slug": "chapter4",
+      "title": "Chapter 4. 전등을 분해해 봅시다.",
+      "aiSummary": "챕터 4에서는 전기신호를 통해 CPU와 상호작용하는 방법을 설명하며, 전압, 전류, 저항의 개념을 다룬다. 1(불을 킴)과 0(불을 끔)의 개념을 명확히 하여 CPU가 이해할 수 있도록 한다."
+    }
+  ],
+  "저항": [
+    {
+      "slug": "chapter4",
+      "title": "Chapter 4. 전등을 분해해 봅시다.",
+      "aiSummary": "챕터 4에서는 전기신호를 통해 CPU와 상호작용하는 방법을 설명하며, 전압, 전류, 저항의 개념을 다룬다. 1(불을 킴)과 0(불을 끔)의 개념을 명확히 하여 CPU가 이해할 수 있도록 한다."
+    }
+  ],
+  "지속적 통합": [
+    {
+      "slug": "ci-cd",
+      "title": "CI/CD(Continuous Integrateion/Continuous Delivery)",
+      "aiSummary": "이 문서는 CI/CD(지속적 통합 및 지속적 제공)의 개념과 이점에 대해 설명하고 있습니다. 특히, 장애 없는 웹 서비스 운영의 중요성과 CI/CD를 통해 얻는 장점인 단시간 배포 및 오류 처리 가능성에 대해 다룹니다."
+    }
+  ],
+  "지속적 제공": [
+    {
+      "slug": "ci-cd",
+      "title": "CI/CD(Continuous Integrateion/Continuous Delivery)",
+      "aiSummary": "이 문서는 CI/CD(지속적 통합 및 지속적 제공)의 개념과 이점에 대해 설명하고 있습니다. 특히, 장애 없는 웹 서비스 운영의 중요성과 CI/CD를 통해 얻는 장점인 단시간 배포 및 오류 처리 가능성에 대해 다룹니다."
+    }
+  ],
+  "웹 서비스": [
+    {
+      "slug": "ci-cd",
+      "title": "CI/CD(Continuous Integrateion/Continuous Delivery)",
+      "aiSummary": "이 문서는 CI/CD(지속적 통합 및 지속적 제공)의 개념과 이점에 대해 설명하고 있습니다. 특히, 장애 없는 웹 서비스 운영의 중요성과 CI/CD를 통해 얻는 장점인 단시간 배포 및 오류 처리 가능성에 대해 다룹니다."
+    }
+  ],
+  "배포 관리": [
+    {
+      "slug": "ci-cd",
+      "title": "CI/CD(Continuous Integrateion/Continuous Delivery)",
+      "aiSummary": "이 문서는 CI/CD(지속적 통합 및 지속적 제공)의 개념과 이점에 대해 설명하고 있습니다. 특히, 장애 없는 웹 서비스 운영의 중요성과 CI/CD를 통해 얻는 장점인 단시간 배포 및 오류 처리 가능성에 대해 다룹니다."
+    }
+  ],
+  "클래스": [
+    {
+      "slug": "class-vs-object",
+      "title": "class & object",
+      "aiSummary": "이 문서는 JavaScript의 클래스와 객체지향 프로그래밍을 설명합니다. 클래스는 객체의 템플릿을 정의하고, 객체는 그 템플릿을 기반으로 생성된 인스턴스입니다. ES6에서 도입된 클래스 문법, 생성자, getter/setter, static, 상속 및 instanceof 연산자를 포함한 여러 개념들이 포함되어 있습니다."
+    }
+  ],
+  "객체지향 프로그래밍": [
+    {
+      "slug": "class-vs-object",
+      "title": "class & object",
+      "aiSummary": "이 문서는 JavaScript의 클래스와 객체지향 프로그래밍을 설명합니다. 클래스는 객체의 템플릿을 정의하고, 객체는 그 템플릿을 기반으로 생성된 인스턴스입니다. ES6에서 도입된 클래스 문법, 생성자, getter/setter, static, 상속 및 instanceof 연산자를 포함한 여러 개념들이 포함되어 있습니다."
+    }
+  ],
+  "상속": [
+    {
+      "slug": "class-vs-object",
+      "title": "class & object",
+      "aiSummary": "이 문서는 JavaScript의 클래스와 객체지향 프로그래밍을 설명합니다. 클래스는 객체의 템플릿을 정의하고, 객체는 그 템플릿을 기반으로 생성된 인스턴스입니다. ES6에서 도입된 클래스 문법, 생성자, getter/setter, static, 상속 및 instanceof 연산자를 포함한 여러 개념들이 포함되어 있습니다."
+    },
+    {
+      "slug": "inheritance-python",
+      "title": "상속 inheritance",
+      "aiSummary": "이 문서는 팀원들과의 협업 코딩 중에 발생한 상속 문제와 변수 공유 문제에 대한 내용을 다루고 있습니다. 헬퍼 메서드들을 서로 공유하기 위해 클래스를 상속하려 했지만, 변수 공유의 문제로 인해 작동하지 않는 상황에 대해 설명하고 있습니다."
+    }
+  ],
+  "aws cognito": [
+    {
+      "slug": "cognitoWithNestjs",
+      "title": "Cognito UserPool을 이용한 인증(feat. nestjs)",
+      "aiSummary": "이 문서는 AWS Cognito를 실전 프로젝트에 적용하기 위한 학습 내용을 정리하며, 발생했던 문제와 그 해결 방법, 장단점을 논의한다."
+    },
+    {
+      "slug": "nestjs",
+      "title": "Nestjs",
+      "aiSummary": "Nestjs는 NodeJs와 TypeScript를 사용하는 백엔드 프레임워크로, Decorator를 통한 의존성 주입, 기본 MVC 패턴, DTO를 통한 데이터 검증을 특징으로 한다. 이 문서는 Swagger 사용법, AWS Cognito 연동, 텔레그램을 이용한 서버 로그 관리 방법을 설명한다."
+    }
+  ],
+  "nestjs": [
+    {
+      "slug": "cognitoWithNestjs",
+      "title": "Cognito UserPool을 이용한 인증(feat. nestjs)",
+      "aiSummary": "이 문서는 AWS Cognito를 실전 프로젝트에 적용하기 위한 학습 내용을 정리하며, 발생했던 문제와 그 해결 방법, 장단점을 논의한다."
+    },
+    {
+      "slug": "microservice",
+      "title": "microservice에 대한 고찰",
+      "aiSummary": "마이크로서비스 아키텍처는 대규모 애플리케이션을 작은 독립적인 서비스로 나누어 각 서비스의 성능 및 확장성을 높이는 방식입니다. 이 구조는 문서화, 코드 관리, 복잡성 등을 고려해야 하며, 다양한 기술 스택을 사용할 수 있는 장점이 있습니다."
+    },
+    {
+      "slug": "nestjs",
+      "title": "Nestjs",
+      "aiSummary": "Nestjs는 NodeJs와 TypeScript를 사용하는 백엔드 프레임워크로, Decorator를 통한 의존성 주입, 기본 MVC 패턴, DTO를 통한 데이터 검증을 특징으로 한다. 이 문서는 Swagger 사용법, AWS Cognito 연동, 텔레그램을 이용한 서버 로그 관리 방법을 설명한다."
+    }
+  ],
+  "cto": [
+    {
+      "slug": "cognitoWithNestjs",
+      "title": "Cognito UserPool을 이용한 인증(feat. nestjs)",
+      "aiSummary": "이 문서는 AWS Cognito를 실전 프로젝트에 적용하기 위한 학습 내용을 정리하며, 발생했던 문제와 그 해결 방법, 장단점을 논의한다."
+    }
+  ],
+  "프로젝트": [
+    {
+      "slug": "cognitoWithNestjs",
+      "title": "Cognito UserPool을 이용한 인증(feat. nestjs)",
+      "aiSummary": "이 문서는 AWS Cognito를 실전 프로젝트에 적용하기 위한 학습 내용을 정리하며, 발생했던 문제와 그 해결 방법, 장단점을 논의한다."
+    },
+    {
+      "slug": "sparta",
+      "title": "항해99",
+      "aiSummary": "스파르타 부트캠프는 99일 동안 협업하여 실전 프로젝트와 알고리즘 스터디를 진행하는 프로그램으로, 일반반과 심화반으로 나뉘며 마지막 주에는 면접 준비와 이력서 리뷰를 제공합니다."
+    }
+  ],
+  "bash": [
+    {
+      "slug": "command",
+      "title": "Docker command",
+      "aiSummary": "This document provides a command for executing a bash shell inside a Docker container."
+    }
+  ],
+  "command": [
+    {
+      "slug": "command",
+      "title": "Docker command",
+      "aiSummary": "This document provides a command for executing a bash shell inside a Docker container."
+    }
+  ],
+  "devops": [
+    {
+      "slug": "command",
+      "title": "Docker command",
+      "aiSummary": "This document provides a command for executing a bash shell inside a Docker container."
+    },
+    {
+      "slug": "install-jenkins",
+      "title": "how to install jenkins",
+      "aiSummary": "This document provides instructions for installing Jenkins using Docker, including running a Docker container, downloading the Jenkins WAR file, copying it to the Docker container, and restarting the container."
+    },
+    {
+      "slug": "root-index",
+      "title": "wiki",
+      "aiSummary": "이 문서는 다양한 기술 주제에 대한 분류체계를 포함하고 있으며, Web Programming, Linux & Server, Synology, 알고리즘, JavaScript, Python 등의 세부 항목으로 구성되어 있습니다."
+    }
+  ],
+  "https": [
+    {
+      "slug": "cs-homework",
+      "title": "항해톡",
+      "aiSummary": "이 문서는 JWT에 대한 작성 완료 목록과 함께 REST API, HTTPS와 HTTP, 쿠키, 세션, 캐시, OSI 7계층, 프로세스와 스레드, 동기 및 비동기, DB 인덱스, DNS, DOM, 브라우저 작동 방식, CORS, JPA, HTTPS/SSL, 미들웨어 등과 같은 기술 문서 작성을 위해 예정된 항목들을 나열하고 있다."
+    },
+    {
+      "slug": "https-ssl",
+      "title": "HTTPS/SSL",
+      "aiSummary": "이 문서는 데이터 프라이버시의 중요성, HTTP와 HTTPS의 차이점, TLS/SSL의 작동 원리 및 인증서 구매와 설정 방법에 대해 설명합니다. 또한, SSL Handshake와 중간자 공격 방법에 대해 다룹니다."
+    }
+  ],
+  "osi 7 layers": [
+    {
+      "slug": "cs-homework",
+      "title": "항해톡",
+      "aiSummary": "이 문서는 JWT에 대한 작성 완료 목록과 함께 REST API, HTTPS와 HTTP, 쿠키, 세션, 캐시, OSI 7계층, 프로세스와 스레드, 동기 및 비동기, DB 인덱스, DNS, DOM, 브라우저 작동 방식, CORS, JPA, HTTPS/SSL, 미들웨어 등과 같은 기술 문서 작성을 위해 예정된 항목들을 나열하고 있다."
+    }
+  ],
+  "cors": [
+    {
+      "slug": "cs-homework",
+      "title": "항해톡",
+      "aiSummary": "이 문서는 JWT에 대한 작성 완료 목록과 함께 REST API, HTTPS와 HTTP, 쿠키, 세션, 캐시, OSI 7계층, 프로세스와 스레드, 동기 및 비동기, DB 인덱스, DNS, DOM, 브라우저 작동 방식, CORS, JPA, HTTPS/SSL, 미들웨어 등과 같은 기술 문서 작성을 위해 예정된 항목들을 나열하고 있다."
+    }
+  ],
+  "cs스터디": [
+    {
+      "slug": "cs-study",
+      "title": "CS스터디",
+      "aiSummary": "CS스터디는 항해측 제공 교재로 진행되었고, 참여자들은 중간에 자율학습으로 전환했다. Node팀은 7명으로 구성되어, 각자 발표를 진행했다."
+    }
+  ],
+  "자율학습": [
+    {
+      "slug": "cs-study",
+      "title": "CS스터디",
+      "aiSummary": "CS스터디는 항해측 제공 교재로 진행되었고, 참여자들은 중간에 자율학습으로 전환했다. Node팀은 7명으로 구성되어, 각자 발표를 진행했다."
+    }
+  ],
+  "node팀": [
+    {
+      "slug": "cs-study",
+      "title": "CS스터디",
+      "aiSummary": "CS스터디는 항해측 제공 교재로 진행되었고, 참여자들은 중간에 자율학습으로 전환했다. Node팀은 7명으로 구성되어, 각자 발표를 진행했다."
+    }
+  ],
+  "발표": [
+    {
+      "slug": "cs-study",
+      "title": "CS스터디",
+      "aiSummary": "CS스터디는 항해측 제공 교재로 진행되었고, 참여자들은 중간에 자율학습으로 전환했다. Node팀은 7명으로 구성되어, 각자 발표를 진행했다."
+    }
+  ],
+  "교재": [
+    {
+      "slug": "cs-study",
+      "title": "CS스터디",
+      "aiSummary": "CS스터디는 항해측 제공 교재로 진행되었고, 참여자들은 중간에 자율학습으로 전환했다. Node팀은 7명으로 구성되어, 각자 발표를 진행했다."
+    }
+  ],
+  "python": [
+    {
+      "slug": "deque-mothod",
+      "title": "디큐 메소드 deque method",
+      "aiSummary": "이 문서는 파이썬의 deque 메서드를 소개하며, 이를 사용하면 내장 함수보다 더 빠르고 쉽게 자료 구조를 구현할 수 있음을 설명합니다."
+    },
+    {
+      "slug": "enumerate",
+      "title": "enumerate",
+      "aiSummary": "이 문서는 Python의 enumerate 함수에 대해 설명하며, 여러 자료형을 인덱스가 포함된 enumerate 객체로 변환하는 방법을 보여줍니다."
+    },
+    {
+      "slug": "magic-mothod",
+      "title": "Magic Method",
+      "aiSummary": "이 문서는 파이썬에서 __len__ 메서드를 오버라이딩하는 방법에 대해 설명한다. 사용자 정의 클래스에서 len 함수를 재정의하여 객체의 길이를 다르게 정의할 수 있음을 보여준다."
+    },
+    {
+      "slug": "miniproject",
+      "title": "미니프로젝트",
+      "aiSummary": "미니프로젝트에서의 경험을 회고하며, Python과 Flask를 사용하여 API를 구현했지만 협업과 기술 부족으로 인해 완성도가 낮았음을 느꼈다. 프로젝트 종료 후 얻은 기술적 유익은 있었으나, 실패를 경험한 것으로 생각하고 있다."
+    },
+    {
+      "slug": "python-heapq",
+      "title": "heapq",
+      "aiSummary": "이 문서는 Python의 내장 모듈인 heapq에 관한 내용을 다루고 있으며, heapq.heappush() 함수를 설명합니다."
+    },
+    {
+      "slug": "random-python",
+      "title": "Random()",
+      "aiSummary": "이 문서는 Python의 Random 모듈에 대한 내용을 포함하고 있으며, random() 함수와 seed(int) 함수의 사용법을 다루고 있다."
+    },
+    {
+      "slug": "root-index",
+      "title": "wiki",
+      "aiSummary": "이 문서는 다양한 기술 주제에 대한 분류체계를 포함하고 있으며, Web Programming, Linux & Server, Synology, 알고리즘, JavaScript, Python 등의 세부 항목으로 구성되어 있습니다."
+    },
+    {
+      "slug": "visitedlength",
+      "title": "방문 길이 49994번",
+      "aiSummary": "이 문서는 특정 문제를 풀기 위한 접근 방법을 설명하고 있으며, 2차원 배열과 SET을 사용하여 중복 이동을 처리하는 방법을 다루고 있다. 주요 포인트는 양방향 이동을 고려하는 것과 이동 경로의 카운터 기능의 중요성이다."
+    }
+  ],
+  "deque": [
+    {
+      "slug": "deque-mothod",
+      "title": "디큐 메소드 deque method",
+      "aiSummary": "이 문서는 파이썬의 deque 메서드를 소개하며, 이를 사용하면 내장 함수보다 더 빠르고 쉽게 자료 구조를 구현할 수 있음을 설명합니다."
+    }
+  ],
+  "자료구조": [
+    {
+      "slug": "deque-mothod",
+      "title": "디큐 메소드 deque method",
+      "aiSummary": "이 문서는 파이썬의 deque 메서드를 소개하며, 이를 사용하면 내장 함수보다 더 빠르고 쉽게 자료 구조를 구현할 수 있음을 설명합니다."
+    },
+    {
+      "slug": "heap",
+      "title": "힙",
+      "aiSummary": "이 문서는 완전 이진 트리(Heap)의 기본 개념과 특징, 파이썬에서의 구현 방법을 소개하며, 최대값과 최소값을 신속하게 찾는 데 유용한 자료구조에 대한 설명이 포함되어 있다."
+    },
+    {
+      "slug": "linked-list",
+      "title": "연결리스트",
+      "aiSummary": "이 문서는 연결리스트(linked list)의 기본 개념, 구현 예시, 스택과 큐의 차이점에 대해 설명하고 있으며, 파이썬에서 연결리스트와 큐의 기본 클래스 구현 방법을 제시한다."
+    },
+    {
+      "slug": "python-heapq",
+      "title": "heapq",
+      "aiSummary": "이 문서는 Python의 내장 모듈인 heapq에 관한 내용을 다루고 있으며, heapq.heappush() 함수를 설명합니다."
+    },
+    {
+      "slug": "queue",
+      "title": "큐(queue)",
+      "aiSummary": "이 문서는 큐(queue)에 대한 기본 개념과 문제 해결 방법을 다루며, 교재 내용 및 LeetCode 솔루션을 포함하고 있습니다. 또한, 문제를 풀이하면서 어려웠던 부분과 파이썬 문법에 대한 질문도 기록되어 있습니다."
+    }
+  ],
+  "collections": [
+    {
+      "slug": "deque-mothod",
+      "title": "디큐 메소드 deque method",
+      "aiSummary": "이 문서는 파이썬의 deque 메서드를 소개하며, 이를 사용하면 내장 함수보다 더 빠르고 쉽게 자료 구조를 구현할 수 있음을 설명합니다."
+    }
+  ],
+  "내장함수": [
+    {
+      "slug": "deque-mothod",
+      "title": "디큐 메소드 deque method",
+      "aiSummary": "이 문서는 파이썬의 deque 메서드를 소개하며, 이를 사용하면 내장 함수보다 더 빠르고 쉽게 자료 구조를 구현할 수 있음을 설명합니다."
+    },
+    {
+      "slug": "python-heapq",
+      "title": "heapq",
+      "aiSummary": "이 문서는 Python의 내장 모듈인 heapq에 관한 내용을 다루고 있으며, heapq.heappush() 함수를 설명합니다."
+    }
+  ],
+  "데크": [
+    {
+      "slug": "deque",
+      "title": "데크(deque)",
+      "aiSummary": "이 문서는 데크(deque)의 기본 개념과 문제 해결 방법에 대한 내용을 다루며, 관련된 교재 내용 및 leetcode 솔루션을 포함하고 있습니다. 또한, 풀면서 잘 몰랐던 부분과 파이썬 문법에 대한 이슈도 정리되어 있습니다."
+    }
+  ],
+  "dfs": [
+    {
+      "slug": "dfs",
+      "title": "DFS(깊이 우선 탐색)",
+      "aiSummary": "이 문서는 깊이 우선 탐색(DFS) 알고리즘에 대한 설명과 구현 방법을 다루고 있다. DFS는 그래프를 순회하는 방법 중 하나로 주로 스택이나 재귀를 통해 구현되며, 그래프를 표현하는 방법으로 인접 행렬과 인접 리스트를 소개한다."
+    },
+    {
+      "slug": "graph",
+      "title": "그래프(graph)",
+      "aiSummary": "이 문서는 그래프의 기본 개념과 그래프 순회 방법, 백트래킹 알고리즘을 설명하며, N-Queen 문제와 관련된 파이썬 코드 예제를 포함하고 있습니다."
+    }
+  ],
+  "graph traversal": [
+    {
+      "slug": "dfs",
+      "title": "DFS(깊이 우선 탐색)",
+      "aiSummary": "이 문서는 깊이 우선 탐색(DFS) 알고리즘에 대한 설명과 구현 방법을 다루고 있다. DFS는 그래프를 순회하는 방법 중 하나로 주로 스택이나 재귀를 통해 구현되며, 그래프를 표현하는 방법으로 인접 행렬과 인접 리스트를 소개한다."
+    }
+  ],
+  "depth first search": [
+    {
+      "slug": "dfs",
+      "title": "DFS(깊이 우선 탐색)",
+      "aiSummary": "이 문서는 깊이 우선 탐색(DFS) 알고리즘에 대한 설명과 구현 방법을 다루고 있다. DFS는 그래프를 순회하는 방법 중 하나로 주로 스택이나 재귀를 통해 구현되며, 그래프를 표현하는 방법으로 인접 행렬과 인접 리스트를 소개한다."
+    }
+  ],
+  "기록": [
+    {
+      "slug": "diary",
+      "title": "다이어리",
+      "aiSummary": "이 문서는 2022년과 2023년도에 관련된 기록을 포함하는 목차를 제시하고 있습니다."
+    }
+  ],
+  "ubuntu": [
+    {
+      "slug": "docker-basic",
+      "title": "Docker basic",
+      "aiSummary": "이 문서는 Docker를 사용하여 Ubuntu에 SSH를 설치하는 과정을 설명하며, Dockerfile과 docker-compose.yml 파일 설정에 대한 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "locale-problem",
+      "title": "locale 설정 방법",
+      "aiSummary": "이 문서는 Ubuntu의 Locale을 한국어로 설정하는 방법에 대한 가이드이다."
+    }
+  ],
+  "ssh": [
+    {
+      "slug": "docker-basic",
+      "title": "Docker basic",
+      "aiSummary": "이 문서는 Docker를 사용하여 Ubuntu에 SSH를 설치하는 과정을 설명하며, Dockerfile과 docker-compose.yml 파일 설정에 대한 내용을 포함하고 있습니다."
+    },
+    {
+      "slug": "ssh-key-copy",
+      "title": "Ssh key copy to server",
+      "aiSummary": "This document provides a brief guide on how to copy key files to a server using the ssh-copy-id command."
+    }
+  ],
+  "virtualization": [
+    {
+      "slug": "docker-basic",
+      "title": "Docker basic",
+      "aiSummary": "이 문서는 Docker를 사용하여 Ubuntu에 SSH를 설치하는 과정을 설명하며, Dockerfile과 docker-compose.yml 파일 설정에 대한 내용을 포함하고 있습니다."
+    }
+  ],
+  "buildx": [
+    {
+      "slug": "dockerBuildx",
+      "title": "Docker Buildx로 다양한 플렛폼에서도 빌드하자",
+      "aiSummary": "Docker buildx는 M1 맥북과 다른 플랫폼에서의 도커 빌드를 쉽게 관리할 수 있는 도구로, 각 플랫폼에 맞는 리소스를 지정할 필요 없이 간편하게 빌드를 수행할 수 있게 도와준다."
+    }
+  ],
+  "m1 mac": [
+    {
+      "slug": "dockerBuildx",
+      "title": "Docker Buildx로 다양한 플렛폼에서도 빌드하자",
+      "aiSummary": "Docker buildx는 M1 맥북과 다른 플랫폼에서의 도커 빌드를 쉽게 관리할 수 있는 도구로, 각 플랫폼에 맞는 리소스를 지정할 필요 없이 간편하게 빌드를 수행할 수 있게 도와준다."
+    }
+  ],
+  "arm64": [
+    {
+      "slug": "dockerBuildx",
+      "title": "Docker Buildx로 다양한 플렛폼에서도 빌드하자",
+      "aiSummary": "Docker buildx는 M1 맥북과 다른 플랫폼에서의 도커 빌드를 쉽게 관리할 수 있는 도구로, 각 플랫폼에 맞는 리소스를 지정할 필요 없이 간편하게 빌드를 수행할 수 있게 도와준다."
+    }
+  ],
+  "빌드 관리": [
+    {
+      "slug": "dockerBuildx",
+      "title": "Docker Buildx로 다양한 플렛폼에서도 빌드하자",
+      "aiSummary": "Docker buildx는 M1 맥북과 다른 플랫폼에서의 도커 빌드를 쉽게 관리할 수 있는 도구로, 각 플랫폼에 맞는 리소스를 지정할 필요 없이 간편하게 빌드를 수행할 수 있게 도와준다."
+    }
+  ],
+  "enumerate": [
+    {
+      "slug": "enumerate",
+      "title": "enumerate",
+      "aiSummary": "이 문서는 Python의 enumerate 함수에 대해 설명하며, 여러 자료형을 인덱스가 포함된 enumerate 객체로 변환하는 방법을 보여줍니다."
+    }
+  ],
+  "자료형": [
+    {
+      "slug": "enumerate",
+      "title": "enumerate",
+      "aiSummary": "이 문서는 Python의 enumerate 함수에 대해 설명하며, 여러 자료형을 인덱스가 포함된 enumerate 객체로 변환하는 방법을 보여줍니다."
+    }
+  ],
+  "인덱스": [
+    {
+      "slug": "enumerate",
+      "title": "enumerate",
+      "aiSummary": "이 문서는 Python의 enumerate 함수에 대해 설명하며, 여러 자료형을 인덱스가 포함된 enumerate 객체로 변환하는 방법을 보여줍니다."
+    }
+  ],
+  "프로그래밍": [
+    {
+      "slug": "enumerate",
+      "title": "enumerate",
+      "aiSummary": "이 문서는 Python의 enumerate 함수에 대해 설명하며, 여러 자료형을 인덱스가 포함된 enumerate 객체로 변환하는 방법을 보여줍니다."
+    },
+    {
+      "slug": "literals",
+      "title": "함수 리터럴이란 무엇인가?",
+      "aiSummary": "함수 리터럴은 자바스크립트에서 함수명을 사용하지 않고 함수의 상태를 나타내는 방식으로, 변수를 통해 함수를 담을 수 있는 개념이다. 이 글에서는 리터럴의 정의와 자바스크립트에서의 활용에 대해 설명한다."
+    },
+    {
+      "slug": "magic-mothod",
+      "title": "Magic Method",
+      "aiSummary": "이 문서는 파이썬에서 __len__ 메서드를 오버라이딩하는 방법에 대해 설명한다. 사용자 정의 클래스에서 len 함수를 재정의하여 객체의 길이를 다르게 정의할 수 있음을 보여준다."
+    },
+    {
+      "slug": "promise-js",
+      "title": "Javascript Promise",
+      "aiSummary": "이 문서는 'promise'에 대한 개요와 그 사용 방법에 대해 설명합니다. Promise는 비동기 작업의 결과를 나타내는 객체로, 작업이 완료되면 성공 또는 실패 상태를 반환합니다."
+    },
+    {
+      "slug": "python-heapq",
+      "title": "heapq",
+      "aiSummary": "이 문서는 Python의 내장 모듈인 heapq에 관한 내용을 다루고 있으며, heapq.heappush() 함수를 설명합니다."
+    },
+    {
+      "slug": "readMDFile",
+      "title": "react에서 md파일 읽기",
+      "aiSummary": "이 문서는 React에서 Markdown 파일을 읽는 방법에 대한 설명입니다. 글로벌 타입 선언과 함께, Markdown 파일을 fetch하고 이를 React 컴포넌트로 렌더링하는 간단한 예제 코드를 포함하고 있습니다."
+    },
+    {
+      "slug": "regex",
+      "title": "Regex 사용법",
+      "aiSummary": "이 문서는 정규 표현식(regex)에 대한 소개와 기본 문법(Syntax), 수량자(Quantifiers), 유형(Roundary-type), 문자 클래스(Character classes)를 설명한다."
+    },
+    {
+      "slug": "reverse-string",
+      "title": "reverse-string",
+      "aiSummary": "이 문서는 코드와 관련된 내용을 다루고 있습니다."
+    },
+    {
+      "slug": "socketio",
+      "title": "socketio 란 무엇인가?",
+      "aiSummary": "WebSocket 객체는 WebSocket 서버와의 연결을 생성하고 관리하며, 연결을 통해 데이터를 송수신할 수 있는 API를 제공한다. websocket() 생성자를 통해 사용할 수 있다."
+    },
+    {
+      "slug": "sparta",
+      "title": "항해99",
+      "aiSummary": "스파르타 부트캠프는 99일 동안 협업하여 실전 프로젝트와 알고리즘 스터디를 진행하는 프로그램으로, 일반반과 심화반으로 나뉘며 마지막 주에는 면접 준비와 이력서 리뷰를 제공합니다."
+    },
+    {
+      "slug": "targetNumber",
+      "title": "타겟넘버",
+      "aiSummary": "타겟넘버(43165 문제)에 대한 노트가 있으며, 구현은 완료되었지만 시간 내에 직접 구현하는 데 실패했다."
+    },
+    {
+      "slug": "todo-memo",
+      "title": "mongodb & router",
+      "aiSummary": "이 문서는 JavaScript의 기본 구조에 대한 설명을 다룹니다."
+    },
+    {
+      "slug": "vimspector",
+      "title": "vimspector",
+      "aiSummary": "이 문서는 vimspector에 대한 내용을 다루며, 주로 GitHub 페이지에서 시작하는 방법에 대한 정보를 제공합니다."
+    },
+    {
+      "slug": "what-is-object",
+      "title": "오브젝트란?",
+      "aiSummary": "이 문서는 JavaScript의 객체(Object)에 대한 개념, 리터럴 및 프로퍼티, 계산된 프로퍼티, 프로퍼티 값 약식, 생성자 함수, 존재성 검사, 순환 방법, 복사 방법 등을 설명하고 있습니다."
+    }
+  ],
+  "http 메서드": [
+    {
+      "slug": "express",
+      "title": "express",
+      "aiSummary": "이 문서는 Express.js의 구조에 대한 기본 정보를 제공하며, app()와 Router() 메서드, 다양한 HTTP 요청 메서드(GET, POST, PUT, PATCH, DELETE)의 사용 방법을 설명한다. 특히 PUT과 PATCH의 차이점에 대해 언급하고 있다."
+    }
+  ],
+  "웹 프레임워크": [
+    {
+      "slug": "express",
+      "title": "express",
+      "aiSummary": "이 문서는 Express.js의 구조에 대한 기본 정보를 제공하며, app()와 Router() 메서드, 다양한 HTTP 요청 메서드(GET, POST, PUT, PATCH, DELETE)의 사용 방법을 설명한다. 특히 PUT과 PATCH의 차이점에 대해 언급하고 있다."
+    },
+    {
+      "slug": "flask",
+      "title": "flask",
+      "aiSummary": "이 문서는 Flask에 대한 내용을 포함할 예정이며, 현재 준비 중입니다."
+    }
+  ],
+  "flask": [
+    {
+      "slug": "flask",
+      "title": "flask",
+      "aiSummary": "이 문서는 Flask에 대한 내용을 포함할 예정이며, 현재 준비 중입니다."
+    },
+    {
+      "slug": "miniproject",
+      "title": "미니프로젝트",
+      "aiSummary": "미니프로젝트에서의 경험을 회고하며, Python과 Flask를 사용하여 API를 구현했지만 협업과 기술 부족으로 인해 완성도가 낮았음을 느꼈다. 프로젝트 종료 후 얻은 기술적 유익은 있었으나, 실패를 경험한 것으로 생각하고 있다."
+    }
+  ],
+  "개발": [
+    {
+      "slug": "flask",
+      "title": "flask",
+      "aiSummary": "이 문서는 Flask에 대한 내용을 포함할 예정이며, 현재 준비 중입니다."
+    }
+  ],
+  "준비 중": [
+    {
+      "slug": "flask",
+      "title": "flask",
+      "aiSummary": "이 문서는 Flask에 대한 내용을 포함할 예정이며, 현재 준비 중입니다."
+    }
+  ],
+  "for...in": [
+    {
+      "slug": "forinforof",
+      "title": "for in 과 for of 차이점",
+      "aiSummary": "이 문서는 JavaScript에서 for...in과 for...of 문에 대한 차이점과 사용 용례에 대해 설명하고 있다. for...in은 객체의 열거 가능한 속성을 반복하는 데 사용되며, 주로 디버깅 목적으로 사용되고, for...of는 배열과 기타 반복 가능한 객체를 반복하는 데 적합하다."
+    }
+  ],
+  "for...of": [
+    {
+      "slug": "forinforof",
+      "title": "for in 과 for of 차이점",
+      "aiSummary": "이 문서는 JavaScript에서 for...in과 for...of 문에 대한 차이점과 사용 용례에 대해 설명하고 있다. for...in은 객체의 열거 가능한 속성을 반복하는 데 사용되며, 주로 디버깅 목적으로 사용되고, for...of는 배열과 기타 반복 가능한 객체를 반복하는 데 적합하다."
+    }
+  ],
+  "iterable": [
+    {
+      "slug": "forinforof",
+      "title": "for in 과 for of 차이점",
+      "aiSummary": "이 문서는 JavaScript에서 for...in과 for...of 문에 대한 차이점과 사용 용례에 대해 설명하고 있다. for...in은 객체의 열거 가능한 속성을 반복하는 데 사용되며, 주로 디버깅 목적으로 사용되고, for...of는 배열과 기타 반복 가능한 객체를 반복하는 데 적합하다."
+    }
+  ],
+  "디버깅": [
+    {
+      "slug": "forinforof",
+      "title": "for in 과 for of 차이점",
+      "aiSummary": "이 문서는 JavaScript에서 for...in과 for...of 문에 대한 차이점과 사용 용례에 대해 설명하고 있다. for...in은 객체의 열거 가능한 속성을 반복하는 데 사용되며, 주로 디버깅 목적으로 사용되고, for...of는 배열과 기타 반복 가능한 객체를 반복하는 데 적합하다."
+    },
+    {
+      "slug": "vimspector",
+      "title": "vimspector",
+      "aiSummary": "이 문서는 vimspector에 대한 내용을 다루며, 주로 GitHub 페이지에서 시작하는 방법에 대한 정보를 제공합니다."
+    }
+  ],
+  "codecommit": [
+    {
+      "slug": "gitCommitCopyToNewRepo",
+      "title": "새로운 레포에 기존 커밋 옮기기",
+      "aiSummary": "이 문서는 AWS로 레포를 이주하는 이유와 방법에 대해 설명하며, AWS CodeCommit의 가격 정보 및 GitHub에서 CodeCommit으로의 이주 과정에 대한 내용을 포함하고 있다."
+    }
+  ],
+  "github": [
+    {
+      "slug": "gitCommitCopyToNewRepo",
+      "title": "새로운 레포에 기존 커밋 옮기기",
+      "aiSummary": "이 문서는 AWS로 레포를 이주하는 이유와 방법에 대해 설명하며, AWS CodeCommit의 가격 정보 및 GitHub에서 CodeCommit으로의 이주 과정에 대한 내용을 포함하고 있다."
+    },
+    {
+      "slug": "vimspector",
+      "title": "vimspector",
+      "aiSummary": "이 문서는 vimspector에 대한 내용을 다루며, 주로 GitHub 페이지에서 시작하는 방법에 대한 정보를 제공합니다."
+    }
+  ],
+  "소스코드보안": [
+    {
+      "slug": "gitCommitCopyToNewRepo",
+      "title": "새로운 레포에 기존 커밋 옮기기",
+      "aiSummary": "이 문서는 AWS로 레포를 이주하는 이유와 방법에 대해 설명하며, AWS CodeCommit의 가격 정보 및 GitHub에서 CodeCommit으로의 이주 과정에 대한 내용을 포함하고 있다."
+    }
+  ],
+  "레포이주": [
+    {
+      "slug": "gitCommitCopyToNewRepo",
+      "title": "새로운 레포에 기존 커밋 옮기기",
+      "aiSummary": "이 문서는 AWS로 레포를 이주하는 이유와 방법에 대해 설명하며, AWS CodeCommit의 가격 정보 및 GitHub에서 CodeCommit으로의 이주 과정에 대한 내용을 포함하고 있다."
+    }
+  ],
+  "cloudfront": [
+    {
+      "slug": "gitactions3cloudfront",
+      "title": "github action으로 업로드 자동화",
+      "aiSummary": "S3와 CloudFront를 활용한 스토리지 및 캐싱 개념을 소개하며, 이와 관련된 추가적인 클라우드 서비스 용어들을 설명하는 문서이다."
+    }
+  ],
+  "웹 스토리지": [
+    {
+      "slug": "gitactions3cloudfront",
+      "title": "github action으로 업로드 자동화",
+      "aiSummary": "S3와 CloudFront를 활용한 스토리지 및 캐싱 개념을 소개하며, 이와 관련된 추가적인 클라우드 서비스 용어들을 설명하는 문서이다."
+    }
+  ],
+  "캐시 서버": [
+    {
+      "slug": "gitactions3cloudfront",
+      "title": "github action으로 업로드 자동화",
+      "aiSummary": "S3와 CloudFront를 활용한 스토리지 및 캐싱 개념을 소개하며, 이와 관련된 추가적인 클라우드 서비스 용어들을 설명하는 문서이다."
+    }
+  ],
+  "클라우드 서비스": [
+    {
+      "slug": "gitactions3cloudfront",
+      "title": "github action으로 업로드 자동화",
+      "aiSummary": "S3와 CloudFront를 활용한 스토리지 및 캐싱 개념을 소개하며, 이와 관련된 추가적인 클라우드 서비스 용어들을 설명하는 문서이다."
+    }
+  ],
+  "git": [
+    {
+      "slug": "gitreset",
+      "title": "환경변수가 git에 올라갔을때",
+      "aiSummary": "팀원이 ENV파일을 레포에 업데이트한 상황에서 이를 되돌리는 방법에 대해 설명한다. CLI와 gitLens라는 두 가지 방법을 통해 이전 상태로 복구하는 절차를 안내한다."
+    }
+  ],
+  "env파일": [
+    {
+      "slug": "gitreset",
+      "title": "환경변수가 git에 올라갔을때",
+      "aiSummary": "팀원이 ENV파일을 레포에 업데이트한 상황에서 이를 되돌리는 방법에 대해 설명한다. CLI와 gitLens라는 두 가지 방법을 통해 이전 상태로 복구하는 절차를 안내한다."
+    }
+  ],
+  "버전 관리": [
+    {
+      "slug": "gitreset",
+      "title": "환경변수가 git에 올라갔을때",
+      "aiSummary": "팀원이 ENV파일을 레포에 업데이트한 상황에서 이를 되돌리는 방법에 대해 설명한다. CLI와 gitLens라는 두 가지 방법을 통해 이전 상태로 복구하는 절차를 안내한다."
+    }
+  ],
+  "cli": [
+    {
+      "slug": "gitreset",
+      "title": "환경변수가 git에 올라갔을때",
+      "aiSummary": "팀원이 ENV파일을 레포에 업데이트한 상황에서 이를 되돌리는 방법에 대해 설명한다. CLI와 gitLens라는 두 가지 방법을 통해 이전 상태로 복구하는 절차를 안내한다."
+    }
+  ],
+  "gitlens": [
+    {
+      "slug": "gitreset",
+      "title": "환경변수가 git에 올라갔을때",
+      "aiSummary": "팀원이 ENV파일을 레포에 업데이트한 상황에서 이를 되돌리는 방법에 대해 설명한다. CLI와 gitLens라는 두 가지 방법을 통해 이전 상태로 복구하는 절차를 안내한다."
+    }
+  ],
+  "그래프": [
+    {
+      "slug": "graph",
+      "title": "그래프(graph)",
+      "aiSummary": "이 문서는 그래프의 기본 개념과 그래프 순회 방법, 백트래킹 알고리즘을 설명하며, N-Queen 문제와 관련된 파이썬 코드 예제를 포함하고 있습니다."
+    }
+  ],
+  "n-queen": [
+    {
+      "slug": "graph",
+      "title": "그래프(graph)",
+      "aiSummary": "이 문서는 그래프의 기본 개념과 그래프 순회 방법, 백트래킹 알고리즘을 설명하며, N-Queen 문제와 관련된 파이썬 코드 예제를 포함하고 있습니다."
+    }
+  ],
+  "해시테이블": [
+    {
+      "slug": "hash-table",
+      "title": "해시테이블",
+      "aiSummary": "해시 테이블은 키 값으로 데이터를 저장하고 조회하는 구조로, 해시 함수와 로드 팩터 개념을 바탕으로 성능 최적화를 도모한다. 충돌 해결 방식으로는 개별 체이닝과 오픈 어드레싱이 있으며, 파이썬의 딕셔너리 구현을 예로 들어 설명한다."
+    }
+  ],
+  "해시함수": [
+    {
+      "slug": "hash-table",
+      "title": "해시테이블",
+      "aiSummary": "해시 테이블은 키 값으로 데이터를 저장하고 조회하는 구조로, 해시 함수와 로드 팩터 개념을 바탕으로 성능 최적화를 도모한다. 충돌 해결 방식으로는 개별 체이닝과 오픈 어드레싱이 있으며, 파이썬의 딕셔너리 구현을 예로 들어 설명한다."
+    }
+  ],
+  "충돌해결": [
+    {
+      "slug": "hash-table",
+      "title": "해시테이블",
+      "aiSummary": "해시 테이블은 키 값으로 데이터를 저장하고 조회하는 구조로, 해시 함수와 로드 팩터 개념을 바탕으로 성능 최적화를 도모한다. 충돌 해결 방식으로는 개별 체이닝과 오픈 어드레싱이 있으며, 파이썬의 딕셔너리 구현을 예로 들어 설명한다."
+    }
+  ],
+  "로드팩터": [
+    {
+      "slug": "hash-table",
+      "title": "해시테이블",
+      "aiSummary": "해시 테이블은 키 값으로 데이터를 저장하고 조회하는 구조로, 해시 함수와 로드 팩터 개념을 바탕으로 성능 최적화를 도모한다. 충돌 해결 방식으로는 개별 체이닝과 오픈 어드레싱이 있으며, 파이썬의 딕셔너리 구현을 예로 들어 설명한다."
+    }
+  ],
+  "handlebars": [
+    {
+      "slug": "hbsvspug",
+      "title": "hbs 와 pug",
+      "aiSummary": "이 문서는 Handlebars와 Pug 템플릿 엔진의 장점을 요약하고, 각 엔진에 대한 간단한 링크를 포함하고 있다."
+    }
+  ],
+  "pug": [
+    {
+      "slug": "hbsvspug",
+      "title": "hbs 와 pug",
+      "aiSummary": "이 문서는 Handlebars와 Pug 템플릿 엔진의 장점을 요약하고, 각 엔진에 대한 간단한 링크를 포함하고 있다."
+    }
+  ],
+  "템플릿 엔진": [
+    {
+      "slug": "hbsvspug",
+      "title": "hbs 와 pug",
+      "aiSummary": "이 문서는 Handlebars와 Pug 템플릿 엔진의 장점을 요약하고, 각 엔진에 대한 간단한 링크를 포함하고 있다."
+    }
+  ],
+  "가독성": [
+    {
+      "slug": "hbsvspug",
+      "title": "hbs 와 pug",
+      "aiSummary": "이 문서는 Handlebars와 Pug 템플릿 엔진의 장점을 요약하고, 각 엔진에 대한 간단한 링크를 포함하고 있다."
+    }
+  ],
+  "완전 이진 트리": [
+    {
+      "slug": "heap",
+      "title": "힙",
+      "aiSummary": "이 문서는 완전 이진 트리(Heap)의 기본 개념과 특징, 파이썬에서의 구현 방법을 소개하며, 최대값과 최소값을 신속하게 찾는 데 유용한 자료구조에 대한 설명이 포함되어 있다."
+    }
+  ],
+  "heap": [
+    {
+      "slug": "heap",
+      "title": "힙",
+      "aiSummary": "이 문서는 완전 이진 트리(Heap)의 기본 개념과 특징, 파이썬에서의 구현 방법을 소개하며, 최대값과 최소값을 신속하게 찾는 데 유용한 자료구조에 대한 설명이 포함되어 있다."
+    }
+  ],
+  "최대 최소값": [
+    {
+      "slug": "heap",
+      "title": "힙",
+      "aiSummary": "이 문서는 완전 이진 트리(Heap)의 기본 개념과 특징, 파이썬에서의 구현 방법을 소개하며, 최대값과 최소값을 신속하게 찾는 데 유용한 자료구조에 대한 설명이 포함되어 있다."
+    }
+  ],
+  "문서 구성": [
+    {
+      "slug": "homework",
+      "title": "과제톡",
+      "aiSummary": "이 문서는 목차(TOC) 기능을 설명하는 내용을 담고 있습니다."
+    }
+  ],
+  "기능 설명": [
+    {
+      "slug": "homework",
+      "title": "과제톡",
+      "aiSummary": "이 문서는 목차(TOC) 기능을 설명하는 내용을 담고 있습니다."
+    }
+  ],
+  "내비게이션": [
+    {
+      "slug": "homework",
+      "title": "과제톡",
+      "aiSummary": "이 문서는 목차(TOC) 기능을 설명하는 내용을 담고 있습니다."
+    }
+  ],
+  "event loop": [
+    {
+      "slug": "howtoworksasync",
+      "title": "자바스립트에서 어떻게 비동기가 작동될까?",
+      "aiSummary": "자바스크립트는 비동기 처리를 가능하게 하는 Event Loop, Web API, Task Queue에 대해 설명하며, 비동기 작업의 흐름을 이해하는 데 중요한 요소들을 다룬다."
+    }
+  ],
+  "web api": [
+    {
+      "slug": "howtoworksasync",
+      "title": "자바스립트에서 어떻게 비동기가 작동될까?",
+      "aiSummary": "자바스크립트는 비동기 처리를 가능하게 하는 Event Loop, Web API, Task Queue에 대해 설명하며, 비동기 작업의 흐름을 이해하는 데 중요한 요소들을 다룬다."
+    }
+  ],
+  "task queue": [
+    {
+      "slug": "howtoworksasync",
+      "title": "자바스립트에서 어떻게 비동기가 작동될까?",
+      "aiSummary": "자바스크립트는 비동기 처리를 가능하게 하는 Event Loop, Web API, Task Queue에 대해 설명하며, 비동기 작업의 흐름을 이해하는 데 중요한 요소들을 다룬다."
+    }
+  ],
+  "데이터 프라이버시": [
+    {
+      "slug": "https-ssl",
+      "title": "HTTPS/SSL",
+      "aiSummary": "이 문서는 데이터 프라이버시의 중요성, HTTP와 HTTPS의 차이점, TLS/SSL의 작동 원리 및 인증서 구매와 설정 방법에 대해 설명합니다. 또한, SSL Handshake와 중간자 공격 방법에 대해 다룹니다."
+    }
+  ],
+  "ssl": [
+    {
+      "slug": "https-ssl",
+      "title": "HTTPS/SSL",
+      "aiSummary": "이 문서는 데이터 프라이버시의 중요성, HTTP와 HTTPS의 차이점, TLS/SSL의 작동 원리 및 인증서 구매와 설정 방법에 대해 설명합니다. 또한, SSL Handshake와 중간자 공격 방법에 대해 다룹니다."
+    }
+  ],
+  "tls": [
+    {
+      "slug": "https-ssl",
+      "title": "HTTPS/SSL",
+      "aiSummary": "이 문서는 데이터 프라이버시의 중요성, HTTP와 HTTPS의 차이점, TLS/SSL의 작동 원리 및 인증서 구매와 설정 방법에 대해 설명합니다. 또한, SSL Handshake와 중간자 공격 방법에 대해 다룹니다."
+    }
+  ],
+  "인공지능": [
+    {
+      "slug": "index",
+      "title": "ROOT",
+      "aiSummary": "이 기술 문서는 최신 인공지능 기술의 발전과 그 사용 사례에 대해 설명하고, 다가오는 트렌드와 기업에 미치는 영향을 분석한다."
+    }
+  ],
+  "기술 발전": [
+    {
+      "slug": "index",
+      "title": "ROOT",
+      "aiSummary": "이 기술 문서는 최신 인공지능 기술의 발전과 그 사용 사례에 대해 설명하고, 다가오는 트렌드와 기업에 미치는 영향을 분석한다."
+    }
+  ],
+  "사용 사례": [
+    {
+      "slug": "index",
+      "title": "ROOT",
+      "aiSummary": "이 기술 문서는 최신 인공지능 기술의 발전과 그 사용 사례에 대해 설명하고, 다가오는 트렌드와 기업에 미치는 영향을 분석한다."
+    }
+  ],
+  "트렌드": [
+    {
+      "slug": "index",
+      "title": "ROOT",
+      "aiSummary": "이 기술 문서는 최신 인공지능 기술의 발전과 그 사용 사례에 대해 설명하고, 다가오는 트렌드와 기업에 미치는 영향을 분석한다."
+    }
+  ],
+  "기업 영향": [
+    {
+      "slug": "index",
+      "title": "ROOT",
+      "aiSummary": "이 기술 문서는 최신 인공지능 기술의 발전과 그 사용 사례에 대해 설명하고, 다가오는 트렌드와 기업에 미치는 영향을 분석한다."
+    }
+  ],
+  "코딩문제": [
+    {
+      "slug": "inheritance-python",
+      "title": "상속 inheritance",
+      "aiSummary": "이 문서는 팀원들과의 협업 코딩 중에 발생한 상속 문제와 변수 공유 문제에 대한 내용을 다루고 있습니다. 헬퍼 메서드들을 서로 공유하기 위해 클래스를 상속하려 했지만, 변수 공유의 문제로 인해 작동하지 않는 상황에 대해 설명하고 있습니다."
+    }
+  ],
+  "팀협업": [
+    {
+      "slug": "inheritance-python",
+      "title": "상속 inheritance",
+      "aiSummary": "이 문서는 팀원들과의 협업 코딩 중에 발생한 상속 문제와 변수 공유 문제에 대한 내용을 다루고 있습니다. 헬퍼 메서드들을 서로 공유하기 위해 클래스를 상속하려 했지만, 변수 공유의 문제로 인해 작동하지 않는 상황에 대해 설명하고 있습니다."
+    }
+  ],
+  "메서드공유": [
+    {
+      "slug": "inheritance-python",
+      "title": "상속 inheritance",
+      "aiSummary": "이 문서는 팀원들과의 협업 코딩 중에 발생한 상속 문제와 변수 공유 문제에 대한 내용을 다루고 있습니다. 헬퍼 메서드들을 서로 공유하기 위해 클래스를 상속하려 했지만, 변수 공유의 문제로 인해 작동하지 않는 상황에 대해 설명하고 있습니다."
+    }
+  ],
+  "jenkins": [
+    {
+      "slug": "install-jenkins",
+      "title": "how to install jenkins",
+      "aiSummary": "This document provides instructions for installing Jenkins using Docker, including running a Docker container, downloading the Jenkins WAR file, copying it to the Docker container, and restarting the container."
+    },
+    {
+      "slug": "jenkins",
+      "title": "Jenkins",
+      "aiSummary": "This document provides instructions for installing Docker, including a section specifically on installing Jenkins."
+    }
+  ],
+  "installation": [
+    {
+      "slug": "install-jenkins",
+      "title": "how to install jenkins",
+      "aiSummary": "This document provides instructions for installing Jenkins using Docker, including running a Docker container, downloading the Jenkins WAR file, copying it to the Docker container, and restarting the container."
+    },
+    {
+      "slug": "jenkins",
+      "title": "Jenkins",
+      "aiSummary": "This document provides instructions for installing Docker, including a section specifically on installing Jenkins."
+    }
+  ],
+  "면접준비": [
+    {
+      "slug": "interview50q",
+      "title": "인터뷰 예약 50문제",
+      "aiSummary": "이 문서는 소프트웨어 개발 면접을 대비하기 위한 50개의 예상 질문과 답변 내용을 포함하고 있습니다. 질문들은 JavaScript의 변수 선언, event loop, Node.js의 특징, 비동기 처리, 웹 서버의 역할, 보안 및 API 관련 주제를 다룹니다."
+    },
+    {
+      "slug": "sparta",
+      "title": "항해99",
+      "aiSummary": "스파르타 부트캠프는 99일 동안 협업하여 실전 프로젝트와 알고리즘 스터디를 진행하는 프로그램으로, 일반반과 심화반으로 나뉘며 마지막 주에는 면접 준비와 이력서 리뷰를 제공합니다."
+    }
+  ],
+  "비동기처리": [
+    {
+      "slug": "interview50q",
+      "title": "인터뷰 예약 50문제",
+      "aiSummary": "이 문서는 소프트웨어 개발 면접을 대비하기 위한 50개의 예상 질문과 답변 내용을 포함하고 있습니다. 질문들은 JavaScript의 변수 선언, event loop, Node.js의 특징, 비동기 처리, 웹 서버의 역할, 보안 및 API 관련 주제를 다룹니다."
+    }
+  ],
+  "guide": [
+    {
+      "slug": "jenkins",
+      "title": "Jenkins",
+      "aiSummary": "This document provides instructions for installing Docker, including a section specifically on installing Jenkins."
+    }
+  ],
+  "documentation": [
+    {
+      "slug": "jenkins",
+      "title": "Jenkins",
+      "aiSummary": "This document provides instructions for installing Docker, including a section specifically on installing Jenkins."
+    },
+    {
+      "slug": "python",
+      "title": "파이썬(python)",
+      "aiSummary": "The document appears to be a placeholder or outline without specific content, potentially indicating the structure or framework for a larger document."
+    },
+    {
+      "slug": "range",
+      "title": "range 관련해서..",
+      "aiSummary": "This document contains a table of contents (TOC) section and a placeholder for 'range k', indicating a section that may explain a certain range in a mathematical or programming context."
+    }
+  ],
+  "유닛 테스트": [
+    {
+      "slug": "jest",
+      "title": "Unit testing NestJS applications with Jest(의역) - 작성중",
+      "aiSummary": "이 문서는 유닛 테스트에 대한 기본 이해를 제공하며, 특히 Node.js 환경에서의 중요성과 구현 방식을 설명합니다. 유닛 테스트는 비즈니스 로직을 검증하는 한 단위의 함수 또는 메소드를 목표로 하며, 의존성이 없어야 하고 빠르게 수행되어야 한다고 강조합니다."
+    }
+  ],
+  "테스트 기술": [
+    {
+      "slug": "jest",
+      "title": "Unit testing NestJS applications with Jest(의역) - 작성중",
+      "aiSummary": "이 문서는 유닛 테스트에 대한 기본 이해를 제공하며, 특히 Node.js 환경에서의 중요성과 구현 방식을 설명합니다. 유닛 테스트는 비즈니스 로직을 검증하는 한 단위의 함수 또는 메소드를 목표로 하며, 의존성이 없어야 하고 빠르게 수행되어야 한다고 강조합니다."
+    }
+  ],
+  "비즈니스 로직": [
+    {
+      "slug": "jest",
+      "title": "Unit testing NestJS applications with Jest(의역) - 작성중",
+      "aiSummary": "이 문서는 유닛 테스트에 대한 기본 이해를 제공하며, 특히 Node.js 환경에서의 중요성과 구현 방식을 설명합니다. 유닛 테스트는 비즈니스 로직을 검증하는 한 단위의 함수 또는 메소드를 목표로 하며, 의존성이 없어야 하고 빠르게 수행되어야 한다고 강조합니다."
+    }
+  ],
+  "소프트웨어 개발": [
+    {
+      "slug": "jest",
+      "title": "Unit testing NestJS applications with Jest(의역) - 작성중",
+      "aiSummary": "이 문서는 유닛 테스트에 대한 기본 이해를 제공하며, 특히 Node.js 환경에서의 중요성과 구현 방식을 설명합니다. 유닛 테스트는 비즈니스 로직을 검증하는 한 단위의 함수 또는 메소드를 목표로 하며, 의존성이 없어야 하고 빠르게 수행되어야 한다고 강조합니다."
+    }
+  ],
+  "취업": [
+    {
+      "slug": "job-opportuinity",
+      "title": "취업시 유용한 사이트",
+      "aiSummary": "이 문서는 취업을 준비하는 이들을 위한 유용한 웹사이트와 자료를 모아둔 목록이다. 특히 웹 개발자를 위한 포트폴리오 작성에 대한 유용한 팁을 포함하고 있다."
+    },
+    {
+      "slug": "lastComment",
+      "title": "스파르타 항해99 취직후 후기",
+      "aiSummary": "이 문서는 개인이 개발자로 재취직 결심을 하게 된 경과와 항해99 부트캠프 수료 후의 경험을 담고 있다. 독학의 어려움과 좌절을 겪고 부트캠프의 장단점을 소개하며, 최종적으로 개발자로의 첫걸음에 대한 성취감을 느낀 과정을 기록하고 있다."
+    },
+    {
+      "slug": "link-list",
+      "title": "유용한 사이트 모음",
+      "aiSummary": "이 문서는 디자인 패턴과 관련된 자료 및 취업에 유용한 사이트 정보를 제공합니다."
+    }
+  ],
+  "포트폴리오": [
+    {
+      "slug": "job-opportuinity",
+      "title": "취업시 유용한 사이트",
+      "aiSummary": "이 문서는 취업을 준비하는 이들을 위한 유용한 웹사이트와 자료를 모아둔 목록이다. 특히 웹 개발자를 위한 포트폴리오 작성에 대한 유용한 팁을 포함하고 있다."
+    },
+    {
+      "slug": "link-list",
+      "title": "유용한 사이트 모음",
+      "aiSummary": "이 문서는 디자인 패턴과 관련된 자료 및 취업에 유용한 사이트 정보를 제공합니다."
+    }
+  ],
+  "자료 모음": [
+    {
+      "slug": "job-opportuinity",
+      "title": "취업시 유용한 사이트",
+      "aiSummary": "이 문서는 취업을 준비하는 이들을 위한 유용한 웹사이트와 자료를 모아둔 목록이다. 특히 웹 개발자를 위한 포트폴리오 작성에 대한 유용한 팁을 포함하고 있다."
+    }
+  ],
+  "팁": [
+    {
+      "slug": "job-opportuinity",
+      "title": "취업시 유용한 사이트",
+      "aiSummary": "이 문서는 취업을 준비하는 이들을 위한 유용한 웹사이트와 자료를 모아둔 목록이다. 특히 웹 개발자를 위한 포트폴리오 작성에 대한 유용한 팁을 포함하고 있다."
+    }
+  ],
+  "개발자": [
+    {
+      "slug": "lastComment",
+      "title": "스파르타 항해99 취직후 후기",
+      "aiSummary": "이 문서는 개인이 개발자로 재취직 결심을 하게 된 경과와 항해99 부트캠프 수료 후의 경험을 담고 있다. 독학의 어려움과 좌절을 겪고 부트캠프의 장단점을 소개하며, 최종적으로 개발자로의 첫걸음에 대한 성취감을 느낀 과정을 기록하고 있다."
+    },
+    {
+      "slug": "link-list",
+      "title": "유용한 사이트 모음",
+      "aiSummary": "이 문서는 디자인 패턴과 관련된 자료 및 취업에 유용한 사이트 정보를 제공합니다."
+    },
+    {
+      "slug": "reverse-string",
+      "title": "reverse-string",
+      "aiSummary": "이 문서는 코드와 관련된 내용을 다루고 있습니다."
+    }
+  ],
+  "부트캠프": [
+    {
+      "slug": "lastComment",
+      "title": "스파르타 항해99 취직후 후기",
+      "aiSummary": "이 문서는 개인이 개발자로 재취직 결심을 하게 된 경과와 항해99 부트캠프 수료 후의 경험을 담고 있다. 독학의 어려움과 좌절을 겪고 부트캠프의 장단점을 소개하며, 최종적으로 개발자로의 첫걸음에 대한 성취감을 느낀 과정을 기록하고 있다."
+    },
+    {
+      "slug": "lastCommentPlus",
+      "title": "항해99 항해 플러스 후기",
+      "aiSummary": "항해 플러스는 주니어 개발자들이 사이드 프로젝트를 통해 다양한 기술 경험을 쌓도록 지원하는 부트캠프이다. 참여자는 팀 프로젝트와 멘토링, 네트워킹을 통해 실제 가치 있는 경험을 얻으며, TDD 및 CI/CD 등의 기술을 배울 수 있다."
+    },
+    {
+      "slug": "sparta",
+      "title": "항해99",
+      "aiSummary": "스파르타 부트캠프는 99일 동안 협업하여 실전 프로젝트와 알고리즘 스터디를 진행하는 프로그램으로, 일반반과 심화반으로 나뉘며 마지막 주에는 면접 준비와 이력서 리뷰를 제공합니다."
+    }
+  ],
+  "독학": [
+    {
+      "slug": "lastComment",
+      "title": "스파르타 항해99 취직후 후기",
+      "aiSummary": "이 문서는 개인이 개발자로 재취직 결심을 하게 된 경과와 항해99 부트캠프 수료 후의 경험을 담고 있다. 독학의 어려움과 좌절을 겪고 부트캠프의 장단점을 소개하며, 최종적으로 개발자로의 첫걸음에 대한 성취감을 느낀 과정을 기록하고 있다."
+    }
+  ],
+  "경험담": [
+    {
+      "slug": "lastComment",
+      "title": "스파르타 항해99 취직후 후기",
+      "aiSummary": "이 문서는 개인이 개발자로 재취직 결심을 하게 된 경과와 항해99 부트캠프 수료 후의 경험을 담고 있다. 독학의 어려움과 좌절을 겪고 부트캠프의 장단점을 소개하며, 최종적으로 개발자로의 첫걸음에 대한 성취감을 느낀 과정을 기록하고 있다."
+    }
+  ],
+  "주니어 개발자": [
+    {
+      "slug": "lastCommentPlus",
+      "title": "항해99 항해 플러스 후기",
+      "aiSummary": "항해 플러스는 주니어 개발자들이 사이드 프로젝트를 통해 다양한 기술 경험을 쌓도록 지원하는 부트캠프이다. 참여자는 팀 프로젝트와 멘토링, 네트워킹을 통해 실제 가치 있는 경험을 얻으며, TDD 및 CI/CD 등의 기술을 배울 수 있다."
+    }
+  ],
+  "tdd": [
+    {
+      "slug": "lastCommentPlus",
+      "title": "항해99 항해 플러스 후기",
+      "aiSummary": "항해 플러스는 주니어 개발자들이 사이드 프로젝트를 통해 다양한 기술 경험을 쌓도록 지원하는 부트캠프이다. 참여자는 팀 프로젝트와 멘토링, 네트워킹을 통해 실제 가치 있는 경험을 얻으며, TDD 및 CI/CD 등의 기술을 배울 수 있다."
+    },
+    {
+      "slug": "plus",
+      "title": "항해플러스",
+      "aiSummary": "이 문서는 항해플러스 1기에 참가한 경험에 대한 후기를 다루고 있으며, TDD, 대용량 처리 및 CI/CD와 같은 개발 과정에서의 배움과 팀워크의 중요성, 그리고 자아를 찾는 여정에 대해 이야기한다."
+    }
+  ],
+  "네트워킹": [
+    {
+      "slug": "lastCommentPlus",
+      "title": "항해99 항해 플러스 후기",
+      "aiSummary": "항해 플러스는 주니어 개발자들이 사이드 프로젝트를 통해 다양한 기술 경험을 쌓도록 지원하는 부트캠프이다. 참여자는 팀 프로젝트와 멘토링, 네트워킹을 통해 실제 가치 있는 경험을 얻으며, TDD 및 CI/CD 등의 기술을 배울 수 있다."
+    }
+  ],
+  "문자열": [
+    {
+      "slug": "leetcode",
+      "title": "리트코드(Leetcode)",
+      "aiSummary": "이 문서는 여러 알고리즘 문제들을 다루고 있으며, 특히 문자열, 팰린드롬, 로그파일 재정렬, 단어 빈도, 애너그램 그룹화와 같은 주제를 포함하고 있습니다."
+    },
+    {
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "aiSummary": "이 문서는 주어진 문자열이 팰린드롬인지 확인하는 방법을 설명하며, 대소문자를 구분하지 않고 영문자와 숫자만 고려합니다."
+    }
+  ],
+  "팰린드롬": [
+    {
+      "slug": "leetcode",
+      "title": "리트코드(Leetcode)",
+      "aiSummary": "이 문서는 여러 알고리즘 문제들을 다루고 있으며, 특히 문자열, 팰린드롬, 로그파일 재정렬, 단어 빈도, 애너그램 그룹화와 같은 주제를 포함하고 있습니다."
+    },
+    {
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "aiSummary": "이 문서는 주어진 문자열이 팰린드롬인지 확인하는 방법을 설명하며, 대소문자를 구분하지 않고 영문자와 숫자만 고려합니다."
+    }
+  ],
+  "로그파일": [
+    {
+      "slug": "leetcode",
+      "title": "리트코드(Leetcode)",
+      "aiSummary": "이 문서는 여러 알고리즘 문제들을 다루고 있으며, 특히 문자열, 팰린드롬, 로그파일 재정렬, 단어 빈도, 애너그램 그룹화와 같은 주제를 포함하고 있습니다."
+    }
+  ],
+  "애너그램": [
+    {
+      "slug": "leetcode",
+      "title": "리트코드(Leetcode)",
+      "aiSummary": "이 문서는 여러 알고리즘 문제들을 다루고 있으며, 특히 문자열, 팰린드롬, 로그파일 재정렬, 단어 빈도, 애너그램 그룹화와 같은 주제를 포함하고 있습니다."
+    }
+  ],
+  "변수": [
+    {
+      "slug": "letVsVar",
+      "title": "let Vs var",
+      "aiSummary": "이 문서는 JavaScript에서 변수 선언 방법과 관련된 내용을 다룹니다. 'let', 'var', 'const'의 차이점과 변수의 스코프, 그리고 다양한 데이터 타입에 대한 설명을 포함하고 있습니다."
+    }
+  ],
+  "let": [
+    {
+      "slug": "letVsVar",
+      "title": "let Vs var",
+      "aiSummary": "이 문서는 JavaScript에서 변수 선언 방법과 관련된 내용을 다룹니다. 'let', 'var', 'const'의 차이점과 변수의 스코프, 그리고 다양한 데이터 타입에 대한 설명을 포함하고 있습니다."
+    }
+  ],
+  "var": [
+    {
+      "slug": "letVsVar",
+      "title": "let Vs var",
+      "aiSummary": "이 문서는 JavaScript에서 변수 선언 방법과 관련된 내용을 다룹니다. 'let', 'var', 'const'의 차이점과 변수의 스코프, 그리고 다양한 데이터 타입에 대한 설명을 포함하고 있습니다."
+    }
+  ],
+  "const": [
+    {
+      "slug": "letVsVar",
+      "title": "let Vs var",
+      "aiSummary": "이 문서는 JavaScript에서 변수 선언 방법과 관련된 내용을 다룹니다. 'let', 'var', 'const'의 차이점과 변수의 스코프, 그리고 다양한 데이터 타입에 대한 설명을 포함하고 있습니다."
+    }
+  ],
+  "디자인 패턴": [
+    {
+      "slug": "link-list",
+      "title": "유용한 사이트 모음",
+      "aiSummary": "이 문서는 디자인 패턴과 관련된 자료 및 취업에 유용한 사이트 정보를 제공합니다."
+    }
+  ],
+  "자원": [
+    {
+      "slug": "link-list",
+      "title": "유용한 사이트 모음",
+      "aiSummary": "이 문서는 디자인 패턴과 관련된 자료 및 취업에 유용한 사이트 정보를 제공합니다."
+    }
+  ],
+  "연결리스트": [
+    {
+      "slug": "linked-list",
+      "title": "연결리스트",
+      "aiSummary": "이 문서는 연결리스트(linked list)의 기본 개념, 구현 예시, 스택과 큐의 차이점에 대해 설명하고 있으며, 파이썬에서 연결리스트와 큐의 기본 클래스 구현 방법을 제시한다."
+    },
+    {
+      "slug": "stack",
+      "title": "스택",
+      "aiSummary": "이 문서는 스택의 기본 개념과 구현 방법을 설명하며, 스택을 연결리스트 및 큐로 구현하는 방법을 예시 코드와 함께 제공한다."
+    }
+  ],
+  "스택": [
+    {
+      "slug": "linked-list",
+      "title": "연결리스트",
+      "aiSummary": "이 문서는 연결리스트(linked list)의 기본 개념, 구현 예시, 스택과 큐의 차이점에 대해 설명하고 있으며, 파이썬에서 연결리스트와 큐의 기본 클래스 구현 방법을 제시한다."
+    },
+    {
+      "slug": "stack",
+      "title": "스택",
+      "aiSummary": "이 문서는 스택의 기본 개념과 구현 방법을 설명하며, 스택을 연결리스트 및 큐로 구현하는 방법을 예시 코드와 함께 제공한다."
+    }
+  ],
+  "큐": [
+    {
+      "slug": "linked-list",
+      "title": "연결리스트",
+      "aiSummary": "이 문서는 연결리스트(linked list)의 기본 개념, 구현 예시, 스택과 큐의 차이점에 대해 설명하고 있으며, 파이썬에서 연결리스트와 큐의 기본 클래스 구현 방법을 제시한다."
+    },
+    {
+      "slug": "queue",
+      "title": "큐(queue)",
+      "aiSummary": "이 문서는 큐(queue)에 대한 기본 개념과 문제 해결 방법을 다루며, 교재 내용 및 LeetCode 솔루션을 포함하고 있습니다. 또한, 문제를 풀이하면서 어려웠던 부분과 파이썬 문법에 대한 질문도 기록되어 있습니다."
+    },
+    {
+      "slug": "stack",
+      "title": "스택",
+      "aiSummary": "이 문서는 스택의 기본 개념과 구현 방법을 설명하며, 스택을 연결리스트 및 큐로 구현하는 방법을 예시 코드와 함께 제공한다."
+    }
+  ],
+  "함수 리터럴": [
+    {
+      "slug": "literals",
+      "title": "함수 리터럴이란 무엇인가?",
+      "aiSummary": "함수 리터럴은 자바스크립트에서 함수명을 사용하지 않고 함수의 상태를 나타내는 방식으로, 변수를 통해 함수를 담을 수 있는 개념이다. 이 글에서는 리터럴의 정의와 자바스크립트에서의 활용에 대해 설명한다."
+    }
+  ],
+  "개념": [
+    {
+      "slug": "literals",
+      "title": "함수 리터럴이란 무엇인가?",
+      "aiSummary": "함수 리터럴은 자바스크립트에서 함수명을 사용하지 않고 함수의 상태를 나타내는 방식으로, 변수를 통해 함수를 담을 수 있는 개념이다. 이 글에서는 리터럴의 정의와 자바스크립트에서의 활용에 대해 설명한다."
+    },
+    {
+      "slug": "what-is-object",
+      "title": "오브젝트란?",
+      "aiSummary": "이 문서는 JavaScript의 객체(Object)에 대한 개념, 리터럴 및 프로퍼티, 계산된 프로퍼티, 프로퍼티 값 약식, 생성자 함수, 존재성 검사, 순환 방법, 복사 방법 등을 설명하고 있습니다."
+    }
+  ],
+  "mdn": [
+    {
+      "slug": "literals",
+      "title": "함수 리터럴이란 무엇인가?",
+      "aiSummary": "함수 리터럴은 자바스크립트에서 함수명을 사용하지 않고 함수의 상태를 나타내는 방식으로, 변수를 통해 함수를 담을 수 있는 개념이다. 이 글에서는 리터럴의 정의와 자바스크립트에서의 활용에 대해 설명한다."
+    }
+  ],
+  "locale": [
+    {
+      "slug": "locale-problem",
+      "title": "locale 설정 방법",
+      "aiSummary": "이 문서는 Ubuntu의 Locale을 한국어로 설정하는 방법에 대한 가이드이다."
+    }
+  ],
+  "한국어": [
+    {
+      "slug": "locale-problem",
+      "title": "locale 설정 방법",
+      "aiSummary": "이 문서는 Ubuntu의 Locale을 한국어로 설정하는 방법에 대한 가이드이다."
+    }
+  ],
+  "가이드": [
+    {
+      "slug": "locale-problem",
+      "title": "locale 설정 방법",
+      "aiSummary": "이 문서는 Ubuntu의 Locale을 한국어로 설정하는 방법에 대한 가이드이다."
+    }
+  ],
+  "오버라이딩": [
+    {
+      "slug": "magic-mothod",
+      "title": "Magic Method",
+      "aiSummary": "이 문서는 파이썬에서 __len__ 메서드를 오버라이딩하는 방법에 대해 설명한다. 사용자 정의 클래스에서 len 함수를 재정의하여 객체의 길이를 다르게 정의할 수 있음을 보여준다."
+    }
+  ],
+  "__len__": [
+    {
+      "slug": "magic-mothod",
+      "title": "Magic Method",
+      "aiSummary": "이 문서는 파이썬에서 __len__ 메서드를 오버라이딩하는 방법에 대해 설명한다. 사용자 정의 클래스에서 len 함수를 재정의하여 객체의 길이를 다르게 정의할 수 있음을 보여준다."
+    }
+  ],
+  "객체지향": [
+    {
+      "slug": "magic-mothod",
+      "title": "Magic Method",
+      "aiSummary": "이 문서는 파이썬에서 __len__ 메서드를 오버라이딩하는 방법에 대해 설명한다. 사용자 정의 클래스에서 len 함수를 재정의하여 객체의 길이를 다르게 정의할 수 있음을 보여준다."
+    }
+  ],
+  "마이크로서비스": [
+    {
+      "slug": "microservice",
+      "title": "microservice에 대한 고찰",
+      "aiSummary": "마이크로서비스 아키텍처는 대규모 애플리케이션을 작은 독립적인 서비스로 나누어 각 서비스의 성능 및 확장성을 높이는 방식입니다. 이 구조는 문서화, 코드 관리, 복잡성 등을 고려해야 하며, 다양한 기술 스택을 사용할 수 있는 장점이 있습니다."
+    }
+  ],
+  "미들웨어": [
+    {
+      "slug": "middleware",
+      "title": "Express의 미들웨어 작동방식",
+      "aiSummary": "이 문서는 Express.js에서 미들웨어를 사용하는 방법에 대해 설명하고 있으며, 미들웨어의 사용 예시와 다양한 유형(애플리케이션 레벨, 라우터 레벨, 에러 처리)에 대한 간단한 소개를 포함하고 있다."
+    }
+  ],
+  "서버": [
+    {
+      "slug": "middleware",
+      "title": "Express의 미들웨어 작동방식",
+      "aiSummary": "이 문서는 Express.js에서 미들웨어를 사용하는 방법에 대해 설명하고 있으며, 미들웨어의 사용 예시와 다양한 유형(애플리케이션 레벨, 라우터 레벨, 에러 처리)에 대한 간단한 소개를 포함하고 있다."
+    }
+  ],
+  "미니프로젝트": [
+    {
+      "slug": "miniproject",
+      "title": "미니프로젝트",
+      "aiSummary": "미니프로젝트에서의 경험을 회고하며, Python과 Flask를 사용하여 API를 구현했지만 협업과 기술 부족으로 인해 완성도가 낮았음을 느꼈다. 프로젝트 종료 후 얻은 기술적 유익은 있었으나, 실패를 경험한 것으로 생각하고 있다."
+    }
+  ],
+  "협업": [
+    {
+      "slug": "miniproject",
+      "title": "미니프로젝트",
+      "aiSummary": "미니프로젝트에서의 경험을 회고하며, Python과 Flask를 사용하여 API를 구현했지만 협업과 기술 부족으로 인해 완성도가 낮았음을 느꼈다. 프로젝트 종료 후 얻은 기술적 유익은 있었으나, 실패를 경험한 것으로 생각하고 있다."
+    }
+  ],
+  "문자열 처리": [
+    {
+      "slug": "most-common-word",
+      "title": "819. 가장흔한단어",
+      "aiSummary": "이 문서는 LeetCode 문제 중 하나인 '가장 흔한 단어'에 대한 내용입니다."
+    }
+  ],
+  "layered architecture": [
+    {
+      "slug": "mvc-parttern",
+      "title": "Layered Architecture(Model, View, Controller)",
+      "aiSummary": "이 문서는 백엔드에서 사용되는 레이어드 아키텍처와 MVC 패턴에 대해 설명하고 있다. 레이어드 아키텍처는 엔드포인트, 비즈니스 로직, 데이터베이스 연결의 3개의 레이어를 나누어 가독성과 확장성을 높이며, MVC 패턴은 데이터 모델을 정의하여 데이터 처리의 효율성을 증대시킨다."
+    }
+  ],
+  "backend": [
+    {
+      "slug": "mvc-parttern",
+      "title": "Layered Architecture(Model, View, Controller)",
+      "aiSummary": "이 문서는 백엔드에서 사용되는 레이어드 아키텍처와 MVC 패턴에 대해 설명하고 있다. 레이어드 아키텍처는 엔드포인트, 비즈니스 로직, 데이터베이스 연결의 3개의 레이어를 나누어 가독성과 확장성을 높이며, MVC 패턴은 데이터 모델을 정의하여 데이터 처리의 효율성을 증대시킨다."
+    }
+  ],
+  "design pattern": [
+    {
+      "slug": "mvc-parttern",
+      "title": "Layered Architecture(Model, View, Controller)",
+      "aiSummary": "이 문서는 백엔드에서 사용되는 레이어드 아키텍처와 MVC 패턴에 대해 설명하고 있다. 레이어드 아키텍처는 엔드포인트, 비즈니스 로직, 데이터베이스 연결의 3개의 레이어를 나누어 가독성과 확장성을 높이며, MVC 패턴은 데이터 모델을 정의하여 데이터 처리의 효율성을 증대시킨다."
+    }
+  ],
+  "scalability": [
+    {
+      "slug": "mvc-parttern",
+      "title": "Layered Architecture(Model, View, Controller)",
+      "aiSummary": "이 문서는 백엔드에서 사용되는 레이어드 아키텍처와 MVC 패턴에 대해 설명하고 있다. 레이어드 아키텍처는 엔드포인트, 비즈니스 로직, 데이터베이스 연결의 3개의 레이어를 나누어 가독성과 확장성을 높이며, MVC 패턴은 데이터 모델을 정의하여 데이터 처리의 효율성을 증대시킨다."
+    }
+  ],
+  "mysql": [
+    {
+      "slug": "mysql_sequelize",
+      "title": "mysql과 sequelize",
+      "aiSummary": "이 문서는 MySQL을 Docker로 설치하는 방법과 EC2 서버에서 MySQL을 설정하는 방법을 설명합니다. Docker에서 MySQL 이미지를 다운로드하고 설정하는 명령어와 EC2 인스턴스를 위한 SSH 접속 및 프로그램 설치 방법을 포함합니다."
+    }
+  ],
+  "설치 방법": [
+    {
+      "slug": "mysql_sequelize",
+      "title": "mysql과 sequelize",
+      "aiSummary": "이 문서는 MySQL을 Docker로 설치하는 방법과 EC2 서버에서 MySQL을 설정하는 방법을 설명합니다. Docker에서 MySQL 이미지를 다운로드하고 설정하는 명령어와 EC2 인스턴스를 위한 SSH 접속 및 프로그램 설치 방법을 포함합니다."
+    }
+  ],
+  "데이터베이스": [
+    {
+      "slug": "mysql_sequelize",
+      "title": "mysql과 sequelize",
+      "aiSummary": "이 문서는 MySQL을 Docker로 설치하는 방법과 EC2 서버에서 MySQL을 설정하는 방법을 설명합니다. Docker에서 MySQL 이미지를 다운로드하고 설정하는 명령어와 EC2 인스턴스를 위한 SSH 접속 및 프로그램 설치 방법을 포함합니다."
+    }
+  ],
+  "기호": [
+    {
+      "slug": "naming",
+      "title": "기호 영어이름",
+      "aiSummary": "이 문서는 다양한 기호의 영어 명칭과 그에 대한 한국어 설명을 정리한 표를 제공합니다."
+    }
+  ],
+  "영어표기": [
+    {
+      "slug": "naming",
+      "title": "기호 영어이름",
+      "aiSummary": "이 문서는 다양한 기호의 영어 명칭과 그에 대한 한국어 설명을 정리한 표를 제공합니다."
+    }
+  ],
+  "언어": [
+    {
+      "slug": "naming",
+      "title": "기호 영어이름",
+      "aiSummary": "이 문서는 다양한 기호의 영어 명칭과 그에 대한 한국어 설명을 정리한 표를 제공합니다."
+    }
+  ],
+  "참고자료": [
+    {
+      "slug": "naming",
+      "title": "기호 영어이름",
+      "aiSummary": "이 문서는 다양한 기호의 영어 명칭과 그에 대한 한국어 설명을 정리한 표를 제공합니다."
+    }
+  ],
+  "nodejs": [
+    {
+      "slug": "nestjs",
+      "title": "Nestjs",
+      "aiSummary": "Nestjs는 NodeJs와 TypeScript를 사용하는 백엔드 프레임워크로, Decorator를 통한 의존성 주입, 기본 MVC 패턴, DTO를 통한 데이터 검증을 특징으로 한다. 이 문서는 Swagger 사용법, AWS Cognito 연동, 텔레그램을 이용한 서버 로그 관리 방법을 설명한다."
+    }
+  ],
+  "typescript": [
+    {
+      "slug": "nestjs",
+      "title": "Nestjs",
+      "aiSummary": "Nestjs는 NodeJs와 TypeScript를 사용하는 백엔드 프레임워크로, Decorator를 통한 의존성 주입, 기본 MVC 패턴, DTO를 통한 데이터 검증을 특징으로 한다. 이 문서는 Swagger 사용법, AWS Cognito 연동, 텔레그램을 이용한 서버 로그 관리 방법을 설명한다."
+    }
+  ],
+  "이벤트 루프": [
+    {
+      "slug": "nodeEventLoop",
+      "title": "노드에서의 이벤트 루프는 어떻게 동작하는가?",
+      "aiSummary": "이벤트 루프는 Node.js의 논블로킹 I/O 기능을 지원하며, 자바스크립트의 싱글 스레드 구조 내에서 비동기 및 동기 작업을 관리하는 시스템이다. 최신 커널은 멀티 스레드를 지원하여 완료된 작업을 콜백으로 반환하고 Poll 큐에 등록하여 균등하게 실행한다."
+    }
+  ],
+  "논블로킹 i/o": [
+    {
+      "slug": "nodeEventLoop",
+      "title": "노드에서의 이벤트 루프는 어떻게 동작하는가?",
+      "aiSummary": "이벤트 루프는 Node.js의 논블로킹 I/O 기능을 지원하며, 자바스크립트의 싱글 스레드 구조 내에서 비동기 및 동기 작업을 관리하는 시스템이다. 최신 커널은 멀티 스레드를 지원하여 완료된 작업을 콜백으로 반환하고 Poll 큐에 등록하여 균등하게 실행한다."
+    }
+  ],
+  "비동기": [
+    {
+      "slug": "nodeEventLoop",
+      "title": "노드에서의 이벤트 루프는 어떻게 동작하는가?",
+      "aiSummary": "이벤트 루프는 Node.js의 논블로킹 I/O 기능을 지원하며, 자바스크립트의 싱글 스레드 구조 내에서 비동기 및 동기 작업을 관리하는 시스템이다. 최신 커널은 멀티 스레드를 지원하여 완료된 작업을 콜백으로 반환하고 Poll 큐에 등록하여 균등하게 실행한다."
+    }
+  ],
+  "동기": [
+    {
+      "slug": "nodeEventLoop",
+      "title": "노드에서의 이벤트 루프는 어떻게 동작하는가?",
+      "aiSummary": "이벤트 루프는 Node.js의 논블로킹 I/O 기능을 지원하며, 자바스크립트의 싱글 스레드 구조 내에서 비동기 및 동기 작업을 관리하는 시스템이다. 최신 커널은 멀티 스레드를 지원하여 완료된 작업을 콜백으로 반환하고 Poll 큐에 등록하여 균등하게 실행한다."
+    }
+  ],
+  "express": [
+    {
+      "slug": "nodejs",
+      "title": "Nodejs",
+      "aiSummary": "이 문서는 Node.js와 관련된 다양한 주제 및 개념들을 다루고 있으며, 특히 Express 프레임워크, MongoDB, Handlebars, IIFE, MVC 패턴, 레이지 로딩 및 이거 로딩 등을 포함하여 리팩토링과 테스트 코드의 중요성에 대해서도 언급합니다."
+    }
+  ],
+  "mongodb": [
+    {
+      "slug": "nodejs",
+      "title": "Nodejs",
+      "aiSummary": "이 문서는 Node.js와 관련된 다양한 주제 및 개념들을 다루고 있으며, 특히 Express 프레임워크, MongoDB, Handlebars, IIFE, MVC 패턴, 레이지 로딩 및 이거 로딩 등을 포함하여 리팩토링과 테스트 코드의 중요성에 대해서도 언급합니다."
+    }
+  ],
+  "mvc 패턴": [
+    {
+      "slug": "nodejs",
+      "title": "Nodejs",
+      "aiSummary": "이 문서는 Node.js와 관련된 다양한 주제 및 개념들을 다루고 있으며, 특히 Express 프레임워크, MongoDB, Handlebars, IIFE, MVC 패턴, 레이지 로딩 및 이거 로딩 등을 포함하여 리팩토링과 테스트 코드의 중요성에 대해서도 언급합니다."
+    }
+  ],
+  "테스트 코드": [
+    {
+      "slug": "nodejs",
+      "title": "Nodejs",
+      "aiSummary": "이 문서는 Node.js와 관련된 다양한 주제 및 개념들을 다루고 있으며, 특히 Express 프레임워크, MongoDB, Handlebars, IIFE, MVC 패턴, 레이지 로딩 및 이거 로딩 등을 포함하여 리팩토링과 테스트 코드의 중요성에 대해서도 언급합니다."
+    }
+  ],
+  "oauth": [
+    {
+      "slug": "oauth",
+      "title": "oauth",
+      "aiSummary": "이 문서는 OAuth의 개요와 OAuth 1.0과 2.0의 주요 차이점을 설명합니다. 특히, OAuth 2.0은 인증 과정을 간소화하고 범용성이 높아 다양하게 활용될 수 있음을 강조합니다."
+    }
+  ],
+  "인증": [
+    {
+      "slug": "oauth",
+      "title": "oauth",
+      "aiSummary": "이 문서는 OAuth의 개요와 OAuth 1.0과 2.0의 주요 차이점을 설명합니다. 특히, OAuth 2.0은 인증 과정을 간소화하고 범용성이 높아 다양하게 활용될 수 있음을 강조합니다."
+    }
+  ],
+  "토큰": [
+    {
+      "slug": "oauth",
+      "title": "oauth",
+      "aiSummary": "이 문서는 OAuth의 개요와 OAuth 1.0과 2.0의 주요 차이점을 설명합니다. 특히, OAuth 2.0은 인증 과정을 간소화하고 범용성이 높아 다양하게 활용될 수 있음을 강조합니다."
+    }
+  ],
+  "operators": [
+    {
+      "slug": "operator-if-for-loop",
+      "title": "operator, if, for-loop",
+      "aiSummary": "이 문서는 JavaScript의 다양한 연산자와 제어 구조(if, switch 등), 반복문(for, while 등)에 대해 설명합니다. 또한, 데이터 타입의 불변성과 가변성, 연산자(산술, 할당, 비교, 논리 등)의 사용법을 다룹니다."
+    }
+  ],
+  "control structures": [
+    {
+      "slug": "operator-if-for-loop",
+      "title": "operator, if, for-loop",
+      "aiSummary": "이 문서는 JavaScript의 다양한 연산자와 제어 구조(if, switch 등), 반복문(for, while 등)에 대해 설명합니다. 또한, 데이터 타입의 불변성과 가변성, 연산자(산술, 할당, 비교, 논리 등)의 사용법을 다룹니다."
+    }
+  ],
+  "loops": [
+    {
+      "slug": "operator-if-for-loop",
+      "title": "operator, if, for-loop",
+      "aiSummary": "이 문서는 JavaScript의 다양한 연산자와 제어 구조(if, switch 등), 반복문(for, while 등)에 대해 설명합니다. 또한, 데이터 타입의 불변성과 가변성, 연산자(산술, 할당, 비교, 논리 등)의 사용법을 다룹니다."
+    }
+  ],
+  "data types": [
+    {
+      "slug": "operator-if-for-loop",
+      "title": "operator, if, for-loop",
+      "aiSummary": "이 문서는 JavaScript의 다양한 연산자와 제어 구조(if, switch 등), 반복문(for, while 등)에 대해 설명합니다. 또한, 데이터 타입의 불변성과 가변성, 연산자(산술, 할당, 비교, 논리 등)의 사용법을 다룹니다."
+    }
+  ],
+  "spa": [
+    {
+      "slug": "origin",
+      "title": "Javascript 기원",
+      "aiSummary": "이 문서는 JavaScript의 발전 역사와 주요 변천 과정을 설명하고 있습니다. 초기 스크립트 언어부터 ECMAScript의 발전, 다양한 브라우저에서의 구현, JavaScript 라이브러리들, 그리고 최신 기술인 SPA(Single Page Application) 및 웹 어셈블리까지 다룹니다."
+    }
+  ],
+  "linked list": [
+    {
+      "slug": "palindrome-linked-list",
+      "title": "palindrome-linked-list",
+      "aiSummary": "This document discusses the basic concepts surrounding linked lists, a fundamental data structure, and provides a link to a specific problem related to palindrome linked lists on LeetCode."
+    }
+  ],
+  "algo": [
+    {
+      "slug": "palindrome-linked-list",
+      "title": "palindrome-linked-list",
+      "aiSummary": "This document discusses the basic concepts surrounding linked lists, a fundamental data structure, and provides a link to a specific problem related to palindrome linked lists on LeetCode."
+    }
+  ],
+  "palindrome": [
+    {
+      "slug": "palindrome-linked-list",
+      "title": "palindrome-linked-list",
+      "aiSummary": "This document discusses the basic concepts surrounding linked lists, a fundamental data structure, and provides a link to a specific problem related to palindrome linked lists on LeetCode."
+    }
+  ],
+  "항해플러스": [
+    {
+      "slug": "plus",
+      "title": "항해플러스",
+      "aiSummary": "이 문서는 항해플러스 1기에 참가한 경험에 대한 후기를 다루고 있으며, TDD, 대용량 처리 및 CI/CD와 같은 개발 과정에서의 배움과 팀워크의 중요성, 그리고 자아를 찾는 여정에 대해 이야기한다."
+    }
+  ],
+  "개발자 경험": [
+    {
+      "slug": "plus",
+      "title": "항해플러스",
+      "aiSummary": "이 문서는 항해플러스 1기에 참가한 경험에 대한 후기를 다루고 있으며, TDD, 대용량 처리 및 CI/CD와 같은 개발 과정에서의 배움과 팀워크의 중요성, 그리고 자아를 찾는 여정에 대해 이야기한다."
+    }
+  ],
+  "팀워크": [
+    {
+      "slug": "plus",
+      "title": "항해플러스",
+      "aiSummary": "이 문서는 항해플러스 1기에 참가한 경험에 대한 후기를 다루고 있으며, TDD, 대용량 처리 및 CI/CD와 같은 개발 과정에서의 배움과 팀워크의 중요성, 그리고 자아를 찾는 여정에 대해 이야기한다."
+    }
+  ],
+  "pm2": [
+    {
+      "slug": "pm2",
+      "title": "PM2",
+      "aiSummary": "PM2는 NODE.js의 배포 및 프로세스 관리를 용이하게 해주는 도구이다."
+    }
+  ],
+  "프로세스 관리": [
+    {
+      "slug": "pm2",
+      "title": "PM2",
+      "aiSummary": "PM2는 NODE.js의 배포 및 프로세스 관리를 용이하게 해주는 도구이다."
+    }
+  ],
+  "배포 도구": [
+    {
+      "slug": "pm2",
+      "title": "PM2",
+      "aiSummary": "PM2는 NODE.js의 배포 및 프로세스 관리를 용이하게 해주는 도구이다."
+    }
+  ],
+  "개발 도구": [
+    {
+      "slug": "pm2",
+      "title": "PM2",
+      "aiSummary": "PM2는 NODE.js의 배포 및 프로세스 관리를 용이하게 해주는 도구이다."
+    }
+  ],
+  "우선순위큐": [
+    {
+      "slug": "priority-queue",
+      "title": "우선순위큐",
+      "aiSummary": "이 문서는 우선순위큐의 기본 개념과 관련 문제 해결 방법에 대한 내용을 다루고 있으며, 특정 교재와 LeetCode 솔루션을 통해 문제를 푸는 과정 중 발생한 의문점들과 파이썬 문법에 대한 설명도 포함되어 있습니다."
+    }
+  ],
+  "맥": [
+    {
+      "slug": "program",
+      "title": "추천프로그램",
+      "aiSummary": "이 문서는 맥 사용자에게 유용한 추천 프로그램 목록을 제공합니다. 프로그램에는 Alfrad, textExpander, rocket, keycaster, iterm2, macvim이 포함됩니다."
+    }
+  ],
+  "프로그램": [
+    {
+      "slug": "program",
+      "title": "추천프로그램",
+      "aiSummary": "이 문서는 맥 사용자에게 유용한 추천 프로그램 목록을 제공합니다. 프로그램에는 Alfrad, textExpander, rocket, keycaster, iterm2, macvim이 포함됩니다."
+    }
+  ],
+  "유틸리티": [
+    {
+      "slug": "program",
+      "title": "추천프로그램",
+      "aiSummary": "이 문서는 맥 사용자에게 유용한 추천 프로그램 목록을 제공합니다. 프로그램에는 Alfrad, textExpander, rocket, keycaster, iterm2, macvim이 포함됩니다."
+    }
+  ],
+  "추천": [
+    {
+      "slug": "program",
+      "title": "추천프로그램",
+      "aiSummary": "이 문서는 맥 사용자에게 유용한 추천 프로그램 목록을 제공합니다. 프로그램에는 Alfrad, textExpander, rocket, keycaster, iterm2, macvim이 포함됩니다."
+    }
+  ],
+  "소프트웨어": [
+    {
+      "slug": "program",
+      "title": "추천프로그램",
+      "aiSummary": "이 문서는 맥 사용자에게 유용한 추천 프로그램 목록을 제공합니다. 프로그램에는 Alfrad, textExpander, rocket, keycaster, iterm2, macvim이 포함됩니다."
+    },
+    {
+      "slug": "reverse-string",
+      "title": "reverse-string",
+      "aiSummary": "이 문서는 코드와 관련된 내용을 다루고 있습니다."
+    }
+  ],
+  "방문길이": [
+    {
+      "slug": "programmers",
+      "title": "프로그래머스",
+      "aiSummary": "이 문서는 문제풀이와 관련된 두 가지 주제인 방문길이와 타겟넘버에 대한 내용을 다루고 있다."
+    }
+  ],
+  "타겟넘버": [
+    {
+      "slug": "programmers",
+      "title": "프로그래머스",
+      "aiSummary": "이 문서는 문제풀이와 관련된 두 가지 주제인 방문길이와 타겟넘버에 대한 내용을 다루고 있다."
+    },
+    {
+      "slug": "targetNumber",
+      "title": "타겟넘버",
+      "aiSummary": "타겟넘버(43165 문제)에 대한 노트가 있으며, 구현은 완료되었지만 시간 내에 직접 구현하는 데 실패했다."
+    }
+  ],
+  "데이터구조": [
+    {
+      "slug": "programmers",
+      "title": "프로그래머스",
+      "aiSummary": "이 문서는 문제풀이와 관련된 두 가지 주제인 방문길이와 타겟넘버에 대한 내용을 다루고 있다."
+    },
+    {
+      "slug": "stack",
+      "title": "스택",
+      "aiSummary": "이 문서는 스택의 기본 개념과 구현 방법을 설명하며, 스택을 연결리스트 및 큐로 구현하는 방법을 예시 코드와 함께 제공한다."
+    },
+    {
+      "slug": "tree",
+      "title": "트리",
+      "aiSummary": "이 문서는 트리 구조의 기본 개념에 대한 요약, 다양한 유형의 이진 트리 설명, 그리고 관련 문제 풀이를 포함하고 있다. 주요 용어와 개념에 대한 정의도 제공된다."
+    }
+  ],
+  "promise": [
+    {
+      "slug": "promise-js",
+      "title": "Javascript Promise",
+      "aiSummary": "이 문서는 'promise'에 대한 개요와 그 사용 방법에 대해 설명합니다. Promise는 비동기 작업의 결과를 나타내는 객체로, 작업이 완료되면 성공 또는 실패 상태를 반환합니다."
+    }
+  ],
+  "비동기 처리": [
+    {
+      "slug": "promise-js",
+      "title": "Javascript Promise",
+      "aiSummary": "이 문서는 'promise'에 대한 개요와 그 사용 방법에 대해 설명합니다. Promise는 비동기 작업의 결과를 나타내는 객체로, 작업이 완료되면 성공 또는 실패 상태를 반환합니다."
+    }
+  ],
+  "heapq": [
+    {
+      "slug": "python-heapq",
+      "title": "heapq",
+      "aiSummary": "이 문서는 Python의 내장 모듈인 heapq에 관한 내용을 다루고 있으며, heapq.heappush() 함수를 설명합니다."
+    }
+  ],
+  "framework": [
+    {
+      "slug": "python",
+      "title": "파이썬(python)",
+      "aiSummary": "The document appears to be a placeholder or outline without specific content, potentially indicating the structure or framework for a larger document."
+    }
+  ],
+  "placeholder": [
+    {
+      "slug": "python",
+      "title": "파이썬(python)",
+      "aiSummary": "The document appears to be a placeholder or outline without specific content, potentially indicating the structure or framework for a larger document."
+    }
+  ],
+  "random module": [
+    {
+      "slug": "random-python",
+      "title": "Random()",
+      "aiSummary": "이 문서는 Python의 Random 모듈에 대한 내용을 포함하고 있으며, random() 함수와 seed(int) 함수의 사용법을 다루고 있다."
+    }
+  ],
+  "random()": [
+    {
+      "slug": "random-python",
+      "title": "Random()",
+      "aiSummary": "이 문서는 Python의 Random 모듈에 대한 내용을 포함하고 있으며, random() 함수와 seed(int) 함수의 사용법을 다루고 있다."
+    }
+  ],
+  "seed()": [
+    {
+      "slug": "random-python",
+      "title": "Random()",
+      "aiSummary": "이 문서는 Python의 Random 모듈에 대한 내용을 포함하고 있으며, random() 함수와 seed(int) 함수의 사용법을 다루고 있다."
+    }
+  ],
+  "range": [
+    {
+      "slug": "range",
+      "title": "range 관련해서..",
+      "aiSummary": "This document contains a table of contents (TOC) section and a placeholder for 'range k', indicating a section that may explain a certain range in a mathematical or programming context."
+    }
+  ],
+  "mathematics": [
+    {
+      "slug": "range",
+      "title": "range 관련해서..",
+      "aiSummary": "This document contains a table of contents (TOC) section and a placeholder for 'range k', indicating a section that may explain a certain range in a mathematical or programming context."
+    }
+  ],
+  "md파일": [
+    {
+      "slug": "react",
+      "title": "React",
+      "aiSummary": "이 문서는 MD 파일을 읽는 방법과 관련된 내용을 담고 있습니다."
+    }
+  ],
+  "문서 처리": [
+    {
+      "slug": "react",
+      "title": "React",
+      "aiSummary": "이 문서는 MD 파일을 읽는 방법과 관련된 내용을 담고 있습니다."
+    }
+  ],
+  "파일 읽기": [
+    {
+      "slug": "react",
+      "title": "React",
+      "aiSummary": "이 문서는 MD 파일을 읽는 방법과 관련된 내용을 담고 있습니다."
+    },
+    {
+      "slug": "readMDFile",
+      "title": "react에서 md파일 읽기",
+      "aiSummary": "이 문서는 React에서 Markdown 파일을 읽는 방법에 대한 설명입니다. 글로벌 타입 선언과 함께, Markdown 파일을 fetch하고 이를 React 컴포넌트로 렌더링하는 간단한 예제 코드를 포함하고 있습니다."
+    }
+  ],
+  "기술 문서": [
+    {
+      "slug": "react",
+      "title": "React",
+      "aiSummary": "이 문서는 MD 파일을 읽는 방법과 관련된 내용을 담고 있습니다."
+    },
+    {
+      "slug": "reverse-string",
+      "title": "reverse-string",
+      "aiSummary": "이 문서는 코드와 관련된 내용을 다루고 있습니다."
+    }
+  ],
+  "react": [
+    {
+      "slug": "readMDFile",
+      "title": "react에서 md파일 읽기",
+      "aiSummary": "이 문서는 React에서 Markdown 파일을 읽는 방법에 대한 설명입니다. 글로벌 타입 선언과 함께, Markdown 파일을 fetch하고 이를 React 컴포넌트로 렌더링하는 간단한 예제 코드를 포함하고 있습니다."
+    }
+  ],
+  "markdown": [
+    {
+      "slug": "readMDFile",
+      "title": "react에서 md파일 읽기",
+      "aiSummary": "이 문서는 React에서 Markdown 파일을 읽는 방법에 대한 설명입니다. 글로벌 타입 선언과 함께, Markdown 파일을 fetch하고 이를 React 컴포넌트로 렌더링하는 간단한 예제 코드를 포함하고 있습니다."
+    }
+  ],
+  "access token": [
+    {
+      "slug": "refreshtoken",
+      "title": "refresh token 구현하기",
+      "aiSummary": "현재 JWT 토큰을 사용하여 3600초 동안 인증하는 테스트를 완료했으며, 실제 서비스에서는 Access Token과 Refresh Token을 이용한 3 Handshake 방식으로 인증을 개선할 계획이다."
+    }
+  ],
+  "refresh token": [
+    {
+      "slug": "refreshtoken",
+      "title": "refresh token 구현하기",
+      "aiSummary": "현재 JWT 토큰을 사용하여 3600초 동안 인증하는 테스트를 완료했으며, 실제 서비스에서는 Access Token과 Refresh Token을 이용한 3 Handshake 방식으로 인증을 개선할 계획이다."
+    }
+  ],
+  "authentication": [
+    {
+      "slug": "refreshtoken",
+      "title": "refresh token 구현하기",
+      "aiSummary": "현재 JWT 토큰을 사용하여 3600초 동안 인증하는 테스트를 완료했으며, 실제 서비스에서는 Access Token과 Refresh Token을 이용한 3 Handshake 방식으로 인증을 개선할 계획이다."
+    }
+  ],
+  "security": [
+    {
+      "slug": "refreshtoken",
+      "title": "refresh token 구현하기",
+      "aiSummary": "현재 JWT 토큰을 사용하여 3600초 동안 인증하는 테스트를 완료했으며, 실제 서비스에서는 Access Token과 Refresh Token을 이용한 3 Handshake 방식으로 인증을 개선할 계획이다."
+    }
+  ],
+  "정규식": [
+    {
+      "slug": "regex",
+      "title": "Regex 사용법",
+      "aiSummary": "이 문서는 정규 표현식(regex)에 대한 소개와 기본 문법(Syntax), 수량자(Quantifiers), 유형(Roundary-type), 문자 클래스(Character classes)를 설명한다."
+    }
+  ],
+  "문법": [
+    {
+      "slug": "regex",
+      "title": "Regex 사용법",
+      "aiSummary": "이 문서는 정규 표현식(regex)에 대한 소개와 기본 문법(Syntax), 수량자(Quantifiers), 유형(Roundary-type), 문자 클래스(Character classes)를 설명한다."
+    }
+  ],
+  "수량자": [
+    {
+      "slug": "regex",
+      "title": "Regex 사용법",
+      "aiSummary": "이 문서는 정규 표현식(regex)에 대한 소개와 기본 문법(Syntax), 수량자(Quantifiers), 유형(Roundary-type), 문자 클래스(Character classes)를 설명한다."
+    }
+  ],
+  "문자 클래스": [
+    {
+      "slug": "regex",
+      "title": "Regex 사용법",
+      "aiSummary": "이 문서는 정규 표현식(regex)에 대한 소개와 기본 문법(Syntax), 수량자(Quantifiers), 유형(Roundary-type), 문자 클래스(Character classes)를 설명한다."
+    }
+  ],
+  "log files": [
+    {
+      "slug": "reorder-log-files",
+      "title": "reorder log files",
+      "aiSummary": "This document contains a link to a LeetCode problem related to reordering data in log files."
+    }
+  ],
+  "data processing": [
+    {
+      "slug": "reorder-log-files",
+      "title": "reorder log files",
+      "aiSummary": "This document contains a link to a LeetCode problem related to reordering data in log files."
+    }
+  ],
+  "reordering": [
+    {
+      "slug": "reorder-log-files",
+      "title": "reorder log files",
+      "aiSummary": "This document contains a link to a LeetCode problem related to reordering data in log files."
+    }
+  ],
+  "코드": [
+    {
+      "slug": "reverse-string",
+      "title": "reverse-string",
+      "aiSummary": "이 문서는 코드와 관련된 내용을 다루고 있습니다."
+    }
+  ],
+  "algorithms": [
+    {
+      "slug": "root-index",
+      "title": "wiki",
+      "aiSummary": "이 문서는 다양한 기술 주제에 대한 분류체계를 포함하고 있으며, Web Programming, Linux & Server, Synology, 알고리즘, JavaScript, Python 등의 세부 항목으로 구성되어 있습니다."
+    }
+  ],
+  "명령어": [
+    {
+      "slug": "shellCommend",
+      "title": "맨날 잊어버리는 쉘명령어 모음",
+      "aiSummary": "이 문서에서는 자주 잊어버리는 명령어들을 정리하고 있으며, 서버 간 파일 복사 및 파일 찾기 방법을 설명하고 있다."
+    }
+  ],
+  "파일복사": [
+    {
+      "slug": "shellCommend",
+      "title": "맨날 잊어버리는 쉘명령어 모음",
+      "aiSummary": "이 문서에서는 자주 잊어버리는 명령어들을 정리하고 있으며, 서버 간 파일 복사 및 파일 찾기 방법을 설명하고 있다."
+    }
+  ],
+  "scp": [
+    {
+      "slug": "shellCommend",
+      "title": "맨날 잊어버리는 쉘명령어 모음",
+      "aiSummary": "이 문서에서는 자주 잊어버리는 명령어들을 정리하고 있으며, 서버 간 파일 복사 및 파일 찾기 방법을 설명하고 있다."
+    }
+  ],
+  "파일찾기": [
+    {
+      "slug": "shellCommend",
+      "title": "맨날 잊어버리는 쉘명령어 모음",
+      "aiSummary": "이 문서에서는 자주 잊어버리는 명령어들을 정리하고 있으며, 서버 간 파일 복사 및 파일 찾기 방법을 설명하고 있다."
+    }
+  ],
+  "linux": [
+    {
+      "slug": "shellCommend",
+      "title": "맨날 잊어버리는 쉘명령어 모음",
+      "aiSummary": "이 문서에서는 자주 잊어버리는 명령어들을 정리하고 있으며, 서버 간 파일 복사 및 파일 찾기 방법을 설명하고 있다."
+    },
+    {
+      "slug": "ssh-key-copy",
+      "title": "Ssh key copy to server",
+      "aiSummary": "This document provides a brief guide on how to copy key files to a server using the ssh-copy-id command."
+    }
+  ],
+  "websocket": [
+    {
+      "slug": "socketio",
+      "title": "socketio 란 무엇인가?",
+      "aiSummary": "WebSocket 객체는 WebSocket 서버와의 연결을 생성하고 관리하며, 연결을 통해 데이터를 송수신할 수 있는 API를 제공한다. websocket() 생성자를 통해 사용할 수 있다."
+    }
+  ],
+  "데이터 송수신": [
+    {
+      "slug": "socketio",
+      "title": "socketio 란 무엇인가?",
+      "aiSummary": "WebSocket 객체는 WebSocket 서버와의 연결을 생성하고 관리하며, 연결을 통해 데이터를 송수신할 수 있는 API를 제공한다. websocket() 생성자를 통해 사용할 수 있다."
+    }
+  ],
+  "spread syntax": [
+    {
+      "slug": "spread-syntax",
+      "title": "Spread syntax",
+      "aiSummary": "이 문서는 JavaScript의 Spread 구문에 대해 설명합니다. 배열이나 객체의 값을 쉽게 분배하고, 함수를 호출할 때 사용될 수 있는 방법을 보여줍니다."
+    }
+  ],
+  "function": [
+    {
+      "slug": "spread-syntax",
+      "title": "Spread syntax",
+      "aiSummary": "이 문서는 JavaScript의 Spread 구문에 대해 설명합니다. 배열이나 객체의 값을 쉽게 분배하고, 함수를 호출할 때 사용될 수 있는 방법을 보여줍니다."
+    }
+  ],
+  "object": [
+    {
+      "slug": "spread-syntax",
+      "title": "Spread syntax",
+      "aiSummary": "이 문서는 JavaScript의 Spread 구문에 대해 설명합니다. 배열이나 객체의 값을 쉽게 분배하고, 함수를 호출할 때 사용될 수 있는 방법을 보여줍니다."
+    }
+  ],
+  "server": [
+    {
+      "slug": "ssh-key-copy",
+      "title": "Ssh key copy to server",
+      "aiSummary": "This document provides a brief guide on how to copy key files to a server using the ssh-copy-id command."
+    }
+  ],
+  "file transfer": [
+    {
+      "slug": "ssh-key-copy",
+      "title": "Ssh key copy to server",
+      "aiSummary": "This document provides a brief guide on how to copy key files to a server using the ssh-copy-id command."
+    }
+  ],
+  "key management": [
+    {
+      "slug": "ssh-key-copy",
+      "title": "Ssh key copy to server",
+      "aiSummary": "This document provides a brief guide on how to copy key files to a server using the ssh-copy-id command."
+    }
+  ],
+  "개선사항": [
+    {
+      "slug": "targetNumber",
+      "title": "타겟넘버",
+      "aiSummary": "타겟넘버(43165 문제)에 대한 노트가 있으며, 구현은 완료되었지만 시간 내에 직접 구현하는 데 실패했다."
+    }
+  ],
+  "tmux": [
+    {
+      "slug": "tmux",
+      "title": "tmux 사용법",
+      "aiSummary": "이 문서는 tmux에 대한 내용을 다루고 있으며, tmux 사용의 법칙과 규칙을 설명하는 링크가 포함되어 있습니다."
+    }
+  ],
+  "사용법": [
+    {
+      "slug": "tmux",
+      "title": "tmux 사용법",
+      "aiSummary": "이 문서는 tmux에 대한 내용을 다루고 있으며, tmux 사용의 법칙과 규칙을 설명하는 링크가 포함되어 있습니다."
+    }
+  ],
+  "리뷰": [
+    {
+      "slug": "tmux",
+      "title": "tmux 사용법",
+      "aiSummary": "이 문서는 tmux에 대한 내용을 다루고 있으며, tmux 사용의 법칙과 규칙을 설명하는 링크가 포함되어 있습니다."
+    }
+  ],
+  "기본 구조": [
+    {
+      "slug": "todo-memo",
+      "title": "mongodb & router",
+      "aiSummary": "이 문서는 JavaScript의 기본 구조에 대한 설명을 다룹니다."
+    }
+  ],
+  "코드 예제": [
+    {
+      "slug": "todo-memo",
+      "title": "mongodb & router",
+      "aiSummary": "이 문서는 JavaScript의 기본 구조에 대한 설명을 다룹니다."
+    }
+  ],
+  "할 일": [
+    {
+      "slug": "todo",
+      "title": "TODO",
+      "aiSummary": "이 문서는 해야 할 일들을 기록하기 위해 작성되었습니다."
+    }
+  ],
+  "정리": [
+    {
+      "slug": "todo",
+      "title": "TODO",
+      "aiSummary": "이 문서는 해야 할 일들을 기록하기 위해 작성되었습니다."
+    }
+  ],
+  "목록": [
+    {
+      "slug": "todo",
+      "title": "TODO",
+      "aiSummary": "이 문서는 해야 할 일들을 기록하기 위해 작성되었습니다."
+    }
+  ],
+  "생산성": [
+    {
+      "slug": "todo",
+      "title": "TODO",
+      "aiSummary": "이 문서는 해야 할 일들을 기록하기 위해 작성되었습니다."
+    }
+  ],
+  "계획": [
+    {
+      "slug": "todo",
+      "title": "TODO",
+      "aiSummary": "이 문서는 해야 할 일들을 기록하기 위해 작성되었습니다."
+    }
+  ],
+  "트리": [
+    {
+      "slug": "tree",
+      "title": "트리",
+      "aiSummary": "이 문서는 트리 구조의 기본 개념에 대한 요약, 다양한 유형의 이진 트리 설명, 그리고 관련 문제 풀이를 포함하고 있다. 주요 용어와 개념에 대한 정의도 제공된다."
+    }
+  ],
+  "이진트리": [
+    {
+      "slug": "tree",
+      "title": "트리",
+      "aiSummary": "이 문서는 트리 구조의 기본 개념에 대한 요약, 다양한 유형의 이진 트리 설명, 그리고 관련 문제 풀이를 포함하고 있다. 주요 용어와 개념에 대한 정의도 제공된다."
+    }
+  ],
+  "용어정리": [
+    {
+      "slug": "tree",
+      "title": "트리",
+      "aiSummary": "이 문서는 트리 구조의 기본 개념에 대한 요약, 다양한 유형의 이진 트리 설명, 그리고 관련 문제 풀이를 포함하고 있다. 주요 용어와 개념에 대한 정의도 제공된다."
+    }
+  ],
+  "대소문자": [
+    {
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "aiSummary": "이 문서는 주어진 문자열이 팰린드롬인지 확인하는 방법을 설명하며, 대소문자를 구분하지 않고 영문자와 숫자만 고려합니다."
+    }
+  ],
+  "vim": [
+    {
+      "slug": "vim-script",
+      "title": "vim-script",
+      "aiSummary": "이 문서는 Vim 스크립트에서 키보드 매핑에 대한 내용을 정리한 것으로, Insert Mode와 Visual Mode에서의 다양한 매핑 옵션을 설명하고 있습니다."
+    },
+    {
+      "slug": "vim",
+      "title": "VIM",
+      "aiSummary": "이 문서는 Vim과 관련된 여러 항목들을 나열하고 있으며, 특히 Vimwiki, Vimspector, fzf에 대한 문제점 및 Vim 스크립트에 대한 리서치를 포함하고 있다."
+    }
+  ],
+  "scripting": [
+    {
+      "slug": "vim-script",
+      "title": "vim-script",
+      "aiSummary": "이 문서는 Vim 스크립트에서 키보드 매핑에 대한 내용을 정리한 것으로, Insert Mode와 Visual Mode에서의 다양한 매핑 옵션을 설명하고 있습니다."
+    }
+  ],
+  "keyboard mapping": [
+    {
+      "slug": "vim-script",
+      "title": "vim-script",
+      "aiSummary": "이 문서는 Vim 스크립트에서 키보드 매핑에 대한 내용을 정리한 것으로, Insert Mode와 Visual Mode에서의 다양한 매핑 옵션을 설명하고 있습니다."
+    }
+  ],
+  "insert mode": [
+    {
+      "slug": "vim-script",
+      "title": "vim-script",
+      "aiSummary": "이 문서는 Vim 스크립트에서 키보드 매핑에 대한 내용을 정리한 것으로, Insert Mode와 Visual Mode에서의 다양한 매핑 옵션을 설명하고 있습니다."
+    }
+  ],
+  "visual mode": [
+    {
+      "slug": "vim-script",
+      "title": "vim-script",
+      "aiSummary": "이 문서는 Vim 스크립트에서 키보드 매핑에 대한 내용을 정리한 것으로, Insert Mode와 Visual Mode에서의 다양한 매핑 옵션을 설명하고 있습니다."
+    }
+  ],
+  "vimwiki": [
+    {
+      "slug": "vim",
+      "title": "VIM",
+      "aiSummary": "이 문서는 Vim과 관련된 여러 항목들을 나열하고 있으며, 특히 Vimwiki, Vimspector, fzf에 대한 문제점 및 Vim 스크립트에 대한 리서치를 포함하고 있다."
+    }
+  ],
+  "vimspector": [
+    {
+      "slug": "vim",
+      "title": "VIM",
+      "aiSummary": "이 문서는 Vim과 관련된 여러 항목들을 나열하고 있으며, 특히 Vimwiki, Vimspector, fzf에 대한 문제점 및 Vim 스크립트에 대한 리서치를 포함하고 있다."
+    },
+    {
+      "slug": "vimspector",
+      "title": "vimspector",
+      "aiSummary": "이 문서는 vimspector에 대한 내용을 다루며, 주로 GitHub 페이지에서 시작하는 방법에 대한 정보를 제공합니다."
+    }
+  ],
+  "fzf": [
+    {
+      "slug": "vim",
+      "title": "VIM",
+      "aiSummary": "이 문서는 Vim과 관련된 여러 항목들을 나열하고 있으며, 특히 Vimwiki, Vimspector, fzf에 대한 문제점 및 Vim 스크립트에 대한 리서치를 포함하고 있다."
+    }
+  ],
+  "vimscript": [
+    {
+      "slug": "vim",
+      "title": "VIM",
+      "aiSummary": "이 문서는 Vim과 관련된 여러 항목들을 나열하고 있으며, 특히 Vimwiki, Vimspector, fzf에 대한 문제점 및 Vim 스크립트에 대한 리서치를 포함하고 있다."
+    }
+  ],
+  "개발툴": [
+    {
+      "slug": "vimspector",
+      "title": "vimspector",
+      "aiSummary": "이 문서는 vimspector에 대한 내용을 다루며, 주로 GitHub 페이지에서 시작하는 방법에 대한 정보를 제공합니다."
+    }
+  ],
+  "jekyll": [
+    {
+      "slug": "vimwiki-vim-jekyll",
+      "title": "jekyll blog",
+      "aiSummary": "이 문서는 Jekyll 정적 웹사이트를 GitHub Pages에서 설정하고 로컬에서 실행하는 방법에 대한 간단한 설명을 포함하고 있습니다."
+    }
+  ],
+  "github pages": [
+    {
+      "slug": "vimwiki-vim-jekyll",
+      "title": "jekyll blog",
+      "aiSummary": "이 문서는 Jekyll 정적 웹사이트를 GitHub Pages에서 설정하고 로컬에서 실행하는 방법에 대한 간단한 설명을 포함하고 있습니다."
+    }
+  ],
+  "정적 웹사이트": [
+    {
+      "slug": "vimwiki-vim-jekyll",
+      "title": "jekyll blog",
+      "aiSummary": "이 문서는 Jekyll 정적 웹사이트를 GitHub Pages에서 설정하고 로컬에서 실행하는 방법에 대한 간단한 설명을 포함하고 있습니다."
+    }
+  ],
+  "로컬 실행": [
+    {
+      "slug": "vimwiki-vim-jekyll",
+      "title": "jekyll blog",
+      "aiSummary": "이 문서는 Jekyll 정적 웹사이트를 GitHub Pages에서 설정하고 로컬에서 실행하는 방법에 대한 간단한 설명을 포함하고 있습니다."
+    }
+  ],
+  "설정 방법": [
+    {
+      "slug": "vimwiki-vim-jekyll",
+      "title": "jekyll blog",
+      "aiSummary": "이 문서는 Jekyll 정적 웹사이트를 GitHub Pages에서 설정하고 로컬에서 실행하는 방법에 대한 간단한 설명을 포함하고 있습니다."
+    }
+  ],
+  "2차원 배열": [
+    {
+      "slug": "visitedlength",
+      "title": "방문 길이 49994번",
+      "aiSummary": "이 문서는 특정 문제를 풀기 위한 접근 방법을 설명하고 있으며, 2차원 배열과 SET을 사용하여 중복 이동을 처리하는 방법을 다루고 있다. 주요 포인트는 양방향 이동을 고려하는 것과 이동 경로의 카운터 기능의 중요성이다."
+    }
+  ],
+  "set": [
+    {
+      "slug": "visitedlength",
+      "title": "방문 길이 49994번",
+      "aiSummary": "이 문서는 특정 문제를 풀기 위한 접근 방법을 설명하고 있으며, 2차원 배열과 SET을 사용하여 중복 이동을 처리하는 방법을 다루고 있다. 주요 포인트는 양방향 이동을 고려하는 것과 이동 경로의 카운터 기능의 중요성이다."
+    }
+  ],
+  "객체": [
+    {
+      "slug": "what-is-object",
+      "title": "오브젝트란?",
+      "aiSummary": "이 문서는 JavaScript의 객체(Object)에 대한 개념, 리터럴 및 프로퍼티, 계산된 프로퍼티, 프로퍼티 값 약식, 생성자 함수, 존재성 검사, 순환 방법, 복사 방법 등을 설명하고 있습니다."
+    }
+  ],
+  "리터럴": [
+    {
+      "slug": "what-is-object",
+      "title": "오브젝트란?",
+      "aiSummary": "이 문서는 JavaScript의 객체(Object)에 대한 개념, 리터럴 및 프로퍼티, 계산된 프로퍼티, 프로퍼티 값 약식, 생성자 함수, 존재성 검사, 순환 방법, 복사 방법 등을 설명하고 있습니다."
+    }
+  ]
+}

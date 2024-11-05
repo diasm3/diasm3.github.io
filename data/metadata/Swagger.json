@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "Nestjs 내장 swagger",
- "summary": "swagger를 쉽게 사용하자",
- "parent": "nestjs",
- "url": "/wiki/Swagger",
- "updated": "2022-10-10 17:33:33 +0900",
- "children": []
-}

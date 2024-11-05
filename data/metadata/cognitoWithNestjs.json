@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "Cognito UserPool을 이용한 인증(feat. nestjs)",
- "summary": "users authentification을 cognito로 구현하자",
- "parent": "nestjs",
- "url": "/wiki/cognitoWithNestjs",
- "updated": "2022-10-10 17:57:52 +0900",
- "children": []
-}
