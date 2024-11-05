@@ -7,12 +7,14 @@ const nextConfig: NextConfig = {
   assetPrefix: process.env.NODE_ENV === "production" ? "/diasm3.github.io" : "",
   // 빌드 시 README.md 무시
   pageExtensions: ["tsx", "ts", "jsx", "js"],
+  reactStrictMode: true,
   compiler: {
     styledComponents: true,
   },
   images: {
     unoptimized: true,
   },
+  distDir: "out",
 }
 
 export default nextConfig

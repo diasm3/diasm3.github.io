@@ -1,3 +1,4 @@
+# .github/workflows/publish.yml
 name: publish-to-github-pages
 on:
   push:
@@ -9,7 +10,6 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -39,23 +39,40 @@ jobs:
         with:
           static_site_generator: next
 
+      # data 디렉토리 생성 및 권한 설정
+      - name: Create data directory
+        run: |
+          mkdir -p data
+          chmod -R 777 data
+
+      # 빌드 전 디렉토리 구조 확인
+      - name: Check directory structure before build
+        run: ls -la
+
+      # Next.js 빌드
       - name: Build with Next.js 🏗️
         run: |
           pnpm build:data
           pnpm build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
-      # 여기에 out 디렉토리 내용 확인 단계 추가
-      - name: List output files
-        run: ls -la out/
+      # 빌드 후 디렉토리 구조 확인
+      - name: Check build output
+        run: |
+          echo "Current directory contents:"
+          ls -la
+          echo "Checking for 'out' directory:"
+          ls -la out || true
+
+      # .nojekyll 파일 생성
+      - name: Create .nojekyll file
+        run: touch out/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: out
-          # README.md 제외
-          pattern: |
-            **/*
-            !README.md
 
   deploy:
     environment:
