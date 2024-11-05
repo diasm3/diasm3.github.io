@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:I[94101,["598","static/chunks/598-c764b58cdaafc437.js","531","static/chunks/531-6b5d76a4980b3e05.js","185","static/chunks/app/layout-0b8e8313ea9847b9.js"],"default"]
+3:I[93742,["598","static/chunks/598-c764b58cdaafc437.js","531","static/chunks/531-6b5d76a4980b3e05.js","185","static/chunks/app/layout-0b8e8313ea9847b9.js"],"default"]
+4:I[97960,[],""]
+5:I[5625,[],""]
+6:I[69946,["598","static/chunks/598-c764b58cdaafc437.js","531","static/chunks/531-6b5d76a4980b3e05.js","185","static/chunks/app/layout-0b8e8313ea9847b9.js"],"default"]
+8:I[58165,[],"OutletBoundary"]
+a:I[58165,[],"MetadataBoundary"]
+c:I[58165,[],"ViewportBoundary"]
+e:I[90810,[],""]
+0:{"P":null,"b":"sTtUraSYhyLtDhNiRnz_4","p":"","c":["","wiki","gitCommitCopyToNewRepo",""],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","gitCommitCopyToNewRepo","d"],{"children":["__PAGE__?{\"slug\":\"gitCommitCopyToNewRepo\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L6",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","gitCommitCopyToNewRepo","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":"$L9"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","RQ_jPIxbMgvOPL-ITFFCS",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],null]}]]}]]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
+f:I[74727,["598","static/chunks/598-c764b58cdaafc437.js","444","static/chunks/444-f744f25a4ea97e0f.js","607","static/chunks/app/wiki/%5Bslug%5D/page-2d16be239064e07b.js"],"WikiContent"]
+11:I[85578,["598","static/chunks/598-c764b58cdaafc437.js","444","static/chunks/444-f744f25a4ea97e0f.js","607","static/chunks/app/wiki/%5Bslug%5D/page-2d16be239064e07b.js"],"Comments"]
+10:T726,* TOC
+{:toc}
+
+# AWS로 Repo로 이주하기
+> 소스코드의 보안적인 측면에서 이주를 한다. 레거시 코드에서 모든 키들이 올라가있다. 벌써 몇번 유출되어서 수습하고 해결 방안을 찾던중 AWS에서도 레포를 제공하기때문에 이주한다. 
+> 그런데 깃허브는 기본이 public으로 되어있어서 credential한 내용을 한번이라도 올리면 어디선가 crwaler가 몇 초만에 가져가 버린다. 주의 해야한다.
+
+## AWS codecommit 가격
+- 5명 아래
+    - 1,000 레포지토리 / 어카운트
+    - 최대 25,000까지 요청가능 
+    - 50GB/달 용량
+    - 10,000 Git 요청/달
+- 6명 부터 1달러씩 추가
+    - 1,000 레포지토리 / 어카운트
+    - 최대 25,000까지 요청가능 
+    - 10GB/계정  
+    - 2,000 Git 요청/계정
+
+
+## Github -> Codecommit
+
+```bash
+## you can try this, it's easy and straightforward. This will push all commits before (and including) the hash you use as <last-commit-hash-from-old-repo> to the other repo:
+
+$ git clone https://github.com/path/to/new-repo.git new-repo
+$ cd new-repo
+$ git remote add old https://github.com/path/to/old-repo.git
+$ git remote update
+$ git merge --allow-unrelated-histories <last-commit-hash-from-old-repo>
+$ git push origin main
+## if anyone needs to push all commits from a repo to another as a single commit (like I needed), you can simply add --squash to the merge command like this:
+
+$ git clone https://github.com/path/to/new-repo.git new-repo
+$ cd new-repo
+$ git remote add old https://github.com/path/to/old-repo.git
+$ git remote update
+$ git merge --squash --allow-unrelated-histories <last-commit-hash-from-old-repo>
+$ git push origin main
+```
+## reference
+- [https://stackoverflow.com/questions/37471740/how-to-copy-commits-from-one-git-repo-to-another](링크)
+7:["$","main",null,{"children":["$","article",null,{"children":[["$","$Lf",null,{"content":"$10","frontMatter":{"title":"새로운 레포에 기존 커밋 옮기기","description":"$undefined","tags":["AWS","CodeCommit","GitHub","소스코드보안","레포이주"],"date":"2022-09-05 15:11:00 +0900"}}],["$","$L11",null,{"slug":"gitCommitCopyToNewRepo"}]]}]}]
+d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+9:null
