@@ -1,5 +1,5 @@
-// src/app/wiki/[slug]/page.tsx
-import { getAllSlugs, getMarkdownContent } from "@/lib/mdParser"
+import { getMarkdownContent, getAllSlugs } from "@/lib/mdParser"
+import { Comments } from "@/components/Comments"
 import { WikiContent } from "../components/WikiContent"
 
 export function generateStaticParams() {
@@ -8,11 +8,17 @@ export function generateStaticParams() {
     slug: slug,
   }))
 }
-
 type Params = Promise<{ slug: string }>
 
 export default async function WikiPage({ params }: { params: Params }) {
   const { content, frontMatter } = getMarkdownContent((await params).slug)
 
-  return <WikiContent content={content} frontMatter={frontMatter} />
+  return (
+    <main>
+      <article>
+        <WikiContent content={content} frontMatter={frontMatter} />
+        <Comments slug={(await params).slug} />
+      </article>
+    </main>
+  )
 }

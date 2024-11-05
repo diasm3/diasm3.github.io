@@ -1,61 +1,12 @@
 // src/app/wiki/components/WikiList.tsx
 "use client"
-import { useEffect, useRef, useState } from "react"
+
+import { useCallback, useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import styled from "styled-components"
-import { useInView } from "react-intersection-observer"
 import { WikiCardSkeleton } from "@/components/Skeleton/Skeleton"
-
-const WikiHeader = styled.div`
-  margin-bottom: 2rem;
-
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  p {
-    color: ${({ theme }) => theme.colors.secondary};
-  }
-`
-
-const WikiGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-
-  ${({ theme }) => theme.media.tablet} {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  ${({ theme }) => theme.media.laptop} {
-    grid-template-columns: repeat(3, 1fr);
-  }
-`
-
-const WikiCard = styled.article`
-  background: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  h2 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: ${({ theme }) => theme.colors.primary};
-  }
-
-  p {
-    font-size: 0.9rem;
-    color: ${({ theme }) => theme.colors.text};
-  }
-`
+import { useInView } from "react-intersection-observer"
+import { WikiCard } from "@/components/WikiCard"
 
 interface WikiFile {
   slug: string
@@ -64,6 +15,7 @@ interface WikiFile {
   tags?: string[]
   date?: string
   aiSummary?: string
+  lastProcessed: string
 }
 
 interface WikiListProps {
@@ -83,42 +35,39 @@ export function WikiList({ wikiFiles }: WikiListProps) {
   const [page, setPage] = useState(1)
   const [ref, inView] = useInView()
   const [isLoading, setIsLoading] = useState(false)
-
-  const totalItems = useRef(wikiFiles)
+  const [hasMore, setHasMore] = useState(true) // 추가 데이터 존재 여부
 
   const ITEMS_PER_PAGE = 10
 
-  const formatDate = (dateString?: string) => {
-    if (!dateString) return ""
-    const date = new Date(dateString)
-    return date.toLocaleDateString("ko-KR", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    })
-  }
-  // 추가 데이터 로드 함수
-  const loadMoreItems = () => {
+  const loadMoreItems = useCallback(() => {
+    if (!hasMore || isLoading) return // 더 이상 로드할 항목이 없거나 로딩 중이면 중단
+
+    setIsLoading(true)
     const start = (page - 1) * ITEMS_PER_PAGE
     const end = page * ITEMS_PER_PAGE
-    const newItems = totalItems.current.slice(start, end)
+    const newItems = sortedWikiFiles.current.slice(start, end)
 
-    setDisplayedItems((prev) => [...prev, ...newItems])
-    setPage((prev) => prev + 1)
-    setIsLoading(false)
-  }
-  // Intersection Observer 콜백
-  useEffect(() => {
-    if (inView && !isLoading) {
-      setIsLoading(true)
-      setTimeout(loadMoreItems, 500) // 로딩 시뮬레이션
-    }
-  }, [inView])
+    setTimeout(() => {
+      setDisplayedItems((prev) => [...prev, ...newItems])
+      setPage((prev) => prev + 1)
+      setIsLoading(false)
 
-  // 초기 데이터 로드
+      // 더 로드할 항목이 있는지 확인
+      if (end >= sortedWikiFiles.current.length) {
+        setHasMore(false)
+      }
+    }, 500)
+  }, [page, hasMore, isLoading])
+
   useEffect(() => {
-    setDisplayedItems(totalItems.current.slice(0, ITEMS_PER_PAGE))
+    loadMoreItems()
   }, [])
+
+  useEffect(() => {
+    if (inView && hasMore && !isLoading) {
+      loadMoreItems()
+    }
+  }, [inView, hasMore, isLoading, loadMoreItems])
 
   return (
     <WikiContainer>
@@ -127,38 +76,19 @@ export function WikiList({ wikiFiles }: WikiListProps) {
         <p>Total {sortedWikiFiles.current.length} articles</p>
       </WikiHeader>
 
-      <WikiGrid>
-        {displayedItems.map((file) => (
-          <Link
+      <Grid>
+        {displayedItems.map((file, index) => (
+          <CardWrapper
+            key={`${file.slug}-${index}`}
             href={`/wiki/${file.slug}`}
-            key={file.slug}
-            style={{ textDecoration: "none" }}
           >
-            <WikiCard>
-              <h2>{file.title}</h2>
-              {file.date && <DateText>{formatDate(file.date)}</DateText>}
-              {file.description && (
-                <Description>{file.description}</Description>
-              )}
-              {file.aiSummary && (
-                <AISummary>
-                  <strong>AI 요약:</strong> {file.aiSummary}
-                </AISummary>
-              )}
-              {file.tags && file.tags.length > 0 && (
-                <TagList>
-                  {file.tags.map((tag) => (
-                    <Tag key={`${file.slug}-${tag}`}>#{tag}</Tag>
-                  ))}
-                </TagList>
-              )}
-            </WikiCard>
-          </Link>
+            <WikiCard {...file} />
+          </CardWrapper>
         ))}
-      </WikiGrid>
+      </Grid>
 
       {/* 로딩 상태와 더 보여줄 항목이 있는 경우에만 스피너 표시 */}
-      {isLoading && (
+      {isLoading && hasMore && (
         <LoadingSection>
           <WikiCardSkeleton />
           <WikiCardSkeleton />
@@ -167,15 +97,23 @@ export function WikiList({ wikiFiles }: WikiListProps) {
       )}
 
       {/* 모든 항목을 로드했을 때 메시지 표시 (선택사항) */}
-      {displayedItems.length > 0 && (
+      {!hasMore && displayedItems.length > 0 && (
         <EndMessage>모든 문서를 불러왔습니다.</EndMessage>
       )}
 
       {/* 더 보여줄 항목이 있는 경우에만 observer 타겟 표시 */}
-      {<ObserverTarget ref={ref} />}
+      {hasMore && <ObserverTarget ref={ref} />}
     </WikiContainer>
   )
 }
+
+// 추가 스타일 컴포넌트
+const EndMessage = styled.div`
+  text-align: center;
+  padding: 2rem;
+  color: ${({ theme }) => theme.colors.secondary};
+  font-style: italic;
+`
 
 // Styled Components
 const WikiContainer = styled.div`
@@ -214,19 +152,57 @@ const ObserverTarget = styled.div`
   height: 10px;
   margin: 2rem 0;
 `
-const LoadingSection = styled.div`
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
+
+const WikiHeader = styled.div`
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: ${({ theme }) => theme.colors.secondary};
+  }
 `
 
-const EndMessage = styled.div`
-  text-align: center;
-  padding: 2rem;
-  color: ${({ theme }) => theme.colors.secondary};
-  font-style: italic;
+const WikiGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  ${({ theme }) => theme.media.tablet} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  ${({ theme }) => theme.media.laptop} {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `
+
+// const WikiCard = styled.article`
+//   background: white;
+//   border-radius: 8px;
+//   padding: 1.5rem;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+//   &:hover {
+//     transform: translateY(-4px);
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   }
+
+//   h2 {
+//     font-size: 1.25rem;
+//     margin-bottom: 0.5rem;
+//     color: ${({ theme }) => theme.colors.primary};
+//   }
+
+//   p {
+//     font-size: 0.9rem;
+//     color: ${({ theme }) => theme.colors.text};
+//   }
+// `
 
 const DateText = styled.div`
   font-size: 0.9rem;
@@ -237,4 +213,27 @@ const DateText = styled.div`
 const Description = styled.p`
   margin: 0.5rem 0;
   line-height: 1.5;
+`
+
+const LoadingSection = styled.div`
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+`
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+`
+
+const CardWrapper = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    transform: translateY(-4px);
+    transition: transform 0.2s ease;
+  }
 `
