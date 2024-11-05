@@ -9,8 +9,10 @@ export function generateStaticParams() {
   }))
 }
 
-export default function WikiPage({ params }: { params: { slug: string } }) {
-  const { content, frontMatter } = getMarkdownContent(params.slug)
+type Params = Promise<{ slug: string }>
+
+export default async function WikiPage({ params }: { params: Params }) {
+  const { content, frontMatter } = getMarkdownContent((await params).slug)
 
   return <WikiContent content={content} frontMatter={frontMatter} />
 }

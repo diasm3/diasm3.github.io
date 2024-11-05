@@ -1,12 +1,9 @@
 // src/components/Header/index.tsx
 "use client"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { HeaderContainer, Navigation } from "./styles"
 
 export default function Header() {
-  const pathname = usePathname()
-
   return (
     <HeaderContainer>
       <Navigation>
