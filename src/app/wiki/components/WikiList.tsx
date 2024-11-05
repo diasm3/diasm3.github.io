@@ -126,28 +126,6 @@ const WikiContainer = styled.div`
   }
 `
 
-const AISummary = styled.p`
-  font-style: italic;
-  color: ${({ theme }) => theme.colors.secondary};
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-`
-
-const TagList = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-`
-
-const Tag = styled.span`
-  background: ${({ theme }) => theme.colors.background};
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  color: ${({ theme }) => theme.colors.secondary};
-`
-
 const ObserverTarget = styled.div`
   height: 10px;
   margin: 2rem 0;
@@ -164,55 +142,6 @@ const WikiHeader = styled.div`
   p {
     color: ${({ theme }) => theme.colors.secondary};
   }
-`
-
-const WikiGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-
-  ${({ theme }) => theme.media.tablet} {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  ${({ theme }) => theme.media.laptop} {
-    grid-template-columns: repeat(3, 1fr);
-  }
-`
-
-// const WikiCard = styled.article`
-//   background: white;
-//   border-radius: 8px;
-//   padding: 1.5rem;
-//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-//   transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-//   &:hover {
-//     transform: translateY(-4px);
-//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-//   }
-
-//   h2 {
-//     font-size: 1.25rem;
-//     margin-bottom: 0.5rem;
-//     color: ${({ theme }) => theme.colors.primary};
-//   }
-
-//   p {
-//     font-size: 0.9rem;
-//     color: ${({ theme }) => theme.colors.text};
-//   }
-// `
-
-const DateText = styled.div`
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.colors.secondary};
-  margin-bottom: 0.5rem;
-`
-
-const Description = styled.p`
-  margin: 0.5rem 0;
-  line-height: 1.5;
 `
 
 const LoadingSection = styled.div`
