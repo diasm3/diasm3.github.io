@@ -4,7 +4,8 @@ export const theme = {
     primary: "#228be6",
     secondary: "#6c757d",
     background: "#f8f9fa",
-    text: "#495057",
+    text: "#333",
+    border: "#eaeaea",
   },
   breakpoints: {
     mobile: "320px",

@@ -109,25 +109,79 @@ async function summarizeContent(content, fileHash) {
   }
 }
 
+// async function getAllMarkdownFiles() {
+//   const contentDir = path.join(process.cwd(), "content")
+//   const files = fs.readdirSync(contentDir)
+//   const results = []
+
+//   for (const fileName of files) {
+//     if (fileName.endsWith(".md")) {
+//       const filePath = path.join(contentDir, fileName)
+//       const fileContent = fs.readFileSync(filePath, "utf8")
+//       const { data, content } = matter(fileContent)
+
+//       // 파일 내용의 해시 생성
+//       const fileHash = generateFileHash(content)
+
+//       // AI 요약 생성 또는 캐시에서 가져오기
+//       const aiAnalysis = await summarizeContent(content, fileHash)
+
+//       results.push({
+//         slug: fileName.replace(".md", ""),
+//         title: data.title || fileName.replace(".md", "").replace(/-/g, " "),
+//         description: data.description,
+//         tags: [
+//           ...(data.tags
+//             ? Array.isArray(data.tags)
+//               ? data.tags
+//               : data.tags.split(/,\s*/)
+//             : []),
+//           ...aiAnalysis.tags,
+//         ],
+//         date: data.date,
+//         content: content,
+//         aiSummary: aiAnalysis.summary,
+//         contentHash: fileHash,
+//         lastProcessed: new Date().toISOString(),
+//       })
+//     }
+//   }
+
+//   return results
+// }
+
+// scripts/generateData.js
 async function getAllMarkdownFiles() {
   const contentDir = path.join(process.cwd(), "content")
   const files = fs.readdirSync(contentDir)
   const results = []
+  const usedSlugs = new Set() // 사용된 slug 추적
 
   for (const fileName of files) {
     if (fileName.endsWith(".md")) {
       const filePath = path.join(contentDir, fileName)
       const fileContent = fs.readFileSync(filePath, "utf8")
       const { data, content } = matter(fileContent)
-
-      // 파일 내용의 해시 생성
       const fileHash = generateFileHash(content)
-
-      // AI 요약 생성 또는 캐시에서 가져오기
       const aiAnalysis = await summarizeContent(content, fileHash)
 
+      // 기본 slug 생성
+      let baseSlug = fileName.replace(".md", "")
+      let slug = baseSlug
+      let counter = 1
+
+      // slug가 이미 사용중이면 번호 추가
+      while (usedSlugs.has(slug)) {
+        slug = `${baseSlug}-${counter}`
+        counter++
+      }
+      usedSlugs.add(slug)
+
+      const stats = fs.statSync(filePath)
+
       results.push({
-        slug: fileName.replace(".md", ""),
+        slug,
+        uniqueId: `${slug}-${fileHash.slice(0, 8)}`, // 고유 ID 추가
         title: data.title || fileName.replace(".md", "").replace(/-/g, " "),
         description: data.description,
         tags: [
@@ -138,16 +192,23 @@ async function getAllMarkdownFiles() {
             : []),
           ...aiAnalysis.tags,
         ],
-        date: data.date,
+        date: data.date || stats.mtime.toISOString(),
         content: content,
         aiSummary: aiAnalysis.summary,
         contentHash: fileHash,
         lastProcessed: new Date().toISOString(),
+        created: stats.birthtime.toISOString(),
+        modified: stats.mtime.toISOString(),
       })
     }
   }
 
-  return results
+  // 날짜로 정렬
+  return results.sort((a, b) => {
+    const dateA = new Date(a.date || a.modified)
+    const dateB = new Date(b.date || b.modified)
+    return dateB.getTime() - dateA.getTime()
+  })
 }
 
 async function generateJsonFiles() {

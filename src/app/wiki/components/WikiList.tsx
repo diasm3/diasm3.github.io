@@ -1,10 +1,12 @@
 // src/app/wiki/components/WikiList.tsx
 "use client"
+
 import { useCallback, useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import styled from "styled-components"
 import { WikiCardSkeleton } from "@/components/Skeleton/Skeleton"
 import { useInView } from "react-intersection-observer"
+import { WikiCard } from "@/components/WikiCard"
 
 interface WikiFile {
   slug: string
@@ -13,6 +15,7 @@ interface WikiFile {
   tags?: string[]
   date?: string
   aiSummary?: string
+  lastProcessed: string
 }
 
 interface WikiListProps {
@@ -56,17 +59,6 @@ export function WikiList({ wikiFiles }: WikiListProps) {
     }, 500)
   }, [page, hasMore, isLoading])
 
-  // 날짜 포맷팅 함수
-  const formatDate = (dateString?: string) => {
-    if (!dateString) return ""
-    const date = new Date(dateString)
-    return date.toLocaleDateString("ko-KR", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    })
-  }
-
   useEffect(() => {
     loadMoreItems()
   }, [])
@@ -84,35 +76,16 @@ export function WikiList({ wikiFiles }: WikiListProps) {
         <p>Total {sortedWikiFiles.current.length} articles</p>
       </WikiHeader>
 
-      <WikiGrid>
-        {displayedItems.map((file) => (
-          <Link
+      <Grid>
+        {displayedItems.map((file, index) => (
+          <CardWrapper
+            key={`${file.slug}-${index}`}
             href={`/wiki/${file.slug}`}
-            key={file.slug}
-            style={{ textDecoration: "none" }}
           >
-            <WikiCard>
-              <h2>{file.title}</h2>
-              {file.date && <DateText>{formatDate(file.date)}</DateText>}
-              {file.description && (
-                <Description>{file.description}</Description>
-              )}
-              {file.aiSummary && (
-                <AISummary>
-                  <strong>AI 요약:</strong> {file.aiSummary}
-                </AISummary>
-              )}
-              {file.tags && file.tags.length > 0 && (
-                <TagList>
-                  {file.tags.map((tag) => (
-                    <Tag key={`${file.slug}-${tag}`}>#{tag}</Tag>
-                  ))}
-                </TagList>
-              )}
-            </WikiCard>
-          </Link>
+            <WikiCard {...file} />
+          </CardWrapper>
         ))}
-      </WikiGrid>
+      </Grid>
 
       {/* 로딩 상태와 더 보여줄 항목이 있는 경우에만 스피너 표시 */}
       {isLoading && hasMore && (
@@ -175,30 +148,6 @@ const Tag = styled.span`
   color: ${({ theme }) => theme.colors.secondary};
 `
 
-const LoadingContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-`
-
-const LoadingSpinner = styled.div`
-  width: 40px;
-  height: 40px;
-  border: 3px solid #f3f3f3;
-  border-top: 3px solid ${({ theme }) => theme.colors.primary};
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-`
-
 const ObserverTarget = styled.div`
   height: 10px;
   margin: 2rem 0;
@@ -231,29 +180,29 @@ const WikiGrid = styled.div`
   }
 `
 
-const WikiCard = styled.article`
-  background: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+// const WikiCard = styled.article`
+//   background: white;
+//   border-radius: 8px;
+//   padding: 1.5rem;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+//   &:hover {
+//     transform: translateY(-4px);
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   }
 
-  h2 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: ${({ theme }) => theme.colors.primary};
-  }
+//   h2 {
+//     font-size: 1.25rem;
+//     margin-bottom: 0.5rem;
+//     color: ${({ theme }) => theme.colors.primary};
+//   }
 
-  p {
-    font-size: 0.9rem;
-    color: ${({ theme }) => theme.colors.text};
-  }
-`
+//   p {
+//     font-size: 0.9rem;
+//     color: ${({ theme }) => theme.colors.text};
+//   }
+// `
 
 const DateText = styled.div`
   font-size: 0.9rem;
@@ -271,4 +220,20 @@ const LoadingSection = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+`
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+`
+
+const CardWrapper = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    transform: translateY(-4px);
+    transition: transform 0.2s ease;
+  }
 `

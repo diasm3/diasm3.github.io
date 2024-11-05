@@ -5,10 +5,16 @@ import Footer from "@/components/Footer"
 
 // src/app/layout.tsx
 export const metadata = {
-  title: "Your Blog Title",
-  description: "Your blog description",
-  viewport:
-    "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
+  title: "Personal Storage",
+  description: "",
+}
+
+// viewport 설정 분리
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({
