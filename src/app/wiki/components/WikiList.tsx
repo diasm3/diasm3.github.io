@@ -1,10 +1,8 @@
+// src/app/wiki/components/WikiList.tsx
 "use client"
-// src/app/wiki/page.tsx
 import Link from "next/link"
 import styled from "styled-components"
-import { getAllMarkdownFiles } from "@/lib/mdParser"
 
-// styles
 const WikiContainer = styled.div`
   padding: 1rem;
   max-width: 1200px;
@@ -63,26 +61,9 @@ const WikiCard = styled.article`
   p {
     font-size: 0.9rem;
     color: ${({ theme }) => theme.colors.text};
-    margin: 0;
   }
 `
 
-const TagList = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-`
-
-const Tag = styled.span`
-  background: ${({ theme }) => theme.colors.background};
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  color: ${({ theme }) => theme.colors.secondary};
-`
-
-// types
 interface WikiFile {
   slug: string
   title: string
@@ -91,23 +72,11 @@ interface WikiFile {
   date?: string
 }
 
-// 마크다운 파일의 frontmatter를 파싱하여 정보 추출
-function parseWikiFiles(files: string[]): WikiFile[] {
-  return files.map((file) => ({
-    slug: file.replace(".md", ""),
-    title: file.replace(".md", "").replace(/-/g, " "),
-    // 여기에 frontmatter 파싱 로직 추가 가능
-    tags: ["programming", "wiki"], // 예시 태그
-  }))
+interface WikiListProps {
+  wikiFiles: WikiFile[]
 }
 
-export default function WikiPage() {
-  const files = getAllMarkdownFiles()
-  const wikiFiles = parseWikiFiles(files)
-
-  // 알파벳 순으로 정렬
-  wikiFiles.sort((a, b) => a.title.localeCompare(b.title))
-
+export function WikiList({ wikiFiles }: WikiListProps) {
   return (
     <WikiContainer>
       <WikiHeader>
@@ -125,13 +94,6 @@ export default function WikiPage() {
             <WikiCard>
               <h2>{file.title}</h2>
               {file.description && <p>{file.description}</p>}
-              {file.tags && (
-                <TagList>
-                  {file.tags.map((tag) => (
-                    <Tag key={tag}>{tag}</Tag>
-                  ))}
-                </TagList>
-              )}
             </WikiCard>
           </Link>
         ))}
