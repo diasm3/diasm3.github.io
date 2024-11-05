@@ -1,8 +1,9 @@
+# .github/workflows/publish.yml
 name: publish-to-github-pages
 on:
   push:
     branches:
-      - main  # 또는 master
+      - main # 또는 master
 
 permissions:
   contents: read
@@ -16,12 +17,22 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} # OpenAI API 키 환경변수 설정
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Setup Node.js and dependencies ⚙️
-        uses: ./.github/workflows/setup-node
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: true
 
       - name: Setup Pages 🔧
         uses: actions/configure-pages@v4
@@ -29,7 +40,9 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: pnpm build
+        run: |
+          pnpm build:data   # OpenAI API를 사용하는 스크립트
+          pnpm build
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
