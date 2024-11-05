@@ -1,22 +1,24 @@
 {
-  "name": "johngrib.github.io",
-  "version": "1.0.0",
-  "description": "data generator",
-  "main": "generateData.js",
-  "dependencies": {
-    "yamljs": "^0.3.0"
-  },
+  "name": "diasm3.github.io",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo no test found"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johngrib/johngrib.github.io.git"
+  "dependencies": {
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "next": "15.0.2"
   },
-  "author": "John Grib",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johngrib/johngrib.github.io/issues"
-  },
-  "homepage": "https://github.com/johngrib/johngrib.github.io#readme"
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.2"
+  }
 }

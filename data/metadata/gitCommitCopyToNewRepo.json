@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "새로운 레포에 기존 커밋 옮기기",
- "summary": "AWS codecommit 이주 하기",
- "parent": "git",
- "url": "/wiki/gitCommitCopyToNewRepo",
- "updated": "2022-09-05 16:42:45 +0900",
- "children": []
-}

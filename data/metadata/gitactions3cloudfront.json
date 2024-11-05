@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "github action으로 업로드 자동화",
- "summary": "github action + s3 + cloudfront + https",
- "parent": "cicd",
- "url": "/wiki/gitactions3cloudfront",
- "updated": "2022-05-04 20:20:29 +0900",
- "children": []
-}

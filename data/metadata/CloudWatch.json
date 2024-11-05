@@ -1,9 +1,0 @@
-{
- "type": "wiki",
- "title": "cloudwatch로AWS 과금을 책정하자",
- "summary": "과금을 미리 막자...",
- "parent": "aws",
- "url": "/wiki/CloudWatch",
- "updated": "2022-07-04 22:45:40 +0900",
- "children": []
-}
