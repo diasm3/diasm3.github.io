@@ -156,7 +156,7 @@ async function generateJsonFiles() {
   const dataDir = path.join(process.cwd(), "data")
 
   if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir)
+    fs.mkdirSync(dataDir, { recursive: true })
   }
 
   // 메타데이터 저장
