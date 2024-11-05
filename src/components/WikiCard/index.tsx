@@ -118,30 +118,6 @@ const Footer = styled.div`
   border-top: 1px solid ${({ theme }) => theme.colors.border};
 `
 
-const InteractionButton = styled.button`
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: ${({ theme }) => theme.colors.secondary};
-  padding: 0.5rem;
-  border-radius: 4px;
-  transition: background-color 0.2s;
-
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.background};
-  }
-`
-
-const CommentIndicator = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: ${({ theme }) => theme.colors.secondary};
-`
-
 const Interaction = styled.button`
   display: flex;
   align-items: center;

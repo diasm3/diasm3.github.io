@@ -34,7 +34,7 @@ export function WikiContent({ content, frontMatter }: WikiContentProps) {
         <MarkdownContent>
           <ReactMarkdown
             components={{
-              code({ node, inline, className, children, ...props }) {
+              code({ inline, className, children, ...props }) {
                 const match = /language-(\w+)/.exec(className || "")
                 const language = match ? match[1] : ""
 
@@ -93,12 +93,6 @@ const ContentWrapper = styled.div`
 
 const MainContent = styled.article`
   max-width: 800px;
-`
-
-const ContentContainer = styled.article`
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
 `
 
 const ContentHeader = styled.header`

@@ -9,6 +9,7 @@ export function formatDate(dateString?: string): string {
       day: "numeric",
     })
   } catch (e) {
+    console.log(e)
     return dateString
   }
 }
