@@ -1,6 +1,9 @@
 // src/lib/mdParser.ts
-import path from "path"
 import matter from "gray-matter"
+import wikiMetadata from "@/data/wiki-metadata.json"
+import tags from "@/data/tags.json"
+import fs from "fs"
+import path from "path"
 
 export interface WikiFrontMatter {
   title?: string
@@ -9,51 +12,43 @@ export interface WikiFrontMatter {
   date?: string
 }
 
-// require를 사용하여 fs 모듈 가져오기
-const fs = require("fs")
+export interface WikiMetadata {
+  slug: string
+  title: string
+  description?: string
+  tags?: string[]
+  date?: string
+  aiSummary?: string
+  content?: string // 콘텐츠도 JSON에 포함
+}
 
-export function getMarkdownContent(filename: string) {
-  try {
-    const filePath = path.join(process.cwd(), "content", filename)
-    const fileContent = fs.readFileSync(filePath, "utf8")
-    const { data, content } = matter(fileContent)
+export function getAllSlugs(): string[] {
+  const metadata = wikiMetadata as WikiMetadata[]
+  return metadata.map((item) => item.slug)
+}
 
-    return {
-      frontMatter: data as WikiFrontMatter,
-      content,
-    }
-  } catch (error) {
-    console.error(`Error reading ${filename}:`, error)
+export function getAllWikiContent() {
+  return wikiMetadata
+}
+
+export function getMarkdownContent(slug: string) {
+  const metadata = wikiMetadata as WikiMetadata[]
+  const wikiData = metadata.find((wiki) => wiki.slug === slug)
+
+  if (!wikiData) {
     return {
       frontMatter: {},
       content: "",
     }
   }
-}
 
-export function getAllMarkdownFiles() {
-  try {
-    return fs
-      .readdirSync(path.join(process.cwd(), "content"))
-      .filter((file) => file.endsWith(".md"))
-  } catch (error) {
-    console.error("Error reading markdown files:", error)
-    return []
+  return {
+    frontMatter: {
+      title: wikiData.title,
+      description: wikiData.description,
+      tags: wikiData.tags,
+      date: wikiData.date,
+    },
+    content: wikiData.content || "",
   }
-}
-
-export function getAllWikiContent() {
-  const files = getAllMarkdownFiles()
-  return files.map((filename) => {
-    const { frontMatter, content } = getMarkdownContent(filename)
-    return {
-      slug: filename.replace(".md", ""),
-      title:
-        frontMatter.title || filename.replace(".md", "").replace(/-/g, " "),
-      description: frontMatter.description,
-      tags: frontMatter.tags,
-      date: frontMatter.date,
-      content,
-    }
-  })
 }

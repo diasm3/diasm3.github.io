@@ -1,0 +1,1584 @@
+{
+  "dd4e67145fa06e2f71ab55192ce0895c": {
+    "summary": "A collection of diary entries related to front-end development, CI/CD implementation, personal reflections, and technical challenges like handling environment variables and boolean conversions.",
+    "tags": [
+      "diary",
+      "front-end",
+      "CI/CD",
+      "environment variables",
+      "boolean conversion"
+    ],
+    "hash": "dd4e67145fa06e2f71ab55192ce0895c",
+    "timestamp": "2024-11-05T11:13:24.475Z"
+  },
+  "83fc555fcf7a8c40df8c5d783d84c745": {
+    "summary": "기술 업무 일지를 통해 최근 개발 업무 및 프로젝트 진행 상황을 요약하고, 챗봇 기능 평가 결과를 언급하였습니다.",
+    "tags": [
+      "개발 업무",
+      "프로젝트 진행",
+      "챗봇 기능",
+      "RAG",
+      "백엔드"
+    ],
+    "hash": "83fc555fcf7a8c40df8c5d783d84c745",
+    "timestamp": "2024-11-05T11:13:26.557Z"
+  },
+  "c197f6dc826b5b64fdc7739f0f45c1cd": {
+    "summary": "Amplify는 AWS의 종합 솔루션 서비스로 S3 베이스로 프론트엔드 또는 백엔드를 쉽게 배포할 수 있는 서비스입니다.",
+    "tags": [
+      "Amplify",
+      "AWS",
+      "백엔드",
+      "프론트엔드"
+    ],
+    "hash": "c197f6dc826b5b64fdc7739f0f45c1cd",
+    "timestamp": "2024-11-05T11:13:28.111Z"
+  },
+  "cc47f849c88e9d1909863c1abce46c22": {
+    "summary": "30일 무료 이후 과금이 많이 나와 구제 신청이 어려운 상황에 대비하자.",
+    "tags": [
+      "과금",
+      "구제 신청",
+      "조심"
+    ],
+    "hash": "cc47f849c88e9d1909863c1abce46c22",
+    "timestamp": "2024-11-05T11:13:29.512Z"
+  },
+  "cc96b66407aa818162aa461759d3b2e7": {
+    "summary": "Cheerio is a fast, flexible, and lean implementation of core jQuery designed for server-side use in Node.js.",
+    "tags": [
+      "Cheerio",
+      "jQuery",
+      "Node.js",
+      "web scraping"
+    ],
+    "hash": "cc96b66407aa818162aa461759d3b2e7",
+    "timestamp": "2024-11-05T11:13:30.606Z"
+  },
+  "75363df5f057b8c8a1402280939da77e": {
+    "summary": "CloudWatch를 사용하여 과금 확인 및 Slack 통합으로 Elastic Beanstalk 배포 알림 수신이 가능합니다.",
+    "tags": [
+      "CloudWatch",
+      "과금 확인",
+      "Slack 통합",
+      "Elastic Beanstalk",
+      "배포 알림"
+    ],
+    "hash": "75363df5f057b8c8a1402280939da77e",
+    "timestamp": "2024-11-05T11:13:31.989Z"
+  },
+  "6c324597877b550b719813730f4ca0f0": {
+    "summary": "Using CodePipeline to build",
+    "tags": [
+      "CodePipeline",
+      "AWS",
+      "Continuous Integration",
+      "Continuous Deployment"
+    ],
+    "hash": "6c324597877b550b719813730f4ca0f0",
+    "timestamp": "2024-11-05T11:13:32.925Z"
+  },
+  "20a33f78308e15b4b3b65e9c82fdd741": {
+    "summary": "DOM은 웹 페이지를 스크립트나 프로그래밍 언어에서 사용할 수 있게 연결시켜주는 문서 객체 모델을 말한다. DOM의 주요 노드 유형과 역할을 알아보자.",
+    "tags": [
+      "DOM",
+      "노드",
+      "문서 객체 모델",
+      "웹 페이지",
+      "프로그래밍 언어"
+    ],
+    "hash": "20a33f78308e15b4b3b65e9c82fdd741",
+    "timestamp": "2024-11-05T11:13:34.794Z"
+  },
+  "a569cd3b429fc21a61e1a9599050fa2b": {
+    "summary": "This document provides an overview of Docker and various Docker commands related to images, containers, compose, and networks. It also includes examples of network types in Docker and command examples like inspecting container network settings.",
+    "tags": [
+      "Docker",
+      "container",
+      "network",
+      "commands",
+      "Docker-compose"
+    ],
+    "hash": "a569cd3b429fc21a61e1a9599050fa2b",
+    "timestamp": "2024-11-05T11:13:36.044Z"
+  },
+  "971c9b7fcc483d95a851df97dc27029b": {
+    "summary": "Docker compose는 여러 개의 Dockerfile을 포함하고 그것들을 컨트롤하는 Dockerfile의 부모 역할을 합니다. Docker compose를 사용하면 각 Dockerfile에 대한 세부 설정을 할 수 있고 Docker CLI로 실행하는 방식을 스크립트로 자동화할 수 있습니다.",
+    "tags": [
+      "Docker",
+      "Docker compose",
+      "설정",
+      "네트워크",
+      "링크"
+    ],
+    "hash": "971c9b7fcc483d95a851df97dc27029b",
+    "timestamp": "2024-11-05T11:13:38.234Z"
+  },
+  "733f7e2b9e3cd223ef77a46aaa3f2800": {
+    "summary": "이 문서는 Dockerfile 설정 방법에 대한 기본적인 내용과 스크립트 명령어를 소개하고 있습니다.",
+    "tags": [
+      "Docker",
+      "Dockerfile",
+      "스크립트",
+      "이미지",
+      "컨테이너"
+    ],
+    "hash": "733f7e2b9e3cd223ef77a46aaa3f2800",
+    "timestamp": "2024-11-05T11:13:39.784Z"
+  },
+  "0f358a94076623c342469c8e3306bb19": {
+    "summary": "해결책: AmazonEC2ContainerRegistryFullAccess 권한을 추가하면 'Unable to locate credentials' 에러를 해결할 수 있습니다.",
+    "tags": [
+      "AWS",
+      "트러블슈팅",
+      "권한",
+      "AWS CLI"
+    ],
+    "hash": "0f358a94076623c342469c8e3306bb19",
+    "timestamp": "2024-11-05T11:13:41.117Z"
+  },
+  "8624a431379baba7aeaf5eed9991e2d3": {
+    "summary": "AWS Elastic Beanstalk는 Docker 또는 Node 프로그램을 올려 백엔드를 관리할 수 있는 서비스입니다. AWS EB-CLI를 설치하는 방법과 주의할 점에 대해 안내하고 있습니다.",
+    "tags": [
+      "AWS",
+      "Elastic Beanstalk",
+      "EB-CLI",
+      "Docker",
+      "Node.js"
+    ],
+    "hash": "8624a431379baba7aeaf5eed9991e2d3",
+    "timestamp": "2024-11-05T11:13:43.058Z"
+  },
+  "24e7e47bafd74a621deafc463597729b": {
+    "summary": "",
+    "tags": [],
+    "hash": "24e7e47bafd74a621deafc463597729b",
+    "timestamp": "2024-11-05T11:13:43.777Z"
+  },
+  "8d6b67844b69156ee9a753dcb2599832": {
+    "summary": "IIFE(Immediately Invoked Function Expression)은 즉시 실행되는 함수 표현이다.",
+    "tags": [
+      "IIFE",
+      "JavaScript",
+      "함수"
+    ],
+    "hash": "8d6b67844b69156ee9a753dcb2599832",
+    "timestamp": "2024-11-05T11:13:44.800Z"
+  },
+  "0b99807752ffe6758d61be6f940ca354": {
+    "summary": "JSON(JavaScript Object Notation)은 ECMAScript 3rd에서 도입된 데이터 교환 포맷으로, 가벼운 텍스트 기반의 구조를 갖고 있습니다.",
+    "tags": [
+      "JSON",
+      "ECMAScript",
+      "AJAX",
+      "data interchange",
+      "serialization"
+    ],
+    "hash": "0b99807752ffe6758d61be6f940ca354",
+    "timestamp": "2024-11-05T11:13:46.484Z"
+  },
+  "d882a406b45ddc079782b717429a84c0": {
+    "summary": "다양한 경험과 반성을 담은 개발자의 일기 형식의 문서로, 프로젝트를 통해 배운 점과 어려움, 기술적 문제에 대한 고민 및 해결 과정을 서술하고 있다. AWS, Kubernetes, Docker, Elastic Beanstalk 등 현대 개발 환경에서의 실수를 통해 스스로 성장하는 과정을 담고 있다.",
+    "tags": [
+      "개발일기",
+      "AWS",
+      "Kubernetes",
+      "Elastic Beanstalk",
+      "프로젝트 경험"
+    ],
+    "hash": "d882a406b45ddc079782b717429a84c0",
+    "timestamp": "2024-11-05T11:14:05.491Z"
+  },
+  "64a2b015d6f5ffd60a9137d46dc174db": {
+    "summary": "이 문서는 JWT(JSON Web Token)와 그 구조, 장점, 생성 및 사용 목적에 대해 설명하고 있다. JWT는 보안 목적과 권한 인증을 위한 토큰으로 사용되며, header, payload, signature로 구성된다.",
+    "tags": [
+      "JWT",
+      "보안",
+      "Authorization",
+      "Token",
+      "JSON"
+    ],
+    "hash": "64a2b015d6f5ffd60a9137d46dc174db",
+    "timestamp": "2024-11-05T11:14:10.176Z"
+  },
+  "3a5ea422659b131431582fea2c736825": {
+    "summary": "이 문서는 Javascript ES6에 대한 다양한 개념과 주제를 정리하고 있으며, 각 주제는 해당 부분으로의 링크를 포함하고 있다.",
+    "tags": [
+      "Javascript",
+      "ES6",
+      "Web Development",
+      "Coding",
+      "Programming"
+    ],
+    "hash": "3a5ea422659b131431582fea2c736825",
+    "timestamp": "2024-11-05T11:14:11.309Z"
+  },
+  "deb5c5b4a0d03c5ac2d48d87fc7649f7": {
+    "summary": "이 문서는 기본적인 LaTeX 수학 문법과 사용 방법을 소개합니다. 사용자에게 수학 표현식 작성 방법과 심볼 사용법을 제공하며, 참고 자료로 사이트 및 PDF 링크를 제시합니다.",
+    "tags": [
+      "LaTeX",
+      "수학 문법",
+      "문서 작성",
+      "참고 자료",
+      "텍스트 프로세싱"
+    ],
+    "hash": "deb5c5b4a0d03c5ac2d48d87fc7649f7",
+    "timestamp": "2024-11-05T11:14:12.782Z"
+  },
+  "5e4565244412b0b018d502e7fcee538d": {
+    "summary": "문서의 목차가 제공되며, 현재 내용은 'ㅇ'로 시작하는 항목에 대한 설명으로 보입니다.",
+    "tags": [
+      "목차",
+      "문서",
+      "구성",
+      "설명",
+      "정보"
+    ],
+    "hash": "5e4565244412b0b018d502e7fcee538d",
+    "timestamp": "2024-11-05T11:14:14.293Z"
+  },
+  "be8ba7cbe81e58926f7431c446a25bf9": {
+    "summary": "This document appears to be an outline or table of contents (TOC) for a larger set of documents, indicating a structured organization of topics or sections.",
+    "tags": [
+      "table of contents",
+      "document structure",
+      "outline",
+      "organization",
+      "navigation"
+    ],
+    "hash": "be8ba7cbe81e58926f7431c446a25bf9",
+    "timestamp": "2024-11-05T11:14:15.726Z"
+  },
+  "0e6842bc475bbb8aaea6e5b7a517c166": {
+    "summary": "이 문서는 MVC 구조에 대한 설명과 관련된 파일 구조를 제시하고 있으며, 참고 링크를 포함하고 있습니다.",
+    "tags": [
+      "MVC",
+      "파일 구조",
+      "자바스크립트",
+      "Express.js",
+      "웹 개발"
+    ],
+    "hash": "0e6842bc475bbb8aaea6e5b7a517c166",
+    "timestamp": "2024-11-05T11:14:18.682Z"
+  },
+  "d0444645a57d2f31f530f2ff1998aa46": {
+    "summary": "이 문서는 OS의 7개 계층에 대한 구조와 기능을 설명합니다.",
+    "tags": [
+      "OS",
+      "7 Layers",
+      "Operating System",
+      "Architecture",
+      "Computer Science"
+    ],
+    "hash": "d0444645a57d2f31f530f2ff1998aa46",
+    "timestamp": "2024-11-05T11:14:19.743Z"
+  },
+  "1b7ec79abfdd94458697dbff4304b743": {
+    "summary": "이 문서는 PUT과 PATCH HTTP 메소드의 차이점과 멱등성 개념을 설명합니다. PUT은 자원의 전체 교체를 위한 메소드이고, PATCH는 자원의 일부 교체를 위한 메소드입니다. 멱등성 및 HTTP 메소드의 성격도 함께 다룬다.",
+    "tags": [
+      "HTTP",
+      "PUT",
+      "PATCH",
+      "Idempotency",
+      "IETF"
+    ],
+    "hash": "1b7ec79abfdd94458697dbff4304b743",
+    "timestamp": "2024-11-05T11:14:22.108Z"
+  },
+  "eb55905bd7f1c101d6f4dde01002dab1": {
+    "summary": "REST API는 컴퓨터 간의 통신을 위한 아키텍처 스타일로, 운영체제와 무관하게 데이터를 주고받을 수 있는 방법을 제공하는 API의 한 유형이다.",
+    "tags": [
+      "REST API",
+      "인터넷 통신",
+      "API 유형",
+      "데이터 전송",
+      "소프트웨어 아키텍처"
+    ],
+    "hash": "eb55905bd7f1c101d6f4dde01002dab1",
+    "timestamp": "2024-11-05T11:14:23.992Z"
+  },
+  "6f6e7adf81098cb30dcfa5d64644cfb3": {
+    "summary": "이 문서는 다양한 문서의 구조 및 내용에 대한 가이드라인을 제공하며, 문서 작성 시 참고할 주요 요소들을 정리하고 있습니다.",
+    "tags": [
+      "문서작성",
+      "가이드라인",
+      "내용구조",
+      "참고사항",
+      "TOC"
+    ],
+    "hash": "6f6e7adf81098cb30dcfa5d64644cfb3",
+    "timestamp": "2024-11-05T11:14:25.193Z"
+  },
+  "d0b631e55ad40f486b6a12d24274bef8": {
+    "summary": "Swagger 툴은 API의 명세서를 작성하고, 데이터를 쉽게 주입하여 테스트할 수 있는 기능을 제공한다.",
+    "tags": [
+      "Swagger",
+      "API",
+      "테스트",
+      "명세서",
+      "툴"
+    ],
+    "hash": "d0b631e55ad40f486b6a12d24274bef8",
+    "timestamp": "2024-11-05T11:14:26.620Z"
+  },
+  "139304ebeeb0c79b6c2c4b255a0c580e": {
+    "summary": "이 문서는 Synology NAS에 대한 기능 소개와 데이터 저장, 타이머신 기능, Docker를 통한 앱 추가 가능성 등을 다룬다.",
+    "tags": [
+      "Synology",
+      "NAS",
+      "백업 솔루션",
+      "Docker",
+      "데이터 저장"
+    ],
+    "hash": "139304ebeeb0c79b6c2c4b255a0c580e",
+    "timestamp": "2024-11-05T11:14:28.078Z"
+  },
+  "a5b016559687a5a0d0507c26ed4968bb": {
+    "summary": "이 문서는 데이터 구조와 알고리즘의 다양한 방법론을 설명한다. 문제 해결을 위한 5가지 단계와 선형 및 비선형 데이터 구조, 주요 정렬 알고리즘, 그리고 몇 가지 유명한 프로그래밍 플랫폼인 LeetCode와 Programmers의 문제를 다룬다.",
+    "tags": [
+      "데이터 구조",
+      "알고리즘",
+      "문제 해결",
+      "정렬",
+      "프로그래밍 문제"
+    ],
+    "hash": "a5b016559687a5a0d0507c26ed4968bb",
+    "timestamp": "2024-11-05T11:14:29.996Z"
+  },
+  "0dffc128146814028b7725e607441e91": {
+    "summary": "이 문서는 JavaScript의 배열(Array) 개념과 관련된 API 사용법을 설명합니다. 배열의 선언, 인덱스 접근, 반복문을 통한 배열 요소 출력, 추가 및 삭제 방법, 배열 결합 및 검색 방법 등을 다루고 있습니다.",
+    "tags": [
+      "JavaScript",
+      "Array",
+      "APIs",
+      "Programming",
+      "Web Development"
+    ],
+    "hash": "0dffc128146814028b7725e607441e91",
+    "timestamp": "2024-11-05T11:14:32.351Z"
+  },
+  "d812537eab0c3e5111a8b6278f8b98a3": {
+    "summary": "이 문서는 배열(Array)의 기본 개념과 관련된 문제풀이를 다루고 있으며, leetcode 해결 방법과 파이썬 문법, 잘 모르는 용어들에 대한 정보도 포함되어 있다.",
+    "tags": [
+      "배열",
+      "문제풀이",
+      "파이썬",
+      "알고리즘",
+      "추상 자료형"
+    ],
+    "hash": "d812537eab0c3e5111a8b6278f8b98a3",
+    "timestamp": "2024-11-05T11:14:33.962Z"
+  },
+  "df1e0500338ea5044e9c4c805ea52bee": {
+    "summary": "이 문서는 자바스크립트의 함수 선언, 매개변수, 기본 매개변수, 지역 스코프, 값 반환, 조기 리턴 등 다양한 함수 기능을 설명하며, 특히 화살표 함수(Arrow Function)와 즉시 실행 함수(IIFE)에 대한 내용을 다룬다.",
+    "tags": [
+      "JavaScript",
+      "Functions",
+      "Arrow Function",
+      "IIFE",
+      "Programming"
+    ],
+    "hash": "df1e0500338ea5044e9c4c805ea52bee",
+    "timestamp": "2024-11-05T11:14:35.583Z"
+  },
+  "73d7c79f01c4bfb6ac9e331a5326cacc": {
+    "summary": "This document discusses the usage of 'async' and 'defer' attributes in script tags for loading JavaScript, explaining their differences with examples, and highlights the importance of using 'strict mode' in JavaScript programming.",
+    "tags": [
+      "JavaScript",
+      "async",
+      "defer",
+      "strict mode",
+      "web development"
+    ],
+    "hash": "73d7c79f01c4bfb6ac9e331a5326cacc",
+    "timestamp": "2024-11-05T11:14:37.436Z"
+  },
+  "9afaa4a3cc364610b64a2d5e4a80701d": {
+    "summary": "이 문서는 AWS(Amazon Web Services) 관련 서비스인 EC2, S3, Codepipeline, Amplify, CloudFront, CloudWatch, RDS, Route 53에 대한 내용을 포괄적으로 다루고 있습니다.",
+    "tags": [
+      "AWS",
+      "Cloud Services",
+      "EC2",
+      "S3",
+      "Database"
+    ],
+    "hash": "9afaa4a3cc364610b64a2d5e4a80701d",
+    "timestamp": "2024-11-05T11:14:38.872Z"
+  },
+  "7961ff8cf8998306b80f47d9ebf8b21e": {
+    "summary": "The document appears to be a table of contents but lacks specific details or sections to summarize further.",
+    "tags": [
+      "Documents",
+      "Table of Contents",
+      "Metadata",
+      "Structure",
+      "Organization"
+    ],
+    "hash": "7961ff8cf8998306b80f47d9ebf8b21e",
+    "timestamp": "2024-11-05T11:14:41.119Z"
+  },
+  "bd0c570b6d31bdd884ba3c79460583bc": {
+    "summary": "이 문서는 너비 우선 탐색(Breadth-First Search, BFS)에 대한 내용을 다루고 있으며, BFS가 주로 큐를 이용해 구현된다는 것을 설명합니다. 예제 그래프도 제공됩니다.",
+    "tags": [
+      "BFS",
+      "Algorithm",
+      "Graph",
+      "Search",
+      "Data Structure"
+    ],
+    "hash": "bd0c570b6d31bdd884ba3c79460583bc",
+    "timestamp": "2024-11-05T11:14:42.336Z"
+  },
+  "084022c83f9c87bbfacd79b89756e7ea": {
+    "summary": "이 문서는 기본 개념 및 문제 해결 방법에 대한 내용과 함께 관련된 교재 내용과 LeetCode 솔루션을 다루고 있습니다. 또한 문제 해결 과정에서 어려웠던 부분과 파이썬 문법에 대한 이해를 돕는 내용을 포함하고 있습니다.",
+    "tags": [
+      "문제풀이",
+      "LeetCode",
+      "파이썬",
+      "개념정리",
+      "코딩"
+    ],
+    "hash": "084022c83f9c87bbfacd79b89756e7ea",
+    "timestamp": "2024-11-05T11:14:44.192Z"
+  },
+  "cef308025cc7f42d4ba51b6f4c7ca632": {
+    "summary": "This document provides an overview of JavaScript's synchronous and asynchronous behavior, highlighting callback functions and demonstrating callback hell through a user authentication example using a class for user storage.",
+    "tags": [
+      "JavaScript",
+      "Asynchronous",
+      "Callbacks",
+      "Synchronous",
+      "Programming"
+    ],
+    "hash": "cef308025cc7f42d4ba51b6f4c7ca632",
+    "timestamp": "2024-11-05T11:14:45.627Z"
+  },
+  "46144b0cd8457357e489ed52ecf6c2ad": {
+    "summary": "이 문서에서는 논리게이트의 정의와 종류(AND, OR, NOT 등), 스위치와 릴레이의 차이점, 논리회로의 개념, 드모르간의 법칙에 대해 설명하고 있다.",
+    "tags": [
+      "논리게이트",
+      "논리회로",
+      "스위치",
+      "릴레이",
+      "드모르간의 법칙"
+    ],
+    "hash": "46144b0cd8457357e489ed52ecf6c2ad",
+    "timestamp": "2024-11-05T11:14:47.357Z"
+  },
+  "6b10a6edbef0d66ac99ce86610a3d662": {
+    "summary": "챕터 4에서는 전기신호를 통해 CPU와 상호작용하는 방법을 설명하며, 전압, 전류, 저항의 개념을 다룬다. 1(불을 킴)과 0(불을 끔)의 개념을 명확히 하여 CPU가 이해할 수 있도록 한다.",
+    "tags": [
+      "전기신호",
+      "CPU",
+      "전압",
+      "전류",
+      "저항"
+    ],
+    "hash": "6b10a6edbef0d66ac99ce86610a3d662",
+    "timestamp": "2024-11-05T11:14:48.675Z"
+  },
+  "8c783ce61567007bb004d5df7da17665": {
+    "summary": "이 문서는 CI/CD(지속적 통합 및 지속적 제공)의 개념과 이점에 대해 설명하고 있습니다. 특히, 장애 없는 웹 서비스 운영의 중요성과 CI/CD를 통해 얻는 장점인 단시간 배포 및 오류 처리 가능성에 대해 다룹니다.",
+    "tags": [
+      "CI/CD",
+      "지속적 통합",
+      "지속적 제공",
+      "웹 서비스",
+      "배포 관리"
+    ],
+    "hash": "8c783ce61567007bb004d5df7da17665",
+    "timestamp": "2024-11-05T11:14:50.540Z"
+  },
+  "8e31c8570759fbd074e8fa51d0612eaa": {
+    "summary": "이 문서는 JavaScript의 클래스와 객체지향 프로그래밍을 설명합니다. 클래스는 객체의 템플릿을 정의하고, 객체는 그 템플릿을 기반으로 생성된 인스턴스입니다. ES6에서 도입된 클래스 문법, 생성자, getter/setter, static, 상속 및 instanceof 연산자를 포함한 여러 개념들이 포함되어 있습니다.",
+    "tags": [
+      "JavaScript",
+      "클래스",
+      "객체지향 프로그래밍",
+      "ES6",
+      "상속"
+    ],
+    "hash": "8e31c8570759fbd074e8fa51d0612eaa",
+    "timestamp": "2024-11-05T11:14:53.354Z"
+  },
+  "b9636983e15c06bbe1c9ebf560f93a2d": {
+    "summary": "이 문서는 AWS Cognito를 실전 프로젝트에 적용하기 위한 학습 내용을 정리하며, 발생했던 문제와 그 해결 방법, 장단점을 논의한다.",
+    "tags": [
+      "AWS Cognito",
+      "NestJS",
+      "CTO",
+      "프로젝트",
+      "문제 해결"
+    ],
+    "hash": "b9636983e15c06bbe1c9ebf560f93a2d",
+    "timestamp": "2024-11-05T11:14:54.946Z"
+  },
+  "f57cb1bf2637e5e7dc4dc8a1a65292d8": {
+    "summary": "This document provides a command for executing a bash shell inside a Docker container.",
+    "tags": [
+      "Docker",
+      "bash",
+      "command",
+      "container",
+      "devops"
+    ],
+    "hash": "f57cb1bf2637e5e7dc4dc8a1a65292d8",
+    "timestamp": "2024-11-05T11:14:55.831Z"
+  },
+  "6a27d21f3cba75c82fdf2296d6a7bec5": {
+    "summary": "이 문서는 JWT에 대한 작성 완료 목록과 함께 REST API, HTTPS와 HTTP, 쿠키, 세션, 캐시, OSI 7계층, 프로세스와 스레드, 동기 및 비동기, DB 인덱스, DNS, DOM, 브라우저 작동 방식, CORS, JPA, HTTPS/SSL, 미들웨어 등과 같은 기술 문서 작성을 위해 예정된 항목들을 나열하고 있다.",
+    "tags": [
+      "JWT",
+      "REST API",
+      "HTTPS",
+      "OSI 7 layers",
+      "CORS"
+    ],
+    "hash": "6a27d21f3cba75c82fdf2296d6a7bec5",
+    "timestamp": "2024-11-05T11:14:57.779Z"
+  },
+  "229e9413b10c83847d6965086f4a0689": {
+    "summary": "CS스터디는 항해측 제공 교재로 진행되었고, 참여자들은 중간에 자율학습으로 전환했다. Node팀은 7명으로 구성되어, 각자 발표를 진행했다.",
+    "tags": [
+      "CS스터디",
+      "자율학습",
+      "Node팀",
+      " 발표",
+      "교재"
+    ],
+    "hash": "229e9413b10c83847d6965086f4a0689",
+    "timestamp": "2024-11-05T11:14:59.455Z"
+  },
+  "8188c2e048282d120d23daa4f1cec220": {
+    "summary": "이 문서는 파이썬의 deque 메서드를 소개하며, 이를 사용하면 내장 함수보다 더 빠르고 쉽게 자료 구조를 구현할 수 있음을 설명합니다.",
+    "tags": [
+      "Python",
+      "deque",
+      "자료구조",
+      "collections",
+      "내장함수"
+    ],
+    "hash": "8188c2e048282d120d23daa4f1cec220",
+    "timestamp": "2024-11-05T11:15:00.783Z"
+  },
+  "474a5e1445c8f8259b104bf7aee37422": {
+    "summary": "이 문서는 데크(deque)의 기본 개념과 문제 해결 방법에 대한 내용을 다루며, 관련된 교재 내용 및 leetcode 솔루션을 포함하고 있습니다. 또한, 풀면서 잘 몰랐던 부분과 파이썬 문법에 대한 이슈도 정리되어 있습니다.",
+    "tags": [
+      "데크",
+      "문제풀이",
+      "파이썬",
+      "알고리즘",
+      "LeetCode"
+    ],
+    "hash": "474a5e1445c8f8259b104bf7aee37422",
+    "timestamp": "2024-11-05T11:15:02.377Z"
+  },
+  "f59b4ede03376680be1d8cfc0e079573": {
+    "summary": "이 문서는 깊이 우선 탐색(DFS) 알고리즘에 대한 설명과 구현 방법을 다루고 있다. DFS는 그래프를 순회하는 방법 중 하나로 주로 스택이나 재귀를 통해 구현되며, 그래프를 표현하는 방법으로 인접 행렬과 인접 리스트를 소개한다.",
+    "tags": [
+      "DFS",
+      "Graph Traversal",
+      "Algorithm",
+      "Depth First Search",
+      "Data Structure"
+    ],
+    "hash": "f59b4ede03376680be1d8cfc0e079573",
+    "timestamp": "2024-11-05T11:15:04.084Z"
+  },
+  "4d0ab814a3089719d1054b4e5fee2692": {
+    "summary": "이 문서는 2022년과 2023년도에 관련된 기록을 포함하는 목차를 제시하고 있습니다.",
+    "tags": [
+      "기록",
+      "2022",
+      "2023",
+      "문서",
+      "목차"
+    ],
+    "hash": "4d0ab814a3089719d1054b4e5fee2692",
+    "timestamp": "2024-11-05T11:15:05.492Z"
+  },
+  "fe1ecb5c8351b8cf0eeb260e8c8af6d3": {
+    "summary": "이 문서는 Docker를 사용하여 Ubuntu에 SSH를 설치하는 과정을 설명하며, Dockerfile과 docker-compose.yml 파일 설정에 대한 내용을 포함하고 있습니다.",
+    "tags": [
+      "Docker",
+      "Ubuntu",
+      "SSH",
+      "Virtualization",
+      "Dockerfile"
+    ],
+    "hash": "fe1ecb5c8351b8cf0eeb260e8c8af6d3",
+    "timestamp": "2024-11-05T11:15:06.620Z"
+  },
+  "b1c23de03bbf628fffef1c3369ba4bf9": {
+    "summary": "Docker buildx는 M1 맥북과 다른 플랫폼에서의 도커 빌드를 쉽게 관리할 수 있는 도구로, 각 플랫폼에 맞는 리소스를 지정할 필요 없이 간편하게 빌드를 수행할 수 있게 도와준다.",
+    "tags": [
+      "Docker",
+      "buildx",
+      "M1 Mac",
+      "ARM64",
+      "빌드 관리"
+    ],
+    "hash": "b1c23de03bbf628fffef1c3369ba4bf9",
+    "timestamp": "2024-11-05T11:15:09.229Z"
+  },
+  "181bc8c5b865dd94efd0de34f1cbd85b": {
+    "summary": "이 문서는 Python의 enumerate 함수에 대해 설명하며, 여러 자료형을 인덱스가 포함된 enumerate 객체로 변환하는 방법을 보여줍니다.",
+    "tags": [
+      "Python",
+      "enumerate",
+      "자료형",
+      "인덱스",
+      "프로그래밍"
+    ],
+    "hash": "181bc8c5b865dd94efd0de34f1cbd85b",
+    "timestamp": "2024-11-05T11:15:12.148Z"
+  },
+  "e231d3d0e84b7925b9257f8e23fce965": {
+    "summary": "이 문서는 Express.js의 구조에 대한 기본 정보를 제공하며, app()와 Router() 메서드, 다양한 HTTP 요청 메서드(GET, POST, PUT, PATCH, DELETE)의 사용 방법을 설명한다. 특히 PUT과 PATCH의 차이점에 대해 언급하고 있다.",
+    "tags": [
+      "Express.js",
+      "HTTP 메서드",
+      "PUT",
+      "PATCH",
+      "웹 프레임워크"
+    ],
+    "hash": "e231d3d0e84b7925b9257f8e23fce965",
+    "timestamp": "2024-11-05T11:15:13.892Z"
+  },
+  "e1c7547d618c325833572c0265d6e135": {
+    "summary": "이 문서는 Flask에 대한 내용을 포함할 예정이며, 현재 준비 중입니다.",
+    "tags": [
+      "Flask",
+      "웹 프레임워크",
+      "문서",
+      "개발",
+      "준비 중"
+    ],
+    "hash": "e1c7547d618c325833572c0265d6e135",
+    "timestamp": "2024-11-05T11:15:15.631Z"
+  },
+  "f418cd863cb309835d1b5f90a8380b07": {
+    "summary": "이 문서는 JavaScript에서 for...in과 for...of 문에 대한 차이점과 사용 용례에 대해 설명하고 있다. for...in은 객체의 열거 가능한 속성을 반복하는 데 사용되며, 주로 디버깅 목적으로 사용되고, for...of는 배열과 기타 반복 가능한 객체를 반복하는 데 적합하다.",
+    "tags": [
+      "JavaScript",
+      "for...in",
+      "for...of",
+      "iterable",
+      "디버깅"
+    ],
+    "hash": "f418cd863cb309835d1b5f90a8380b07",
+    "timestamp": "2024-11-05T11:15:17.575Z"
+  },
+  "a3f188cb933586f745cb11aef2aa801b": {
+    "summary": "이 문서는 AWS로 레포를 이주하는 이유와 방법에 대해 설명하며, AWS CodeCommit의 가격 정보 및 GitHub에서 CodeCommit으로의 이주 과정에 대한 내용을 포함하고 있다.",
+    "tags": [
+      "AWS",
+      "CodeCommit",
+      "GitHub",
+      "소스코드보안",
+      "레포이주"
+    ],
+    "hash": "a3f188cb933586f745cb11aef2aa801b",
+    "timestamp": "2024-11-05T11:15:19.083Z"
+  },
+  "fc554c038c3d789d18fc304cdadce9ef": {
+    "summary": "S3와 CloudFront를 활용한 스토리지 및 캐싱 개념을 소개하며, 이와 관련된 추가적인 클라우드 서비스 용어들을 설명하는 문서이다.",
+    "tags": [
+      "S3",
+      "CloudFront",
+      "웹 스토리지",
+      "캐시 서버",
+      "클라우드 서비스"
+    ],
+    "hash": "fc554c038c3d789d18fc304cdadce9ef",
+    "timestamp": "2024-11-05T11:15:21.403Z"
+  },
+  "6de4f8fb876b2fd30dedd3cb203197ed": {
+    "summary": "팀원이 ENV파일을 레포에 업데이트한 상황에서 이를 되돌리는 방법에 대해 설명한다. CLI와 gitLens라는 두 가지 방법을 통해 이전 상태로 복구하는 절차를 안내한다.",
+    "tags": [
+      "git",
+      "ENV파일",
+      "버전 관리",
+      "CLI",
+      "gitLens"
+    ],
+    "hash": "6de4f8fb876b2fd30dedd3cb203197ed",
+    "timestamp": "2024-11-05T11:15:23.298Z"
+  },
+  "8cee720c36dde22442596df70063d121": {
+    "summary": "이 문서는 그래프의 기본 개념과 그래프 순회 방법, 백트래킹 알고리즘을 설명하며, N-Queen 문제와 관련된 파이썬 코드 예제를 포함하고 있습니다.",
+    "tags": [
+      "그래프",
+      "알고리즘",
+      "DFS",
+      "BFS",
+      "N-Queen"
+    ],
+    "hash": "8cee720c36dde22442596df70063d121",
+    "timestamp": "2024-11-05T11:15:24.959Z"
+  },
+  "c45c356887e6d4ffa2e22bec4de36ecb": {
+    "summary": "해시 테이블은 키 값으로 데이터를 저장하고 조회하는 구조로, 해시 함수와 로드 팩터 개념을 바탕으로 성능 최적화를 도모한다. 충돌 해결 방식으로는 개별 체이닝과 오픈 어드레싱이 있으며, 파이썬의 딕셔너리 구현을 예로 들어 설명한다.",
+    "tags": [
+      "해시테이블",
+      "해시함수",
+      "충돌해결",
+      "로드팩터",
+      "파이썬"
+    ],
+    "hash": "c45c356887e6d4ffa2e22bec4de36ecb",
+    "timestamp": "2024-11-05T11:15:26.791Z"
+  },
+  "7946220adeba6643f4aeb97460610d98": {
+    "summary": "이 문서는 Handlebars와 Pug 템플릿 엔진의 장점을 요약하고, 각 엔진에 대한 간단한 링크를 포함하고 있다.",
+    "tags": [
+      "Handlebars",
+      "Pug",
+      "템플릿 엔진",
+      "웹 개발",
+      "가독성"
+    ],
+    "hash": "7946220adeba6643f4aeb97460610d98",
+    "timestamp": "2024-11-05T11:15:30.485Z"
+  },
+  "9dfca76ee44b5fca2d5666f7fc9f647d": {
+    "summary": "이 문서는 완전 이진 트리(Heap)의 기본 개념과 특징, 파이썬에서의 구현 방법을 소개하며, 최대값과 최소값을 신속하게 찾는 데 유용한 자료구조에 대한 설명이 포함되어 있다.",
+    "tags": [
+      "완전 이진 트리",
+      "Heap",
+      "파이썬",
+      "자료구조",
+      "최대 최소값"
+    ],
+    "hash": "9dfca76ee44b5fca2d5666f7fc9f647d",
+    "timestamp": "2024-11-05T11:15:32.165Z"
+  },
+  "cf0b068e13d46b0e309e8f347b50eae9": {
+    "summary": "이 문서는 목차(TOC) 기능을 설명하는 내용을 담고 있습니다.",
+    "tags": [
+      "목차",
+      "TOC",
+      "문서 구성",
+      "기능 설명",
+      "내비게이션"
+    ],
+    "hash": "cf0b068e13d46b0e309e8f347b50eae9",
+    "timestamp": "2024-11-05T11:15:33.390Z"
+  },
+  "218f03ab546674ba75952de5fe077997": {
+    "summary": "자바스크립트는 비동기 처리를 가능하게 하는 Event Loop, Web API, Task Queue에 대해 설명하며, 비동기 작업의 흐름을 이해하는 데 중요한 요소들을 다룬다.",
+    "tags": [
+      "JavaScript",
+      "Event Loop",
+      "Asynchronous",
+      "Web API",
+      "Task Queue"
+    ],
+    "hash": "218f03ab546674ba75952de5fe077997",
+    "timestamp": "2024-11-05T11:15:35.474Z"
+  },
+  "771b453e6d4d7a888b57282f035f29c8": {
+    "summary": "이 문서는 데이터 프라이버시의 중요성, HTTP와 HTTPS의 차이점, TLS/SSL의 작동 원리 및 인증서 구매와 설정 방법에 대해 설명합니다. 또한, SSL Handshake와 중간자 공격 방법에 대해 다룹니다.",
+    "tags": [
+      "데이터 프라이버시",
+      "HTTP",
+      "HTTPS",
+      "SSL",
+      "TLS"
+    ],
+    "hash": "771b453e6d4d7a888b57282f035f29c8",
+    "timestamp": "2024-11-05T11:15:37.596Z"
+  },
+  "d41d8cd98f00b204e9800998ecf8427e": {
+    "summary": "이 기술 문서는 최신 인공지능 기술의 발전과 그 사용 사례에 대해 설명하고, 다가오는 트렌드와 기업에 미치는 영향을 분석한다.",
+    "tags": [
+      "인공지능",
+      "기술 발전",
+      "사용 사례",
+      "트렌드",
+      "기업 영향"
+    ],
+    "hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "timestamp": "2024-11-05T11:15:38.739Z"
+  },
+  "1d1273a071fa2a8902f1cb6e8d07c066": {
+    "summary": "이 문서는 팀원들과의 협업 코딩 중에 발생한 상속 문제와 변수 공유 문제에 대한 내용을 다루고 있습니다. 헬퍼 메서드들을 서로 공유하기 위해 클래스를 상속하려 했지만, 변수 공유의 문제로 인해 작동하지 않는 상황에 대해 설명하고 있습니다.",
+    "tags": [
+      "상속",
+      "코딩문제",
+      "파이썬",
+      "팀협업",
+      "메서드공유"
+    ],
+    "hash": "1d1273a071fa2a8902f1cb6e8d07c066",
+    "timestamp": "2024-11-05T11:15:40.209Z"
+  },
+  "afbe5ce664a1db551cb4f6ff4c4b5885": {
+    "summary": "This document provides instructions for installing Jenkins using Docker, including running a Docker container, downloading the Jenkins WAR file, copying it to the Docker container, and restarting the container.",
+    "tags": [
+      "Jenkins",
+      "Docker",
+      "Installation",
+      "DevOps",
+      "CI/CD"
+    ],
+    "hash": "afbe5ce664a1db551cb4f6ff4c4b5885",
+    "timestamp": "2024-11-05T11:15:41.649Z"
+  },
+  "45a4bd22db50625971abc165efa512a8": {
+    "summary": "이 문서는 소프트웨어 개발 면접을 대비하기 위한 50개의 예상 질문과 답변 내용을 포함하고 있습니다. 질문들은 JavaScript의 변수 선언, event loop, Node.js의 특징, 비동기 처리, 웹 서버의 역할, 보안 및 API 관련 주제를 다룹니다.",
+    "tags": [
+      "면접준비",
+      "JavaScript",
+      "Node.js",
+      "API",
+      "비동기처리"
+    ],
+    "hash": "45a4bd22db50625971abc165efa512a8",
+    "timestamp": "2024-11-05T11:15:43.850Z"
+  },
+  "23da7d8dc0ddc9170801f21932cac759": {
+    "summary": "This document provides instructions for installing Docker, including a section specifically on installing Jenkins.",
+    "tags": [
+      "Docker",
+      "Installation",
+      "Jenkins",
+      "Guide",
+      "Documentation"
+    ],
+    "hash": "23da7d8dc0ddc9170801f21932cac759",
+    "timestamp": "2024-11-05T11:15:44.920Z"
+  },
+  "ba2b6f54a522d25a1b542baba624d2f6": {
+    "summary": "이 문서는 유닛 테스트에 대한 기본 이해를 제공하며, 특히 Node.js 환경에서의 중요성과 구현 방식을 설명합니다. 유닛 테스트는 비즈니스 로직을 검증하는 한 단위의 함수 또는 메소드를 목표로 하며, 의존성이 없어야 하고 빠르게 수행되어야 한다고 강조합니다.",
+    "tags": [
+      "유닛 테스트",
+      "테스트 기술",
+      "Node.js",
+      "비즈니스 로직",
+      "소프트웨어 개발"
+    ],
+    "hash": "ba2b6f54a522d25a1b542baba624d2f6",
+    "timestamp": "2024-11-05T11:15:47.257Z"
+  },
+  "94394f286bbb78af46f8b7c25e66a6c8": {
+    "summary": "이 문서는 취업을 준비하는 이들을 위한 유용한 웹사이트와 자료를 모아둔 목록이다. 특히 웹 개발자를 위한 포트폴리오 작성에 대한 유용한 팁을 포함하고 있다.",
+    "tags": [
+      "취업",
+      "웹 개발",
+      "포트폴리오",
+      "자료 모음",
+      "팁"
+    ],
+    "hash": "94394f286bbb78af46f8b7c25e66a6c8",
+    "timestamp": "2024-11-05T11:15:48.706Z"
+  },
+  "ac78c4dd94d9ce4682126ec85f546fb4": {
+    "summary": "이 문서는 개인이 개발자로 재취직 결심을 하게 된 경과와 항해99 부트캠프 수료 후의 경험을 담고 있다. 독학의 어려움과 좌절을 겪고 부트캠프의 장단점을 소개하며, 최종적으로 개발자로의 첫걸음에 대한 성취감을 느낀 과정을 기록하고 있다.",
+    "tags": [
+      "개발자",
+      "부트캠프",
+      "독학",
+      "취업",
+      "경험담"
+    ],
+    "hash": "ac78c4dd94d9ce4682126ec85f546fb4",
+    "timestamp": "2024-11-05T11:15:50.446Z"
+  },
+  "4cbc9ca06c81d9483c3630cbe487a5d2": {
+    "summary": "항해 플러스는 주니어 개발자들이 사이드 프로젝트를 통해 다양한 기술 경험을 쌓도록 지원하는 부트캠프이다. 참여자는 팀 프로젝트와 멘토링, 네트워킹을 통해 실제 가치 있는 경험을 얻으며, TDD 및 CI/CD 등의 기술을 배울 수 있다.",
+    "tags": [
+      "부트캠프",
+      "주니어 개발자",
+      "TDD",
+      "CI/CD",
+      "네트워킹"
+    ],
+    "hash": "4cbc9ca06c81d9483c3630cbe487a5d2",
+    "timestamp": "2024-11-05T11:15:54.250Z"
+  },
+  "19333c118d3bbfa6f69a3ef0ef28b3b9": {
+    "summary": "이 문서는 여러 알고리즘 문제들을 다루고 있으며, 특히 문자열, 팰린드롬, 로그파일 재정렬, 단어 빈도, 애너그램 그룹화와 같은 주제를 포함하고 있습니다.",
+    "tags": [
+      "알고리즘",
+      "문자열",
+      "팰린드롬",
+      "로그파일",
+      "애너그램"
+    ],
+    "hash": "19333c118d3bbfa6f69a3ef0ef28b3b9",
+    "timestamp": "2024-11-05T11:15:55.876Z"
+  },
+  "2cab7b8003ed6ea07fbd9bcd4f0971e5": {
+    "summary": "이 문서는 JavaScript에서 변수 선언 방법과 관련된 내용을 다룹니다. 'let', 'var', 'const'의 차이점과 변수의 스코프, 그리고 다양한 데이터 타입에 대한 설명을 포함하고 있습니다.",
+    "tags": [
+      "JavaScript",
+      "변수",
+      "let",
+      "var",
+      "const"
+    ],
+    "hash": "2cab7b8003ed6ea07fbd9bcd4f0971e5",
+    "timestamp": "2024-11-05T11:15:57.282Z"
+  },
+  "c48c57e4618104b71bf560448fc2c7eb": {
+    "summary": "이 문서는 디자인 패턴과 관련된 자료 및 취업에 유용한 사이트 정보를 제공합니다.",
+    "tags": [
+      "디자인 패턴",
+      "취업",
+      "포트폴리오",
+      "개발자",
+      "자원"
+    ],
+    "hash": "c48c57e4618104b71bf560448fc2c7eb",
+    "timestamp": "2024-11-05T11:15:58.641Z"
+  },
+  "e5716f9dd7fa922c87f98f69bc392356": {
+    "summary": "이 문서는 연결리스트(linked list)의 기본 개념, 구현 예시, 스택과 큐의 차이점에 대해 설명하고 있으며, 파이썬에서 연결리스트와 큐의 기본 클래스 구현 방법을 제시한다.",
+    "tags": [
+      "연결리스트",
+      "파이썬",
+      "자료구조",
+      "스택",
+      "큐"
+    ],
+    "hash": "e5716f9dd7fa922c87f98f69bc392356",
+    "timestamp": "2024-11-05T11:16:00.689Z"
+  },
+  "142ccdb096e627462b9ac6184d5126eb": {
+    "summary": "함수 리터럴은 자바스크립트에서 함수명을 사용하지 않고 함수의 상태를 나타내는 방식으로, 변수를 통해 함수를 담을 수 있는 개념이다. 이 글에서는 리터럴의 정의와 자바스크립트에서의 활용에 대해 설명한다.",
+    "tags": [
+      "자바스크립트",
+      "함수 리터럴",
+      "프로그래밍",
+      "개념",
+      "MDN"
+    ],
+    "hash": "142ccdb096e627462b9ac6184d5126eb",
+    "timestamp": "2024-11-05T11:16:02.725Z"
+  },
+  "8a56c0323803334f348d06cc3e8a1876": {
+    "summary": "이 문서는 Ubuntu의 Locale을 한국어로 설정하는 방법에 대한 가이드이다.",
+    "tags": [
+      "Ubuntu",
+      "Locale",
+      "한국어",
+      "설정",
+      "가이드"
+    ],
+    "hash": "8a56c0323803334f348d06cc3e8a1876",
+    "timestamp": "2024-11-05T11:16:03.820Z"
+  },
+  "8888b174766da034ac2dc1516cf6f2f6": {
+    "summary": "이 문서는 파이썬에서 __len__ 메서드를 오버라이딩하는 방법에 대해 설명한다. 사용자 정의 클래스에서 len 함수를 재정의하여 객체의 길이를 다르게 정의할 수 있음을 보여준다.",
+    "tags": [
+      "Python",
+      "오버라이딩",
+      "__len__",
+      "객체지향",
+      "프로그래밍"
+    ],
+    "hash": "8888b174766da034ac2dc1516cf6f2f6",
+    "timestamp": "2024-11-05T11:16:05.651Z"
+  },
+  "5940325edd84dace7984a278a56f11b0": {
+    "summary": "마이크로서비스 아키텍처는 대규모 애플리케이션을 작은 독립적인 서비스로 나누어 각 서비스의 성능 및 확장성을 높이는 방식입니다. 이 구조는 문서화, 코드 관리, 복잡성 등을 고려해야 하며, 다양한 기술 스택을 사용할 수 있는 장점이 있습니다.",
+    "tags": [
+      "마이크로서비스",
+      "소프트웨어 아키텍처",
+      "Nestjs",
+      "Kubernetes",
+      "AWS"
+    ],
+    "hash": "5940325edd84dace7984a278a56f11b0",
+    "timestamp": "2024-11-05T11:16:07.983Z"
+  },
+  "b070e2443dd8866c249b2dad8336ed65": {
+    "summary": "이 문서는 Express.js에서 미들웨어를 사용하는 방법에 대해 설명하고 있으며, 미들웨어의 사용 예시와 다양한 유형(애플리케이션 레벨, 라우터 레벨, 에러 처리)에 대한 간단한 소개를 포함하고 있다.",
+    "tags": [
+      "Express.js",
+      "미들웨어",
+      "JavaScript",
+      "웹 개발",
+      "서버"
+    ],
+    "hash": "b070e2443dd8866c249b2dad8336ed65",
+    "timestamp": "2024-11-05T11:16:09.492Z"
+  },
+  "6873879bf8811eb185006c78fb59ba69": {
+    "summary": "미니프로젝트에서의 경험을 회고하며, Python과 Flask를 사용하여 API를 구현했지만 협업과 기술 부족으로 인해 완성도가 낮았음을 느꼈다. 프로젝트 종료 후 얻은 기술적 유익은 있었으나, 실패를 경험한 것으로 생각하고 있다.",
+    "tags": [
+      "미니프로젝트",
+      "Python",
+      "Flask",
+      "협업",
+      "API"
+    ],
+    "hash": "6873879bf8811eb185006c78fb59ba69",
+    "timestamp": "2024-11-05T11:16:11.131Z"
+  },
+  "f2daf8d7c31cd7e541995c6b31a7677f": {
+    "summary": "이 문서는 LeetCode 문제 중 하나인 '가장 흔한 단어'에 대한 내용입니다.",
+    "tags": [
+      "LeetCode",
+      "프로그래밍 문제",
+      "알고리즘",
+      "문자열 처리",
+      "자바스크립트"
+    ],
+    "hash": "f2daf8d7c31cd7e541995c6b31a7677f",
+    "timestamp": "2024-11-05T11:16:12.406Z"
+  },
+  "cb27fcadd86a5e2d60287d6d375ef084": {
+    "summary": "이 문서는 백엔드에서 사용되는 레이어드 아키텍처와 MVC 패턴에 대해 설명하고 있다. 레이어드 아키텍처는 엔드포인트, 비즈니스 로직, 데이터베이스 연결의 3개의 레이어를 나누어 가독성과 확장성을 높이며, MVC 패턴은 데이터 모델을 정의하여 데이터 처리의 효율성을 증대시킨다.",
+    "tags": [
+      "Layered Architecture",
+      "MVC",
+      "Backend",
+      "Design Pattern",
+      "Scalability"
+    ],
+    "hash": "cb27fcadd86a5e2d60287d6d375ef084",
+    "timestamp": "2024-11-05T11:16:14.131Z"
+  },
+  "15651bbcfa09a4b3ba4d7a5a687162b8": {
+    "summary": "이 문서는 MySQL을 Docker로 설치하는 방법과 EC2 서버에서 MySQL을 설정하는 방법을 설명합니다. Docker에서 MySQL 이미지를 다운로드하고 설정하는 명령어와 EC2 인스턴스를 위한 SSH 접속 및 프로그램 설치 방법을 포함합니다.",
+    "tags": [
+      "MySQL",
+      "Docker",
+      "EC2",
+      "설치 방법",
+      "데이터베이스"
+    ],
+    "hash": "15651bbcfa09a4b3ba4d7a5a687162b8",
+    "timestamp": "2024-11-05T11:16:16.296Z"
+  },
+  "013597da469ccf3fbbc45908be6b0f15": {
+    "summary": "이 문서는 다양한 기호의 영어 명칭과 그에 대한 한국어 설명을 정리한 표를 제공합니다.",
+    "tags": [
+      "기호",
+      "영어표기",
+      "문서작성",
+      "언어",
+      "참고자료"
+    ],
+    "hash": "013597da469ccf3fbbc45908be6b0f15",
+    "timestamp": "2024-11-05T11:16:17.507Z"
+  },
+  "c9295a9a0648388ae77c293938281acc": {
+    "summary": "Nestjs는 NodeJs와 TypeScript를 사용하는 백엔드 프레임워크로, Decorator를 통한 의존성 주입, 기본 MVC 패턴, DTO를 통한 데이터 검증을 특징으로 한다. 이 문서는 Swagger 사용법, AWS Cognito 연동, 텔레그램을 이용한 서버 로그 관리 방법을 설명한다.",
+    "tags": [
+      "Nestjs",
+      "NodeJs",
+      "TypeScript",
+      "Swagger",
+      "AWS Cognito"
+    ],
+    "hash": "c9295a9a0648388ae77c293938281acc",
+    "timestamp": "2024-11-05T11:16:19.294Z"
+  },
+  "580742d22e41bacb6c9df8390890d7a0": {
+    "summary": "이벤트 루프는 Node.js의 논블로킹 I/O 기능을 지원하며, 자바스크립트의 싱글 스레드 구조 내에서 비동기 및 동기 작업을 관리하는 시스템이다. 최신 커널은 멀티 스레드를 지원하여 완료된 작업을 콜백으로 반환하고 Poll 큐에 등록하여 균등하게 실행한다.",
+    "tags": [
+      "이벤트 루프",
+      "Node.js",
+      "논블로킹 I/O",
+      "비동기",
+      "동기"
+    ],
+    "hash": "580742d22e41bacb6c9df8390890d7a0",
+    "timestamp": "2024-11-05T11:16:21.433Z"
+  },
+  "cb541a298ab4dc715c778b7fe84ae095": {
+    "summary": "이 문서는 Node.js와 관련된 다양한 주제 및 개념들을 다루고 있으며, 특히 Express 프레임워크, MongoDB, Handlebars, IIFE, MVC 패턴, 레이지 로딩 및 이거 로딩 등을 포함하여 리팩토링과 테스트 코드의 중요성에 대해서도 언급합니다.",
+    "tags": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "MVC 패턴",
+      "테스트 코드"
+    ],
+    "hash": "cb541a298ab4dc715c778b7fe84ae095",
+    "timestamp": "2024-11-05T11:16:23.965Z"
+  },
+  "346587df64a2045b835a45cd419dd16a": {
+    "summary": "이 문서는 OAuth의 개요와 OAuth 1.0과 2.0의 주요 차이점을 설명합니다. 특히, OAuth 2.0은 인증 과정을 간소화하고 범용성이 높아 다양하게 활용될 수 있음을 강조합니다.",
+    "tags": [
+      "OAuth",
+      "인증",
+      "보안",
+      "API",
+      "토큰"
+    ],
+    "hash": "346587df64a2045b835a45cd419dd16a",
+    "timestamp": "2024-11-05T11:16:25.597Z"
+  },
+  "5f07d18159db0771dddb8823c9a210f1": {
+    "summary": "이 문서는 JavaScript의 다양한 연산자와 제어 구조(if, switch 등), 반복문(for, while 등)에 대해 설명합니다. 또한, 데이터 타입의 불변성과 가변성, 연산자(산술, 할당, 비교, 논리 등)의 사용법을 다룹니다.",
+    "tags": [
+      "JavaScript",
+      "Operators",
+      "Control Structures",
+      "Loops",
+      "Data Types"
+    ],
+    "hash": "5f07d18159db0771dddb8823c9a210f1",
+    "timestamp": "2024-11-05T11:16:27.518Z"
+  },
+  "d72a4a6eebf1d6ae443ded76a5d75ad9": {
+    "summary": "이 문서는 JavaScript의 발전 역사와 주요 변천 과정을 설명하고 있습니다. 초기 스크립트 언어부터 ECMAScript의 발전, 다양한 브라우저에서의 구현, JavaScript 라이브러리들, 그리고 최신 기술인 SPA(Single Page Application) 및 웹 어셈블리까지 다룹니다.",
+    "tags": [
+      "JavaScript",
+      "ECMAScript",
+      "프로그래밍 언어",
+      "SPA",
+      "웹 개발"
+    ],
+    "hash": "d72a4a6eebf1d6ae443ded76a5d75ad9",
+    "timestamp": "2024-11-05T11:16:29.773Z"
+  },
+  "da8ea4cc01fbe364e3bbd0838c41e315": {
+    "summary": "This document discusses the basic concepts surrounding linked lists, a fundamental data structure, and provides a link to a specific problem related to palindrome linked lists on LeetCode.",
+    "tags": [
+      "linked list",
+      "data structure",
+      "algo",
+      "LeetCode",
+      "palindrome"
+    ],
+    "hash": "da8ea4cc01fbe364e3bbd0838c41e315",
+    "timestamp": "2024-11-05T11:16:31.440Z"
+  },
+  "0b9b61c65c756c68b62ccd9a48d7f42e": {
+    "summary": "이 문서는 항해플러스 1기에 참가한 경험에 대한 후기를 다루고 있으며, TDD, 대용량 처리 및 CI/CD와 같은 개발 과정에서의 배움과 팀워크의 중요성, 그리고 자아를 찾는 여정에 대해 이야기한다.",
+    "tags": [
+      "항해플러스",
+      "TDD",
+      "CI/CD",
+      "개발자 경험",
+      "팀워크"
+    ],
+    "hash": "0b9b61c65c756c68b62ccd9a48d7f42e",
+    "timestamp": "2024-11-05T11:16:33.308Z"
+  },
+  "1faba0950c333f5664870c64140bc417": {
+    "summary": "PM2는 NODE.js의 배포 및 프로세스 관리를 용이하게 해주는 도구이다.",
+    "tags": [
+      "PM2",
+      "NODE.js",
+      "프로세스 관리",
+      "배포 도구",
+      "개발 도구"
+    ],
+    "hash": "1faba0950c333f5664870c64140bc417",
+    "timestamp": "2024-11-05T11:16:34.580Z"
+  },
+  "660b6c2de8892ccff4a3c38743f07a81": {
+    "summary": "이 문서는 우선순위큐의 기본 개념과 관련 문제 해결 방법에 대한 내용을 다루고 있으며, 특정 교재와 LeetCode 솔루션을 통해 문제를 푸는 과정 중 발생한 의문점들과 파이썬 문법에 대한 설명도 포함되어 있습니다.",
+    "tags": [
+      "우선순위큐",
+      "문제풀이",
+      "파이썬",
+      "LeetCode",
+      "알고리즘"
+    ],
+    "hash": "660b6c2de8892ccff4a3c38743f07a81",
+    "timestamp": "2024-11-05T11:16:36.306Z"
+  },
+  "890cbb53e7223f5a9761b3aa10c794c9": {
+    "summary": "이 문서는 맥 사용자에게 유용한 추천 프로그램 목록을 제공합니다. 프로그램에는 Alfrad, textExpander, rocket, keycaster, iterm2, macvim이 포함됩니다.",
+    "tags": [
+      "맥",
+      "프로그램",
+      "유틸리티",
+      "추천",
+      "소프트웨어"
+    ],
+    "hash": "890cbb53e7223f5a9761b3aa10c794c9",
+    "timestamp": "2024-11-05T11:16:37.439Z"
+  },
+  "11f2119e00c0ee66189ae0a7999f70bc": {
+    "summary": "이 문서는 문제풀이와 관련된 두 가지 주제인 방문길이와 타겟넘버에 대한 내용을 다루고 있다.",
+    "tags": [
+      "문제풀이",
+      "방문길이",
+      "타겟넘버",
+      "알고리즘",
+      "데이터구조"
+    ],
+    "hash": "11f2119e00c0ee66189ae0a7999f70bc",
+    "timestamp": "2024-11-05T11:16:40.842Z"
+  },
+  "b93460e8539bab59680c1a6ba5dd8772": {
+    "summary": "이 문서는 'promise'에 대한 개요와 그 사용 방법에 대해 설명합니다. Promise는 비동기 작업의 결과를 나타내는 객체로, 작업이 완료되면 성공 또는 실패 상태를 반환합니다.",
+    "tags": [
+      "Promise",
+      "JavaScript",
+      "비동기 처리",
+      "프로그래밍",
+      "웹 개발"
+    ],
+    "hash": "b93460e8539bab59680c1a6ba5dd8772",
+    "timestamp": "2024-11-05T11:16:42.468Z"
+  },
+  "0d94edc064c9757c0a0f5efed8fac637": {
+    "summary": "이 문서는 Python의 내장 모듈인 heapq에 관한 내용을 다루고 있으며, heapq.heappush() 함수를 설명합니다.",
+    "tags": [
+      "Python",
+      "heapq",
+      "내장함수",
+      "자료구조",
+      "프로그래밍"
+    ],
+    "hash": "0d94edc064c9757c0a0f5efed8fac637",
+    "timestamp": "2024-11-05T11:16:43.794Z"
+  },
+  "db68209c25c5225309153fa0ceaddf35": {
+    "summary": "The document appears to be a placeholder or outline without specific content, potentially indicating the structure or framework for a larger document.",
+    "tags": [
+      "outline",
+      "framework",
+      "structure",
+      "placeholder",
+      "documentation"
+    ],
+    "hash": "db68209c25c5225309153fa0ceaddf35",
+    "timestamp": "2024-11-05T11:16:44.907Z"
+  },
+  "247f9647622b5ae87bf8935592c2acc9": {
+    "summary": "이 문서는 큐(queue)에 대한 기본 개념과 문제 해결 방법을 다루며, 교재 내용 및 LeetCode 솔루션을 포함하고 있습니다. 또한, 문제를 풀이하면서 어려웠던 부분과 파이썬 문법에 대한 질문도 기록되어 있습니다.",
+    "tags": [
+      "큐",
+      "문제풀이",
+      "파이썬",
+      "자료구조",
+      "알고리즘"
+    ],
+    "hash": "247f9647622b5ae87bf8935592c2acc9",
+    "timestamp": "2024-11-05T11:16:46.564Z"
+  },
+  "66ef0743086281b085aa8b8fbc890f3b": {
+    "summary": "이 문서는 Python의 Random 모듈에 대한 내용을 포함하고 있으며, random() 함수와 seed(int) 함수의 사용법을 다루고 있다.",
+    "tags": [
+      "Python",
+      "Random Module",
+      "random()",
+      "seed()",
+      "Programming"
+    ],
+    "hash": "66ef0743086281b085aa8b8fbc890f3b",
+    "timestamp": "2024-11-05T11:16:47.649Z"
+  },
+  "3f9983e9741b74fcc33517d8fdd3cb2a": {
+    "summary": "This document contains a table of contents (TOC) section and a placeholder for 'range k', indicating a section that may explain a certain range in a mathematical or programming context.",
+    "tags": [
+      "TOC",
+      "range",
+      "mathematics",
+      "programming",
+      "documentation"
+    ],
+    "hash": "3f9983e9741b74fcc33517d8fdd3cb2a",
+    "timestamp": "2024-11-05T11:16:48.878Z"
+  },
+  "b2d6038f4e23a7abe625037647dbe6d3": {
+    "summary": "이 문서는 MD 파일을 읽는 방법과 관련된 내용을 담고 있습니다.",
+    "tags": [
+      "MD파일",
+      "문서 처리",
+      "파일 읽기",
+      "기술 문서",
+      "정보"
+    ],
+    "hash": "b2d6038f4e23a7abe625037647dbe6d3",
+    "timestamp": "2024-11-05T11:16:50.589Z"
+  },
+  "758ece81d7a704fa59979e8a1cc5ce46": {
+    "summary": "이 문서는 React에서 Markdown 파일을 읽는 방법에 대한 설명입니다. 글로벌 타입 선언과 함께, Markdown 파일을 fetch하고 이를 React 컴포넌트로 렌더링하는 간단한 예제 코드를 포함하고 있습니다.",
+    "tags": [
+      "React",
+      "Markdown",
+      "파일 읽기",
+      "프로그래밍",
+      "웹 개발"
+    ],
+    "hash": "758ece81d7a704fa59979e8a1cc5ce46",
+    "timestamp": "2024-11-05T11:16:52.034Z"
+  },
+  "6654c1f10bca32a3f25ad6ca13f3349e": {
+    "summary": "현재 JWT 토큰을 사용하여 3600초 동안 인증하는 테스트를 완료했으며, 실제 서비스에서는 Access Token과 Refresh Token을 이용한 3 Handshake 방식으로 인증을 개선할 계획이다.",
+    "tags": [
+      "JWT",
+      "Access Token",
+      "Refresh Token",
+      "Authentication",
+      "Security"
+    ],
+    "hash": "6654c1f10bca32a3f25ad6ca13f3349e",
+    "timestamp": "2024-11-05T11:16:53.398Z"
+  },
+  "69ea969f1ed1347bc354305f4d42bbf9": {
+    "summary": "이 문서는 정규 표현식(regex)에 대한 소개와 기본 문법(Syntax), 수량자(Quantifiers), 유형(Roundary-type), 문자 클래스(Character classes)를 설명한다.",
+    "tags": [
+      "정규식",
+      "문법",
+      "수량자",
+      "문자 클래스",
+      "프로그래밍"
+    ],
+    "hash": "69ea969f1ed1347bc354305f4d42bbf9",
+    "timestamp": "2024-11-05T11:16:54.823Z"
+  },
+  "4e15ad3fdeec5057d30b7ac6e981ae91": {
+    "summary": "This document contains a link to a LeetCode problem related to reordering data in log files.",
+    "tags": [
+      "LeetCode",
+      "algorithm",
+      "log files",
+      "data processing",
+      "reordering"
+    ],
+    "hash": "4e15ad3fdeec5057d30b7ac6e981ae91",
+    "timestamp": "2024-11-05T11:16:56.254Z"
+  },
+  "6b6ac596e77f795e2536afed78601226": {
+    "summary": "이 문서는 코드와 관련된 내용을 다루고 있습니다.",
+    "tags": [
+      "코드",
+      "프로그래밍",
+      "개발자",
+      "기술 문서",
+      "소프트웨어"
+    ],
+    "hash": "6b6ac596e77f795e2536afed78601226",
+    "timestamp": "2024-11-05T11:16:57.475Z"
+  },
+  "54ce14229c5f724f978846845177c9cd": {
+    "summary": "이 문서는 다양한 기술 주제에 대한 분류체계를 포함하고 있으며, Web Programming, Linux & Server, Synology, 알고리즘, JavaScript, Python 등의 세부 항목으로 구성되어 있습니다.",
+    "tags": [
+      "Web Development",
+      "Programming",
+      "DevOps",
+      "Algorithms",
+      "Python"
+    ],
+    "hash": "54ce14229c5f724f978846845177c9cd",
+    "timestamp": "2024-11-05T11:16:59.583Z"
+  },
+  "c6b80c1c530d2adbc0565a0b7959cf26": {
+    "summary": "이 문서에서는 자주 잊어버리는 명령어들을 정리하고 있으며, 서버 간 파일 복사 및 파일 찾기 방법을 설명하고 있다.",
+    "tags": [
+      "명령어",
+      "파일복사",
+      "scp",
+      "파일찾기",
+      "Linux"
+    ],
+    "hash": "c6b80c1c530d2adbc0565a0b7959cf26",
+    "timestamp": "2024-11-05T11:17:00.883Z"
+  },
+  "61dfe9c9b4142f14748b90a98fe34a88": {
+    "summary": "WebSocket 객체는 WebSocket 서버와의 연결을 생성하고 관리하며, 연결을 통해 데이터를 송수신할 수 있는 API를 제공한다. websocket() 생성자를 통해 사용할 수 있다.",
+    "tags": [
+      "WebSocket",
+      "API",
+      "데이터 송수신",
+      "네트워크",
+      "프로그래밍"
+    ],
+    "hash": "61dfe9c9b4142f14748b90a98fe34a88",
+    "timestamp": "2024-11-05T11:17:02.474Z"
+  },
+  "615b500c5f2e74aac1a8035af9435380": {
+    "summary": "스파르타 부트캠프는 99일 동안 협업하여 실전 프로젝트와 알고리즘 스터디를 진행하는 프로그램으로, 일반반과 심화반으로 나뉘며 마지막 주에는 면접 준비와 이력서 리뷰를 제공합니다.",
+    "tags": [
+      "부트캠프",
+      "프로그래밍",
+      "알고리즘",
+      "면접준비",
+      "프로젝트"
+    ],
+    "hash": "615b500c5f2e74aac1a8035af9435380",
+    "timestamp": "2024-11-05T11:17:04.262Z"
+  },
+  "e364af7ed5897ffca00730253c680b74": {
+    "summary": "이 문서는 JavaScript의 Spread 구문에 대해 설명합니다. 배열이나 객체의 값을 쉽게 분배하고, 함수를 호출할 때 사용될 수 있는 방법을 보여줍니다.",
+    "tags": [
+      "JavaScript",
+      "Spread Syntax",
+      "Function",
+      "Array",
+      "Object"
+    ],
+    "hash": "e364af7ed5897ffca00730253c680b74",
+    "timestamp": "2024-11-05T11:17:05.491Z"
+  },
+  "7fdad8a9d256312e40ffeb09dea86763": {
+    "summary": "This document provides a brief guide on how to copy key files to a server using the ssh-copy-id command.",
+    "tags": [
+      "SSH",
+      "Server",
+      "File Transfer",
+      "Key Management",
+      "Linux"
+    ],
+    "hash": "7fdad8a9d256312e40ffeb09dea86763",
+    "timestamp": "2024-11-05T11:17:06.752Z"
+  },
+  "d72754a4b2af0b45440de048d44f83af": {
+    "summary": "이 문서는 스택의 기본 개념과 구현 방법을 설명하며, 스택을 연결리스트 및 큐로 구현하는 방법을 예시 코드와 함께 제공한다.",
+    "tags": [
+      "스택",
+      "데이터구조",
+      "파이썬",
+      "연결리스트",
+      "큐"
+    ],
+    "hash": "d72754a4b2af0b45440de048d44f83af",
+    "timestamp": "2024-11-05T11:17:08.142Z"
+  },
+  "b8b69310cdd33612c69ea9ee2ef4e773": {
+    "summary": "타겟넘버(43165 문제)에 대한 노트가 있으며, 구현은 완료되었지만 시간 내에 직접 구현하는 데 실패했다.",
+    "tags": [
+      "타겟넘버",
+      "문제풀이",
+      "프로그래밍",
+      "알고리즘",
+      "개선사항"
+    ],
+    "hash": "b8b69310cdd33612c69ea9ee2ef4e773",
+    "timestamp": "2024-11-05T11:17:09.622Z"
+  },
+  "296b9f9ca081bb764d6920d650eafb1c": {
+    "summary": "이 문서는 tmux에 대한 내용을 다루고 있으며, tmux 사용의 법칙과 규칙을 설명하는 링크가 포함되어 있습니다.",
+    "tags": [
+      "tmux",
+      "사용법",
+      "리뷰",
+      "문서",
+      "링크"
+    ],
+    "hash": "296b9f9ca081bb764d6920d650eafb1c",
+    "timestamp": "2024-11-05T11:17:10.702Z"
+  },
+  "51fb679abb83f79490bc1f02ac03ed02": {
+    "summary": "이 문서는 JavaScript의 기본 구조에 대한 설명을 다룹니다.",
+    "tags": [
+      "JavaScript",
+      "기본 구조",
+      "프로그래밍",
+      "웹 개발",
+      "코드 예제"
+    ],
+    "hash": "51fb679abb83f79490bc1f02ac03ed02",
+    "timestamp": "2024-11-05T11:17:11.917Z"
+  },
+  "a798c40efc58d3525ce0c53480f16158": {
+    "summary": "이 문서는 해야 할 일들을 기록하기 위해 작성되었습니다.",
+    "tags": [
+      "할 일",
+      "정리",
+      "목록",
+      "생산성",
+      "계획"
+    ],
+    "hash": "a798c40efc58d3525ce0c53480f16158",
+    "timestamp": "2024-11-05T11:17:12.835Z"
+  },
+  "7c429480541b1a10c8cb86262a38d88c": {
+    "summary": "이 문서는 트리 구조의 기본 개념에 대한 요약, 다양한 유형의 이진 트리 설명, 그리고 관련 문제 풀이를 포함하고 있다. 주요 용어와 개념에 대한 정의도 제공된다.",
+    "tags": [
+      "트리",
+      "이진트리",
+      "데이터구조",
+      "문제풀이",
+      "용어정리"
+    ],
+    "hash": "7c429480541b1a10c8cb86262a38d88c",
+    "timestamp": "2024-11-05T11:17:14.519Z"
+  },
+  "4651b7ae38ac3bf96c2a3d8db2a59bda": {
+    "summary": "이 문서는 주어진 문자열이 팰린드롬인지 확인하는 방법을 설명하며, 대소문자를 구분하지 않고 영문자와 숫자만 고려합니다.",
+    "tags": [
+      "팰린드롬",
+      "문자열",
+      "알고리즘",
+      "파이썬",
+      "대소문자"
+    ],
+    "hash": "4651b7ae38ac3bf96c2a3d8db2a59bda",
+    "timestamp": "2024-11-05T11:17:16.155Z"
+  },
+  "080a38f240769416fbddc96fc34483be": {
+    "summary": "이 문서는 Vim 스크립트에서 키보드 매핑에 대한 내용을 정리한 것으로, Insert Mode와 Visual Mode에서의 다양한 매핑 옵션을 설명하고 있습니다.",
+    "tags": [
+      "Vim",
+      "Scripting",
+      "Keyboard Mapping",
+      "Insert Mode",
+      "Visual Mode"
+    ],
+    "hash": "080a38f240769416fbddc96fc34483be",
+    "timestamp": "2024-11-05T11:17:17.287Z"
+  },
+  "42348e6c86b428e8b9dd2357b4ec1b92": {
+    "summary": "이 문서는 Vim과 관련된 여러 항목들을 나열하고 있으며, 특히 Vimwiki, Vimspector, fzf에 대한 문제점 및 Vim 스크립트에 대한 리서치를 포함하고 있다.",
+    "tags": [
+      "Vim",
+      "Vimwiki",
+      "Vimspector",
+      "fzf",
+      "VimScript"
+    ],
+    "hash": "42348e6c86b428e8b9dd2357b4ec1b92",
+    "timestamp": "2024-11-05T11:17:18.715Z"
+  },
+  "9c11a5fe3749ccaf78bb13cbf80c75f2": {
+    "summary": "이 문서는 vimspector에 대한 내용을 다루며, 주로 GitHub 페이지에서 시작하는 방법에 대한 정보를 제공합니다.",
+    "tags": [
+      "vimspector",
+      "디버깅",
+      "GitHub",
+      "개발툴",
+      "프로그래밍"
+    ],
+    "hash": "9c11a5fe3749ccaf78bb13cbf80c75f2",
+    "timestamp": "2024-11-05T11:17:19.969Z"
+  },
+  "dfaecfcfb84ee1bca649edc1a4263492": {
+    "summary": "이 문서는 Jekyll 정적 웹사이트를 GitHub Pages에서 설정하고 로컬에서 실행하는 방법에 대한 간단한 설명을 포함하고 있습니다.",
+    "tags": [
+      "Jekyll",
+      "GitHub Pages",
+      "정적 웹사이트",
+      "로컬 실행",
+      "설정 방법"
+    ],
+    "hash": "dfaecfcfb84ee1bca649edc1a4263492",
+    "timestamp": "2024-11-05T11:17:21.379Z"
+  },
+  "4df687142d063fac2d1dc2a4b63e054e": {
+    "summary": "이 문서는 특정 문제를 풀기 위한 접근 방법을 설명하고 있으며, 2차원 배열과 SET을 사용하여 중복 이동을 처리하는 방법을 다루고 있다. 주요 포인트는 양방향 이동을 고려하는 것과 이동 경로의 카운터 기능의 중요성이다.",
+    "tags": [
+      "문제풀이",
+      "Python",
+      "알고리즘",
+      "2차원 배열",
+      "SET"
+    ],
+    "hash": "4df687142d063fac2d1dc2a4b63e054e",
+    "timestamp": "2024-11-05T11:17:23.157Z"
+  },
+  "89a3e2d2b043fd82353f2c51397ffbe3": {
+    "summary": "이 문서는 JavaScript의 객체(Object)에 대한 개념, 리터럴 및 프로퍼티, 계산된 프로퍼티, 프로퍼티 값 약식, 생성자 함수, 존재성 검사, 순환 방법, 복사 방법 등을 설명하고 있습니다.",
+    "tags": [
+      "JavaScript",
+      "객체",
+      "프로그래밍",
+      "개념",
+      "리터럴"
+    ],
+    "hash": "89a3e2d2b043fd82353f2c51397ffbe3",
+    "timestamp": "2024-11-05T11:17:24.669Z"
+  }
+}
