@@ -54,6 +54,15 @@ jobs:
           touch out/.nojekyll
           cp out/404.html out/404 || true
           cp out/index.html out/index || true
+          cp public/robots.txt out/ || true
+          cp public/sitemap*.xml out/ || true
+          cp public/naver*.html out/ || true
+          cp public/google*.html out/ || true
+          cp public/rss.xml out/ || true
+
+      # 결과물 확인
+      - name: List output files
+        run: ls -la out/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
