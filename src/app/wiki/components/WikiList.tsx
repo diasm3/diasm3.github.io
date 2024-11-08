@@ -12,27 +12,7 @@ import {
   TabsList,
   TabsTrigger,
 } from "../../../components/Ui/Tabs/tab"
-
-// "use client"
-
-// import { useCallback, useEffect, useRef, useState } from "react"
-// import Link from "next/link"
-// import styled from "styled-components"
-// import { WikiCardSkeleton } from "@/components/Skeleton/Skeleton"
-// import { useInView } from "react-intersection-observer"
-// import { WikiCard } from "@/components/WikiCard"
-// import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
-
-interface WikiFile {
-  slug: string
-  title: string
-  description?: string
-  tags?: string[]
-  date?: string
-  aiSummary?: string
-  status: "completed" | "draft"
-  lastProcessed: string
-}
+import { WikiFile } from "./types"
 
 interface WikiListProps {
   wikiFiles: WikiFile[]
@@ -234,9 +214,9 @@ export function WikiList({ wikiFiles }: WikiListProps) {
 
 // 기존 스타일드 컴포넌트는 유지
 
-const TabsListStyled = styled(TabsList)`
-  margin-bottom: 2rem;
-`
+// const TabsListStyled = styled(TabsList)`
+//   margin-bottom: 2rem;
+// `
 
 // 스타일 컴포넌트
 const EndMessage = styled.div`

@@ -6,7 +6,7 @@ import { GitHubClient, verifyGitHubToken, cookieUtils } from "@/lib/github"
 interface AuthState {
   isAuthenticated: boolean
   isLoading: boolean
-  user: any | null
+  user: null
 }
 
 export function useGitHubAuth() {

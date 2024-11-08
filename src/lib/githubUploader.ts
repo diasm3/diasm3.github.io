@@ -15,7 +15,7 @@ export class GithubImageUploader {
     const content = await this.getBase64Content(file)
 
     try {
-      const response = await this.octokit.repos.createOrUpdateFileContents({
+      await this.octokit.repos.createOrUpdateFileContents({
         owner: this.REPO_OWNER,
         repo: this.REPO_NAME,
         path: `${this.IMAGE_PATH}/${fileName}`,

@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useState, useCallback } from "react"
 import styled from "styled-components"
-import { useInView } from "react-intersection-observer"
 
 interface TocItem {
   id: string
@@ -132,9 +131,9 @@ export function TableOfContents() {
   }, [])
 
   // comments 섹션이 아닌 항목만 표시
-  const filteredHeadings = headings.filter(
-    (heading) => heading.title.toLowerCase() !== "comments"
-  )
+  // const filteredHeadings = headings.filter(
+  //   (heading) => heading.title.toLowerCase() !== "comments"
+  // )
 
   return (
     <TocContainer>
