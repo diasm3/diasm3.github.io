@@ -2,17 +2,14 @@ name: publish-to-github-pages
 on:
   push:
     branches:
-      - main # 또는 master
-
+      - main
 permissions:
-  contents: read
+  contents: write # main 브랜치에 커밋을 위해 write 권한 필요
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -59,6 +56,15 @@ jobs:
           cp public/naver*.html out/ || true
           cp public/google*.html out/ || true
           cp public/rss.xml out/ || true
+
+      # 빌드 결과물을 main 브랜치에 커밋
+      - name: Commit build artifacts
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -f out/
+          git commit -m "Update build artifacts [skip ci]" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
 
       # 결과물 확인
       - name: List output files
