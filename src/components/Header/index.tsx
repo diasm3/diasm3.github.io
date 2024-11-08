@@ -10,6 +10,7 @@ export default function Header() {
         <Link href="/">Home</Link>
         <Link href="/wiki">Wiki</Link>
         <Link href="/blog">Blog</Link>
+        <Link href="/portfolio">Portfolio</Link>
         <Link href="/search">Search</Link>
       </Navigation>
     </HeaderContainer>
