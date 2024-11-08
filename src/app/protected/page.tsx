@@ -3,13 +3,13 @@
 
 import { useEffect } from "react"
 import { useRouter } from "next/navigation"
-import Cookies from "js-cookie"
+// import Cookies from "js-cookie"
 
 export default function ProtectedPage() {
   const router = useRouter()
 
   useEffect(() => {
-    const token = Cookies.get("github_token")
+    const token = null
 
     if (!token) {
       router.push("/login")

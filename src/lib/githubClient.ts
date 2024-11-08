@@ -27,6 +27,7 @@ export class GitHubClient {
           sha = data.sha
         }
       } catch (error) {
+        console.log(error)
         // 파일이 없는 경우 무시
       }
 

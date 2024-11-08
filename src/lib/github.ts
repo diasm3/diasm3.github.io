@@ -75,6 +75,7 @@ export async function verifyGitHubToken(token: string) {
       user,
     }
   } catch (error) {
+    console.log(error)
     return {
       isValid: false,
       user: null,

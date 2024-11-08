@@ -1,7 +1,6 @@
 // auth.ts
 import NextAuth from "next-auth"
 import GitHub from "next-auth/providers/github"
-import { NextResponse } from "next/server"
 
 export const {
   handlers: { GET, POST },
@@ -40,7 +39,7 @@ export const {
       }
       return true
     },
-    async signIn({ user, account, profile }) {
+    async signIn({ profile }) {
       // diasm3 계정만 허용
       return profile?.login === "diasm3"
     },
