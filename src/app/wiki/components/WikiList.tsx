@@ -6,6 +6,22 @@ import styled from "styled-components"
 import { WikiCardSkeleton } from "@/components/Skeleton/Skeleton"
 import { useInView } from "react-intersection-observer"
 import { WikiCard } from "@/components/WikiCard"
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "../../../components/Ui/Tabs/tab"
+
+// "use client"
+
+// import { useCallback, useEffect, useRef, useState } from "react"
+// import Link from "next/link"
+// import styled from "styled-components"
+// import { WikiCardSkeleton } from "@/components/Skeleton/Skeleton"
+// import { useInView } from "react-intersection-observer"
+// import { WikiCard } from "@/components/WikiCard"
+// import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 
 interface WikiFile {
   slug: string
@@ -14,6 +30,7 @@ interface WikiFile {
   tags?: string[]
   date?: string
   aiSummary?: string
+  status: "completed" | "draft"
   lastProcessed: string
 }
 
@@ -21,102 +38,184 @@ interface WikiListProps {
   wikiFiles: WikiFile[]
 }
 
-export function WikiList({ wikiFiles }: WikiListProps) {
-  const sortedWikiFiles = useRef(
-    [...wikiFiles].sort((a, b) => {
-      if (!a.date) return 1
-      if (!b.date) return -1
-      return new Date(b.date).getTime() - new Date(a.date).getTime()
-    })
-  )
+interface TabData {
+  items: WikiFile[]
+  page: number
+  hasMore: boolean
+}
 
-  const [displayedItems, setDisplayedItems] = useState<WikiFile[]>([])
-  const [page, setPage] = useState(1)
+export function WikiList({ wikiFiles }: WikiListProps) {
+  const [activeTab, setActiveTab] = useState<"all" | "completed" | "draft">(
+    "all"
+  )
   const [ref, inView] = useInView()
   const [isLoading, setIsLoading] = useState(false)
-  const [hasMore, setHasMore] = useState(true)
+
+  // 탭별 데이터 상태 관리
+  const [tabsData, setTabsData] = useState<Record<string, TabData>>({
+    all: { items: [], page: 1, hasMore: true },
+    completed: { items: [], page: 1, hasMore: true },
+    draft: { items: [], page: 1, hasMore: true },
+  })
+
+  // 정렬된 파일 목록을 탭별로 캐싱
+  const sortedWikiFiles = useRef({
+    all: [...wikiFiles].sort(
+      (a, b) =>
+        new Date(b.date || "").getTime() - new Date(a.date || "").getTime()
+    ),
+    completed: [...wikiFiles]
+      .filter((file) => file.status === "completed")
+      .sort(
+        (a, b) =>
+          new Date(b.date || "").getTime() - new Date(a.date || "").getTime()
+      ),
+    draft: [...wikiFiles]
+      .filter((file) => file.status === "draft")
+      .sort(
+        (a, b) =>
+          new Date(b.date || "").getTime() - new Date(a.date || "").getTime()
+      ),
+  })
 
   const ITEMS_PER_PAGE = 10
 
   const loadMoreItems = useCallback(() => {
-    if (!hasMore || isLoading) return
+    if (!tabsData[activeTab].hasMore || isLoading) return
 
     setIsLoading(true)
-    const start = (page - 1) * ITEMS_PER_PAGE
-    const end = page * ITEMS_PER_PAGE
-    const newItems = sortedWikiFiles.current.slice(start, end)
+    const currentTab = activeTab
+    const currentData = tabsData[currentTab]
+    const start = (currentData.page - 1) * ITEMS_PER_PAGE
+    const end = currentData.page * ITEMS_PER_PAGE
+    const newItems = sortedWikiFiles.current[currentTab].slice(start, end)
 
     setTimeout(() => {
-      setDisplayedItems((prev) => {
-        const updatedItems = [...prev, ...newItems]
-        sessionStorage.setItem("displayedItems", JSON.stringify(updatedItems))
-        return updatedItems
-      })
-      setPage((prev) => {
-        const newPage = prev + 1
-        sessionStorage.setItem("wikiPage", newPage.toString())
-        return newPage
-      })
+      setTabsData((prev) => ({
+        ...prev,
+        [currentTab]: {
+          items: [...prev[currentTab].items, ...newItems],
+          page: prev[currentTab].page + 1,
+          hasMore: end < sortedWikiFiles.current[currentTab].length,
+        },
+      }))
       setIsLoading(false)
-
-      if (end >= sortedWikiFiles.current.length) {
-        setHasMore(false)
-      }
     }, 500)
-  }, [page, hasMore, isLoading])
+  }, [activeTab, tabsData, isLoading])
 
+  // 탭 변경 시 세션 스토리지에서 데이터 복원
   useEffect(() => {
-    const savedPage = parseInt(sessionStorage.getItem("wikiPage") || "1", 10)
-    const savedItems = JSON.parse(
-      sessionStorage.getItem("displayedItems") || "[]"
+    const savedTabData = JSON.parse(
+      sessionStorage.getItem(`wikiList_${activeTab}`) || "null"
     )
     const savedScroll = parseInt(
-      sessionStorage.getItem("scrollPosition") || "0",
-      10
+      sessionStorage.getItem(`wikiScroll_${activeTab}`) || "0"
     )
 
-    if (savedItems.length > 0) {
-      setDisplayedItems(savedItems)
-      setPage(savedPage)
+    if (savedTabData) {
+      setTabsData((prev) => ({
+        ...prev,
+        [activeTab]: savedTabData,
+      }))
       window.scrollTo(0, savedScroll)
-    } else {
+    } else if (tabsData[activeTab].items.length === 0) {
       loadMoreItems()
     }
+  }, [activeTab])
 
-    // 페이지 위치를 저장하는 이벤트 추가
+  // 탭 데이터 저장
+  useEffect(() => {
+    sessionStorage.setItem(
+      `wikiList_${activeTab}`,
+      JSON.stringify(tabsData[activeTab])
+    )
+  }, [tabsData, activeTab])
+
+  // 스크롤 위치 저장
+  useEffect(() => {
     const saveScrollPosition = () => {
-      sessionStorage.setItem("scrollPosition", window.scrollY.toString())
+      sessionStorage.setItem(
+        `wikiScroll_${activeTab}`,
+        window.scrollY.toString()
+      )
     }
 
     window.addEventListener("scroll", saveScrollPosition)
     return () => window.removeEventListener("scroll", saveScrollPosition)
-  }, [loadMoreItems])
+  }, [activeTab])
 
+  // 무한 스크롤
   useEffect(() => {
-    if (inView && hasMore && !isLoading) {
+    if (inView && !isLoading && tabsData[activeTab].hasMore) {
       loadMoreItems()
     }
-  }, [inView, hasMore, isLoading, loadMoreItems])
+  }, [inView, isLoading, activeTab, tabsData, loadMoreItems])
+
+  const handleTabChange = (value: string) => {
+    setActiveTab(value as "all" | "completed" | "draft")
+  }
 
   return (
     <WikiContainer>
       <WikiHeader>
         <h1>Wiki</h1>
-        <p>Total {sortedWikiFiles.current.length} articles</p>
+        <p>Total {wikiFiles.length} articles</p>
       </WikiHeader>
 
-      <Grid>
-        {displayedItems.map((file, index) => (
-          <CardWrapper
-            key={`${file.slug}-${index}`}
-            href={`/wiki/${file.slug}`}
-          >
-            <WikiCard {...file} />
-          </CardWrapper>
-        ))}
-      </Grid>
+      <Tabs defaultValue="all" onValueChange={handleTabChange}>
+        <TabsList>
+          <TabsTrigger value="all">
+            전체 ({sortedWikiFiles.current.all.length})
+          </TabsTrigger>
+          <TabsTrigger value="completed">
+            완성 ({sortedWikiFiles.current.completed.length})
+          </TabsTrigger>
+          <TabsTrigger value="draft">
+            작성중 ({sortedWikiFiles.current.draft.length})
+          </TabsTrigger>
+        </TabsList>
 
-      {isLoading && hasMore && (
+        <TabsContent value="all">
+          <Grid>
+            {tabsData.all.items.map((file, index) => (
+              <CardWrapper
+                key={`${file.slug}-${index}`}
+                href={`/wiki/${file.slug}`}
+              >
+                <WikiCard {...file} />
+              </CardWrapper>
+            ))}
+          </Grid>
+        </TabsContent>
+
+        <TabsContent value="completed">
+          <Grid>
+            {tabsData.completed.items.map((file, index) => (
+              <CardWrapper
+                key={`${file.slug}-${index}`}
+                href={`/wiki/${file.slug}`}
+              >
+                <WikiCard {...file} />
+              </CardWrapper>
+            ))}
+          </Grid>
+        </TabsContent>
+
+        <TabsContent value="draft">
+          <Grid>
+            {tabsData.draft.items.map((file, index) => (
+              <CardWrapper
+                key={`${file.slug}-${index}`}
+                href={`/wiki/${file.slug}`}
+              >
+                <WikiCard {...file} />
+              </CardWrapper>
+            ))}
+          </Grid>
+        </TabsContent>
+      </Tabs>
+
+      {isLoading && tabsData[activeTab].hasMore && (
         <LoadingSection>
           <WikiCardSkeleton />
           <WikiCardSkeleton />
@@ -124,14 +223,20 @@ export function WikiList({ wikiFiles }: WikiListProps) {
         </LoadingSection>
       )}
 
-      {!hasMore && displayedItems.length > 0 && (
+      {!tabsData[activeTab].hasMore && tabsData[activeTab].items.length > 0 && (
         <EndMessage>모든 문서를 불러왔습니다.</EndMessage>
       )}
 
-      {hasMore && <ObserverTarget ref={ref} />}
+      {tabsData[activeTab].hasMore && <ObserverTarget ref={ref} />}
     </WikiContainer>
   )
 }
+
+// 기존 스타일드 컴포넌트는 유지
+
+const TabsListStyled = styled(TabsList)`
+  margin-bottom: 2rem;
+`
 
 // 스타일 컴포넌트
 const EndMessage = styled.div`

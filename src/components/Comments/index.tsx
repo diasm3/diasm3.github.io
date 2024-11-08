@@ -1,58 +1,83 @@
-// src/components/Comments/index.tsx
 "use client"
 import { useEffect, useRef } from "react"
 import styled from "styled-components"
+import { useTheme } from "styled-components"
 
 interface CommentsProps {
   slug: string
 }
 
 export function Comments({ slug }: CommentsProps) {
-  const utterancesRef = useRef<HTMLDivElement>(null)
+  const giscusRef = useRef<HTMLDivElement>(null)
+  const theme = useTheme()
 
   useEffect(() => {
-    const utterancesContainer = utterancesRef.current
+    const giscusContainer = giscusRef.current
+    if (!giscusContainer) return
 
-    if (!utterancesContainer) return
+    // 기존 giscus가 있다면 제거
+    const existingGiscus = giscusContainer.querySelector(".giscus-frame")
+    if (existingGiscus) {
+      existingGiscus.remove()
+    }
 
-    const utterancesScript = document.createElement("script")
-
-    const utterancesConfig = {
-      src: "https://utteranc.es/client.js",
-      repo: "diasm3/diasm3.github.io",
-      "issue-term": "pathname",
-      label: "comment",
-      theme: "github-light",
+    const giscusScript = document.createElement("script")
+    const giscusConfig = {
+      src: "https://giscus.app/client.js",
+      "data-repo": "diasm3/diasm3.github.io",
+      "data-repo-id": "R_kgDOHCKY4g", // GitHub에서 가져온 repo ID
+      "data-category": "Announcements", // 또는 원하는 카테고리 이름
+      "data-category-id": "DIC_kwDOHCKY4s4CkFTI", // GitHub에서 가져온 category ID
+      "data-mapping": "pathname",
+      "data-strict": "0",
+      "data-reactions-enabled": "1",
+      "data-emit-metadata": "0",
+      "data-input-position": "bottom",
+      "data-theme": theme?.colors?.mode === "dark" ? "dark" : "light", // 테마에 따라 자동 변경
+      "data-lang": "ko",
       crossorigin: "anonymous",
     }
 
-    Object.entries(utterancesConfig).forEach(([key, value]) => {
-      utterancesScript.setAttribute(key, value)
+    Object.entries(giscusConfig).forEach(([key, value]) => {
+      giscusScript.setAttribute(key, value)
     })
 
-    utterancesScript.async = true
+    giscusScript.async = true
+    giscusContainer.appendChild(giscusScript)
 
-    // 기존 utterances가 있다면 제거
-    const existingUtterances = utterancesContainer.querySelector(".utterances")
-    if (existingUtterances) {
-      existingUtterances.remove()
+    // Giscus 테마 변경을 위한 메시지 전달 함수
+    const updateGiscusTheme = (theme: string) => {
+      const iframe = document.querySelector<HTMLIFrameElement>(".giscus-frame")
+      if (!iframe) return
+      iframe.contentWindow?.postMessage(
+        { giscus: { setConfig: { theme } } },
+        "https://giscus.app"
+      )
     }
 
-    // 새로운 utterances 추가
-    utterancesContainer.appendChild(utterancesScript)
+    // 테마 변경 감지 및 적용
+    const observer = new MutationObserver(() => {
+      updateGiscusTheme(theme?.colors?.mode === "dark" ? "dark" : "light")
+    })
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-theme"],
+    })
 
     return () => {
-      // 컴포넌트 언마운트시 스크립트 제거
-      if (utterancesContainer.contains(utterancesScript)) {
-        utterancesContainer.removeChild(utterancesScript)
+      // Clean up
+      observer.disconnect()
+      if (giscusContainer.contains(giscusScript)) {
+        giscusContainer.removeChild(giscusScript)
       }
     }
-  }, [slug])
+  }, [slug, theme])
 
   return (
     <CommentsContainer>
       <CommentsTitle>Comments</CommentsTitle>
-      <div ref={utterancesRef} />
+      <div ref={giscusRef} />
     </CommentsContainer>
   )
 }
@@ -61,7 +86,7 @@ const CommentsContainer = styled.div`
   margin: 2rem auto;
   max-width: 800px;
   padding: 2rem;
-  background: white;
+  background: ${({ theme }) => theme.colors.background};
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `
@@ -70,4 +95,5 @@ const CommentsTitle = styled.h2`
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid ${({ theme }) => theme.colors.border};
+  color: ${({ theme }) => theme.colors.text};
 `
