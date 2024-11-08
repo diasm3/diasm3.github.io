@@ -1,0 +1,117 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","array-APIs"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","array-APIs","d"],{"children":["__PAGE__?{\"slug\":\"array-APIs\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","array-APIs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","j4dFELFzv_1d_553eWB8i",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T760,* TOC
+{:toc}
+
+# Array 개념과 APIs 
+## Delarartion 
+```javascript
+
+const arr1 = new Array()
+const arr2 = [1,2]
+
+//2. Index posistion
+const fruits = ['apple', 'banana' ]
+console.log(fruits)
+console.log(fruits.length) /// 2개
+console.log(fruits[0]) //apple
+console.log(fruits[1]) //banana
+console.log(fruits[3]) //undefined
+console.log(fruits[fruits.length -1]) //마지막 익덱스
+
+//3. Looping over an array
+//print all fruits
+// a. for
+
+for (let i=0; i < fruits.length; i++){
+    console.log(fruits[i])
+}
+
+
+//b. for of
+for(let fruit of fruits){
+    console.log(fruit)
+}
+
+
+//c. forEach
+fruits.forEach((value) => console.log(value))
+
+
+//4. Addition, Deletion, copy
+//push :add an item to the end
+fruits.push('strawberry', 'peach')
+console.log(fruits)
+
+//pop : remove an item from the end
+fruits.pop()
+fruits.pop()
+console.log(fruits)
+
+
+//unshift :add an item to the beginning
+fruits.unshift('strawberry', 'lemon')
+console.log(fruits)
+
+
+//shift: remove an item from the beginning
+fruits.shift() // 느림
+fruits.shift()
+console.log(fruits)
+
+//splice : remove an item by index position
+fruits.push('strawberry', 'peach', 'lemon')
+console.log(fruits)
+fruits.splice(1, 1) // 1부터 1까지 지워짐 
+console.log(fruits)
+fruits.splice(1, 1, 'apple', 'watermelon') // 1부터 1까삽입까지 가능함 
+console.log(fruits)
+
+
+//comine two arrays
+const fruits2 = ['pear', 'apple']
+const newFruits = fruits.concat(fruits2)
+console.log(fruits)
+
+
+
+// 5. searching
+// find the index
+console.log(fruits)
+console.log(fruits.indexOf('apple'))
+console.log(fruits.indexOf('watermelon'))
+console.log(fruits.indexOf('watermelon')) //없으면 -1 반환
+
+// includes
+console.log(fruits.includes('watermelon'))
+console.log(fruits.includes('watermelon'))
+
+// lastIndexof
+// 제일 마지막에 있는 인덱스를 가져옴
+
+fruits.push('apple')
+console.log(fruits.lastIndexOf('watermelon'))
+
+
+```
+
+
+
+
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"array 관해서 알아보자","description":"","tags":["JavaScript","Array","API","프로그래밍","기초"],"date":"2022-04-05 20:20:55 +0900"}}],["$","$L12",null,{"slug":"array-APIs"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

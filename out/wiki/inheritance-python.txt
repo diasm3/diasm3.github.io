@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","inheritance-python"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","inheritance-python","d"],{"children":["__PAGE__?{\"slug\":\"inheritance-python\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","inheritance-python","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","wrc0jL3DR3nBXAnRLAXWk",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T80f,* TOC
+{:toc}
+
+# 상속 inheritance 
+## 각자 만든 method를 한곳에 사용 하고싶다. 
+
+> 2022-03-26 15:33:03 
+토요일 
+팀원들과 vscode live share를 하고 같이 스택에 대해서 같이 코딩을 해보았다 .
+그런데 아래와 같은 문제가 발생했다.
+
+1. 각자 파일을 만들고 메소드를 만들었다. push pop randompop
+2. __main__파일로 import 해서 method를 불러왔다. 
+3. __main__이라는 파일에서 Node 객체들 만들고 각자 만들었던 method를 가져와 상속시켰지만 `작동하지` 않았다 
+
+> 상속이 왜 안될까?
+
+
+```python
+# __main__.py 파일
+from smhong import Stack, Node
+
+from sunghye import * 
+from semyung import * 
+from ksj import * 
+
+class Stack_(Semyung, stack_ksj, Sunghye, Stack):
+     def __init__(self):
+         self.max = 10
+         self.size = 0
+         self.top = None
+
+     def __str__(self):
+         ss = []
+         while top:
+             ss.append(top.item)
+            top = top.next
+      
+         return str(ss)
+ a = Stack_()
+
+ a.push(1)
+ a.pop()
+ a.push(1)
+ print(a)
+```
+
+
+## 변수가 공유가 안된다 
+
+1. 각자 만든 메소드를 한 파일에 
+
+
+```python
+#  __main__.py 
+
+# semyung 파일에서 모든 클라스를 가져온다
+# ksj 파일에서 모든 클라스를 가져온다
+from semyung import *
+from ksj import *
+
+
+
+# 아래와 같이 두가지 파일을 만들고 
+
+# semyung.py
+## push method
+
+def push(self, value):
+    if self.head is not None:
+        self.head =  Node(value)
+        
+    self.temp = self.head.next
+    self.head.next = Node(value)
+    self.head = self.temp
+    
+    
+# ksj.py
+## pop, randompop method
+
+def pop(self):
+    if self.top is not None:
+        node = self.top
+        self.top = self.top.next
+        self.size -= 1
+        return node.item
+
+def randompop(self):
+    ran = randrange(1, self.size)
+    node = self.top
+
+    for _ in range(ran-1):
+        if not node:
+            return None
+        node = node.next
+    result = node.next
+
+    node.next = node.next.next    
+    return result.item
+
+````
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"상속 inheritance","description":"","tags":["상속","Python","코드오류","메소드통합","팀워크"],"date":"2022-03-27 17:41:32 +0900"}}],["$","$L12",null,{"slug":"inheritance-python"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

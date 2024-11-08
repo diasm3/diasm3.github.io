@@ -1,0 +1,89 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","microservice"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","microservice","d"],{"children":["__PAGE__?{\"slug\":\"microservice\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","microservice","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","dPP-TTOVTbA3i8vqzOJNd",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:Tf15,* TOC
+{:toc}
+
+# 진정한 마이크로서비스란? 
+마이크로서비스는 소프트웨어 아키텍쳐 페턴으로 크고 복잡한 어플리케이션을 파편화로 각자 독립적인 프로세서들로 구성하는 것을 마이크로서비스라고 한다. 각각의 서비스들은 최대치의 퍼포먼스를 발휘하고 확장성이 용이하며 보수가 편리하다는 장점이 있다. 
+
+TCP로 데이터를 받기 떄문에 사실상 아무 언어나 상관 없이 각 모듈마다 구성이 가능하다. 
+
+
+Agile 방식의 개발 환경과 맞게 진행가능하며 독립적으로 배포가 가능하다.
+
+>예를 들어 쿠팡의 각 메뉴에 대한 팀이 따로 있다고 한다. 그 메뉴를 담당하는 팀들은 그 모듈만 관리하게 되고 그 모듈은 독립적으로 실행되어 문제가 발생해도 다른 모듈과 존속적이지 않아 전체 서버다운이 발생하지 않는다.
+
+## 마이크로서비스를 도입시에 생각해봐야할 부분?
+    - 과연 우리 서비스에 맞는 방식인가? 
+    - 마이크로서비스를 위해 얼마나 더 많은 코드가 필요한가?  (앞으로
+    - 백엔드만 마이크로서비스를 구성한다면? 프론트도 파편화로 구성이 가능할까?
+    - 각각의 마이크로서비스의 레포는 어떻게 관리가 되어야 할것인가? 
+    - 문서화는 어떻게 해야할것인가?
+    - 이러한 복잡도는 감당할 수준인건가?
+    - 어플리케이션의 파편화는 어느정도로 해야할 것인가? 
+
+
+## 마이크로서비스의 5가지 장점
+
+1. Decoupled components
+   - 다른 모듈의 상관없이 쉽게 변경하고 쉽게 업데이트 할 수 있다
+2. Scalability 
+   - 마이크로서비스의 다른 메모리를 공유하지 않는다 이것은 쉽게 스케일링 할 수 있고 리소스를 플렉시블하게 늘릴 수 있다. 
+3. Faster to build 
+    - 어플리케이션을 작은 단위로 분리할때 병렬적으로 각 모듈을 개발할 수 있다. 
+4. Language and technology agnostic 
+    - 다른 프레임워크나 다른 언어를 사용해도 된다. 진입 장벽이 낮고 각 팀원들마다 다른 언어를 사용해도 되며 다른 프레임워크를 사용해도 된다. 
+5. Reduces complexity 
+    -마이크로서비스의 파편화로 쉽게 이해할 수 있고, 보수, 테스트를 한번에 진행할 수 있다.
+
+# 그럼 마이크로서비스를 구축하려면?
+
+> 각 언어 및 프레임워크에서 지원하는 방식의 네트워크를 사용하여 각 모듈을 연결해서 사용한다.
+
+## Nestjs 에서 해야할것
+1. Nestjs에서 필요한 마이크로서비스 모듈을 제공해 주고 있다. 각 서비스에 맞는 프레임워크를 사용하면 된다. restapi 를 쓸때는 Rabbitmq를 쓰는거 같다.
+    1) rabbitmq
+    2) kafka -> 실시간 스트리밍의 
+    3) MQTT 
+    4) gRPC
+2. kubernetes를 이용하여 각 마이크로서비스의 도커를 묶어서 서버를 운용한다. 
+
+## kubernetes에서 해야할것
+//<!--
+1. 각 포즈(파즈?)에서 
+-->
+
+## AWS에서 해야할 것
+1. 
+
+## 목표  
+> 각 pods에다가 모듈을 올리고 통신이 되는지 확인해야한다
+
+1. TCP/IP를 사용하여 각 마이크로서비스간의 통신으로 reqeust-response 를 데이터 통신할 수 있다. 
+
+## 앞으로의 계획  
+1. 쿠버네티스관한 공부내용을 정리
+2. Nestjs 의 마이크로서비스에 관한 내용을 정리 및 레퍼런스를 만들어 AWS에 배포 
+3. AWS 관한 내용을 숙지
+4. 최종적으로 Nestjs으로 작성된 각각의 모듈들을 각 컨테이너(Pods)에 넣고 서비스를 운영
+
+
+## Reference 
+- [쿠버네티스 공식 문서](https://kubernetes.io/docs/concepts/overview/components/) 
+- [쿠버네티스 정리된 블로그](https://seongjin.me/kubernetes-cluster-components)
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"microservice에 대한 고찰","description":"","tags":["마이크로서비스","NestJS","Kubernetes","소프트웨어 아키텍처","개발 방법론"],"date":"2022-08-10 16:39:19 +0900"}}],["$","$L12",null,{"slug":"microservice"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

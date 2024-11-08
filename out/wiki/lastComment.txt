@@ -1,0 +1,73 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","lastComment"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","lastComment","d"],{"children":["__PAGE__?{\"slug\":\"lastComment\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","lastComment","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","TkQeW5zX7dv2zsSuZD8U6",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:Tff4,* TOC
+{:toc}
+
+# 항해99
+## 항해99 선택한 이유
+> 나의 개발자로서 위치를 파악할수 있었고, 포트폴리오 추가, 협업등을 한번에 해결할 수 있었다.
+
+### 30대 중반에 개발자로 재 취직 결심 
+난 해외에 계속 살면서 개발자와 먼 다른 직업을 가지고 있었다. 하지만 뼈속까지 공대 성향으로 어떤 일을 하던 업무프로세스의 효율을 위해 프로그래밍을 조금씩 해서 적용했다. 그런데 문득 그냥 개발자를 하는게 어떤가 싶었다. 그래서 다시 독학을 결심하고 뭔가 공부를 하기 시작했다. 
+
+### 독학의 서러움 
+독학은 너무나 힘들고 지쳤다. 일단 예전에는 마땅한 에디터도 없이 뭔가 TextEditor 같은 걸로 했는데 VSCODE나 GIT이나 이런게 너무나 생소했다. 아무튼 Vscode나 VIM이나 이런걸 익히는데 시간을 많이 쏟았다. 
+그리고 나서 개인적으로 관심있던 코인을 가지고 뭔가 한두개씩 만들었다. 그냥 아는 지식으로 라이브러리를 가지고 와서 Telegram으로 연결하고 API를 가져왔다. Google Sheet로 환율이나 코인 환차도 계산하면서 만들었다. 이때는 내가 백엔드를 하고 있는것도 모르고 있었다.
+그리고 나서 Google Sheet보다는 HTML로 만들고 싶어서 React로 만들어 보고 싶었는데 DOM이란 개념때문에 지속적으로 API를 받아서 화면을 재생성하는 자체가 생소했다.
+너무나 스트레스에다가 어려웠다. 그러던 어느날...
+
+### 뜻밖의 면접의 기회? 그리고 좌절
+나는 해외에 살고 있었다. 어느날  친구 앞에서 내가 개발한(코딩한) 것을 보여주면서 이것저것 신나게 설명을 하던중 친구의 여자친구가 면접이라도 보라고 연락이 왔다. 알고봤더니 현지 유명한 은행 HR부서에 일하고 있었고 나름 높은 직위에 있던 친구의 여자친구는 친절하게 다른 직원을 연결해서 빠르게 코딩 테스트 일정을 잡아줬다.  
+그날이 왔고 코딩테스트를 봤다... 한번도 코딩테스트라는 것을 들어본적도 없고 들어봤어도 쳐다보지도 않았던 나는 그냥 죽을 쓰게 되었다. 그리고 나서 오기가 생겨서 다시 조금 공부하고 다시 도전했다가 두번째 테스트에는 아예 중간에 포기했다.
+
+너무 억울해서 인터뷰라도 보게 해달라고 했다. 결과는 더 비참했다...
+질문의 대답은 하나도 못하고 그냥 애처럼 나좀 취직시켜달라는 애기였던 것이다. 
+
+### 항해99와의 만남
+엄청난 기회를 놓친 나는 심각했다. 나의 개발능력이 그래도 초보는 아니라고 생각했지만 심각하게 뉴비였고 준비도 안되었던 것이다. 이대로는 시간이 아깝고 이해력과 끈기가 부족한 나는 독학으로는 절대 안될거 같았다.  
+
+이때 번뜩 떠오른 부트캠프.구글에 검색최상단에 항해99가 나왔다.
+포트폴리오? 실전프로젝트? 내가 원하던거다 그리고 몇 일 후에 결제를 완료했다.
+
+## 커리큘럼
+> 미니프로젝트 알고리즘과 CS공부 그리고 발표 마지막 최종 프로젝트
+
+### 미니프로젝트 
+망했다. 한마디로 Python가지고 개발하는건데 모두들 너무 미숙했다.
+
+
+## 항해99 장단점
+> 비전공자에게는 기회를 전공자에게는 날개를!
+
+### 장점 
+99일을 지나고 나서는 여러 사람들의 반응과.
+
+## 팀원들의 중요성
+> 굉장히 중요하다 다른 사람들과 함께 무엇을 만드는것은 굉장히 어렵다. 서로 다른 성격과 다른 생각을 가진 사람들이 한가지 목표를 이루는게 쉽지는 않았다. 서로 배려해주고 이해해 줘야 한다.
+
+## 개발자 취업 후기
+> 취직의 기쁨. 개발자의 첫걸음 
+
+## 결론은 `나한테` 좋은 선택이었다.
+> 나에게는 신의 한수
+
+### 항해 시작부터 취직까지 166일 
+`2월 23일 항해99 합격 - 6월 18일 항해99 수료 -  8월 8일 첫출근` 
+
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"스파르타 항해99 취직후 후기","description":"","tags":["개발자이직","부트캠프","독학","팀워크","취업후기"],"date":"2022-10-10 18:21:42 +0900"}}],["$","$L12",null,{"slug":"lastComment"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

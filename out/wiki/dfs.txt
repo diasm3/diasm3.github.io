@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","dfs"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","dfs","d"],{"children":["__PAGE__?{\"slug\":\"dfs\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","dfs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","npy4A3T-qsvdJVox463vO",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T608,* TOC
+{:toc}
+
+# DFS (Depth Fisrt Search) 깊이 우선 탐색 
+* Graph와 stack을 이용한 최단거리 찾기 문제?
+
+## 그래프 순회
+* 그래프의 각 정점을 방문하는 `그래프 순회(Graph Traversals)` 에는 크게 `깊이 우선 탐색(Depth First Search)`과 `너비 우선 탐색(Breadth-First Search)`의 2가지 알고리즘이 있다
+
+- DFS
+    * 주로 `스택`이나 `재귀`로 구현
+    * 백트래킹으로 구현시 효율이 좋다
+    
+- BFS
+    * 주로 `큐`로 구현
+
+
+## 그래프를 포현하는 방법
+* 인접 행렬(Adjacency Matrix)
+    
+- 인점 리스트(Adjacency List)
+
+    ![image](https://user-images.githubusercontent.com/56494905/161710801-d9868256-850c-4a18-85ad-a933a7a4c647.png)
+
+
+```python
+# dictonary 로 표현하면 아래와 같다
+graph = {
+    1 : [2,3,4],
+    2 : [5],
+    3 : [5],
+    4 : [],
+    5 : [6,7],
+    6 : [],
+    7 : [3],
+}
+```
+
+## 재귀로 구현 (Recursion) 
+
+```python
+graph = {
+    1 : [2,3,4],
+    2 : [5],
+    3 : [5],
+    4 : [],
+    5 : [6,7],
+    6 : [],
+    7 : [3],
+}
+
+def recursive_dfs(v, discovered=[]):
+    discovered.append(v)
+        for w not in discovered:
+            discovered = recursive_dfs(w, discovered)
+        return discovered
+```
+
+## 스택으로 구현(Stack)
+
+```python
+def iterative_dfs(start_v):
+    discovered = []
+    stack = [start_v]
+    while stack:
+        v = stack.pop()
+        if v not in discovered:
+            discovered.append(v)
+            for w in graph[v]:
+                stack.append(w)
+    return discovered
+```
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"DFS(깊이 우선 탐색)","description":"","tags":["DFS","그래프 탐색","재귀","스택","알고리즘"],"date":"2022-04-05 15:03:39 +0900"}}],["$","$L12",null,{"slug":"dfs"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

@@ -1,0 +1,65 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","tree"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","tree","d"],{"children":["__PAGE__?{\"slug\":\"tree\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","tree","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","lzpmKWRFS7mJCH092DRpk",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T843,* TOC
+{:toc}
+
+# 트리(tree) 
+## 기본개념 
+
+> 각 노드가 m개 이하의 자식을 갖고 있으면, m-ary 트리(다항트리, 다진트리)라고 한다.
+- 노드의 차수가 2 이하일때 `이진트리`
+
+
+
+* 정 이진트리(Full Binary Tree) : 모든 노드가 0개 또는 2개의 자식 노드를 갖는다.
+* 완전 이진 트리(Complete BInaray Tree) : 마지막 레벨을 제외하고 모든 레벨이 완전히 체워져 있으며, 마지막 레벨의 모든 노드는 가장 왼쪽부터 채워져 있다.
+* 포화 이진 트리(Perfect Binary Tree) : 모든 노드가 2개의 자식 노드를 갖고 있으며, 모든 리프 노드가 동일한 깊이 또는 레벨을 갖는다. 문자 그대로, 가장 완벽한 유형의 트리다
+
+
+* 이진탐색(Binary Search Tree)
+
+* 이진트리(Binary Tree)
+
+## 문제풀이
+### 교재 내용
+ * [[Leetcode-104]] Maximum Depth of Binary Tree 
+  - 반복 구조로 BFS 풀이 
+  
+### leetcode solution
+
+## 풀면서 잘 몰랐던 부분 
+
+## 파이썬문법 모르는 부분 
+
+## 용어 개념
+* node: 트리에서 데이터를 저장하는 기본 요소 
+* Root Node: 트리 맨 위에 있는 노드
+* Level: 최상위 노드를 Level 0으로 하였을 때, 하위 Branch로 연결된 노드의 깊이를 나타냄
+* Parent Node: 어떤 노드의 상위 레벨에 연결된 노드
+* Child Node: 어떤 노드의 하위 레벨에 연결된 노드
+* Leaf NodeTerminal Node)(: Child Node가 하나도 없는 노드
+* Sibling: 동일한 Parent Node를 가진 노드
+* Depth: 트리에서 Node가 가질 수 있는 최대 LeveliNode: 트리에서 데이터를 저장하는 기본 요소 
+* Root Node: 트리 맨 위에 있는 노드
+* Level: 최상위 노드를 Level 0으로 하였을 때, 하위 Branch로 연결된 노드의 깊이를 나타냄
+* Parent Node: 어떤 노드의 상위 레벨에 연결된 노드
+* Child Node: 어떤 노드의 하위 레벨에 연결된 노드
+* Leaf NodeTerminal Node(: Child Node가 하나도 없는 노드
+* Sibling: 동일한 Parent Node를 가진 노드
+* Depth: 트리에서 Node가 가질 수 있는 최대 Level))
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"트리","description":"","tags":["트리","이진트리","문제풀이","개념","파이썬"],"date":"2022-03-21 00:59:33 +0900"}}],["$","$L12",null,{"slug":"tree"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null
