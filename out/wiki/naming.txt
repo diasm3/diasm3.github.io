@@ -1,0 +1,69 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","naming"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","naming","d"],{"children":["__PAGE__?{\"slug\":\"naming\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","naming","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","WL0Tym5TEtsTaynPfycbL",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T11df,* TOC
+{:toc}
+
+# 기호 영어로 표기
+
+> 기억하자 읽을줄 모르면 설명도 못한다
+
+
+| 문자 | 영 문                                     | 한 글             |                 또 다른 영문표기 |
+| :-:  | :-                                       | :-:               |                              :-: |
+|      | Space (스페이스)                          | 공백, 공란        |                    blank, ghost& |
+| ~    | Tilde (틸드)                              | 물결(표)          |                                  |
+| `    | Grave (그레이브)                          | 강세표            |               accent, back quote |
+| !    | Exclamation point (익스클레메이션 포인트) | 느낌표            |       exclamation mark, wow, hey |
+| @    | At Sign (앳사인 또는 앳)                  | 골뱅이            |                   at, each, rose |
+| #    | Crosshatch (크로스해치)                   | 우물표시          |             pound, number, sharp |
+| $    | Dollar sign (달러 사인)                   |                   |            cash, currency symbol |
+| %    | Percent sign (퍼센트 사인)                | 백분표            |          double-oh-seven, grapes |
+| ^    | Circumflex (서큠플렉스)                   | 모자, 윗꺾쇠      |                 carrot, hat, cap |
+| &    | Ampersand (앰퍼센드)                      |                   |                              and |
+| *    | Asterisk (아스테리스크)                   | 별표              |   star, spider, times, wildcard* |
+| (    | Left parenthesis (레프트 퍼렌터시스)      | 소괄호 열기       |            (open) paren, so, sad |
+| )    | Right parenthesis (라이트 퍼렌터시스)     | 소괄호 닫기       |             close (paren), happy |
+| -    | Hyphen (하이픈)                           | 붙임표, 빼기표시  |       minus (sign), dash, option |
+| _    | Underscore (언더스코어)                   | 밑줄              |              underline, underbar |
+| +    | Plus sign (플러스 사인)                   | 더하기 표시       |                  add, cross, and |
+| =    | Equal sign (이퀄 사인)                    | 같음표            |                    gets, becomes |
+| \|   | Vertical bar (버티컬 바)                  |                   | pipe, vertical line, broken line |
+| \    | Back slash (백 슬래시)                    | 원표시            |                                  |
+| ←    | Back space (백 스페이스)                  | 왼쪽 화살표       |                                  |
+| {    | Left brace (레프트 브레이스)              | 중괄호 열기       |                            brace, curly bracket |
+| }    | Right brace (라이트 브레이스)             | 중괄호 닫기       |                          unbrace |
+| [    | Left bracket (레프트 브라켓)              | 대괄호 열기, 꺾쇠 |                          bracket |
+| ]    | Right bracket (라이트 브라켓)             | 대괄호 닫기       |                        unbracket |
+| :    | Colon (콜론)                              | 쌍점              |                                  |
+| ;    | Semicolon (세미콜론)                      | 반쌍점            |                                  |
+| "    | Quotation mark (쿼테이션 마크)            | 큰따옴표          |                     double quote |
+| '    | Apostrophe (어퍼스트로피)                 | 작은따옴표        |                                  |
+| ,    | Comma (콤마)                              | 쉼표, 반점        |                                  |
+| .    | Period (피리어드)                         | 마침표, 온점      |             dot, decimal (point) |
+| <>   | Angle brackets (앵글 브라케츠)            | 거듭 인용표       |                           angles |
+| <    | Less than (레스 댄)                       | 거듭 인용표 열기  |                             less |
+| >    | Greater than (그레이터 댄)                | 거듭 인용표 닫기  |                             more |
+| ?    | Question mark (퀘스천 마크)               | 물음표            |           query, what mark, what |
+| /    | Slash (슬래시)                            | 빗금              |                spare, divided-by |
+
+## ref
+* [참고사이트](https://syntaxsugar.tistory.com/entry/%ED%8A%B9%EC%88%98-%EA%B8%B0%ED%98%B8-%EB%AA%85%EC%B9%AD%EC%9D%B4%EB%A6%84)
+
+
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"기호 영어이름","description":"","tags":["기호","영어","표기","문서","참고자료"],"date":"2022-04-05 10:13:51 +0900"}}],["$","$L12",null,{"slug":"naming"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

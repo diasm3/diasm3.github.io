@@ -1,0 +1,219 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","arrow-function"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","arrow-function","d"],{"children":["__PAGE__?{\"slug\":\"arrow-function\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","arrow-function","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","8BQ8sA0jXVM2iWhxXXqTt",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:Tc52,* TOC
+{:toc}
+
+# 5장 Arrow Function
+* 기본적인 빌딩 블럭
+* 여러번 사용가능
+* 작업을 수행 또는 값을 계산
+
+## Function declartion 
+- function name(param1, param2){ body... return}
+    * 하나의 함수에서는 하나만 해라
+    * 이름은 동작하는 작업의 이름으로
+    * 함수는 객체이다
+    * e.g. createCardnadPoint -> createCard, createPoint
+
+```javascript
+function printHello() {
+    console.log('Hello')
+}
+printHello()
+
+
+function log(message){
+    console.log(message)
+}
+
+// 자바스크립에서는 형이 뭔지 모름 
+// 형을 알기 위해 typescript를 사용함 -> babel 
+log('hello@')
+log(1234)
+```
+
+```javascript
+// 2. Parameters
+// premitive parameters: passed by value
+// object parameters: passed by reference
+function changeName(obj){
+    obj.name = 'coder'
+}
+
+const me = {name: 'me'}
+changeName(me)
+console.log(me) // coder
+// 객체의 주소값에 있는 값을 변경해주기때문에 변경 가능
+
+```
+```javascript
+// 3.Default Parameters
+
+function showMessage(message, from='unkown'){
+    if(from === undefined){
+        ....
+    }
+}
+
+```
+
+
+
+```javascript
+// 4.Rest Parameters(added in ES6)
+function printALl(...args){
+    for(let i=0,i < args.length; i++){
+        console.log(args[i])
+    }
+    for (const arg of args) {
+        console.log(arg)
+    }
+    
+    args.forEach((arg) => console.log(arg))
+}
+
+printAll('dream, 'coding', 'ellie')
+
+```
+
+```javascript
+// 5. Local scope
+let globalMessage = 'global' // global variable
+function printMessage(){
+    let message = 'heelo'
+    console.log(message)
+    console.log(globalMessage)
+}
+printMessage()
+
+```
+
+
+
+```javascript
+// 6. Return a value
+
+function sum(a,b){
+    return a + b
+}
+// return 없으면 undefined
+
+
+```
+
+
+
+```javascript
+// 7. Early return, early exit
+// 조건이 맞지 않는 경우 빨리 리턴하라
+
+
+// bad 
+function upgradeUser(user){
+    if (user.point > 10 ){
+        // long upgrade logic
+    }
+}
+
+// good
+function upgradeUser(user){
+    if(user.point <= 10){
+        return
+    }
+    //long upgrade logic
+}
+
+```
+
+## function expression
+
+```javascript
+print() // Error
+
+const print = function () { // annoymous function 
+    console.log('print')
+}
+
+print()
+const printAgain = print
+printAgain()
+const sumAgain = sum
+console.log(sumAgain(1,3))
+
+```
+> 함수 선언하는것과 변수에 함수를 선언하는것의 가장 큰 차이점은 `호이스트` 이다
+
+
+## call back hell
+
+```javascript
+//call back function 
+fuction randomQuiz(answer, printYes, PrintNo){
+    if (answer === 'love you'){
+        printYes()
+    } else {
+        printNo()
+    }
+}
+
+
+const printYes = function() {
+    console.log('yes')
+}
+const printNo= function() {
+    console.log('No')
+}
+
+randomQuiz('wrong', printYes, printNo)
+randomQuiz('love you', printYes, printNo)
+
+```
+
+
+## Arrow Function
+
+```javascript
+
+
+const simplePrint = () => console.log('simplePrint')
+const add = (a, b) => a + b 
+// 위와 같다
+const add = function(a,b) {
+    return a + b
+}
+
+```
+> 차이점은? 
+
+
+## IIFE
+
+```javascript
+//바로 호출하고 싶으면아래와 같이 사용하라
+
+(function hello(){
+    console.log('IIFE')
+})()
+
+)
+
+
+
+```
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"Arrow Fucntion?","description":"","tags":["자바스크립트","함수","프로그래밍","Arrow Function","개발자 가이드"],"date":"2022-04-05 06:44:09 +0900"}}],["$","$L12",null,{"slug":"arrow-function"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

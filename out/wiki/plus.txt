@@ -1,0 +1,125 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","plus"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","plus","d"],{"children":["__PAGE__?{\"slug\":\"plus\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","plus","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","KP_4msZLDqU1Z2yeUziTL",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T1bb4,* TOC
+{:toc}
+
+# 항해플러스 1기 참가
+## 왜 참가했을까?
+     - 지금 내가 대용량 처리 및 TDD를 경험해 볼 수 없는 환경이다.
+     - 대용량 트래픽과 TDD에 대한 호기심 끝없는 욕구를 충족 시켜줄까 싶어 신청했다.
+
+## 챕터1
+### TDD를 해라
+* 과제
+    - 첫번째 과제가 주어지고 팀원들도 구성이 되었다.
+    - 첫날 발제 내용이 명확하지 않아 보였다. 
+     ## 우리팀의 테스트 시나리오 -> 설계 -> 코딩 관련 전략들
+    
+    - 우리가 TDD 방법론과 설계의도를 소화한 방식
+    - - solid원칙을 지키는지에 대한 설명 포함
+    
+
+### 서버 구축  (2023-07-02)
+- 챕터 1  4주차 발제 
+    * 시간이 너무 부족하다. 특히나 하고 있는게 많고, 회사 배포일정까지 늦어지면서 굉장히 신경쓰이는 일이 많아 제대로 집중을 못하고 있다. 하지만 다른분들은 열심히 해주신 덕분에 피드백을 참조하면서 작성을 하고 있다.
+    * 일단 코치님의 실업무를 기반한 조언들이 굉장히 자극을 주기 충분했다. 객체지향이란 것에 대한 생각, 같은 코드를 짜더라도 어떻게 의미 전달을 더 잘할 수 있을까에 대한 생각. TDD에 원론적인 방법과 현실을 조금씩 알게되었다.
+- Nestjs를 계속 이용하면서 좀더 깊게 알게 되는거 같았고 이미 알고 있다고 한것중에 잘못된 부분도 팀원의 도움으로 알게 되었다.
+- 예를 들어 DTO같은 경우 Entity와 혼용해서 사용했는데... (뭐 현회사에는 Entity가 interface로 되어있긴하다...) 같이 swagger 데코레이터랑 혼용해서 엉망으로 하고 있긴하다. 그런데 Entity와 Dto의 분리는 명확해야한다는걸 알게되었다.
+- 객체지향의 대한 방법과 철학을 느낌으로 알지만 아직까지 잘모르는 거 같다. 내가 이해한 바로는 컨트롤러, 서비스, 각각에 도메인에 대한 내용만 최대한 넣어야 하며 리펙토링 과정에서 생기는  다른 함수 또는 클래스는 독립적으로 작동이 되어 최대한 다른 서비스에 영향을 끼치지 않아야 한다. 아니 끼치지 않게끔 설계를 해야한다. 즉 독립적인 메소드에 대한 테스트 코드가 가능해지고 레포지토리에 대한것은 그냥 외부 모듈로서 데이터를 찍고 온다는 느낌으로 가는 것이다 라고 이해했다.
+- 처음으로 경력분들과 일하게 되면서 다양한 의견과 코드 스타일 의논도 많이 하게 되었고, 조율하는데 있어서 새로운 경험이 되었다. 아직 조그만한 스타트업을 다니면서 혼자 또는 CTO님의 코드리뷰를 받기만 했지 따로 동등한 위치의 팀원과 코딩을 한건 이번에 처음이다.
+- 순수 TDD로만 개발하는 단계여서 그런지 다들 어떻게 해야할지 막막하고 생각도 많아 초반에는 진도가 정말 안나갔다. 하지만 한번 두번 테스트 코드를 작성하고 피드백을 받으면서 자기만의 스타일 + 코치님의 조언대로 이렇게 저렇게 해보면서 테스트 코드를 작성하니 훨씬 도움이 많이 되고 방향성을 잡을 수 있었다.
+- 아마도 항해 파트1기다 보니 실험적인 측면 + 다양한 시도를 해보고 있는 느낌을 받았다.
+- 생각보다 이탈자가 많이 보이는 듯 하다. 이유는 나도 느끼고 있지만 현업 + 공부 + 프로젝트까지 하기가 정말 힘들다.
+- 토요일은 하루종일 코딩만 한다고 생각하면 된다. 하루가 없어진다....
+- 아무튼 힘들긴 하지만 이것만 집중했더라면 재미있게 진행할 수 있을거 같다.
+
+### CI/CD (2023-07-08)
+- 굉장히 힘들었던 주차 였다.
+
+
+### 장애 대응
+
+### 프로젝트 발표
+
+### 회고
+
+## 챕터 5
+
+### 팀구성
+- 
+
+### 오픈 소스 팀구성
+-
+
+
+
+
+
+
+
+
+
+
+
+## 마지막 회고
+- 
+
+### 나는 누구?
+그냥잡부 였다. 이리저리 떠돌아 다니며 닥치는대로 일을 하면서 이것저것 했었고, 살기 위해 직업을 구했던거 같았다.
+
+### 왜 갑자기 개발자?
+원래 뼈속까지 개발자라고 하면서 어릴때 컴퓨터를 만지면서 놀곤 했다. 컴퓨터와 관련된것이라면 다 좋았다. COMMAND를 만지면서 DOS를 이리저리 만져보고 레드헷 리눅스를 설치하면서 나만의 홈페이지를 만들고 집에 2대의 컴퓨터를 이용해 네트워크를 구성하면서 APM을 설치하면서 웹서버도 설치해보고 그랬다. 그러던 내가 대학교에서도 열심히 컴퓨터 공부를 하다가 해외를 나가서 내 살길을 찾고자 10년동안 다양한 일들을 하면서 방황했다. 그리고나서 펜데믹이 터지고 아무것도 안할 바에는 어릴떄부터 꿈이었던 개발자를 다시 도전해보겠다며 독학으로 공부했다.
+
+### 독학의 한계
+옛날의 개발환경이랑 지금의 환경은 천지 개벽할 수준이었다. 일단 에디터부터 완전히 달라졌다. 내가 사용하던떄는 plusedit라는 사실상 메모장같은데에서 코딩을 했던 기억이 있다. sql은 지금도 쓰긴 하지만 phpadmin이라는 무료 DB매니져 프로그램을 썼고 무조건 로컬에 이리저리 환경변수를 설정하고 나서야 코딩이 가능했다. 그러나 지금은 vscode, 익스텐션, docker 등등 엄청나게 편리한 개발 환경들이 이미 존재하고 있어 밥을 떠먹여 주는 느낌이었다. 
+
+그러나 처음 내가 혼자 독학으로 하기에는 한계가 있었다. 일단 내가 포트폴리오를 만들어서 이력서에 넣을 만한 실력도 안될뿐더러 내가 지금 잘하고 있는가 못하고 있는가에 대한 기준도 모호했다. 그래서 어쩔수 없이 빠른 포트폴리오를 위해 부트캠프라는것을 찾아서 구글 제일 위에 있던 것을 찾아서 신청했다. 돈은 ... 어떻게든 되겠지
+
+### 항해라는 부트캠프
+계속 해외에 살고 있어서 여기가 정화기 뭐하는곳인지는 그냥 모르겠고 일단 3개월만에 포트폴리오를 만들어준다고 해서 신청한것 뿐이었다. 이건 항해 후기를 남기려다 만거에 보면 ... [항해]
+
+### 어째든 취업
+운이 좋게 취업을 해서 지금까지 1년이라는 시간동아 백엔드를 개발을 했다.
+
+
+### 
+
+
+### 1) 항해 플러스를 참여하기 전 백그라운드
+
+- 개발자 취업 과정, 현업에서 어떤 직무로 일하고 있는지 등
+
+### 2) 항해 플러스 1기에 합류하기로 결심한 이유
+
+### 3) 항해 플러스가 실제로 좋았던 부분
+
+- 팀 프로젝트, 멘토링, 네트워킹, 특강 등 과정을 참여하며 실제로 가치가 크다고 느낀 것들
+
+### 4) 결과물
+
+- 두 개 프로젝트 결과물 github
+
+### 5) 앞으로 더 도전해보고 싶은 것
+
+- 10주 과정을 통해 얻은 것들을 바탕으로 앞으로 더 도전해보고 싶은 것들
+
+### 6) 소감 및 항해 플러스를 고민하는 분들에게 한마디
+
+
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"항해플러스","description":"","tags":["TDD","서버 구축","CI/CD","팀 프로젝트","개발 교육"],"date":"2023-05-28 09:20:10 +0900"}}],["$","$L12",null,{"slug":"plus"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

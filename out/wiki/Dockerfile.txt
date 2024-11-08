@@ -1,0 +1,67 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","Dockerfile"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","Dockerfile","d"],{"children":["__PAGE__?{\"slug\":\"Dockerfile\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","Dockerfile","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","imTsOJvjHoQp4wDuUyInH",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T775,* TOC
+{:toc}
+
+# Dockerfile 설정방법
+## Dockerfile을 습득하기 앞서 필요한 내용
+- 기본적인 shell command
+- Docker의 기본적인 구조 및 사용방법(image, container)
+
+
+ 
+## 매커니즘
+- 폴더를 생성 후 Dockerfile 을 만든 후에 스크립트를 넣으면 안에 있는 모든 파일을 읽으며 docker image파일이 생성된다.
+
+## 스크립트 명령어
+- FROM : 베이스가 될 도커 이미지 <이미지 이름>:<태그> 
+- MAINTAINER : 작성자 정보
+- CMD : Shell Script 를 실행할 수 있다.
+- LABEL : 라벨 작성 (docker inspect 명령으로 label을 확인 가능) 
+- EXPOSE : 호스트와 연결할 포트 번호를 설정한다.(도커내부로만 가능 외부는 portforwarding 해줘야함)
+- ENV : 환경변수 설정
+- ADD : 파일 / 디렉터리 추가
+- COPY : 파일 복사
+- ENTRYPOINT : 컨테이너가 시작되었을때만 스크립트 실행
+- VOLUME : 볼륨을 마운트 (내컴퓨터에 스토리지를 연결)
+- USER : 명령 실행할 사용자 권한 지정
+- WORKDIR : "RUN", "CMD", "ENTRYPOINT" 명령이 실행될 작업 디렉토리
+- ARG : Dockerfile 내부 변수
+- ONBUILD : 다른 이미지의Base Image로 이는 경우에 실행될 명령 수행
+- SHELL : default shell 지정
+
+
+## 기본 Dockerfile 스크립트
+```Dockerfile
+FROM ubuntu:20.1
+//도커이미지 우분투20.1을 사용(local에 해당 이미지가 없으면 자동다운 )
+
+RUN apt-get update && apt-get install -y vim apache2
+// shell script명령어로 초기 apt update후 vim 과 apache를 설치
+
+COPY index.html /var/www/html/
+//Dockerfile에 같이 있는 index.html 파일을 apache  root 폴더인/var/www/html/ 에 넣는다
+
+CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
+//shell script명령어로 apache 실행 명령어 옵션에 -D를 넣고 실행
+```
+
+## reference
+- [참고사이트](https://blog.d0ngd0nge.xyz/docker-dockerfile-write)
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"Dockerfile 설정방법","description":"","tags":["Docker","Dockerfile","Container","Image","Scripting"],"date":"2022-05-01 16:12:38 +0900"}}],["$","$L12",null,{"slug":"Dockerfile"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

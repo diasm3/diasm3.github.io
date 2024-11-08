@@ -1,0 +1,108 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","callback-function"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","callback-function","d"],{"children":["__PAGE__?{\"slug\":\"callback-function\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","callback-function","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","jJjmfkrv61j5GL8kbQOPT",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T699,
+- TOC
+  {:toc}
+
+# Javascript is synchronous
+
+```javascript
+console.log("1")
+
+setTimeout(() => {
+  console.log("hello world")
+}) //지정한 시간이 지나면 콜백함수를 불러올 수 있음
+
+console.log("2")
+console.log("3")
+```
+
+## Synchronous callback/ Asynchronous callback
+
+```javascript
+function printImmediately(print) {
+  print()
+}
+
+printImmediately(() => console.log("hello"))
+
+// Asynchronous callback
+
+function printWithDelay(print, timeout) {
+  setTimeout(print, timeout)
+}
+```
+
+## callback hell example
+
+```javascript
+
+class UserStorage {
+    loginUser(id, password, onSuccess, onError) {
+        setTimeout(() => {
+            if(
+            (id === 'ellie' && password === 'dream') ||
+            (id === 'coder' && password === 'academy')
+            ) {
+                onSuccess(id)
+            } else {
+                onError(new Error('not found'))
+            }
+            }
+
+        }, 2000)
+    }
+    getRoles(user, onSucccess, onError) {
+        setTimeout(() => {
+            if(user === 'ellie'){
+                onSuccess({ name:'ellie', role: 'admin'})
+            } else {
+                onError(new Error('no access'))
+            }
+        }, 1000)
+    }
+}
+
+
+
+## Call back hell example
+
+```javascript
+const userStorage = new UserStorage()
+const id = prompt("enter your id")
+const password = prompt("enter yINFP-Tour password")
+userStorage.loginUser(
+  id,
+  password,
+  (user) => {
+    userStorage.getRoles(
+      user,
+      (userWithRole) => {
+        alert(`Hello ${userWithRole.name}, you have a ${userWithRole.role}`)
+      },
+      (error) => {
+        console.log(error)
+      }
+    )
+  },
+  (error) => {
+    console.log("error")
+  }
+)
+```
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"비동기 처리, 콜백 이해,","description":"","tags":["JavaScript","Callbacks","Asynchronous Programming","Synchronous Programming","Error Handling"],"date":"2022-04-06 14:42:06 +0900"}}],["$","$L12",null,{"slug":"callback-function"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null

@@ -1,0 +1,279 @@
+1:"$Sreact.fragment"
+2:I[84551,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+3:I[44098,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+4:I[95416,[],""]
+5:I[52106,["601","static/chunks/app/error-e0caef05b98c4719.js"],"default"]
+6:I[68863,[],""]
+7:I[27260,["63","static/chunks/63-23d38985151e11d0.js","253","static/chunks/253-6d76b5ff018f072f.js","185","static/chunks/app/layout-5a0ede7798811b0e.js"],"default"]
+9:I[86033,[],"OutletBoundary"]
+b:I[86033,[],"MetadataBoundary"]
+d:I[86033,[],"ViewportBoundary"]
+f:I[53347,[],""]
+0:{"P":null,"b":"zg9LbphXFynatHErGkLKy","p":"","c":["","wiki","operator-if-for-loop"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","operator-if-for-loop","d"],{"children":["__PAGE__?{\"slug\":\"operator-if-for-loop\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column"},"children":[["$","$L3",null,{}],["$","main",null,{"style":{"flex":1},"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","operator-if-for-loop","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","wiki","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$1","h",{"children":[null,["$","$1","aLs4w4lPIMkuVNR5m8ZbY",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[17767,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"WikiContent"]
+12:I[65078,["63","static/chunks/63-23d38985151e11d0.js","440","static/chunks/440-229a70a25e47a10b.js","607","static/chunks/app/wiki/%5Bslug%5D/page-7d21613c7cba184a.js"],"Comments"]
+11:T1480,* TOC
+{:toc}
+
+# 4장 Operator if for-loop 
+
+## 전장 복습
+- Immutable data types: premitive types, frozen objects (i.e object.freeze())
+- Mutable data types : all objects by default are mutable in JS
+
+변하지 않는 데이터 타입 : 기본형 타입, 객체 등
+변하는 데이터 타입 : 모든 객체
+
+## Operator
+* String concatenation
+```javascript
+console.log('my' + ' cat')
+//my cat
+console.log('1' +2)
+//12 문자열로 반환 
+console.log(`string literals: 1 + 2 = $(1 + 2)`)
+//`` 백틱을 이용하면 변수의 값을 문자열 내로 사용할 수 있다
+//${변수명 또는 숫자} 
+```
+
+
+* Numeric operators
+```javascript
+console.log(1 + 1) //더하기
+console.log(1 - 1) // 빼기
+console.log(1 / 1) // 
+console.log(1 * 1)
+console.log(1 % 1)
+console.log(1 ** 1)
+```
+
+* Increment decrement opertiors
+    - preIncrement
+    ```javascript
+    let ocunter = 2
+    const preIncrement = ++counter 
+    //counter = counter +1
+    //preIncrement = counter
+    ```
+    - postIncrement
+    ```javascript
+    let counter = 2
+    const postIncrement = counter++
+    //postIncrement = counter
+    //counter = counter + 1
+    ```
+    - preDecrement
+    ```javascript
+    let counter = 2
+    const preDecrement = --counter 
+    //counter = counter - 1
+    //preDecrement = counter
+    ```
+    - postDecrement
+    ```javascript
+    let counter = 2
+    const postDecrement = counter--
+    //postDecrement = counter
+    //counter = counter + 1
+    ```
+
+
+* Assingment operators
+```javascript
+let x = 3
+let y = 6
+x += y  // x = x + y
+x -= y
+x *= y
+x /= y
+```
+
+
+* Comparison operators
+```javascript
+console.log(10 < 6) // less than
+console.log(10 <= 6) // less than or equal
+console.log(10 > 6) // greater than
+console.log(10  6) // greater than equal
+```
+
+* logical operators:  (or), && (and), ! not
+ 
+```javascript
+const value1 = false
+const value2 = 4 < 2
+
+
+// || (or), finds the first truthy value
+console.log(`or: ${value1 || value2 || check()}`)
+//or는 제일 처음이 참이면 멈춘다
+//제일 간단한것을 앞으로 놓고 복잡도가 높은 함수는 뒤로 넣는다
+
+
+// $$ (and), finds the first falsy value
+console.log(`and: ${value1 && value2 || check()}`)
+//and는 모든것이 같아야 실행된다
+//nullableObject && nullableObject.somthing
+//true값을 반환하는 객체값이 true 면 somthing 인스턴스를 불러온다
+//아래의 코드와 같다
+
+if(nullableObject != null){
+    nullableObject.somthing
+}
+
+function check(){
+    for(let i =0; i< 10; i++){
+    //wasting time
+    console.log('what')
+    }
+    
+}
+```
+
+
+* Equality
+
+```javascript
+const stringFive = '5'
+const numberFive = 5
+
+// == loose equlity, with type conversion
+//값만 비교하는 비교구문
+console.log(stringFive == numberFive) //true 형이 달라도 숫자나 문자가 같다
+console.log(stringFive != numberFive) //false 
+
+// === strict equality, no type conversion
+//타입을 모두 비교하는 엄격한 비교구문
+console.log(stringFive === numberFive) //false 형이 다르니 틀린 겂이다
+console.log(stringFive !== numberFive) //true
+
+// object equality by reference
+const me1 = { name: 'me'}
+const me2 = { name: 'me'}
+const me3 = me1 
+console.log(me1 == me2) // 객체 잠조 주소를 가르키니까 다른 값이다 FALSE
+console.log(me1 === me2) // 객체의형이 같아도 참조 주소가 다르니까  FALSE 
+console.log(me1 === me2) // 객체의 주소를 다시 받아 왔으니까 같은 값이다 TRUE
+
+
+// equality - puzzler
+console.log(0 == false) // true
+console.log(0 === false) // false
+console.log('' == false) // true
+console.log('' === false) // false
+console.log(null == undefined) // true
+console.log(null === undefined) // false
+
+```
+
+* Conditional operators: if
+
+```javascript
+//if, else if, else
+
+const name = 'ellie'
+if (name === 'ellie'){
+    console.log('you are my father')
+} else if ( name === 'coder'){
+    console.log('You are the chicken')
+} else {
+    console.log('unkwon')
+}
+
+```
+
+* Ternary operator: ?
+
+```javascript
+//condition ? value1 : value2
+console.log(name === 'me' ? 'yes' : 'no')
+```
+
+* Switch statment
+ 
+```javascript
+//use for multiple if checks
+//use for enum-like value check
+//use for multiple type checks in TS
+
+const browser = 'IE'
+switch (browser) {
+    case 'IE':
+        console.log('go away!')
+        break
+    case 'Chrome': //같은 출력값을 나타나게 할때는 생략 가능
+    case 'FIreFox':
+        console.log('love you!')
+        break
+    default:
+        console.log('same all')
+        break
+}
+
+```
+
+* Loops
+
+```javascript
+// while loop, while the condition is truthy
+// body code is executed
+
+let i = 3
+while (i>0){
+    console.log(`while: ${i}`)
+    i--
+}
+
+
+
+
+//do while 문은 조건을 나중에 실행 시킨다
+do {
+    console.log(`do while: ${i}`)
+    i--
+
+} while (i > 0)
+
+
+
+
+// for loop, for(begin; condition; step)
+for (i= 3; i>0; i--){
+    console.log(`for: ${i}`)
+}
+
+
+
+
+
+for (let i = 3; i >0; i = i -2 ){
+    //inline variable declaration
+    console.log(`inline variable for: ${i}`)
+}
+
+
+
+
+// nested loops
+for (let i = 0; i < 10; i++){
+    for (let j = 0; j < 10; j++{
+    console.log(`i: ${i}, j:${j}`)
+    }
+}
+
+// break, continue
+// for 를 끝내는거 break
+// if문에서 그냥 continue  하는게 좋음
+
+```
+
+
+
+
+
+
+
+8:["$","main",null,{"children":["$","article",null,{"children":[["$","$L10",null,{"content":"$11","frontMatter":{"title":"operator, if, for-loop","description":"","tags":["JavaScript","Operators","Control Structures","Data Types","Loops"],"date":"2022-04-05 05:55:48 +0900"}}],["$","$L12",null,{"slug":"operator-if-for-loop"}]]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Personal Storage"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+a:null
