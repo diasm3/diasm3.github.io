@@ -1,0 +1,6 @@
+{
+  "version": 5,
+  "date": "2024-11-08T09:35:04.903Z",
+  "author": "AI Assistant",
+  "summary": "이 문서는 Docker buildx의 사용법을 설명하며, M1 맥북과 AMD 및 Intel 플랫폼에서의 빌드 차이점을 다룬다. Docker buildx 명령어를 사용하여 여러 플랫폼에서 도커 이미지를 효율적으로 빌드할 수 있는 방법을 제공한다."
+}

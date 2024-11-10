@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:44:43.556Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "명확한 제목과 구체적인 요약으로 메타데이터 개선."
+    },
+    {
+      "type": "structure",
+      "description": "문서 구조를 개선하여 논리적 흐름과 섹션 구분을 명확히 함."
+    },
+    {
+      "type": "content",
+      "description": "기술적 정확성과 명확성을 높이고 실제 사용 사례를 추가함."
+    },
+    {
+      "type": "content",
+      "description": "중복된 설명을 간소화하고 주제를 명확히 전달."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드 섹션 포함 요구, 코드 품질에 대한 언급."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터와 구조를 개선하고 내용의 품질을 향상시켰습니다. CI/CD 개념을 명확히 설명하고 지속적인 통합 및 제공에 대한 구체적인 사례를 추가했습니다."
+}

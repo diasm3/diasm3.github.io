@@ -34,6 +34,6 @@
     ".next/types/**/*.ts",
     "next-env.d.ts",
     "out/types/**/*.ts"
-  ],
+, "src/app/wiki/components/types.tss"  ],
   "exclude": ["node_modules"]
 }

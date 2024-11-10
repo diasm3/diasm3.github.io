@@ -1,0 +1,6 @@
+{
+  "version": 4,
+  "date": "2024-11-08T09:34:20.707Z",
+  "author": "AI Assistant",
+  "summary": "이 문서에서는 React에서 Markdown 파일을 읽는 방법을 설명하며, global.d.tsx 파일에 선언을 추가하고, Markdown을 가져와서 화면에 표시하는 React 컴포넌트를 구현하는 예제를 제공한다."
+}

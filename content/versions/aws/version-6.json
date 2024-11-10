@@ -1,0 +1,36 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:42:52.233Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'AWS'에서 'AWS (Amazon Web Services)'로 변경하여 명확성을 추가했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 'AWS에 관한 모든것'에서 'AWS의 전반적인 서비스 및 사용 사례에 대한 포괄적인 정보'로 변경하여 구체성을 추가했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'AWS'에서 '[AWS, 클라우드 서비스, 클라우드 컴퓨팅]'으로 변경하여 범위를 확장했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 RFC 3339 표준에 맞게 수정했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "목차 항목에 번호를 추가하여 명확성을 높였습니다."
+    },
+    {
+      "type": "content",
+      "description": "각 서비스 이름 뒤에 설명을 추가하여 내용을 보다 명확히 하고 실제 사용 사례를 반영할 여지를 만듭니다."
+    },
+    {
+      "type": "code",
+      "description": "기술적인 설명에 예제 코드 추가를 권장합니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터를 개선하고, 논리적 구조를 강화했으며, 내용의 품질과 코드 스타일을 향상시켰습니다."
+}

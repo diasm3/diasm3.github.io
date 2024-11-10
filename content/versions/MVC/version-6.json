@@ -1,0 +1,32 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:40:52.173Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'JavaScript MVC에 대한 이해 및 예시'로 수정하여 명확하게 함"
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 추가하여 문서의 목적과 구조를 설명함"
+    },
+    {
+      "type": "metadata",
+      "description": "적절한 태그 추가: 'javascript', 'mvc', 'web-development'로 설정함"
+    },
+    {
+      "type": "content",
+      "description": "MVC 패턴에 대한 개요 및 설명을 추가하여 내용을 보강함"
+    },
+    {
+      "type": "content",
+      "description": "파일 구조 설명을 명확히 하고 풍부한 내용으로 수정함"
+    },
+    {
+      "type": "content",
+      "description": "참고 자료 섹션 제목을 '참고 자료'로 수정"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목과 요약을 구체적으로 수정하고, 태그를 추가하여 메타데이터 개선. 문서 구조를 명확하게 정리하고, 설명을 보강하여 내용 품질을 향상. 코드 스타일 및 설명을 일관되게 수정."
+}

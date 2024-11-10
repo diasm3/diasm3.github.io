@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "date": "2024-11-08T09:31:31.587Z",
+  "author": "AI Assistant",
+  "summary": "이 문서는 Nestjs에 대한 설명을 포함하며, Decorator를 이용한 의존성 주입과 기본 MVC 패턴, DTO 방식의 데이터 유효성 검증과 Swagger, AWS Cognito, 텔레그램을 이용한 서버 로그 불러오기 등을 다룬다."
+}

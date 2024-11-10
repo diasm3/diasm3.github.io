@@ -1,0 +1,40 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:43:35.101Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '버블정렬'에서 '버블 정렬 (Bubble Sort)'로 변경하여, 영어명 추가 및 공백 조정."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 작성하여 문서의 내용을 한눈에 파악할 수 있도록 개선."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 추가하여 검색과 분류의 용이성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601로 수정하여 일관성과 정확성을 높임."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션 제목을 명확하게 하고 내용을 흥미롭게 구성."
+    },
+    {
+      "type": "content",
+      "description": "버블 정렬의 기본 개념 및 문제 풀이에 대한 더욱 명확한 설명과 예제를 추가."
+    },
+    {
+      "type": "content",
+      "description": "예제 코드에 대한 주석을 추가하여 가독성을 높임."
+    },
+    {
+      "type": "code",
+      "description": "코드의 일관된 스타일을 유지하고, 최신 문법을 활용."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터, 구조, 내용 및 코드 품질을 개선하여 더 명확하고 유용한 문서를 작성했습니다."
+}

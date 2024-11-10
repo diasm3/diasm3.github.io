@@ -1,0 +1,40 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:57:37.199Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목 변경: 'Javascript 기원'에서 'JavaScript의 기원과 발전'으로 변경."
+    },
+    {
+      "type": "metadata",
+      "description": "요약 추가: JavaScript의 역사와 발전 과정 요약."
+    },
+    {
+      "type": "metadata",
+      "description": "태그 추가: [Javascript, ECMAScript, History]."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식 개선: 표준 ISO 8601 포맷 사용."
+    },
+    {
+      "type": "structure",
+      "description": "구조적 섹션 추가: 각 발전 단계를 번호로 명확하게 정리."
+    },
+    {
+      "type": "content",
+      "description": "내용 구체화: JavaScript의 발전을 상세히 설명."
+    },
+    {
+      "type": "content",
+      "description": "관련 기술과 엔진의 목록화 추가."
+    },
+    {
+      "type": "code",
+      "description": "코드 예제 및 주석 추가는 없으나, 문서 설명을 향상."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "JavaScript의 기원, 주요 발전 단계, ECMAScript 버전 및 관련 기술에 대한 문서입니다."
+}

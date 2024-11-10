@@ -1,0 +1,36 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:40:29.576Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'LaTeX Syntax Guide'로 변경하여 명확성을 높였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 수정하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그에 '수식'과 '문법'을 추가하여 범위를 확대했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 최신 날짜로 변경했습니다."
+    },
+    {
+      "type": "content",
+      "description": "구체적인 LaTeX 명령어를 설명하는 섹션 추가."
+    },
+    {
+      "type": "content",
+      "description": "수식 관련 명령어에 대한 추가 설명 및 예시 제공."
+    },
+    {
+      "type": "content",
+      "description": "참고 사이트와 PDF 문서 링크를 업데이트했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터를 개선하고, 구조를 보강하며, 내용을 명확히 하였습니다. 수식 및 명령어 사용에 대해 보다 구체적으로 설명하고, 코드 및 예제를 보완했습니다."
+}

@@ -11,12 +11,12 @@ export function generateStaticParams() {
 type Params = Promise<{ slug: string }>
 
 export default async function WikiPage({ params }: { params: Params }) {
-  const { content, frontMatter } = getMarkdownContent((await params).slug)
+  const { content, frontMatter, } = getMarkdownContent((await params).slug)
 
   return (
     <main>
       <article>
-        <WikiContent content={content} frontMatter={frontMatter} />
+        <WikiContent content={content} frontMatter={frontMatter} versions={ver} />
         <Comments slug={(await params).slug} />
       </article>
     </main>

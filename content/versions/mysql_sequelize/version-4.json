@@ -1,0 +1,6 @@
+{
+  "version": 4,
+  "date": "2024-11-08T09:34:20.677Z",
+  "author": "AI Assistant",
+  "summary": "이 문서는 MySQL을 Docker와 EC2 서버에서 설치하고 설정하는 방법에 대한 단계별 안내를 제공한다. 또한, MySQL에서 사용자 권한 부여 및 시간대 설정 방법도 포함되어 있다."
+}

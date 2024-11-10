@@ -3,12 +3,8 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    types: [closed]
-    branches:
-      - main
 permissions:
-  contents: write
+  contents: write # main 브랜치에 커밋을 위해 write 권한 필요
   pages: write
   id-token: write
 concurrency:
@@ -16,26 +12,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    # PR이 머지되었을 때만 실행
-    if: github.event.pull_request.merged == true || github.event_name == 'push'
     runs-on: ubuntu-latest
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0 # 전체 히스토리 가져오기
-
-      # 기존 빌드 파일 정리
-      - name: Clean previous build
-        run: |
-          echo "🧹 Cleaning previous build files..."
-          rm -rf out/
-          rm -rf .next/
-          git clean -fdx
-          echo "✅ Cleanup completed"
 
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
@@ -53,22 +35,19 @@ jobs:
         with:
           static_site_generator: next
 
+      # data 디렉토리 생성
       - name: Create data directory
-        run: |
-          mkdir -p data
-          echo "📂 Created fresh data directory"
+        run: mkdir -p data
 
-      # 새로운 빌드 수행
+      # Next.js 빌드
       - name: Build with Next.js 🏗️
         run: |
-          echo "🚀 Starting fresh build..."
           pnpm build:data
           pnpm build
-          echo "✅ Build completed"
 
+      # 필요한 파일들 생성
       - name: Create required files
         run: |
-          echo "📄 Adding required files..."
           touch out/.nojekyll
           cp out/404.html out/404 || true
           cp out/index.html out/index || true
@@ -78,28 +57,18 @@ jobs:
           cp public/google*.html out/ || true
           cp public/rss.xml out/ || true
 
-      # 빌드 결과 확인
-      - name: Verify build output
-        run: |
-          echo "📂 New build contents:"
-          ls -la out/
-          echo "\n📦 Build size:"
-          du -sh out/
-
-      # main 브랜치 업데이트
-      - name: Update main branch
+      # 빌드 결과물을 main 브랜치에 커밋
+      - name: Commit build artifacts
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -f out/
+          git commit -m "Update build artifacts [skip ci]" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
 
-          # 기존의 out 디렉토리 제거
-          git rm -rf out/ || true
-          git commit -m "Remove old build files" || echo "No files to remove"
-
-          # 새로운 빌드 파일 추가
-          git add out/ -f
-          git commit -m "Update build files [skip ci]" || echo "No changes to commit"
-          git push origin main
+      # 결과물 확인
+      - name: List output files
+        run: ls -la out/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

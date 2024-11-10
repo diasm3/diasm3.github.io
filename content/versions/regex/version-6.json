@@ -1,0 +1,24 @@
+{
+  "version": 6,
+  "date": "2024-11-08T16:24:50.806Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목과 요약을 보다 구체적으로 수정하고, 날짜 형식을 ISO 8601로 변경함."
+    },
+    {
+      "type": "structure",
+      "description": "구조를 개선하기 위해 문단을 명확히 구분하고, ‘Boundary Types’와 ‘Character Classes’ 섹션 제목을 수정함."
+    },
+    {
+      "type": "content",
+      "description": "정규 표현식의 기본 개념을 보다 명확하게 설명하고, 예제 코드를 추가하여 실제 사용 사례를 제시함."
+    },
+    {
+      "type": "code",
+      "description": "Python으로 작성된 정규 표현식의 예제를 추가하고, 주석을 통해 각 단계 설명을 추가함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목과 요약을 명확하게 하고, 코드 예제를 추가하였습니다."
+}

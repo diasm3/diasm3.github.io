@@ -1,0 +1,32 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:45:29.380Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목 수정 및 요약 추가하여 명확성과 구체성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "태그 추가하여 문서의 범위와 적절성을 향상."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 현재 날짜로 수정."
+    },
+    {
+      "type": "structure",
+      "description": "섹션을 추가하여 논리적 흐름을 개선."
+    },
+    {
+      "type": "content",
+      "description": "커밋 템플릿에 대한 단계별 설명과 실제 사용 예제를 추가."
+    },
+    {
+      "type": "code",
+      "description": "코드 예제를 일관되게 작성하고 주석 추가."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터, 문서 구조, 내용 품질 및 코드 품질을 향상시켜 Git Commit Template에 대한 명확하고 구체적인 가이드를 제공하는 문서로 개선했습니다."
+}

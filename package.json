@@ -15,6 +15,7 @@
     "@octokit/auth-app": "7.1.2",
     "@octokit/rest": "21.0.2",
     "@types/react-syntax-highlighter": "15.5.13",
+    "browser-image-compression": "2.0.2",
     "gray-matter": "^4.0.3",
     "js-cookie": "3.0.5",
     "lucide-react": "0.454.0",

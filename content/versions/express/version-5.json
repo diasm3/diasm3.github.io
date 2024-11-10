@@ -1,0 +1,6 @@
+{
+  "version": 5,
+  "date": "2024-11-08T09:35:04.905Z",
+  "author": "AI Assistant",
+  "summary": "이 문서는 Express.js에 대한 개요를 제공하며, 주요 구성 요소인 app(), Router(), HTTP 메소드(GET, POST, PUT, PATCH, DELETE)와 PUT과 PATCH의 차이점을 다룹니다."
+}

@@ -1,0 +1,48 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:38:21.079Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'CodePipeline을 활용한 CI/CD 구축하기'로 변경하여 정확성을 높였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 작성하여 독자가 문서의 내용을 미리 알 수 있도록 하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'CodePipeline, AWS, CI/CD'로 수정하여 관련성과 범위를 확장하였습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서 구조 및 섹션 제목을 추가하여 주제를 명확히 하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "각 섹션에 대한 설명을 추가하여 기술적인 정확성을 향상하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "예제 코드를 구체화하고 업데이트하여 이해를 돕도록 하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "설명에 실제 사용 사례를 추가하여 독자가 적용하는 데 도움이 되도록 하였습니다."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드의 형식을 개선하여 가독성을 높였습니다."
+    },
+    {
+      "type": "code",
+      "description": "주석을 추가하여 코드의 각 부분에 대한 설명을 덧붙였습니다."
+    },
+    {
+      "type": "code",
+      "description": "최신 문법을 활용하여 코드의 품질을 개선하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목, 요약 및 태그를 개선하여 명확성과 구체성을 높였고, 문서 전반의 구조를 정리하여 이해도를 향상시켰습니다. 기술적 내용을 보강하고 개선된 예제 코드를 추가하여 품질을 높였습니다."
+}

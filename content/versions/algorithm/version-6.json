@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:42:00.485Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 보다 명확하게 수정하고 요약을 구체적으로 작성함"
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 재구성하여 관련성을 높임"
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 수정하여 일관성 유지"
+    },
+    {
+      "type": "structure",
+      "description": "문서의 제목과 섹션을 개선하여 가독성 증대"
+    },
+    {
+      "type": "content",
+      "description": "각 알고리즘 설명을 명확히 하고 예시를 개선"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터를 보강하고 구조 및 내용을 개선하여 명확성과 가독성을 높였습니다."
+}

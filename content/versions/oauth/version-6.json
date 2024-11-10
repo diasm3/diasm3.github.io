@@ -1,0 +1,24 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:57:01.942Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목, 요약 및 태그 추가."
+    },
+    {
+      "type": "structure",
+      "description": "보다 논리적인 흐름을 위해 내용 재구성."
+    },
+    {
+      "type": "content",
+      "description": "OAuth의 정의를 명확히 하고, 각 버전의 장단점을 상세히 설명."
+    },
+    {
+      "type": "code",
+      "description": "참고 링크를 Markdown 형식으로 수정."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목과 요약을 추가하고, OAuth의 정의를 명확히 하였습니다. 1.0과 2.0의 차이점을 정리하여 가독성을 높였습니다."
+}

@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:54:50.001Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '병합 정렬 (Merge Sort)'로 수정하고, 요약을 구체적으로 작성함."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 포맷을 최신으로 업데이트함."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션의 제목을 명확히 하고, 문서 전반의 흐름을 개선함."
+    },
+    {
+      "type": "content",
+      "description": "병합 정렬의 설명을 추가하고, 코드를 개선하여 예시를 포함함."
+    },
+    {
+      "type": "code",
+      "description": "코드에 주석을 추가하여 이해를 돕고, 코드 스타일을 개선함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목을 구체적으로 수정하고 요약을 작성하여 병합 정렬의 핵심 내용을 명확히 하였음. 문서의 전체 구조와 흐름을 개선하며, 코드 예제를 추가하여 기술적 정확성을 높였습니다."
+}

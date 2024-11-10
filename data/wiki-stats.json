@@ -1,8 +1,13 @@
 {
-  "total": 143,
-  "completed": 55,
-  "draft": 88,
-  "tags": 430,
-  "averageProgress": 65,
-  "lastUpdated": "2024-11-08T05:49:45.455Z"
+  "total": 141,
+  "completed": 0,
+  "draft": 141,
+  "tags": 0,
+  "averageProgress": 50,
+  "versions": {
+    "total": 849,
+    "average": 6,
+    "lastUpdate": "2024-11-08T16:28:13.232Z"
+  },
+  "lastUpdated": "2024-11-08T16:28:13.234Z"
 }

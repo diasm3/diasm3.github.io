@@ -7,9 +7,57 @@ const OpenAI = require("openai")
 
 require("dotenv").config()
 
+const IMPROVEMENT_PROMPT = `당신은 전문적인 기술 문서 에디터입니다. 다음 마크다운 문서를 분석하고 개선해주세요:
+
+1. 메타데이터 검사 및 개선:
+   - 제목의 명확성과 정확성
+   - 요약의 구체성
+   - 태그의 적절성과 범위
+   - 날짜 형식의 정확성
+
+2. 문서 구조 개선:
+   - 논리적 흐름
+   - 섹션 구분의 명확성
+   - 목차의 적절성
+
+3. 내용 품질 향상:
+   - 기술적 정확성
+   - 예제 코드의 품질
+   - 설명의 명확성
+   - 실제 사용 사례 추가
+
+4. 코드 품질 개선:
+   - 일관된 코딩 스타일
+   - 적절한 주석
+   - 최신 문법 활용
+
+원본 문서:
+{originalContent}
+
+위 문서를 개선하여 다음 형식으로 반환해주세요:
+1. 개선된 전체 마크다운 문서
+2. 변경 사항 목록
+3. 개선 제안 사항`
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 })
+
+function ensureDirectories() {
+  const dirs = [
+    path.join(process.cwd(), "content"),
+    path.join(process.cwd(), "content/versions"),
+    path.join(process.cwd(), "data"),
+    path.join(process.cwd(), "data/cache"),
+  ]
+
+  dirs.forEach((dir) => {
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true })
+      console.log(`디렉토리 생성됨: ${dir}`)
+    }
+  })
+}
 
 // 파일의 해시를 생성하는 함수
 function generateFileHash(content) {
@@ -40,476 +88,145 @@ function saveCache(cache) {
   }
 }
 
-// async function summarizeContent(content, fileHash) {
-//   const cache = readCache()
+async function saveNewVersion(slug, content, improvements) {
+  const contentDir = path.join(process.cwd(), "content")
+  const versionsDir = path.join(contentDir, "versions", slug)
 
-//   if (cache[fileHash] && cache[fileHash].hash === fileHash) {
-//     console.log("캐시된 요약 사용")
-//     return cache[fileHash]
-//   }
+  // 버전 디렉토리 생성
+  if (!fs.existsSync(versionsDir)) {
+    fs.mkdirSync(versionsDir, { recursive: true })
+    console.log(`버전 디렉토리 생성됨: ${versionsDir}`)
+  }
 
-//   try {
-//     const response = await openai.chat.completions.create({
-//       model: "gpt-4o-mini",
-//       messages: [
-//         {
-//           role: "system",
-//           content:
-//             "기술 문서의 내용을 분석하여 간단한 요약, 관련 태그, 문서의 완성도를 평가해주세요. 태그는 최대 5개까지만 생성해주세요.",
-//         },
-//         {
-//           role: "user",
-//           content: content,
-//         },
-//       ],
-//       functions: [
-//         {
-//           name: "process_document",
-//           description: "문서를 처리하고 요약, 태그, 완성도를 평가합니다.",
-//           parameters: {
-//             type: "object",
-//             properties: {
-//               summary: {
-//                 type: "string",
-//                 description: "문서의 간단한 요약 (1-2문장)",
-//               },
-//               tags: {
-//                 type: "array",
-//                 items: {
-//                   type: "string",
-//                 },
-//                 description: "문서와 관련된 태그들 (최대 5개)",
-//               },
-//               completionStatus: {
-//                 type: "object",
-//                 properties: {
-//                   status: {
-//                     type: "string",
-//                     enum: ["completed", "draft"],
-//                     description: "문서의 완성 상태",
-//                   },
-//                   progress: {
-//                     type: "number",
-//                     minimum: 0,
-//                     maximum: 100,
-//                     description: "문서의 완성도 (퍼센트)",
-//                   },
-//                   analysis: {
-//                     type: "string",
-//                     description: "문서 상태에 대한 간단한 분석",
-//                   },
-//                 },
-//                 required: ["status", "progress", "analysis"],
-//               },
-//             },
-//             required: ["summary", "tags", "completionStatus"],
-//           },
-//         },
-//       ],
-//       function_call: { name: "process_document" },
-//     })
+  let nextVersion = 2 // 기본값 설정
 
-//     const result = JSON.parse(
-//       response.choices[0].message.function_call.arguments
-//     )
+  // 최신 버전 번호 찾기
+  const existingVersions = fs.existsSync(versionsDir)
+    ? fs
+        .readdirSync(versionsDir)
+        .filter((file) => file.startsWith("version-"))
+        .map((file) => parseInt(file.split("-")[1]))
+    : []
 
-//     cache[fileHash] = {
-//       ...result,
-//       hash: fileHash,
-//       timestamp: new Date().toISOString(),
-//     }
+  nextVersion =
+    existingVersions.length > 0 ? Math.max(...existingVersions) + 1 : 2
+  // } catch (error) {
+  //   console.warn(`버전 번호 결정 중 오류 발생, 기본값 2 사용: ${error.message}`)
+  // }
 
-//     saveCache(cache)
-//     console.log("새로운 요약 생성 및 캐시")
-//     return result
-//   } catch (error) {
-//     console.error("AI 요약 생성 실패:", error)
-//     return {
-//       summary: "",
-//       tags: [],
-//       completionStatus: {
-//         status: "draft",
-//         progress: 0,
-//         analysis: "분석 실패",
-//       },
-//     }
-//   }
-// }
+  // 새 버전 메타데이터
+  const versionData = {
+    version: nextVersion,
+    date: new Date().toISOString(),
+    changes: improvements.changes,
+    author: "AI Assistant",
+    summary: improvements.summary,
+  }
 
-// async function summarizeContent(content, fileHash) {
-//   const cache = readCache()
+  // try {
+  // 버전 데이터와 컨텐츠 저장
+  fs.writeFileSync(
+    path.join(versionsDir, `version-${nextVersion}.json`),
+    JSON.stringify(versionData, null, 2)
+  )
+  console.log(versionsDir, nextVersion, content)
 
-//   // 캐시에 있고 해시가 같으면 캐시된 요약 반환
-//   if (cache[fileHash] && cache[fileHash].hash === fileHash) {
-//     console.log("캐시된 요약 사용")
-//     return cache[fileHash]
-//   }
+  fs.writeFileSync(path.join(versionsDir, `content-${nextVersion}.md`), content)
 
-//   try {
-//     const response = await openai.chat.completions.create({
-//       model: "gpt-4o-mini",
-//       messages: [
-//         {
-//           role: "system",
-//           content:
-//             "기술 문서의 내용을 분석하여 간단한 요약과 관련 태그를 생성해주세요. 태그는 최대 5개까지만 생성해주세요.",
-//         },
-//         {
-//           role: "user",
-//           content: content,
-//         },
-//       ],
-//       functions: [
-//         {
-//           name: "process_document",
-//           description: "문서를 처리하고 요약과 태그를 생성합니다.",
-//           parameters: {
-//             type: "object",
-//             properties: {
-//               summary: {
-//                 type: "string",
-//                 description: "문서의 간단한 요약 (1-2문장)",
-//               },
-//               tags: {
-//                 type: "array",
-//                 items: {
-//                   type: "string",
-//                 },
-//                 description: "문서와 관련된 태그들 (최대 5개)",
-//               },
-//             },
-//             required: ["summary", "tags"],
-//           },
-//         },
-//       ],
-//       function_call: { name: "process_document" },
-//     })
+  console.log(`새 버전 저장됨: ${slug} v${nextVersion}`)
 
-//     const result = JSON.parse(
-//       response.choices[0].message.function_call.arguments
-//     )
+  return {
+    version: nextVersion,
+    ...versionData,
+  }
+  // } catch (error) {
+  //   console.error(`버전 저장 중 오류 발생: ${error.message}`)
+  //   return null
+}
 
-//     // 결과를 캐시에 저장
-//     cache[fileHash] = {
-//       ...result,
-//       hash: fileHash,
-//       timestamp: new Date().toISOString(),
-//     }
+// improveDocument 함수 수정
+async function improveDocument(content, fileHash) {
+  const cache = readCache()
 
-//     saveCache(cache)
-//     console.log("새로운 요약 생성 및 캐시")
-//     return result
-//   } catch (error) {
-//     console.error("AI 요약 생성 실패:", error)
-//     return { summary: "", tags: [] }
-//   }
-// }
+  if (cache[fileHash] && cache[fileHash].hash === fileHash) {
+    console.log("캐시된 개선사항 사용")
+    return cache[fileHash]
+  }
 
-// async function getAllMarkdownFiles() {
-//   const contentDir = path.join(process.cwd(), "content")
-//   const files = fs.readdirSync(contentDir)
-//   const results = []
+  try {
+    const response = await openai.chat.completions.create({
+      // model: "gpt-4-1106-preview",
+      model: "gpt-4o-mini",
+      messages: [
+        {
+          role: "system",
+          content: "당신은 전문적인 기술 문서 에디터입니다.",
+        },
+        {
+          role: "user",
+          content: IMPROVEMENT_PROMPT.replace("{originalContent}", content),
+        },
+      ],
+      functions: [
+        {
+          name: "process_document_improvement",
+          description: "문서를 분석하고 개선사항을 반환합니다.",
+          parameters: {
+            type: "object",
+            properties: {
+              improvedContent: {
+                type: "string",
+                description: "개선된 마크다운 문서 전체 내용",
+              },
+              summary: {
+                type: "string",
+                description: "이번 개선의 주요 내용 요약",
+              },
+              changes: {
+                type: "array",
+                items: {
+                  type: "object",
+                  properties: {
+                    type: {
+                      type: "string",
+                      enum: ["metadata", "structure", "content", "code"],
+                      description: "변경 유형",
+                    },
+                    description: {
+                      type: "string",
+                      description: "변경 내용 설명",
+                    },
+                  },
+                },
+                description: "변경된 사항들의 목록",
+              },
+            },
+            required: ["improvedContent", "summary", "changes"],
+          },
+        },
+      ],
+      function_call: { name: "process_document_improvement" },
+    })
 
-//   for (const fileName of files) {
-//     if (fileName.endsWith(".md")) {
-//       const filePath = path.join(contentDir, fileName)
-//       const fileContent = fs.readFileSync(filePath, "utf8")
-//       const { data, content } = matter(fileContent)
+    const result = JSON.parse(
+      response.choices[0].message.function_call.arguments
+    )
 
-//       // 파일 내용의 해시 생성
-//       const fileHash = generateFileHash(content)
+    cache[fileHash] = {
+      ...result,
+      hash: fileHash,
+      timestamp: new Date().toISOString(),
+    }
 
-//       // AI 요약 생성 또는 캐시에서 가져오기
-//       const aiAnalysis = await summarizeContent(content, fileHash)
+    saveCache(cache)
+    console.log("새로운 개선사항 생성 및 캐시")
+    return result
+  } catch (error) {
+    console.error("AI 문서 개선 실패:", error)
+    return null
+  }
+}
 
-//       results.push({
-//         slug: fileName.replace(".md", ""),
-//         title: data.title || fileName.replace(".md", "").replace(/-/g, " "),
-//         description: data.description,
-//         tags: [
-//           ...(data.tags
-//             ? Array.isArray(data.tags)
-//               ? data.tags
-//               : data.tags.split(/,\s*/)
-//             : []),
-//           ...aiAnalysis.tags,
-//         ],
-//         date: data.date,
-//         content: content,
-//         aiSummary: aiAnalysis.summary,
-//         contentHash: fileHash,
-//         lastProcessed: new Date().toISOString(),
-//       })
-//     }
-//   }
-
-//   return results
-// }
-
-// // scripts/generateData.js
-// async function getAllMarkdownFiles() {
-//   const contentDir = path.join(process.cwd(), "content")
-//   const files = fs.readdirSync(contentDir)
-//   const results = []
-//   const usedSlugs = new Set() // 사용된 slug 추적
-
-//   for (const fileName of files) {
-//     if (fileName.endsWith(".md")) {
-//       const filePath = path.join(contentDir, fileName)
-//       const fileContent = fs.readFileSync(filePath, "utf8")
-//       const { data, content } = matter(fileContent)
-//       const fileHash = generateFileHash(content)
-//       const aiAnalysis = await summarizeContent(content, fileHash)
-
-//       // 기본 slug 생성
-//       let baseSlug = fileName.replace(".md", "")
-//       let slug = baseSlug
-//       let counter = 1
-
-//       // slug가 이미 사용중이면 번호 추가
-//       while (usedSlugs.has(slug)) {
-//         slug = `${baseSlug}-${counter}`
-//         counter++
-//       }
-//       usedSlugs.add(slug)
-
-//       const stats = fs.statSync(filePath)
-
-//       results.push({
-//         slug,
-//         uniqueId: `${slug}-${fileHash.slice(0, 8)}`, // 고유 ID 추가
-//         title: data.title || fileName.replace(".md", "").replace(/-/g, " "),
-//         description: data.description,
-//         tags: [
-//           ...(data.tags
-//             ? Array.isArray(data.tags)
-//               ? data.tags
-//               : data.tags.split(/,\s*/)
-//             : []),
-//           ...aiAnalysis.tags,
-//         ],
-//         date: data.date || stats.mtime.toISOString(),
-//         content: content,
-//         aiSummary: aiAnalysis.summary,
-//         contentHash: fileHash,
-//         lastProcessed: new Date().toISOString(),
-//         created: stats.birthtime.toISOString(),
-//         modified: stats.mtime.toISOString(),
-//       })
-//     }
-//   }
-
-//   // 날짜로 정렬
-//   return results.sort((a, b) => {
-//     const dateA = new Date(a.date || a.modified)
-//     const dateB = new Date(b.date || b.modified)
-//     return dateB.getTime() - dateA.getTime()
-//   })
-// }
-
-// async function generateJsonFiles() {
-//   console.log("마크다운 파일 분석 및 AI 요약 생성 중...")
-//   const wikiData = await getAllMarkdownFiles()
-//   const dataDir = path.join(process.cwd(), "data")
-
-//   if (!fs.existsSync(dataDir)) {
-//     fs.mkdirSync(dataDir, { recursive: true })
-//   }
-
-//   // 메타데이터 저장
-//   fs.writeFileSync(
-//     path.join(dataDir, "wiki-metadata.json"),
-//     JSON.stringify(
-//       wikiData.map(({ contentHash, ...rest }) => rest),
-//       null,
-//       2
-//     )
-//   )
-
-//   // 태그 맵 생성 및 저장
-//   const tagMap = {}
-//   wikiData.forEach((wiki) => {
-//     if (wiki.tags && wiki.tags.length > 0) {
-//       wiki.tags.forEach((tag) => {
-//         const normalizedTag = tag.trim().toLowerCase()
-//         if (!tagMap[normalizedTag]) {
-//           tagMap[normalizedTag] = []
-//         }
-//         tagMap[normalizedTag].push({
-//           slug: wiki.slug,
-//           title: wiki.title,
-//           description: wiki.description,
-//           aiSummary: wiki.aiSummary,
-//         })
-//       })
-//     }
-//   })
-
-//   fs.writeFileSync(
-//     path.join(dataDir, "tags.json"),
-//     JSON.stringify(tagMap, null, 2)
-//   )
-
-//   console.log("데이터 파일 생성 완료!")
-//   console.log(`총 문서 수: ${wikiData.length}`)
-//   console.log(`총 태그 수: ${Object.keys(tagMap).length}`)
-// }
-
-// // 환경변수 확인
-// if (!process.env.OPENAI_API_KEY) {
-//   console.error("Error: OPENAI_API_KEY가 설정되지 않았습니다.")
-//   process.exit(1)
-// }
-
-// async function getAllMarkdownFiles() {
-//   const contentDir = path.join(process.cwd(), "content")
-//   const files = fs.readdirSync(contentDir)
-//   const results = []
-//   const usedSlugs = new Set()
-
-//   for (const fileName of files) {
-//     if (fileName.endsWith(".md")) {
-//       const filePath = path.join(contentDir, fileName)
-//       const fileContent = fs.readFileSync(filePath, "utf8")
-//       const { data, content } = matter(fileContent)
-//       const fileHash = generateFileHash(content)
-//       const aiAnalysis = await summarizeContent(content, fileHash)
-//       const stats = fs.statSync(filePath)
-
-//       // 기본 slug 생성 및 중복 처리
-//       let baseSlug = fileName.replace(".md", "")
-//       let slug = baseSlug
-//       let counter = 1
-
-//       while (usedSlugs.has(slug)) {
-//         slug = `${baseSlug}-${counter}`
-//         counter++
-//       }
-//       usedSlugs.add(slug)
-
-//       // frontmatter에서 상태 정보 가져오기 (없으면 AI 분석 결과 사용)
-//       const status = data?.status || aiAnalysis.completionStatus.status
-//       const progress = data?.progress || aiAnalysis.completionStatus.progress
-
-//       results.push({
-//         slug,
-//         uniqueId: `${slug}-${fileHash.slice(0, 8)}`,
-//         title: data.title || fileName.replace(".md", "").replace(/-/g, " "),
-//         description: data.description,
-//         tags: [
-//           ...(data.tags
-//             ? Array.isArray(data.tags)
-//               ? data.tags
-//               : data.tags.split(/,\s*/)
-//             : []),
-//           ...aiAnalysis.tags,
-//         ],
-//         date: data.date || stats.mtime.toISOString(),
-//         content: content,
-//         aiSummary: aiAnalysis.summary,
-//         status: status,
-//         progress: progress,
-//         statusAnalysis: aiAnalysis.completionStatus.analysis,
-//         contentHash: fileHash,
-//         lastProcessed: new Date().toISOString(),
-//         created: stats.birthtime.toISOString(),
-//         modified: stats.mtime.toISOString(),
-//         wordCount: content.split(/\s+/).length,
-//         readingTime: Math.ceil(content.split(/\s+/).length / 200), // 분 단위 예상 읽기 시간
-//       })
-//     }
-//   }
-
-//   // 날짜 및 상태로 정렬
-//   return results.sort((a, b) => {
-//     // 완성된 문서를 먼저 보여줌
-//     if (a.status !== b.status) {
-//       return a.status === "completed" ? -1 : 1
-//     }
-//     // 같은 상태면 날짜순
-//     const dateA = new Date(a.date || a.modified)
-//     const dateB = new Date(b.date || b.modified)
-//     return dateB.getTime() - dateA.getTime()
-//   })
-// }
-
-// async function generateJsonFiles() {
-//   console.log("마크다운 파일 분석 및 AI 요약 생성 중...")
-//   const wikiData = await getAllMarkdownFiles()
-//   const dataDir = path.join(process.cwd(), "data")
-
-//   if (!fs.existsSync(dataDir)) {
-//     fs.mkdirSync(dataDir, { recursive: true })
-//   }
-
-//   // 메타데이터 저장
-//   fs.writeFileSync(
-//     path.join(dataDir, "wiki-metadata.json"),
-//     JSON.stringify(
-//       wikiData.map(({ contentHash, ...rest }) => rest),
-//       null,
-//       2
-//     )
-//   )
-
-//   // 태그 맵 생성 및 저장
-//   const tagMap = {}
-//   wikiData.forEach((wiki) => {
-//     if (wiki.tags && wiki.tags.length > 0) {
-//       wiki.tags.forEach((tag) => {
-//         const normalizedTag = tag.trim().toLowerCase()
-//         if (!tagMap[normalizedTag]) {
-//           tagMap[normalizedTag] = []
-//         }
-//         tagMap[normalizedTag].push({
-//           slug: wiki.slug,
-//           title: wiki.title,
-//           description: wiki.description,
-//           aiSummary: wiki.aiSummary,
-//           status: wiki.status,
-//           progress: wiki.progress,
-//         })
-//       })
-//     }
-//   })
-
-//   // 상태별 통계 생성
-//   const stats = {
-//     total: wikiData.length,
-//     completed: wikiData.filter((w) => w.status === "completed").length,
-//     draft: wikiData.filter((w) => w.status === "draft").length,
-//     tags: Object.keys(tagMap).length,
-//     averageProgress: Math.round(
-//       wikiData.reduce((acc, curr) => acc + curr.progress, 0) / wikiData.length
-//     ),
-//     lastUpdated: new Date().toISOString(),
-//   }
-
-//   fs.writeFileSync(
-//     path.join(dataDir, "tags.json"),
-//     JSON.stringify(tagMap, null, 2)
-//   )
-
-//   fs.writeFileSync(
-//     path.join(dataDir, "wiki-stats.json"),
-//     JSON.stringify(stats, null, 2)
-//   )
-
-//   console.log("데이터 파일 생성 완료!")
-//   console.log(`총 문서 수: ${stats.total}`)
-//   console.log(`완성된 문서: ${stats.completed}`)
-//   console.log(`작성중인 문서: ${stats.draft}`)
-//   console.log(`평균 진행률: ${stats.averageProgress}%`)
-//   console.log(`총 태그 수: ${stats.tags}`)
-// }
-
-// // 환경변수 확인 및 실행
-// if (!process.env.OPENAI_API_KEY) {
-//   console.error("Error: OPENAI_API_KEY가 설정되지 않았습니다.")
-//   process.exit(1)
-// }
-
-// summarizeContent 함수 수정
 async function summarizeContent(content, fileHash) {
   const cache = readCache()
 
@@ -618,23 +335,42 @@ async function summarizeContent(content, fileHash) {
   }
 }
 
-// getAllMarkdownFiles 함수 수정
 async function getAllMarkdownFiles() {
   const contentDir = path.join(process.cwd(), "content")
-  const files = fs.readdirSync(contentDir)
+
+  // content 디렉토리가 없으면 생성
+  if (!fs.existsSync(contentDir)) {
+    fs.mkdirSync(contentDir, { recursive: true })
+    console.log(`컨텐츠 디렉토리 생성됨: ${contentDir}`)
+    return [] // 새로 생성된 경우 빈 배열 반환
+  }
+
+  const files = fs
+    .readdirSync(contentDir)
+    .filter(
+      (file) =>
+        file.endsWith(".md") &&
+        fs.statSync(path.join(contentDir, file)).isFile()
+    )
+
+  if (files.length === 0) {
+    console.log("처리할 마크다운 파일이 없습니다.")
+    return []
+  }
+
   const results = []
   const usedSlugs = new Set()
 
   for (const fileName of files) {
-    if (fileName.endsWith(".md")) {
+    try {
       const filePath = path.join(contentDir, fileName)
       const fileContent = fs.readFileSync(filePath, "utf8")
-      const { data, content } = matter(fileContent)
+      const { data: frontMatter, content } = matter(fileContent)
       const fileHash = generateFileHash(content)
 
-      // AI 분석 결과 가져오기
+      // AI 분석 및 개선
+      const improvementResult = await improveDocument(fileContent, fileHash)
       const aiAnalysis = await summarizeContent(content, fileHash)
-      const stats = fs.statSync(filePath)
 
       // 기본 slug 생성 및 중복 처리
       let baseSlug = fileName.replace(".md", "")
@@ -647,131 +383,270 @@ async function getAllMarkdownFiles() {
       }
       usedSlugs.add(slug)
 
-      // 안전하게 상태 정보 가져오기
+      // 개선된 버전 저장
+      let versionInfo = null
+      if (improvementResult) {
+        versionInfo = await saveNewVersion(
+          slug,
+          improvementResult.improvedContent,
+          {
+            changes: improvementResult.changes,
+            summary: improvementResult.summary,
+          }
+        )
+      }
+
+      const stats = fs.statSync(filePath)
       const completionStatus = aiAnalysis?.completionStatus || {
         status: "draft",
         progress: 50,
         analysis: "기본 상태",
       }
 
-      // frontmatter의 status와 progress가 있으면 사용, 없으면 AI 분석 결과 사용
-      const status = data.status || completionStatus.status || "draft"
-      const progress = data.progress || completionStatus.progress || 50
-
-      // 단어 수 계산
-      const wordCount = content.split(/\s+/).length
-
       results.push({
         slug,
         uniqueId: `${slug}-${fileHash.slice(0, 8)}`,
-        title: data.title || fileName.replace(".md", "").replace(/-/g, " "),
-        description: data.description || "",
+        title:
+          frontMatter.title || fileName.replace(".md", "").replace(/-/g, " "),
+        description: frontMatter.description || "",
         tags: [
-          ...(data.tags
-            ? Array.isArray(data.tags)
-              ? data.tags
-              : data.tags.split(/,\s*/)
+          ...(frontMatter.tags
+            ? Array.isArray(frontMatter.tags)
+              ? frontMatter.tags
+              : frontMatter.tags.split(/,\s*/)
             : []),
           ...(aiAnalysis?.tags || []),
         ],
-        date: data.date || stats.mtime.toISOString(),
+        date: frontMatter.date || stats.mtime.toISOString(),
         content: content,
         aiSummary: aiAnalysis?.summary || "",
-        status: status,
-        progress: progress,
+        status: frontMatter.status || completionStatus.status || "draft",
+        progress: frontMatter.progress || completionStatus.progress || 50,
         statusAnalysis: completionStatus.analysis,
+        lastVersion: versionInfo?.version || 1,
+        lastUpdated: versionInfo?.date || stats.mtime.toISOString(),
         contentHash: fileHash,
         lastProcessed: new Date().toISOString(),
         created: stats.birthtime.toISOString(),
         modified: stats.mtime.toISOString(),
-        wordCount: wordCount,
-        readingTime: Math.ceil(wordCount / 200), // 분 단위 예상 읽기 시간
+        wordCount: content.split(/\s+/).length,
+        readingTime: Math.ceil(content.split(/\s+/).length / 200),
       })
+    } catch (error) {
+      console.error(`파일 처리 중 오류 발생 (${fileName}):`, error)
     }
   }
-
-  // 정렬: 완성된 문서 우선, 그 다음 날짜순
   return results.sort((a, b) => {
     if (a.status !== b.status) {
       return a.status === "completed" ? -1 : 1
     }
-    const dateA = new Date(a.date || a.modified)
-    const dateB = new Date(b.date || b.modified)
+    const dateA = new Date(a.lastUpdated)
+    const dateB = new Date(b.lastUpdated)
     return dateB.getTime() - dateA.getTime()
   })
 }
 
-// generateJsonFiles 함수에서 상태 관련 통계 처리 수정
+async function processAllFiles() {
+  const contentDir = path.join(process.cwd(), "content")
+  const files = fs
+    .readdirSync(contentDir)
+    .filter(
+      (file) =>
+        file.endsWith(".md") &&
+        fs.statSync(path.join(contentDir, file)).isFile()
+    )
+
+  const results = []
+  const usedSlugs = new Set()
+
+  for (const fileName of files) {
+    try {
+      const filePath = path.join(contentDir, fileName)
+      const fileContent = fs.readFileSync(filePath, "utf8")
+      const { data: frontMatter, content } = matter(fileContent)
+      const fileHash = generateFileHash(content)
+
+      // AI 분석 및 개선
+      const improvementResult = await improveDocument(fileContent, fileHash)
+      const aiAnalysis = await summarizeContent(content, fileHash)
+
+      // Slug 생성 및 중복 처리
+      let slug = fileName.replace(".md", "")
+      let counter = 1
+      while (usedSlugs.has(slug)) {
+        slug = `${fileName.replace(".md", "")}-${counter}`
+        counter++
+      }
+      usedSlugs.add(slug)
+
+      // 버전 정보 저장
+      const versionInfo = improvementResult
+        ? await saveNewVersion(slug, improvementResult.improvedContent, {
+            changes: improvementResult.changes,
+            summary: improvementResult.summary,
+          })
+        : null
+
+      const stats = fs.statSync(filePath)
+      const completionStatus = aiAnalysis?.completionStatus || {
+        status: "draft",
+        progress: 50,
+        analysis: "기본 상태",
+      }
+
+      // Wiki 링크 추출
+      const wikiLinks = [...content.matchAll(/\[\[(.*?)\]\]/g)].map((match) => {
+        const [fullMatch, link] = match
+        const [pageName, displayName] = link.split("|")
+        return { page: pageName, display: displayName || pageName }
+      })
+
+      results.push({
+        slug,
+        uniqueId: `${slug}-${fileHash.slice(0, 8)}`,
+        title: frontMatter.title || slug.replace(/-/g, " "),
+        description: frontMatter.description || "",
+        tags: [
+          ...(frontMatter.tags
+            ? Array.isArray(frontMatter.tags)
+              ? frontMatter.tags
+              : frontMatter.tags.split(/,\s*/)
+            : []),
+          ...(aiAnalysis?.tags || []),
+        ],
+        date: frontMatter.date || stats.birthtime.toISOString(),
+        content,
+        wikiLinks,
+        aiSummary: aiAnalysis?.summary || "",
+        status: frontMatter.status || completionStatus.status || "draft",
+        progress: frontMatter.progress || completionStatus.progress || 50,
+        statusAnalysis: completionStatus.analysis,
+        lastVersion: versionInfo?.version || 1,
+        lastUpdated: versionInfo?.date || stats.mtime.toISOString(),
+        lastProcessed: new Date().toISOString(),
+        created: stats.birthtime.toISOString(),
+        modified: stats.mtime.toISOString(),
+        wordCount: content.split(/\s+/).length,
+        readingTime: Math.ceil(content.split(/\s+/).length / 200),
+      })
+    } catch (error) {
+      console.error(`파일 처리 중 오류 발생 (${fileName}):`, error)
+    }
+  }
+
+  return results.sort((a, b) => {
+    if (a.status !== b.status) {
+      return a.status === "completed" ? -1 : 1
+    }
+    return new Date(b.lastUpdated) - new Date(a.lastUpdated)
+  })
+}
+
+// generateJsonFiles 함수 수정
 async function generateJsonFiles() {
-  console.log("마크다운 파일 분석 및 AI 요약 생성 중...")
-  const wikiData = await getAllMarkdownFiles()
+  console.log("디렉토리 구조 확인 중...")
+  ensureDirectories()
+
+  console.log("마크다운 파일 분석, AI 요약 및 버전 관리 중...")
+  const wikiData = await processAllFiles()
+
+  if (wikiData.length === 0) {
+    console.log("처리할 문서가 없습니다.")
+    return
+  }
+
   const dataDir = path.join(process.cwd(), "data")
 
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true })
+  // 메타데이터 생성 및 저장
+  const metadata = {
+    lastUpdated: new Date().toISOString(),
+    files: wikiData.reduce((acc, file) => {
+      acc[file.slug] = file
+      return acc
+    }, {}),
+    hierarchy: buildHierarchy(wikiData),
+    stats: generateStats(wikiData),
   }
 
-  // 메타데이터 저장
+  // 파일 저장
   fs.writeFileSync(
     path.join(dataDir, "wiki-metadata.json"),
-    JSON.stringify(
-      wikiData.map(({ contentHash, ...rest }) => rest),
-      null,
-      2
-    )
+    JSON.stringify(metadata, null, 2)
   )
 
-  // 태그 맵 생성 및 저장
-  const tagMap = {}
-  wikiData.forEach((wiki) => {
-    if (wiki.tags && wiki.tags.length > 0) {
-      wiki.tags.forEach((tag) => {
-        const normalizedTag = tag.trim().toLowerCase()
-        if (!tagMap[normalizedTag]) {
-          tagMap[normalizedTag] = []
-        }
-        tagMap[normalizedTag].push({
-          slug: wiki.slug,
-          title: wiki.title,
-          description: wiki.description || "",
-          aiSummary: wiki.aiSummary || "",
-          status: wiki.status || "draft",
-          progress: wiki.progress || 50,
-        })
-      })
-    }
-  })
-
-  // 상태별 통계 생성 (안전하게 처리)
-  const stats = {
-    total: wikiData.length,
-    completed: wikiData.filter((w) => w.status === "completed").length,
-    draft: wikiData.filter((w) => w.status === "draft").length,
-    tags: Object.keys(tagMap).length,
-    averageProgress: Math.round(
-      wikiData.reduce((acc, curr) => acc + (curr.progress || 50), 0) /
-        wikiData.length
-    ),
-    lastUpdated: new Date().toISOString(),
-  }
-
+  // 태그 통계 생성
+  const tagStats = generateTagStats(wikiData)
   fs.writeFileSync(
-    path.join(dataDir, "tags.json"),
-    JSON.stringify(tagMap, null, 2)
-  )
-
-  fs.writeFileSync(
-    path.join(dataDir, "wiki-stats.json"),
-    JSON.stringify(stats, null, 2)
+    path.join(dataDir, "tag-stats.json"),
+    JSON.stringify(tagStats, null, 2)
   )
 
   console.log("데이터 파일 생성 완료!")
+  logStats(metadata.stats)
+}
+
+function buildHierarchy(files) {
+  const hierarchy = {
+    categories: {},
+    tags: {},
+    recent: files
+      .sort((a, b) => new Date(b.modified) - new Date(a.modified))
+      .slice(0, 10)
+      .map((f) => f.slug),
+  }
+
+  files.forEach((file) => {
+    // 태그 기반 분류
+    file.tags.forEach((tag) => {
+      if (!hierarchy.tags[tag]) {
+        hierarchy.tags[tag] = []
+      }
+      hierarchy.tags[tag].push(file.slug)
+    })
+
+    // 위키 링크 기반 관계 구축
+    file.wikiLinks.forEach((link) => {
+      const category = link.page.split("/")[0]
+      if (!hierarchy.categories[category]) {
+        hierarchy.categories[category] = {
+          pages: [],
+          subcategories: {},
+        }
+      }
+      hierarchy.categories[category].pages.push(file.slug)
+    })
+  })
+
+  return hierarchy
+}
+
+function generateTagStats(files) {
+  const tagCounts = {}
+  files.forEach((file) => {
+    file.tags.forEach((tag) => {
+      tagCounts[tag] = (tagCounts[tag] || 0) + 1
+    })
+  })
+
+  return Object.entries(tagCounts)
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count)
+}
+
+function logStats(stats) {
   console.log(`총 문서 수: ${stats.total}`)
   console.log(`완성된 문서: ${stats.completed}`)
   console.log(`작성중인 문서: ${stats.draft}`)
+  console.log(`총 버전 수: ${stats.versions.total}`)
+  console.log(`문서당 평균 버전: ${stats.versions.average}`)
+  console.log(
+    `마지막 업데이트: ${new Date(stats.versions.lastUpdate).toLocaleString()}`
+  )
   console.log(`평균 진행률: ${stats.averageProgress}%`)
-  console.log(`총 태그 수: ${stats.tags}`)
 }
 
 // 실행
-generateJsonFiles().catch(console.error)
+generateJsonFiles().catch((error) => {
+  console.error("실행 중 오류 발생:", error)
+  process.exit(1)
+})

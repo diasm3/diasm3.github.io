@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "date": "2024-11-08T09:33:48.316Z",
+  "author": "AI Assistant",
+  "summary": "This document provides an overview of synchronous and asynchronous callbacks in JavaScript, including examples demonstrating the concepts and illustrating callback hell with a user authentication scenario."
+}

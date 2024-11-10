@@ -1,0 +1,6 @@
+{
+  "version": 5,
+  "date": "2024-11-08T09:35:04.902Z",
+  "author": "AI Assistant",
+  "summary": "이 문서는 Docker의 기본개념과 설치 방법, Dockerfile 및 docker-compose.yml 파일 설정에 대해 설명하고, Ubuntu에 SSH를 설치하는 과정까지 안내한다."
+}

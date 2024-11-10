@@ -1,0 +1,32 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:49:16.336Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'hbs와 pug'에서 'Handlebars와 Pug 비교'로 변경하여 명확하게 하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 수정하여 두 템플릿 엔진의 비교라는 내용을 반영했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 구체적으로 추가하여 검색이 용이하도록 개선하였습니다."
+    },
+    {
+      "type": "structure",
+      "description": "각 템플릿 엔진에 대한 정보를 명확히 구분하였으며, 결론 섹션을 추가하여 비교를 강조하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "장점 목록을 명확하게 정리하고, 추가적인 설명을 보강하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "각각의 링크를 '공식 문서'로 변환하여 더 명확한 정보를 제공하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서 제목과 요약을 개선하고, 태그를 보다 명확하게 정리하였습니다. 구조적으로 섹션을 명료하게 나누고, 각 템플릿 엔진의 장점을 명확히 하였습니다. 결론 섹션을 추가하여 두 엔진의 비교를 마무리했습니다."
+}

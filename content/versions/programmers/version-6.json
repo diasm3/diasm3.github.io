@@ -1,0 +1,36 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:58:44.499Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '프로그래머스 문제 풀이'로 수정하여 명확성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 작성하여 문서의 목적을 명확히 함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'programmers', '알고리즘', '문제 풀이'로 추가하여 범위를 확대함."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 RFC 3339에 맞추어 개선함."
+    },
+    {
+      "type": "structure",
+      "description": "문서에 대한 설명을 추가하여 논리적 흐름을 강화함."
+    },
+    {
+      "type": "structure",
+      "description": "각 문제에 대한 세부 섹션을 추가하여 구조를 명확히 함."
+    },
+    {
+      "type": "content",
+      "description": "문제에 대한 설명을 추가하여 내용의 품질을 높임."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목을 명확히 하고, 요약을 구체화하여 문제 해결에 대한 설명을 추가했습니다. 태그를 확장하고, 날짜 형식을 개선했습니다. 문서 구조에 문제의 설명 섹션을 추가했습니다."
+}

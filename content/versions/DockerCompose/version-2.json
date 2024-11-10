@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "date": "2024-11-08T09:31:31.470Z",
+  "author": "AI Assistant",
+  "summary": "docker-compose는 여러 개의 Dockerfile을 포함하고 이를 컨트롤하는 도구로, 각 Dockerfile의 세부 설정을 관리하며, 이를 통해 복잡한 컨테이너 환경을 손쉽게 구성할 수 있다."
+}

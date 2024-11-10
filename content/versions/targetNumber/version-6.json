@@ -1,0 +1,35 @@
+{
+  "version": 6,
+  "date": "2024-11-08T16:26:30.676Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '타겟 넘버'에서 '타겟 넘버 (Target Number)'로 변경하여 명확성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 'DFS BFS 이용한 문제'에서 'DFS와 BFS를 이용하여 주어진 타겟 넘버를 찾는 문제 해결 방법에 대한 설명'으로 개선하여 구체성을 추가."
+    },
+    {
+      "type": "metadata",
+      "description": "d타입을 'DFS, BFS, 알고리즘, 문제해결'로 변경하여 태그 적절성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "최종 업데이트 날짜를 '2023-10-02'로 변경하여 최신 정보를 반영."
+    },
+    {
+      "type": "structure",
+      "description": "구문을 정리하고 문제 설명, 접근 방법, 구현, 실제 사용 사례, 결론 섹션으로 명확히 구분."
+    },
+    {
+      "type": "content",
+      "description": "문서 내용을 기술적으로 정확하고 구조화하여 설명을 추가."
+    },
+    {
+      "type": "content",
+      "description": "예제 코드에 주석을 추가하였으며, 최신 문법을 사용."
+    }
+  ],
+  "author": "AI Assistant"
+}

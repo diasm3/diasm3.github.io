@@ -1,0 +1,6 @@
+{
+  "version": 5,
+  "date": "2024-11-08T09:35:04.988Z",
+  "author": "AI Assistant",
+  "summary": "This document provides instructions on how to copy SSH key files to a server using the `ssh-copy-id` command, including examples of both a generic and a specific use case."
+}

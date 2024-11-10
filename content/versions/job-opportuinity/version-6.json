@@ -1,0 +1,32 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:52:12.131Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '취업을 위한 유용한 웹사이트 모음'으로 수정하여 명확성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 수정하여 문서의 목적을 명확히 함."
+    },
+    {
+      "type": "metadata",
+      "description": "관련 태그를 'jobs, career, resources'로 추가하여 범위를 넓힘."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 현재 날짜로 수정함."
+    },
+    {
+      "type": "structure",
+      "description": "문서 구조를 명확하게 하고 섹션을 추가하여 정보의 흐름을 개선."
+    },
+    {
+      "type": "content",
+      "description": "웹 개발자 포트폴리오와 관련된 섹션을 명확히 하고 추가 정보를 포함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목과 내용 요약이 명확해지고, 관련 태그가 추가되었습니다. 날짜 형식이 업데이트되었으며, 문서 구조가 개선되어 정보가 명확하게 전달되도록 수정되었습니다."
+}

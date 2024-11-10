@@ -1,0 +1,6 @@
+{
+  "version": 4,
+  "date": "2024-11-08T09:34:20.621Z",
+  "author": "AI Assistant",
+  "summary": "이 문서는 팀원에 의해 ENV 파일이 레포에 푸시된 경우, 이를 원래 상태로 되돌리는 두 가지 방법(CLI 및 GitLens 사용)을 설명합니다."
+}

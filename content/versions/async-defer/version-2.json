@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "date": "2024-11-08T09:31:31.509Z",
+  "author": "AI Assistant",
+  "summary": "This document discusses the differences between the `async` and `defer` attributes for script tags in HTML and includes examples of their usage. It also briefly mentions the importance of using 'strict mode' in JavaScript to prevent errors."
+}

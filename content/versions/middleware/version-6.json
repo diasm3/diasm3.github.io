@@ -1,0 +1,32 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:55:15.927Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'Express 미들웨어 작동 방식'으로 변경하고, 요약을 구체적으로 수정했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "최종 업데이트 날짜를 현재 날짜로 변경했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 ','로 구분되도록 정리했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션에 대한 제목을 추가하고 내용을 명확히 하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 추가하고 설명을 보강했습니다."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드의 주석을 추가하였고, 일관된 스타일로 정리했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터, 구조 및 내용을 개선하여 명확성과 기술적 정확성을 높였습니다."
+}

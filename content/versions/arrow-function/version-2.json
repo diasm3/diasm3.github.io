@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "date": "2024-11-08T09:31:31.507Z",
+  "author": "AI Assistant",
+  "summary": "이 문서는 자바스크립트의 함수(Arrow Function, function declaration, function expression 등)에 대한 다양한 개념을 다룬다. 특히 함수의 기본 구조, 파라미터, 리턴 값, 스코프, IIFE(즉시 호출 함수 표현식) 등에 대한 예시를 제공한다."
+}

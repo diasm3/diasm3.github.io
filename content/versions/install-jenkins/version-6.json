@@ -1,0 +1,40 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:51:15.414Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'How to Install Jenkins'로 변경하여 명확성을 높였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 작성하여 지침의 내용을 간결하게 설명했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'docker, jenkins, installation'으로 추가하여 검색 가능성을 향상시켰습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서에 단계별 제목을 추가하여 논리적 흐름을 강화했습니다."
+    },
+    {
+      "type": "content",
+      "description": "각 단계에 대한 설명을 추가하여 사용자 이해를 돕고 실제 사용 사례를 제공합니다."
+    },
+    {
+      "type": "content",
+      "description": "코드 블록에 설명을 추가하여 코드의 목적과 사용법을 명확히 했습니다."
+    },
+    {
+      "type": "code",
+      "description": "코드 주석을 추가하여 명령의 기능을 설명했습니다."
+    },
+    {
+      "type": "code",
+      "description": "일관된 코딩 스타일을 유지하여 가독성을 높였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터, 구조, 내용 및 코드 품질을 개선하여 문서를 더욱 명확하고 읽기 쉽게 만들었습니다."
+}

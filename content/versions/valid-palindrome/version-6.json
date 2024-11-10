@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "date": "2024-11-08T16:27:25.438Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 보다 명확하게 수정하고, 요약을 구체화했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 추가하여 문서의 검색 가능성을 개선했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서에 Solution Steps 섹션을 추가하여 흐름을 개선했습니다."
+    },
+    {
+      "type": "content",
+      "description": "내용을 보완하고, 실제 코드 예제 및 사용 사례를 추가했습니다."
+    },
+    {
+      "type": "code",
+      "description": "코드 예제를 함수로 작성하고, 주석과 함께 추가적인 사용 예시를 포함했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터와 구조, 내용 품질을 전반적으로 개선하여 명확성과 가독성을 높였습니다. 코드 예제와 사용 사례를 추가하였습니다."
+}

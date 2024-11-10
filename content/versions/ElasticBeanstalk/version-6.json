@@ -1,0 +1,40 @@
+{
+  "version": 6,
+  "date": "2024-11-08T09:39:13.774Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'AWS Elastic Beanstalk 사용 방법'으로 변경하여 명확성을 높였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 변경하여 AWS Elastic Beanstalk의 사용 목적을 명확히 하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 ','로 연결하여 형식을 통일하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601 표준으로 변경하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "AWS EB-CLI에 대한 설치 방법에서 보다 구체적인 설명을 추가하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "기술적 설명을 명확히 하고 일관된 용어를 사용하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "주의 사항을 강조하여 명확한 경고를 추가하였습니다."
+    },
+    {
+      "type": "code",
+      "description": "bash 스크립트 경로를 일관되게 표현하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목, 요약, 태그 및 날짜 형식을 개선하였으며, 기술적 설명을 명확하게 하고 예시 코드를 향상시켰습니다. 또한, 사용자에게 중요한 주의 사항을 강조했습니다."
+}
