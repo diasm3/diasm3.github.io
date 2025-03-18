@@ -1,0 +1,44 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:31.127Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'Jekyll Blog Setup Guide'로 변경하여 명확성을 높였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 수정하여 독자가 문서의 내용을 파악하기 쉽게 하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 추가하여 문서의 범위를 넓혔고 검색 가능성을 향상시켰습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 현재 날짜로 변경하여 최신 정보를 반영했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "섹션을 더욱 명확히 하고 순서 개선으로 독자의 이해를 돕기 위한 번호 매김 사용."
+    },
+    {
+      "type": "content",
+      "description": "명령어 설명을 추가하여 단계별 구체성을 높였습니다."
+    },
+    {
+      "type": "content",
+      "description": "로컬 실행 후의 결과 예시를 추가하여 독자가 후속 조치를 이해하는데 도움을 주었습니다."
+    },
+    {
+      "type": "content",
+      "description": "추가 리소스 링크를 제공하여 독자가 추가 정보를 쉽게 찾도록 하였습니다."
+    },
+    {
+      "type": "code",
+      "description": "코드 블록에 주석을 추가하여 각 명령어의 목적을 설명하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터, 구조, 내용 및 코드 품질을 개선하여 Jekyll 블로그 설정 가이드를 명확하고 유용하게 수정했습니다. 구체적인 예제와 리소스를 추가했습니다."
+}

@@ -1,0 +1,24 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:55.158Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목, 요약, 태그, 날짜 형식 업데이트"
+    },
+    {
+      "type": "structure",
+      "description": "명확한 섹션 구분 및 코드 블록 헤더 추가"
+    },
+    {
+      "type": "content",
+      "description": "코드 예제에 대한 설명 추가 및 명확성 향상"
+    },
+    {
+      "type": "code",
+      "description": "일관된 코딩 스타일과 문법 사용, 코드 주석 개선"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "이 문서는 JavaScript에서 조건부 연산자 (if)와 반복문 (for-loop)의 개념을 다루며 예제와 설명을 개괄합니다."
+}

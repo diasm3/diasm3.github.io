@@ -1,0 +1,20 @@
+{
+  "version": 8,
+  "date": "2024-11-10T10:07:37.276Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목 및 요약 수정으로 명확성과 구체성 개선"
+    },
+    {
+      "type": "content",
+      "description": "프론트엔드 배포 과정 및 실제 사용 사례 추가로 내용 품질 향상"
+    },
+    {
+      "type": "structure",
+      "description": "문서 구조 개선을 통해 섹션 구분 및 흐름 명확화"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "AWS Amplify를 활용한 CI/CD 및 배포 과정을 다룹니다. HTTPS 및 도메인 설정 방법과 함께 빌드부터 배포까지 단계별로 설명합니다."
+}

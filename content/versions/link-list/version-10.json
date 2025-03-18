@@ -1,0 +1,20 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.658Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "명확한 요약 추가 및 태그를 강화했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "제목 및 섹션을 다듬어 정보의 흐름을 더 명확하게 했습니다."
+    },
+    {
+      "type": "content",
+      "description": "각 섹션에 설명을 추가하여 정보의 명확성을 높였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터를 명확하게 하고, 구조화하여 정보의 흐름을 개선했습니다."
+}

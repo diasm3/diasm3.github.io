@@ -1,0 +1,40 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:54.720Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'AWS CloudWatch로 과금 체크하기'로 변경하여 명확성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 수정하여 문서의 내용을 명확히 함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'aws, cloudwatch, 비용관리'로 추가하여 범위를 확장함."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601 형식으로 수정함."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션을 명확하게 나누어 구성을 개선함."
+    },
+    {
+      "type": "content",
+      "description": "CloudWatch의 기능에 대한 설명 및 Slack 알림 설정 방법 추가."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 소개하여 문서의 실용성을 높임."
+    },
+    {
+      "type": "code",
+      "description": "구체적인 설정 방법을 단계별로 안내하는 내용을 추가함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "이 문서에서는 AWS CloudWatch를 사용하여 과금을 관리하고 Slack을 통해 배포 알림을 받는 방법을 설명합니다."
+}

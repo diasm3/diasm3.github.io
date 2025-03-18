@@ -1,0 +1,36 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:30.939Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'Node.js 이벤트 루프 동작 원리'로 변경하고, 요약을 구체화했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601 형식으로 수정했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 '비동기처리'를 추가하여 적절성을 높였습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서의 목차와 섹션 구조를 재구성하여 명확성을 높였습니다."
+    },
+    {
+      "type": "content",
+      "description": "이벤트 루프의 동작 원리에 대한 설명을 상세화하고, 예제 코드를 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 추가하여 독자의 이해를 돕도록 했습니다."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드에 대한 설명을 덧붙이고, 주석을 추가하여 가독성을 높였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서 제목과 요약을 구체적으로 수정하고, 설명과 예제 코드의 품질을 향상시켰습니다."
+}

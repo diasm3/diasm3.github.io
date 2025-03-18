@@ -1,0 +1,24 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.250Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "문서 제목, 요약, 태그를 명확하고 구체적으로 변경하여 사용자의 이해도를 높였습니다."
+    },
+    {
+      "type": "structure",
+      "description": "서브 제목과 섹션 제목을 재구성하여 내용을 더 잘 전달하도록 개선했습니다."
+    },
+    {
+      "type": "content",
+      "description": "각 예제와 내용을 명확하게 다듬고 불필요한 중복을 제거했습니다."
+    },
+    {
+      "type": "code",
+      "description": "문서 내 코드 블록을 정리하여 가독성을 높였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "마크다운 문서의 메타데이터, 구조, 내용, 코드 품질을 대폭 개선하였습니다."
+}

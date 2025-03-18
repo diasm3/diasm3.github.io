@@ -1,0 +1,24 @@
+{
+  "version": 8,
+  "date": "2024-11-10T10:07:37.270Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "summary를 구체적으로 수정하고, 태그를 추가했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "결론 섹션을 추가하여 문서의 마무리를 명확히 했습니다."
+    },
+    {
+      "type": "content",
+      "description": "설명을 보강하고, 업무 항목의 서식을 일관성 있게 수정했습니다."
+    },
+    {
+      "type": "code",
+      "description": "없음"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서를 전반적으로 개선하여 명확성과 구체성을 높였습니다. 메타데이터를 정정하고, 문서 구조를 개선했으며, 내용의 품질을 향상시켰습니다."
+}

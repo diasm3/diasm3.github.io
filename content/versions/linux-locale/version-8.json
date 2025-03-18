@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "date": "2024-11-10T10:07:37.685Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'Ubuntu 설치 후 Locale 문제 해결하기'로 수정하고 요약을 구체적으로 변경했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'locale, ubuntu, 설정, 시스템'으로 추가 및 수정했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 2023-10-04로 최신화했습니다."
+    },
+    {
+      "type": "content",
+      "description": "문서 구조를 개선하고 목표에 맞게 섹션을 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "locale의 정의를 추가하여 설명의 명확성을 높였습니다."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 추가하여 내용의 품질과 실용성을 높였습니다."
+    },
+    {
+      "type": "code",
+      "description": "코드 블록을 추가하고 명령어에 대한 설명을 강화했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목을 명확하게 수정하고, 요약을 구체적으로 개선하였으며, 태그를 확장했습니다. 날짜를 최신으로 업데이트했고, 문서 내용의 구조와 구체성을 향상시켰습니다."
+}

@@ -80,3 +80,9 @@ next-env.d.ts
 # cache files는 포함
 !data/ai-summary-cache.json
 out/*
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

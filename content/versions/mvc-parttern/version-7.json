@@ -1,0 +1,28 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:30.922Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 명확하게 변경하고 요약을 구체화함."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601 형식으로 변경."
+    },
+    {
+      "type": "content",
+      "description": "문서 구조를 명확하게 개선하여 논리적인 흐름을 추가."
+    },
+    {
+      "type": "content",
+      "description": "설명을 명확하게 하고 기술적인 정확성을 높임."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드 추가 및 주석 달기."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터, 구조 및 내용 품질을 개선했습니다. 요약을 구체화하고 코드 예제를 추가하여 기술적인 정확성을 높였습니다."
+}

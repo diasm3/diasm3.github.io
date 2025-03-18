@@ -1,0 +1,40 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:55.016Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '자바스크립트의 비동기 처리 이해하기'로 변경하여 더 명확하게 함."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 설명하여 개선함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그에 'javascript' 추가하여 범위를 확대함."
+    },
+    {
+      "type": "content",
+      "description": "내용을 더 구조화하여 읽기 쉽도록 개선함."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 추가하여 설명의 명확성을 높임."
+    },
+    {
+      "type": "content",
+      "description": "각 요점에 대해 강조 형식을 사용하여 가독성을 향상시킴."
+    },
+    {
+      "type": "structure",
+      "description": "섹션 제목과 내용을 더욱 명확하게 구분."
+    },
+    {
+      "type": "content",
+      "description": "코드 예제 및 설명 추가."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "이 문서는 JavaScript의 비동기 처리 방법 및 이벤트 루프의 작동 원리를 명확히 설명합니다."
+}

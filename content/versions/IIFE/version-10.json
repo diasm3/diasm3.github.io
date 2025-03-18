@@ -1,0 +1,32 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.323Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목과 요약을 보다 명확하고 구체적으로 개선함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 추가하여 내용의 범위를 확장함."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 현재 날짜로 수정함."
+    },
+    {
+      "type": "content",
+      "description": "IIFE의 정의와 예제 및 사용 사례를 추가하여 내용의 깊이를 향상시킴."
+    },
+    {
+      "type": "content",
+      "description": "각 섹션에 대한 설명을 더욱 명확히 하여 독자의 이해를 돕도록 함."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드를 개선하고 주석을 추가하여 코드의 이해를 돕도록 했음."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "IIFE(즉시 실행 함수)는 자바스크립트에서 즉시 실행되는 함수를 정의하는 표현식입니다. 본 문서에서는 IIFE의 정의, 사용 방법, 및 이를 활용한 실제 사용 사례를 다룹니다."
+}

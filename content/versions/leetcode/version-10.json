@@ -1,0 +1,32 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.649Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '리트코드 문제 해결 가이드'로 변경하여 보다 명확히 했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 '다양한 리트코드 문제를 해결하는 방법과 구체적인 예시를 제공합니다.'로 구체화 하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그에 '문제 해결', '알고리즘' 추가하여 범위를 확장했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601로 변경했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서의 주요 내용을 '문제 목록', '사용 사례' 섹션으로 나누어 정리했습니다."
+    },
+    {
+      "type": "content",
+      "description": "사용 사례 섹션을 추가하여 각 문제에 대한 설명 및 사용 예를 제공할 필요성을 강조했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서 메타데이터와 구조, 내용 품질을 개선하고 예제 섹션을 추가했습니다."
+}

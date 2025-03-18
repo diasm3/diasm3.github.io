@@ -1,0 +1,36 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.267Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '과금'에서 '요금 관리'로 변경하여 더 명확하게 수정함."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 수정하여 사용자가 주의해야 할 점을 강조함."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601 형식으로 수정하고 최신 업데이트 날짜로 변경함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 복수로 추가하여 더 다양한 키워드를 포함함."
+    },
+    {
+      "type": "structure",
+      "description": "개요, 요금 정책, 실제 사용 사례 및 결론 섹션으로 구조를 개선함."
+    },
+    {
+      "type": "content",
+      "description": "각 섹션에 대해 자세하고 명확한 설명을 추가함."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 추가하여 독자가 상황을 이해할 수 있도록 함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서 메타데이터를 개선하고, 구조를 명확하게 하였으며, 실제 사용 사례 및 세부적인 설명을 추가하여 내용 품질을 향상시켰습니다."
+}

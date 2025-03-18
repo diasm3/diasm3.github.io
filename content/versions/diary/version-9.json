@@ -1,0 +1,28 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:54.939Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '다이어리'에서 '다이어리 기록'으로 변경하여 구체성을 높임"
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 수정하여 다이어리의 목적을 명확히 설명함"
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 추가하여 내용의 범위를 확장함 (일상, 기록, 개인)"
+    },
+    {
+      "type": "structure",
+      "description": "문서 구조를 개선하여 연도별 섹션을 명확히 구분함"
+    },
+    {
+      "type": "content",
+      "description": "문서 내용을 풍부하게 하여 사용자가 더 나은 이해를 할 수 있도록 함"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터, 문서 구조 및 내용 품질을 개선하여 보다 명확하고 유용한 다이어리 문서를 작성했습니다."
+}

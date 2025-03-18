@@ -1,0 +1,40 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.415Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '문자열 조작 및 배열'에서 '문자열 조작 및 배열'로 개선하여 띄어쓰기를 추가하고, 요약을 구체적으로 수정했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'Array'에서 'Array, Algorithm, Programming'으로 확장했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 수정했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션의 제목과 주제를 분명히 하여 문서 구조를 정리했습니다."
+    },
+    {
+      "type": "content",
+      "description": "문서 내용을 다듬어 기술적 용어의 정의를 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "교재 내용과 LeetCode 솔루션을 위한 본문을 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "풀면서 잘 몰랐던 부분에 대한 설명을 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "사용된 파이썬 문법에 대한 정의를 추가했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목과 요약을 명확히 하고, 내용을 구체화하며, 태그를 추가했습니다."
+}

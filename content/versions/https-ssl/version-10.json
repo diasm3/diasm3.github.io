@@ -1,0 +1,24 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.603Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'HTTPS/SSL: Understanding Encryption and Security Protocols'로 변경하고 요약을 구체화함."
+    },
+    {
+      "type": "structure",
+      "description": "문서의 구조를 전반적으로 개선하고 섹션 명칭을 일관되게 수정."
+    },
+    {
+      "type": "content",
+      "description": "각 섹션별로 기술적 설명을 보강하고 예제와 설명을 명확히 하며, 실제 사용 사례를 추가함."
+    },
+    {
+      "type": "code",
+      "description": "코드 및 중요 개념을 정리하여 최신 문법 및 스타일에 맞도록 업데이트함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목 및 요약을 개선했으며, 내용의 논리적 흐름을 정리하고 각 섹션을 명확하게 구분했습니다. 예제 코드와 설명을 보강하고, 모든 구문을 최신 문법에 맞게 업데이트했습니다. 추가적으로 실제 사용 사례를 명시했습니다."
+}

@@ -1,0 +1,24 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:55.194Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'Javascript Promise'에서 'Understanding JavaScript Promises'로 변경하여 명확성을 높였으며, 요약을 구체화했다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 개선하여 'Javascript promise'에서 '[JavaScript, Promise, Asynchronous]'로 변경."
+    },
+    {
+      "type": "content",
+      "description": "Promise의 정의, 생성, 사용법, 체인 연결, 실제 사용 예제를 포함하여 내용을 보강."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드에 주석 추가 및 코딩 스타일 일관성을 유지."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "이 문서는 JavaScript Promise에 대한 포괄적인 가이드를 제공합니다."
+}

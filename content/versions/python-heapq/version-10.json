@@ -1,0 +1,32 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.791Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'Python heapq 모듈'로 변경하고, 요약을 구체화함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 '[python, heapq, 자료구조]'로 추가함."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 현재 날짜로 변경함."
+    },
+    {
+      "type": "structure",
+      "description": "문서 구조를 정돈하여 주요 함수 섹션 추가."
+    },
+    {
+      "type": "content",
+      "description": "각 함수에 대한 설명과 예제를 추가함."
+    },
+    {
+      "type": "content",
+      "description": "기술적 내용을 보강하고 예제 코드의 품질 향상."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목을 보다 구체적으로 변경하고, 요약을 추가했습니다. 태그를 보강하고, 날짜 형식을 최신으로 업데이트했습니다. 문서 구조를 개선하여 깔끔한 형식으로 정리하고, 함수 설명 및 예제를 추가했습니다."
+}

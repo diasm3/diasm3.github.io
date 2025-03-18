@@ -1,0 +1,44 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.796Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 명확히 하고, 요약을 구체적으로 수정했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "tags를 확장하여 관련 주제를 추가했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601 형식으로 변경했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서의 논리적 흐름을 개선하고, 각 섹션에 제목을 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "파이썬에 대한 기본 개념 및 사용 방법에 대한 내용을 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "예제 코드를 추가하여 설명의 명확성을 높였습니다."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 포함하여 내용의 실용성을 증대시켰습니다."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드의 일관성을 높였습니다."
+    },
+    {
+      "type": "code",
+      "description": "코드에 적절한 주석을 추가했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터 개선 및 전체 구조와 내용 품질 향상"
+}

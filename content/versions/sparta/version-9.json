@@ -1,0 +1,28 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:55.341Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목과 요약을 구체적이고 명확하게 수정했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 명확하고 일관된 형식으로 수정했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서의 논리적 흐름을 개선하고 섹션 구분을 명확히 했습니다."
+    },
+    {
+      "type": "content",
+      "description": "각 섹션의 설명을 명확하고 일관되게 개선했습니다."
+    },
+    {
+      "type": "content",
+      "description": "예제 코드 및 기술적 설명의 품질을 증대시켰습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 메타데이터와 내용을 명확하고 구체적으로 보완했습니다. 내용 구조를 개선하고, 기술적 정보와 설명을 강화했습니다."
+}

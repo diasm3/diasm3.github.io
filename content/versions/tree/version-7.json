@@ -1,0 +1,24 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:31.096Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목, 요약, 태그, 날짜 형식 개선"
+    },
+    {
+      "type": "structure",
+      "description": "논리적 섹션 구분 및 명확성 강화"
+    },
+    {
+      "type": "content",
+      "description": "기술적 설명을 명확히 하고 예제 추가"
+    },
+    {
+      "type": "code",
+      "description": "설명 및 코드 구조를 보완"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터, 구조, 콘텐츠 및 코드 품질을 개선하였습니다."
+}

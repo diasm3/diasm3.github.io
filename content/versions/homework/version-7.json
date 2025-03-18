@@ -1,0 +1,24 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:30.809Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "명확한 제목과 구체적인 요약 추가 및 태그 수정."
+    },
+    {
+      "type": "structure",
+      "description": "개요, 기능, 설치 방법 및 사용 사례 섹션으로 문서 구조 개선."
+    },
+    {
+      "type": "content",
+      "description": "기능 및 사용 사례에 대한 세부 내용 추가."
+    },
+    {
+      "type": "code",
+      "description": "설치 방법 및 사용 사례에 코드 형식 및 단계적 설명 추가."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "과제톡에 대한 종합적인 소개 및 사용 방법을 안내합니다."
+}

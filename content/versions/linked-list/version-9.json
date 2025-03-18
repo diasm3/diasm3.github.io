@@ -1,0 +1,36 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:55.079Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '연결리스트'에서 '연결 리스트'로 수정하여 명확성을 향상시키고, 요약을 구체화하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 '[linked list, data structure, python]'으로 확장하여 범위를 넓혔습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601로 변경하여 일관성을 유지하였습니다."
+    },
+    {
+      "type": "structure",
+      "description": "논리적 흐름을 개선하고 섹션별로 구분을 명확히 하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "각 섹션의 기술적 설명과 예제를 보강하여 명확성을 향상시켰습니다."
+    },
+    {
+      "type": "code",
+      "description": "파이썬 코드의 품질을 높이기 위해 최신 문법을 적용하고, 불필요한 duplicate code를 정리하였습니다."
+    },
+    {
+      "type": "code",
+      "description": "주석을 추가하여 코드의 이해를 돕도록 하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목, 요약, 태그 등이 명확히 수정되었으며, 내용의 구조가 개선되고 예제 코드와 설명이 보다 구체적이고 명확하게 수정되었습니다. 또한 최신 문법을 적용하여 코드 품질도 향상되었습니다."
+}

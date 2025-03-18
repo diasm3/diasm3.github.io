@@ -1,0 +1,32 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.382Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'PUT과 PATCH'에서 'PUT과 PATCH 메서드의 이해'로 변경하여 명확성을 높임."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 'PUT과 PATCH의 차이점을 알자'에서 'PUT과 PATCH 메서드의 차이점 및 사용 방법에 대해 자세히 알아보자.'로 구체화."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 'put patch'에서 '[PUT, PATCH]'로 변경하여 가독성을 높임."
+    },
+    {
+      "type": "content",
+      "description": "PUT과 PATCH 메서드의 개요를 추가하여 독자의 이해를 돕도록 함."
+    },
+    {
+      "type": "content",
+      "description": "각 메서드의 정의 및 엔티티와 응답 코드에 대한 내용을 추가하여 기술적 정확성을 높임."
+    },
+    {
+      "type": "code",
+      "description": "응답 코드에 대한 설명을 추가하여 예제 및 문서의 내용을 보강함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목, 요약 및 태그를 개선하고, 섹션을 명확하게 구분하며, PUT과 PATCH 메서드의 정의와 응답 코드를 추가하여 내용의 품질을 향상시켰습니다."
+}

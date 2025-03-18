@@ -1,0 +1,32 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:31.055Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목과 요약을 구체적이고 명확하게 수정하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜 형식을 ISO 8601 표준으로 수정하였습니다."
+    },
+    {
+      "type": "structure",
+      "description": "문서의 제목 및 하위 제목을 명확히 하여 내용의 흐름을 개선하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "Socket.IO의 개념을 설명하는 부분을 추가하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 예제를 추가하여 이해도를 높였습니다."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드에 주석을 추가하고 코드 스타일을 통일하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터, 문서 구조, 내용 품질 및 코드를 개선하여 기술 문서의 명확성과 가독성을 높였습니다."
+}

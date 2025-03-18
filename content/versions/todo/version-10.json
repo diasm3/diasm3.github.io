@@ -1,0 +1,40 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.896Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '할 일 목록 관리'로 변경하고, 요약을 추가했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 추가하여 문서의 범위를 명확히 했습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "날짜를 최신으로 업데이트했습니다."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션에 제목을 추가하여 구성의 명확성을 높였습니다."
+    },
+    {
+      "type": "content",
+      "description": "할 일 목록 작성 방법과 사용 도구의 내용을 구체적으로 설명했습니다."
+    },
+    {
+      "type": "content",
+      "description": "구체적인 예시 코드와 설명을 추가했습니다."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 추가하여 내용의 깊이를 향상시켰습니다."
+    },
+    {
+      "type": "code",
+      "description": "예제 코드에 더 나은 주석과 설명을 추가했습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서 제목을 '할 일 목록 관리'로 변경하고, 구체적인 요약과 관련 태그를 추가했습니다. 또한 내용의 구조를 개선하고 코드 예제를 업데이트했습니다."
+}

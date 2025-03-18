@@ -1,0 +1,32 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:31.024Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 대문자로 변경하고 요약을 구체화함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그 형식을 개선하여 'refresh-token'과 'access-token'으로 구분."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션에 명확한 제목을 추가하여 문서 구조를 개선."
+    },
+    {
+      "type": "content",
+      "description": "작동 방식의 설명을 더 명확하게 재구성하고 예제 요구 사항 추가."
+    },
+    {
+      "type": "content",
+      "description": "존재했던 모호한 표현을 명확한 설명으로 교체함."
+    },
+    {
+      "type": "code",
+      "description": "코드 내용에 주석을 추가하고 가독성을 높임."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "메타데이터, 내용 품질 및 문서 구조를 개선하였으며, 기술적 정확성과 설명의 명확성을 높였습니다. 또한 예제 코드를 구조적이고 알려기 쉽게 정리했습니다."
+}

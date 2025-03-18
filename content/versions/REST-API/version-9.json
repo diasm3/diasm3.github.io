@@ -1,0 +1,36 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:54.816Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 'REST-API'에서 'REST API'로 수정하여 명확성을 향상시켰습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 구체적으로 작성하여 REST API의 의미와 목적을 명확히 하였습니다."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 개선하여 범위를 넓혔습니다."
+    },
+    {
+      "type": "content",
+      "description": "REST API와 API의 차이를 명확히 설명하기 위해 각각의 정의를 명확히 하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "API의 유형에 대한 설명을 추가하여 독자의 이해를 돕고자 하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "실제 사용 사례를 추가하여 REST API의 적용 예를 제공하였습니다."
+    },
+    {
+      "type": "code",
+      "description": "설명에 예제 코드를 추가하여 기술적 정확성을 강화하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "REST API는 Representational State Transfer 아키텍처 스타일을 기반으로 하여 컴퓨터 간의 통신을 가능하게 하는 기술이다."
+}

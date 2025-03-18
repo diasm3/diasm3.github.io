@@ -1,0 +1,24 @@
+{
+  "version": 9,
+  "date": "2024-11-10T11:05:54.740Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목 및 요약의 명확성과 정확성 개선"
+    },
+    {
+      "type": "content",
+      "description": "각 섹션의 명확성 및 흐름 개선, 예제 코드의 최신화 및 정확성 향상"
+    },
+    {
+      "type": "structure",
+      "description": "구조화된 섹션 및 명확한 제목 사용으로 가독성 향상"
+    },
+    {
+      "type": "code",
+      "description": "docker-compose 기본 설정 예제를 최신 문법으로 업데이트하고, 주석 추가"
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "버전 업그레이드, 메타데이터 개선, 섹션 명확성 및 코드 예제 개선."
+}

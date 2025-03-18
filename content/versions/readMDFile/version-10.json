@@ -1,0 +1,24 @@
+{
+  "version": 10,
+  "date": "2024-11-10T11:07:36.821Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목과 요약을 명확하게 수정하여 문서의 목적을 분명히 하였습니다."
+    },
+    {
+      "type": "structure",
+      "description": "각 섹션을 명확하게 구분하고 단계별 프로세스를 추가하였습니다."
+    },
+    {
+      "type": "content",
+      "description": "Markdown 파일을 다룰 때의 환경설정 및 코드 예제를 명확히 설명하였습니다."
+    },
+    {
+      "type": "code",
+      "description": "코드 스타일을 일관되게 맞추고, 불필요한 코드 부분을 제거하였습니다."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "이 문서는 React 애플리케이션에서 Markdown 파일을 읽고 표시하는 방법에 대한 단계별 가이드를 제공합니다. 코드 예제와 함께 설명이 추가되었습니다."
+}

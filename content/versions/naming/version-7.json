@@ -1,0 +1,40 @@
+{
+  "version": 7,
+  "date": "2024-11-10T10:05:30.931Z",
+  "changes": [
+    {
+      "type": "metadata",
+      "description": "제목을 '기호와 영어 이름 참고서'로 수정하여 더 명확하게 설명함."
+    },
+    {
+      "type": "metadata",
+      "description": "요약을 '본 문서는 각종 기호의 영어 이름과 그 의미를 설명합니다. 사용 시나리오와 예시를 포함하고 있습니다.'로 수정하여 구체성을 추가함."
+    },
+    {
+      "type": "metadata",
+      "description": "태그를 추가하여 문서 내용을 더 잘 반영하도록 함."
+    },
+    {
+      "type": "metadata",
+      "description": "업데이트 날짜를 현재 날짜로 수정함."
+    },
+    {
+      "type": "structure",
+      "description": "문서의 목적과 내용을 소개하는 섹션 추가."
+    },
+    {
+      "type": "content",
+      "description": "문서 설명 부분에서 '기호와 영어 이름'에 대한 설명을 추가하여 내용 이해를 돕도록 함."
+    },
+    {
+      "type": "content",
+      "description": "각 기호에 대한 추가적인 사용 예 및 실제 사용 사례를 포함하여 설명을 보강함."
+    },
+    {
+      "type": "code",
+      "description": "표의 구조를 통일하여 시각적으로 일관성을 유지함."
+    }
+  ],
+  "author": "AI Assistant",
+  "summary": "문서의 제목, 요약, 태그 및 날짜 형식을 개선하여 명확성과 구체성을 향상시켰습니다. 문서의 구조와 내용도 보강하였으며, 코드 품질을 높였습니다."
+}
