@@ -1,0 +1,28 @@
+version: "3.8"
+
+networks:
+  traefik_default:
+    external: true
+
+volumes:
+  jekyll_data:
+
+services:
+  blog:
+    image: jekyll/jekyll:latest
+    volumes:
+      - ./:/srv/jekyll
+      - jekyll_data:/usr/local/bundle
+    command: jekyll serve --watch --incremental
+    deploy:
+      replicas: 1
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.blog.rule=Host(`blog.piai.company`)"
+        - "traefik.http.routers.blog.entrypoints=web"
+        - "traefik.http.services.blog.loadbalancer.server.port=4000"
+        - "traefik.swarm.network=traefik_default"
+    networks:
+      - traefik_default
+    ports:
+      - "4000:4000"
