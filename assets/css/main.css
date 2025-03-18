@@ -1,0 +1,69 @@
+---
+---
+
+@import "minima";
+
+/* 사용자 정의 스타일 */
+body {
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 코드 블록 스타일링 */
+.post-content p code,
+.post-content li code {
+  background-color: #f8f8f8;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', 'Andale Mono', monospace;
+  font-size: 0.9em;
+}
+
+/* 태그 스타일링 */
+.post-tag {
+  display: inline-block;
+  background-color: #f1f8ff;
+  color: #0366d6;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  margin-right: 0.3em;
+  font-size: 0.9em;
+}
+
+.post-tag:hover {
+  background-color: #ddeeff;
+  text-decoration: none;
+}
+
+/* 반응형 디자인 */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+  }
+}
