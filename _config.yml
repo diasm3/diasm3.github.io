@@ -24,9 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   개발자인데 인공지능에 잡혀사는 개발자입니다.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "diasm3.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://diasm3.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: diasm3
+
+google_analytics: G-5B2RSDTTLG # 본인의 추적 ID로 대체
+
+google_adsense: ca-pub-1619375434202485 # 본인의 AdSense 클라이언트 ID로 대체
 
 # Build settings
 theme: jekyll-theme-clean-blog
@@ -35,7 +39,12 @@ plugins:
   - rouge
   - kramdown-parser-gfm
   - jekyll-sitemap
+  - jekyll-compress-images
+  - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-reading-time
+  - jekyll-minifier
+  - jekyll-archives
 
 # Markdown Processing
 markdown: kramdown
@@ -49,7 +58,6 @@ kramdown:
 
 # Code Highlighting Settings
 highlighter: rouge
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
